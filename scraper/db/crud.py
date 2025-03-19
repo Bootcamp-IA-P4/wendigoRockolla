@@ -1,4 +1,4 @@
-from db.connection import connect_db
+from scraper.db.connection import connect_db
 
 def insert_artist(name, url):
     try:
@@ -77,3 +77,20 @@ def insert_mood(name):
     finally:
         cursor.close()
         db.close()
+
+def get_data(query, search_type):
+    db = connect_db()
+    cursor = db.cursor(dictionary=True)
+    
+    if search_type == 'mood':
+        cursor.execute("SELECT * FROM moods WHERE name LIKE %s", ('%' + query + '%',))
+    elif search_type == 'artist':
+        cursor.execute("SELECT * FROM artists WHERE name LIKE %s", ('%' + query + '%',))
+    elif search_type == 'song':
+        cursor.execute("SELECT * FROM songs WHERE name LIKE %s", ('%' + query + '%',))
+    
+    results = cursor.fetchall()
+    cursor.close()
+    db.close()
+    
+    return results
