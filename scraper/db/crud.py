@@ -1,5 +1,28 @@
 from db.connection import connect_db
 
+def get_all_moods():
+    try:
+        db = connect_db()
+        cursor = db.cursor(dictionary=True)
+        
+        # Primero verificamos si la columna url existe
+        cursor.execute("SHOW COLUMNS FROM moods LIKE 'url'")
+        column_exists = cursor.fetchone()
+        
+        if column_exists:
+            query = "SELECT id, name, url FROM moods"
+        else:
+            query = "SELECT id, name FROM moods"
+            
+        cursor.execute(query)
+        results = cursor.fetchall()
+        cursor.close()
+        db.close()
+        return results
+    except Exception as e:
+        print(f"Error retrieving moods: {e}")
+        return []
+
 def insert_artist(name, url):
     try:
         db = connect_db()
@@ -65,6 +88,21 @@ def get_mood_id(name):
     finally:
         cursor.close()
         db.close()
+
+def update_mood_url(mood_name, url):
+    try:
+        db = connect_db()
+        cursor = db.cursor()
+        query = "UPDATE moods SET url = %s WHERE name = %s"
+        cursor.execute(query, (url, mood_name))
+        db.commit()
+        affected_rows = cursor.rowcount
+        cursor.close()
+        db.close()
+        return affected_rows > 0
+    except Exception as e:
+        print(f"Error updating mood URL for '{mood_name}': {e}")
+        return False
 
 def insert_mood_song(mood_id, song_id):
     try:
