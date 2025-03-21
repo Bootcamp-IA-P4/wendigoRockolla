@@ -2,18 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendigo Music Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/index.css">
 </head>
 <body>
-    <h1>Search by Mood, Artist, or Song</h1>
-    <form action="/search" method="get">
-        <input type="text" name="query" placeholder="Enter search term" required>
-        <select name="type">
-            <option value="mood">Mood</option>
-            <option value="artist">Artist</option>
-            <option value="song">Song</option>
-        </select>
-        <button type="submit">Search</button>
-    </form>
+    <div class="container">
+        <header>
+            <div class="logo">Wendigo Music Finder</div>
+            <p class="tagline">Deja que la música te encuentre a ti</p>
+        </header>
+        
+        <section class="search-container">
+            <form class="search-form" action="/search" method="get">
+                <input type="text" name="query" class="search-input" placeholder="Busca por mood, artista o canción..." required>
+                <select name="type" class="search-select">
+                    <option value="mood">Mood</option>
+                    <option value="artist">Artista</option>
+                    <option value="song">Canción</option>
+                </select>
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"></i> Buscar
+                </button>
+            </form>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Explora por Mood</h2>
+            <div class="mood-grid">
+                {% for mood in moods %}
+                <a href="/search?query={{ mood.name }}&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image(mood.name) }}" alt="{{ mood.name }}" class="mood-image">
+                        <div class="mood-name">{{ mood.name }}</div>
+                    </div>
+                </a>
+                {% endfor %}
+                
+                <!-- Moods estáticos de ejemplo (si no hay moods en la base de datos) -->
+                {% if not moods or moods|length < 8 %}
+                <a href="/search?query=Happy&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Happy') }}" alt="Happy" class="mood-image">
+                        <div class="mood-name">Happy</div>
+                    </div>
+                </a>
+                <a href="/search?query=Relaxing&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Relaxing') }}" alt="Relaxing" class="mood-image">
+                        <div class="mood-name">Relaxing</div>
+                    </div>
+                </a>
+                <a href="/search?query=Melancholic&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Melancholic') }}" alt="Melancholic" class="mood-image">
+                        <div class="mood-name">Melancholic</div>
+                    </div>
+                </a>
+                <a href="/search?query=Happy&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Happy') }}" alt="Happy" class="mood-image">
+                        <div class="mood-name">Happy</div>
+                    </div>
+                </a>
+                <a href="/search?query=Romantic&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Romantic') }}" alt="Romantic" class="mood-image">
+                        <div class="mood-name">Romantic</div>
+                    </div>
+                </a>
+                <a href="/search?query=Angry&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Angry') }}" alt="Angry" class="mood-image">
+                        <div class="mood-name">Angry</div>
+                    </div>
+                </a>
+                <a href="/search?query=Dreamy&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Dreamy') }}" alt="Dreamy" class="mood-image">
+                        <div class="mood-name">Dreamy</div>
+                    </div>
+                </a>
+                <a href="/search?query=Epic&type=mood" style="text-decoration: none;">
+                    <div class="mood-card">
+                        <img src="{{ get_mood_image('Epic') }}" alt="Epic" class="mood-image">
+                        <div class="mood-name">Epic</div>
+                    </div>
+                </a>
+                {% endif %}
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+            <p><a href="/admin/moods" style="color: var(--text-secondary); text-decoration: none;">Administrar Moods</a></p>
+        </footer>
+    </div>
 </body>
 </html>

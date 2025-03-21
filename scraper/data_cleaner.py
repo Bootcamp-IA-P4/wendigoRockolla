@@ -205,4 +205,4 @@ if __name__ == "__main__":
     print(f"Moods: {len(moods)}")
     print(f"Mood-Songs relationships: {len(mood_songs)}")
     print(f"Mood-Albums relationships: {len(mood_albums)}")
-    print("\n¡Limpieza completada!")
+    print("\n¡Limpieza completada!🐼")

@@ -1,0 +1,953 @@
+id,name,url,created_at
+1,The Jimi Hendrix Experience / Jimi Hendrix,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,2025-03-18 22:26:24
+2,The Velvet Underground,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,2025-03-18 22:26:24
+3,Cypress Hill,https://www.allmusic.com/artist/cypress-hill-mn0000147315,2025-03-18 22:26:25
+4,Pink Floyd,https://www.allmusic.com/artist/pink-floyd-mn0000346336,2025-03-18 22:26:25
+5,Arthur Brown,https://www.allmusic.com/artist/arthur-brown-mn0000510278,2025-03-18 22:26:25
+6,Miles Davis,https://www.allmusic.com/artist/miles-davis-mn0000423829,2025-03-18 22:26:25
+7,Neil Young,https://www.allmusic.com/artist/neil-young-mn0000379125,2025-03-18 22:26:25
+8,The Beatles,https://www.allmusic.com/artist/the-beatles-mn0000754032,2025-03-18 22:26:25
+9,"Lee ""Scratch"" Perry",https://www.allmusic.com/artist/lee-scratch-perry-mn0000785380,2025-03-18 22:26:25
+11,Grateful Dead,https://www.allmusic.com/artist/grateful-dead-mn0000988440,2025-03-18 22:26:25
+12,2 Chainz / The Alchemist / Larry June,https://www.allmusic.com/artist/2-chainz-mn0002748040,2025-03-18 22:26:25
+37,The Rolling Stones,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,2025-03-19 22:52:18
+38,Eminem,https://www.allmusic.com/artist/eminem-mn0000157676,2025-03-19 22:52:18
+39,Johnny Cash,https://www.allmusic.com/artist/johnny-cash-mn0000816890,2025-03-19 22:52:18
+40,Chuck Berry,https://www.allmusic.com/artist/chuck-berry-mn0000120521,2025-03-19 22:52:18
+42,Bob Dylan,https://www.allmusic.com/artist/bob-dylan-mn0000066915,2025-03-19 22:52:18
+43,Soundgarden,https://www.allmusic.com/artist/soundgarden-mn0000001098,2025-03-19 22:52:18
+44,Genesis,https://www.allmusic.com/artist/genesis-mn0000199995,2025-03-19 22:52:18
+46,Throwing Muses,https://www.allmusic.com/artist/throwing-muses-mn0000925528,2025-03-19 22:52:19
+47,Lambrini Girls,https://www.allmusic.com/artist/lambrini-girls-mn0004549798,2025-03-19 22:52:19
+48,Courting,https://www.allmusic.com/artist/courting-mn0003988051,2025-03-19 22:52:19
+157,Public Enemy,https://www.allmusic.com/artist/public-enemy-mn0000856785,2025-03-20 11:58:00
+158,Rage Against the Machine,https://www.allmusic.com/artist/rage-against-the-machine-mn0000863790,2025-03-20 11:58:00
+159,Ice Cube,https://www.allmusic.com/artist/ice-cube-mn0000086065,2025-03-20 11:58:00
+160,Metallica,https://www.allmusic.com/artist/metallica-mn0000446509,2025-03-20 11:58:00
+161,Wu-Tang Clan,https://www.allmusic.com/artist/wu-tang-clan-mn0000959876,2025-03-20 11:58:00
+162,L7,https://www.allmusic.com/artist/l7-mn0000100473,2025-03-20 11:58:00
+163,Motörhead,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407,2025-03-20 11:58:00
+164,The Runaways,https://www.allmusic.com/artist/the-runaways-mn0000492275,2025-03-20 11:58:00
+165,Ella Fitzgerald,https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502,2025-03-20 11:58:00
+166,Jason Isbell,https://www.allmusic.com/artist/jason-isbell-mn0000562615,2025-03-20 11:58:00
+168,The Ancients / Isaiah Collier / William Hooker / William Parker,https://www.allmusic.com/artist/the-ancients-mn0004768598,2025-03-20 11:58:00
+169,Tim Hart / Tim Hart & Maddy Prior / Maddy Prior,https://www.allmusic.com/artist/tim-hart-mn0000503187,2025-03-20 11:58:42
+170,Martha & the Vandellas,https://www.allmusic.com/artist/martha-the-vandellas-mn0001199135,2025-03-20 11:58:42
+171,Nick Lowe,https://www.allmusic.com/artist/nick-lowe-mn0000866841,2025-03-20 11:58:42
+172,Duke Ellington,https://www.allmusic.com/artist/duke-ellington-mn0000120323,2025-03-20 11:58:42
+173,Wings / Paul McCartney / Paul McCartney & Wings,https://www.allmusic.com/artist/wings-mn0000956707,2025-03-20 11:58:42
+174,Van Halen,https://www.allmusic.com/artist/van-halen-mn0000260206,2025-03-20 11:58:42
+175,Tammy Wynette,https://www.allmusic.com/artist/tammy-wynette-mn0000136640,2025-03-20 11:58:42
+176,Russ Taff,https://www.allmusic.com/artist/russ-taff-mn0000212810,2025-03-20 11:58:43
+177,Riccardo Muti / Wiener Philharmoniker,https://www.allmusic.com/artist/riccardo-muti-mn0000032776,2025-03-20 11:58:43
+178,Isabel Schicketanz,https://www.allmusic.com/artist/isabel-schicketanz-mn0003476936,2025-03-20 11:58:43
+179,Fatma Said,https://www.allmusic.com/artist/fatma-said-mn0003904265,2025-03-20 11:58:43
+180,Isabelle Faust / Enrico Onofri / Münchener Kammerorchester,https://www.allmusic.com/artist/isabelle-faust-mn0001637330,2025-03-20 11:58:43
+181,Terry Riley,https://www.allmusic.com/artist/terry-riley-mn0000750519,2025-03-20 11:59:17
+183,Edgar Froese / Klaus Schulze / Ashra,https://www.allmusic.com/artist/edgar-froese-mn0000147638,2025-03-20 11:59:17
+184,Toumani Diabaté / Sidiki Diabaté,https://www.allmusic.com/artist/toumani-diabat%C3%A9-mn0000744075,2025-03-20 11:59:17
+186,Philip Glass,https://www.allmusic.com/artist/philip-glass-mn0000849672,2025-03-20 11:59:17
+187,Four Tet,https://www.allmusic.com/artist/four-tet-mn0000741236,2025-03-20 11:59:17
+189,Baths,https://www.allmusic.com/artist/baths-mn0002424501,2025-03-20 11:59:18
+190,Nels Cline,https://www.allmusic.com/artist/nels-cline-mn0000861400,2025-03-20 11:59:18
+191,Billy Hart Quartet / Billy Hart,https://www.allmusic.com/artist/billy-hart-quartet-mn0003213609,2025-03-20 11:59:18
+192,James Brandon Lewis Trio / James Brandon Lewis,https://www.allmusic.com/artist/james-brandon-lewis-trio-mn0003622581,2025-03-20 11:59:18
+194,The Beach Boys,https://www.allmusic.com/artist/the-beach-boys-mn0000041874,2025-03-20 11:59:54
+195,Nina Simone,https://www.allmusic.com/artist/nina-simone-mn0000411761,2025-03-20 11:59:54
+196,The Skatalites,https://www.allmusic.com/artist/the-skatalites-mn0000425105,2025-03-20 11:59:54
+197,Bruce Springsteen,https://www.allmusic.com/artist/bruce-springsteen-mn0000530745,2025-03-20 11:59:54
+198,Selena,https://www.allmusic.com/artist/selena-mn0000004852,2025-03-20 11:59:55
+199,Willie Nelson,https://www.allmusic.com/artist/willie-nelson-mn0000583959,2025-03-20 11:59:55
+200,Bud Powell,https://www.allmusic.com/artist/bud-powell-mn0000640675,2025-03-20 11:59:55
+201,Lady Gaga,https://www.allmusic.com/artist/lady-gaga-mn0000994823,2025-03-20 11:59:55
+203,Kurt Elling / Sullivan Fortner,https://www.allmusic.com/artist/kurt-elling-mn0000777054,2025-03-20 11:59:55
+204,Ambrose Akinmusire,https://www.allmusic.com/artist/ambrose-akinmusire-mn0000919421,2025-03-20 11:59:55
+205,Louis Armstrong,https://www.allmusic.com/artist/louis-armstrong-mn0000234518,2025-03-20 12:00:28
+206,De La Soul,https://www.allmusic.com/artist/de-la-soul-mn0000238322,2025-03-20 12:00:28
+208,Cyndi Lauper,https://www.allmusic.com/artist/cyndi-lauper-mn0000122754,2025-03-20 12:00:28
+209,Bob Wills and His Texas Playboys,https://www.allmusic.com/artist/bob-wills-and-his-texas-playboys-mn0000065538,2025-03-20 12:00:28
+210,Pérez Prado,https://www.allmusic.com/artist/p%C3%A9rez-prado-mn0000310383,2025-03-20 12:00:28
+216,Dead Kennedys,https://www.allmusic.com/artist/dead-kennedys-mn0000786613,2025-03-20 12:01:05
+218,Black Flag,https://www.allmusic.com/artist/black-flag-mn0000091650,2025-03-20 12:01:05
+219,Elvis Costello / Elvis Costello & the Attractions,https://www.allmusic.com/artist/elvis-costello-mn0000058549,2025-03-20 12:01:05
+220,Pixies,https://www.allmusic.com/artist/pixies-mn0000895136,2025-03-20 12:01:05
+223,The Clash,https://www.allmusic.com/artist/the-clash-mn0000075747,2025-03-20 12:01:05
+224,Magdalena Kožená / Andrew Staples / Simon Rattle / London Symphony Orchestra,https://www.allmusic.com/artist/magdalena-ko%C5%BEen%C3%A1-mn0001467668,2025-03-20 12:01:05
+225,Bob Mould,https://www.allmusic.com/artist/bob-mould-mn0000058386,2025-03-20 12:01:05
+229,Depeche Mode,https://www.allmusic.com/artist/depeche-mode-mn0000239921,2025-03-20 12:01:39
+232,Radiohead,https://www.allmusic.com/artist/radiohead-mn0000326249,2025-03-20 12:01:39
+233,Nine Inch Nails,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,2025-03-20 12:01:39
+235,The Who,https://www.allmusic.com/artist/the-who-mn0000577627,2025-03-20 12:01:40
+236,"Bonnie ""Prince"" Billy",https://www.allmusic.com/artist/bonnie-prince-billy-mn0000094764,2025-03-20 12:01:40
+238,Mac Miller,https://www.allmusic.com/artist/mac-miller-mn0002653603,2025-03-20 12:01:40
+239,Florence + the Machine / Jules Buckley / Jules Buckley and His Orchestra,https://www.allmusic.com/artist/florence-the-machine-mn0002124046,2025-03-20 12:01:40
+240,Lloyd Price,https://www.allmusic.com/artist/lloyd-price-mn0000827250,2025-03-20 12:02:16
+241,Patsy Cline,https://www.allmusic.com/artist/patsy-cline-mn0000014651,2025-03-20 12:02:16
+242,Stevie Wonder,https://www.allmusic.com/artist/stevie-wonder-mn0000622805,2025-03-20 12:02:16
+245,Big Bill Broonzy,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873,2025-03-20 12:02:16
+247,Fela Kuti,https://www.allmusic.com/artist/fela-kuti-mn0000138833,2025-03-20 12:02:16
+248,The War and Treaty,https://www.allmusic.com/artist/the-war-and-treaty-mn0003749672,2025-03-20 12:02:16
+249,FKA twigs,https://www.allmusic.com/artist/fka-twigs-mn0003145761,2025-03-20 12:02:16
+250,Patricia Kopatchinskaja / Thomas Kaufmann / Camerata Bern,https://www.allmusic.com/artist/patricia-kopatchinskaja-mn0002251650,2025-03-20 12:02:17
+251,Sharon Van Etten,https://www.allmusic.com/artist/sharon-van-etten-mn0002132489,2025-03-20 12:02:17
+252,Fiona Apple,https://www.allmusic.com/artist/fiona-apple-mn0000169795,2025-03-20 12:02:51
+253,Karl Böhm,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286,2025-03-20 12:02:51
+254,Robert Craft / Edgard Varèse,https://www.allmusic.com/artist/robert-craft-mn0001792374,2025-03-20 12:02:51
+255,Cecil Taylor,https://www.allmusic.com/artist/cecil-taylor-mn0000988386,2025-03-20 12:02:51
+256,Royal Philharmonic Orchestra,https://www.allmusic.com/artist/royal-philharmonic-orchestra-mn0000350127,2025-03-20 12:02:51
+257,Laurie Anderson / Kronos Quartet,https://www.allmusic.com/artist/laurie-anderson-mn0000785773,2025-03-20 12:02:51
+258,Wynton Marsalis / Cristian Măcelaru / Philadelphia Orchestra,https://www.allmusic.com/artist/wynton-marsalis-mn0000961688,2025-03-20 12:02:52
+259,Actress,https://www.allmusic.com/artist/actress-mn0001399533,2025-03-20 12:02:52
+260,John Surman,https://www.allmusic.com/artist/john-surman-mn0000189180,2025-03-20 12:02:52
+261,Roberto Prosseda / Nir Kabaretti / London Philharmonic Orchestra,https://www.allmusic.com/artist/roberto-prosseda-mn0001656464,2025-03-20 12:02:52
+263,JACK Quartet,https://www.allmusic.com/artist/jack-quartet-mn0002434177,2025-03-20 12:02:52
+265,Buzzcocks,https://www.allmusic.com/artist/buzzcocks-mn0000629564,2025-03-20 12:03:31
+266,Shirley Caesar,https://www.allmusic.com/artist/shirley-caesar-mn0000032071,2025-03-20 12:03:31
+267,John Williams,https://www.allmusic.com/artist/john-williams-mn0000232480,2025-03-20 12:03:31
+268,Moby,https://www.allmusic.com/artist/moby-mn0000477116,2025-03-20 12:03:31
+269,Wire,https://www.allmusic.com/artist/wire-mn0000672910,2025-03-20 12:03:31
+274,Simon Rattle / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/simon-rattle-mn0000932272,2025-03-20 12:03:32
+275,Tommy Castro,https://www.allmusic.com/artist/tommy-castro-mn0000613829,2025-03-20 12:03:32
+277,Def Leppard,https://www.allmusic.com/artist/def-leppard-mn0000193320,2025-03-20 12:04:05
+278,The King's Singers / Fretwork,https://www.allmusic.com/artist/the-kings-singers-mn0000929562,2025-03-20 12:04:06
+279,John Williams / Berlin Philharmonic Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480,2025-03-20 12:04:06
+280,Judas Priest,https://www.allmusic.com/artist/judas-priest-mn0000246611,2025-03-20 12:04:06
+281,Ghost,https://www.allmusic.com/artist/ghost-mn0002616588,2025-03-20 12:04:06
+282,System of a Down,https://www.allmusic.com/artist/system-of-a-down-mn0000005501,2025-03-20 12:04:06
+284,Vulture Feather,https://www.allmusic.com/artist/vulture-feather-mn0004403945,2025-03-20 12:04:06
+285,Art d'Ecco,https://www.allmusic.com/artist/art-decco-mn0003772089,2025-03-20 12:04:06
+286,Karlheinz Stockhausen,https://www.allmusic.com/artist/karlheinz-stockhausen-mn0000854925,2025-03-20 12:04:47
+287,Lorin Maazel / New York Philharmonic,https://www.allmusic.com/artist/lorin-maazel-mn0002078867,2025-03-20 12:04:47
+289,King Crimson,https://www.allmusic.com/artist/king-crimson-mn0000076057,2025-03-20 12:04:47
+290,Wilhelm Bruckner-Ruggeberg / Lotte Lenya / Heinz Sauerbaum / Kurt Weill,https://www.allmusic.com/artist/wilhelm-bruckner-ruggeberg-mn0001657198,2025-03-20 12:04:47
+292,Marc Ribot / Marc Ribot's Ceramic Dog,https://www.allmusic.com/artist/marc-ribot-mn0000674728,2025-03-20 12:04:47
+294,Rufus Wainwright,https://www.allmusic.com/artist/rufus-wainwright-mn0000854854,2025-03-20 12:04:47
+295,Alabaster DePlume,https://www.allmusic.com/artist/alabaster-deplume-mn0003670691,2025-03-20 12:04:47
+296,Bambara,https://www.allmusic.com/artist/bambara-mn0001073082,2025-03-20 12:04:47
+297,Pat Metheny,https://www.allmusic.com/artist/pat-metheny-mn0000179698,2025-03-20 12:05:21
+298,Marios Papadopoulos / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/marios-papadopoulos-mn0000917804,2025-03-20 12:05:21
+299,Morton Subotnick,https://www.allmusic.com/artist/morton-subotnick-mn0000857040,2025-03-20 12:05:21
+300,Ryuichi Sakamoto,https://www.allmusic.com/artist/ryuichi-sakamoto-mn0000587608,2025-03-20 12:05:21
+301,Vladislav Delay,https://www.allmusic.com/artist/vladislav-delay-mn0000185680,2025-03-20 12:05:21
+302,Wayne Shorter,https://www.allmusic.com/artist/wayne-shorter-mn0000250435,2025-03-20 12:05:21
+303,Massive Attack,https://www.allmusic.com/artist/massive-attack-mn0000378288,2025-03-20 12:05:22
+304,Carter Burwell,https://www.allmusic.com/artist/carter-burwell-mn0000149173,2025-03-20 12:05:22
+305,Barney Kessel,https://www.allmusic.com/artist/barney-kessel-mn0000784527,2025-03-20 12:05:57
+307,Aphex Twin,https://www.allmusic.com/artist/aphex-twin-mn0000493848,2025-03-20 12:05:57
+308,Maurizio Pollini / Karl Böhm,https://www.allmusic.com/artist/maurizio-pollini-mn0000925983,2025-03-20 12:05:57
+309,Keith Jarrett / Dennis Russell Davies / Saarbrucken Radio Symphony Orchestra,https://www.allmusic.com/artist/keith-jarrett-mn0000066570,2025-03-20 12:05:58
+310,Sviatoslav Richter,https://www.allmusic.com/artist/sviatoslav-richter-mn0000818152,2025-03-20 12:05:58
+311,Glenn Gould / Leopold Stokowski,https://www.allmusic.com/artist/glenn-gould-mn0000803752,2025-03-20 12:05:58
+315,Delivery,https://www.allmusic.com/artist/delivery-mn0004717443,2025-03-20 12:05:58
+316,Lana Trotovšek / Maria Canyigueral,https://www.allmusic.com/artist/lana-trotov%C5%A1ek-mn0003042186,2025-03-20 12:05:58
+317,The Orb,https://www.allmusic.com/artist/the-orb-mn0000891575,2025-03-20 12:06:30
+318,Tortoise,https://www.allmusic.com/artist/tortoise-mn0000180023,2025-03-20 12:06:30
+319,Sam Cooke,https://www.allmusic.com/artist/sam-cooke-mn0000238115,2025-03-20 12:06:31
+320,Ennio Morricone,https://www.allmusic.com/artist/ennio-morricone-mn0000798662,2025-03-20 12:06:31
+321,The Zombies,https://www.allmusic.com/artist/the-zombies-mn0000582313,2025-03-20 12:06:31
+322,Brian Eno,https://www.allmusic.com/artist/brian-eno-mn0000617196,2025-03-20 12:06:31
+328,Mogwai,https://www.allmusic.com/artist/mogwai-mn0000923705,2025-03-20 12:06:31
+333,Nick Drake,https://www.allmusic.com/artist/nick-drake-mn0000336783,2025-03-20 12:07:09
+334,Leonard Cohen,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,2025-03-20 12:07:09
+335,Son House,https://www.allmusic.com/artist/son-house-mn0000753094,2025-03-20 12:07:09
+340,Dub Syndicate,https://www.allmusic.com/artist/dub-syndicate-mn0000210697,2025-03-20 12:07:09
+344,Horace Silver / Horace Silver Quintet,https://www.allmusic.com/artist/horace-silver-mn0000267354,2025-03-20 12:07:42
+345,Portishead,https://www.allmusic.com/artist/portishead-mn0000301619,2025-03-20 12:07:43
+346,Richard & Linda Thompson / Linda Thompson / Richard Thompson,https://www.allmusic.com/artist/richard-linda-thompson-mn0000288904,2025-03-20 12:07:43
+347,Buffalo Springfield,https://www.allmusic.com/artist/buffalo-springfield-mn0000939567,2025-03-20 12:07:43
+348,Elton John,https://www.allmusic.com/artist/elton-john-mn0000796734,2025-03-20 12:07:43
+353,Too $hort,https://www.allmusic.com/artist/too-hort-mn0001052511,2025-03-20 12:08:16
+354,GZA,https://www.allmusic.com/artist/gza-mn0000170084,2025-03-20 12:08:16
+355,Linkin Park,https://www.allmusic.com/artist/linkin-park-mn0000289599,2025-03-20 12:08:16
+356,Louis C.K.,https://www.allmusic.com/artist/louis-ck-mn0001035974,2025-03-20 12:08:16
+357,50 Cent,https://www.allmusic.com/artist/50-cent-mn0000919805,2025-03-20 12:08:16
+358,MC Lyte,https://www.allmusic.com/artist/mc-lyte-mn0000220590,2025-03-20 12:08:16
+359,The Isley Brothers,https://www.allmusic.com/artist/the-isley-brothers-mn0000766893,2025-03-20 12:08:16
+360,John Zorn,https://www.allmusic.com/artist/john-zorn-mn0000239329,2025-03-20 12:08:16
+362,A Day to Remember,https://www.allmusic.com/artist/a-day-to-remember-mn0000938798,2025-03-20 12:08:16
+363,Ella Jenkins,https://www.allmusic.com/artist/ella-jenkins-mn0000798086,2025-03-20 12:08:50
+364,Steve Reich,https://www.allmusic.com/artist/steve-reich-mn0000037658,2025-03-20 12:08:50
+366,Karl Böhm / Wilhelm Furtwängler,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286,2025-03-20 12:08:50
+371,Alice Sara Ott,https://www.allmusic.com/artist/alice-sara-ott-mn0002232982,2025-03-20 12:08:51
+373,The Counterpoints,https://www.allmusic.com/artist/the-counterpoints-mn0003902919,2025-03-20 12:08:51
+382,Black Uhuru,https://www.allmusic.com/artist/black-uhuru-mn0000081683,2025-03-20 12:09:32
+385,Michi,https://www.allmusic.com/artist/michi-mn0004793236,2025-03-20 12:09:32
+386,Jasmine.4.T,https://www.allmusic.com/artist/jasmine4t-mn0004693622,2025-03-20 12:09:32
+387,John Coltrane / Johnny Hartman,https://www.allmusic.com/artist/john-coltrane-mn0000175553,2025-03-20 12:10:04
+388,Joni Mitchell,https://www.allmusic.com/artist/joni-mitchell-mn0000270491,2025-03-20 12:10:05
+389,Sandy Denny,https://www.allmusic.com/artist/sandy-denny-mn0000245019,2025-03-20 12:10:05
+390,Fred Neil,https://www.allmusic.com/artist/fred-neil-mn0000170815,2025-03-20 12:10:05
+391,The Louvin Brothers,https://www.allmusic.com/artist/the-louvin-brothers-mn0000045057,2025-03-20 12:10:05
+393,The Shins,https://www.allmusic.com/artist/the-shins-mn0000419102,2025-03-20 12:10:05
+394,Gram Parsons,https://www.allmusic.com/artist/gram-parsons-mn0000987491,2025-03-20 12:10:05
+396,Mary Chapin Carpenter,https://www.allmusic.com/artist/mary-chapin-carpenter-mn0000858375,2025-03-20 12:10:05
+399,Lonnie Johnson,https://www.allmusic.com/artist/lonnie-johnson-mn0000275401,2025-03-20 12:10:39
+400,Ernest Tubb,https://www.allmusic.com/artist/ernest-tubb-mn0000200775,2025-03-20 12:10:39
+404,Black Sabbath,https://www.allmusic.com/artist/black-sabbath-mn0000771438,2025-03-20 12:10:39
+408,Tate McRae,https://www.allmusic.com/artist/tate-mcrae-mn0003902427,2025-03-20 12:10:40
+412,Jelly Roll Morton,https://www.allmusic.com/artist/jelly-roll-morton-mn0000317290,2025-03-20 12:11:14
+414,Toots & the Maytals,https://www.allmusic.com/artist/toots-the-maytals-mn0000790988,2025-03-20 12:11:14
+417,Howlin' Wolf,https://www.allmusic.com/artist/howlin-wolf-mn0000276085,2025-03-20 12:11:14
+424,Karl Böhm / Wiener Philharmoniker,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286,2025-03-20 12:11:49
+425,Jay-Z,https://www.allmusic.com/artist/jay-z-mn0000224257,2025-03-20 12:11:49
+426,Kanye West,https://www.allmusic.com/artist/kanye-west-mn0000361014,2025-03-20 12:11:49
+428,Elvis Presley,https://www.allmusic.com/artist/elvis-presley-mn0000180228,2025-03-20 12:11:49
+429,Shakira,https://www.allmusic.com/artist/shakira-mn0000790797,2025-03-20 12:11:50
+433,Martin Owen / Rumon Gamba / BBC Philharmonic Orchestra,https://www.allmusic.com/artist/martin-owen-mn0000101790,2025-03-20 12:11:50
+434,clipping.,https://www.allmusic.com/artist/clipping-mn0003225062,2025-03-20 12:11:50
+435,Otis Spann,https://www.allmusic.com/artist/otis-spann-mn0000486775,2025-03-20 12:12:24
+437,Carly Rae Jepsen,https://www.allmusic.com/artist/carly-rae-jepsen-mn0002089077,2025-03-20 12:12:24
+438,Kendrick Lamar,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646,2025-03-20 12:12:24
+439,The Killers,https://www.allmusic.com/artist/the-killers-mn0000670226,2025-03-20 12:12:24
+440,Damu the Fudgemunk / Raw Poetic / Archie Shepp,https://www.allmusic.com/artist/damu-the-fudgemunk-mn0000985856,2025-03-20 12:12:24
+441,Jimmie Vaughan,https://www.allmusic.com/artist/jimmie-vaughan-mn0000347639,2025-03-20 12:12:24
+442,Karl Jenkins / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/karl-jenkins-mn0000131898,2025-03-20 12:12:24
+443,Television Personalities,https://www.allmusic.com/artist/television-personalities-mn0000016438,2025-03-20 12:12:24
+444,Jader Bignamini / Detroit Symphony Orchestra,https://www.allmusic.com/artist/jader-bignamini-mn0003482437,2025-03-20 12:12:25
+446,Ali Shaheed Muhammad / Ebo Taylor / Adrian Younge,https://www.allmusic.com/artist/ali-shaheed-muhammad-mn0000389128,2025-03-20 12:12:25
+453,Run-D.M.C.,https://www.allmusic.com/artist/run-dmc-mn0000358408,2025-03-20 12:12:59
+454,James Brown,https://www.allmusic.com/artist/james-brown-mn0000128099,2025-03-20 12:12:59
+459,Dolly Parton,https://www.allmusic.com/artist/dolly-parton-mn0000175286,2025-03-20 12:13:33
+460,Parliament,https://www.allmusic.com/artist/parliament-mn0000129775,2025-03-20 12:13:33
+461,Woody Shaw,https://www.allmusic.com/artist/woody-shaw-mn0000680003,2025-03-20 12:13:33
+464,Leonard Bernstein,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859,2025-03-20 12:13:34
+465,Donald Byrd,https://www.allmusic.com/artist/donald-byrd-mn0000149946,2025-03-20 12:13:34
+466,Freddie Hubbard,https://www.allmusic.com/artist/freddie-hubbard-mn0000798326,2025-03-20 12:13:34
+478,David Bowie,https://www.allmusic.com/artist/david-bowie-mn0000531986,2025-03-20 12:14:09
+481,Kane Brown,https://www.allmusic.com/artist/kane-brown-mn0003444653,2025-03-20 12:14:09
+483,Woody Herman,https://www.allmusic.com/artist/woody-herman-mn0000958076,2025-03-20 12:14:43
+485,Daryl Hall & John Oates,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887,2025-03-20 12:14:43
+486,Shania Twain,https://www.allmusic.com/artist/shania-twain-mn0000161808,2025-03-20 12:14:43
+487,Amy Grant,https://www.allmusic.com/artist/amy-grant-mn0000024944,2025-03-20 12:14:43
+495,The Ventures,https://www.allmusic.com/artist/the-ventures-mn0000921965,2025-03-20 12:15:17
+498,Woody Guthrie,https://www.allmusic.com/artist/woody-guthrie-mn0000577531,2025-03-20 12:15:17
+501,Elvis Costello,https://www.allmusic.com/artist/elvis-costello-mn0000058549,2025-03-20 12:15:18
+504,Franz Ferdinand,https://www.allmusic.com/artist/franz-ferdinand-mn0000172582,2025-03-20 12:15:18
+506,Véronique Gens / Reinoud Van Mechelen / Hervé Niquet,https://www.allmusic.com/artist/v%C3%A9ronique-gens-mn0000161782,2025-03-20 12:15:18
+512,Merle Haggard,https://www.allmusic.com/artist/merle-haggard-mn0000410219,2025-03-20 12:15:53
+514,Billie Holiday,https://www.allmusic.com/artist/billie-holiday-mn0000079016,2025-03-20 12:15:53
+519,Stan Getz / João Gilberto,https://www.allmusic.com/artist/stan-getz-mn0000742899,2025-03-20 12:16:28
+520,Kitaro,https://www.allmusic.com/artist/kitaro-mn0000081017,2025-03-20 12:16:28
+521,Antônio Carlos Jobim,https://www.allmusic.com/artist/ant%C3%B4nio-carlos-jobim-mn0000781837,2025-03-20 12:16:28
+523,Milton Nascimento / Lô Borges,https://www.allmusic.com/artist/milton-nascimento-mn0000497132,2025-03-20 12:16:28
+526,Enya,https://www.allmusic.com/artist/enya-mn0000988471,2025-03-20 12:16:28
+531,Spike Jones,https://www.allmusic.com/artist/spike-jones-mn0000744548,2025-03-20 12:17:04
+532,The Kinks,https://www.allmusic.com/artist/the-kinks-mn0000100160,2025-03-20 12:17:04
+533,Fairport Convention,https://www.allmusic.com/artist/fairport-convention-mn0000162233,2025-03-20 12:17:04
+534,Small Faces,https://www.allmusic.com/artist/small-faces-mn0000423267,2025-03-20 12:17:05
+535,Sonny Rollins,https://www.allmusic.com/artist/sonny-rollins-mn0000039656,2025-03-20 12:17:05
+536,Martin Denny,https://www.allmusic.com/artist/martin-denny-mn0000311074,2025-03-20 12:17:05
+538,Queen,https://www.allmusic.com/artist/queen-mn0000858827,2025-03-20 12:17:05
+539,Sun Ra,https://www.allmusic.com/artist/sun-ra-mn0000924232,2025-03-20 12:17:05
+540,Tori Amos,https://www.allmusic.com/artist/tori-amos-mn0000792530,2025-03-20 12:17:05
+542,Mark Bebbington / Leon Botstein / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/mark-bebbington-mn0002219980,2025-03-20 12:17:39
+543,Joe Hisaishi / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330,2025-03-20 12:17:39
+545,Carlo Rizzi / Arsen Soghomonyan / Krassimira Stoyanova / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/carlo-rizzi-mn0000212025,2025-03-20 12:17:40
+546,Valery Gergiev / London Symphony Orchestra,https://www.allmusic.com/artist/valery-gergiev-mn0000196621,2025-03-20 12:17:40
+547,Daniel Barenboim / English Chamber Orchestra,https://www.allmusic.com/artist/daniel-barenboim-mn0000631790,2025-03-20 12:17:40
+548,Modest Mouse,https://www.allmusic.com/artist/modest-mouse-mn0000480086,2025-03-20 12:17:40
+549,Gustavo Dudamel / Los Angeles Philharmonic Orchestra,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636,2025-03-20 12:17:40
+552,Ernst Kovacic / Michael Gielen / ORF Vienna Radio Symphony Orchestra,https://www.allmusic.com/artist/ernst-kovacic-mn0001299883,2025-03-20 12:17:40
+553,Nash Ensemble,https://www.allmusic.com/artist/nash-ensemble-mn0001914151,2025-03-20 12:17:40
+556,Vince Guaraldi Trio / Vince Guaraldi,https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089,2025-03-20 12:18:16
+559,"Sammy Davis, Jr.",https://www.allmusic.com/artist/sammy-davis-jr-mn0000294376,2025-03-20 12:18:16
+565,Bernard Haitink / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/bernard-haitink-mn0000164817,2025-03-20 12:18:16
+566,Steve Goodman,https://www.allmusic.com/artist/steve-goodman-mn0000032366,2025-03-20 12:18:52
+567,Suzanne Ciani,https://www.allmusic.com/artist/suzanne-ciani-mn0000046345,2025-03-20 12:18:52
+568,Walter Berry / Hilde Güden / Léopold Simoneau / Karl Böhm / Wiener Philharmoniker,https://www.allmusic.com/artist/walter-berry-mn0001213176,2025-03-20 12:18:52
+572,Cheech & Chong,https://www.allmusic.com/artist/cheech-chong-mn0000106298,2025-03-20 12:18:52
+576,T-Bone Walker,https://www.allmusic.com/artist/t-bone-walker-mn0000003829,2025-03-20 12:19:27
+590,Tom Petty & the Heartbreakers / Tom Petty,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137,2025-03-20 12:20:03
+592,George Jones,https://www.allmusic.com/artist/george-jones-mn0000944310,2025-03-20 12:20:03
+598,Guided by Voices,https://www.allmusic.com/artist/guided-by-voices-mn0000545726,2025-03-20 12:20:03
+601,Joe Henderson,https://www.allmusic.com/artist/joe-henderson-mn0000139804,2025-03-20 12:20:39
+603,Herbie Hancock,https://www.allmusic.com/artist/herbie-hancock-mn0000957296,2025-03-20 12:20:39
+605,John Coltrane,https://www.allmusic.com/artist/john-coltrane-mn0000175553,2025-03-20 12:20:39
+615,Caetano Veloso,https://www.allmusic.com/artist/caetano-veloso-mn0000639397,2025-03-20 12:21:14
+622,Ringo Starr,https://www.allmusic.com/artist/ringo-starr-mn0000217792,2025-03-20 12:21:15
+624,Karl Böhm / Berlin Philharmonic Orchestra,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286,2025-03-20 12:21:50
+627,Andrew Litton / Ann Murray / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/andrew-litton-mn0000004874,2025-03-20 12:21:50
+628,André Previn,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250,2025-03-20 12:21:50
+631,AFX / Aphex Twin,https://www.allmusic.com/artist/afx-mn0000483189,2025-03-20 12:21:50
+633,Ichiko Aoba,https://www.allmusic.com/artist/ichiko-aoba-mn0003180348,2025-03-20 12:21:50
+634,William Wei / Evan Wong,https://www.allmusic.com/artist/william-wei-mn0004736435,2025-03-20 12:21:50
+635,Electric Light Orchestra,https://www.allmusic.com/artist/electric-light-orchestra-mn0000163229,2025-03-20 12:22:25
+636,Buena Vista Social Club,https://www.allmusic.com/artist/buena-vista-social-club-mn0000627250,2025-03-20 12:22:25
+637,Charles Mingus,https://www.allmusic.com/artist/charles-mingus-mn0000009680,2025-03-20 12:22:25
+638,Steve Roach,https://www.allmusic.com/artist/steve-roach-mn0000040501,2025-03-20 12:22:25
+639,Milt Jackson / John Coltrane,https://www.allmusic.com/artist/milt-jackson-mn0000489845,2025-03-20 12:22:25
+640,Harry Belafonte,https://www.allmusic.com/artist/harry-belafonte-mn0000952794,2025-03-20 12:22:25
+643,C Duncan,https://www.allmusic.com/artist/c-duncan-mn0002998091,2025-03-20 12:22:25
+645,Erik Jekabson,https://www.allmusic.com/artist/erik-jekabson-mn0000199538,2025-03-20 12:22:25
+648,Mike Oldfield,https://www.allmusic.com/artist/mike-oldfield-mn0000489520,2025-03-20 12:23:00
+649,The Mothers of Invention / Frank Zappa,https://www.allmusic.com/artist/the-mothers-of-invention-mn0000405522,2025-03-20 12:23:00
+651,Squeeze,https://www.allmusic.com/artist/squeeze-mn0000790732,2025-03-20 12:23:00
+654,Missy Elliott,https://www.allmusic.com/artist/missy-elliott-mn0000502371,2025-03-20 12:23:00
+655,Jefre Cantu-Ledesma,https://www.allmusic.com/artist/jefre-cantu-ledesma-mn0002000220,2025-03-20 12:23:01
+656,Croatian Amor / Lust for Youth,https://www.allmusic.com/artist/croatian-amor-mn0003546942,2025-03-20 12:23:01
+657,Kraftwerk,https://www.allmusic.com/artist/kraftwerk-mn0000104714,2025-03-20 12:23:35
+658,Joy Division,https://www.allmusic.com/artist/joy-division-mn0000290812,2025-03-20 12:23:35
+660,Björk,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,2025-03-20 12:23:35
+662,Iggy Pop,https://www.allmusic.com/artist/iggy-pop-mn0000926548,2025-03-20 12:23:35
+663,Laurie Anderson,https://www.allmusic.com/artist/laurie-anderson-mn0000785773,2025-03-20 12:23:35
+667,Nico,https://www.allmusic.com/artist/nico-mn0000868306,2025-03-20 12:23:35
+668,Sabine Liebner,https://www.allmusic.com/artist/sabine-liebner-mn0001808781,2025-03-20 12:23:35
+669,Allan Sherman,https://www.allmusic.com/artist/allan-sherman-mn0000002273,2025-03-20 12:24:10
+673,The Art Ensemble of Chicago,https://www.allmusic.com/artist/the-art-ensemble-of-chicago-mn0000600734,2025-03-20 12:24:11
+674,Riccardo Muti,https://www.allmusic.com/artist/riccardo-muti-mn0000032776,2025-03-20 12:24:11
+675,Gustavo Dudamel / Simón Bolívar Symphony Orchestra of Venezuela,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636,2025-03-20 12:24:11
+677,Alessandro Corbelli / Alex Esposito / Vincenzo Milletarì,https://www.allmusic.com/artist/alessandro-corbelli-mn0002184323,2025-03-20 12:24:11
+683,The Byrds,https://www.allmusic.com/artist/the-byrds-mn0000631774,2025-03-20 12:24:50
+690,Dion,https://www.allmusic.com/artist/dion-mn0000265456,2025-03-20 12:25:25
+694,Glenn Gould,https://www.allmusic.com/artist/glenn-gould-mn0000803752,2025-03-20 12:25:26
+696,Shawn Colvin,https://www.allmusic.com/artist/shawn-colvin-mn0000013387,2025-03-20 12:25:26
+698,Eddie Chacon,https://www.allmusic.com/artist/eddie-chacon-mn0001539810,2025-03-20 12:25:26
+699,The Loft,https://www.allmusic.com/artist/the-loft-mn0000786652,2025-03-20 12:25:26
+701,Horsegirl,https://www.allmusic.com/artist/horsegirl-mn0004027845,2025-03-20 12:25:26
+705,Chuck Jackson,https://www.allmusic.com/artist/chuck-jackson-mn0000103033,2025-03-20 12:26:01
+708,Beyoncé,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179,2025-03-20 12:26:01
+733,Jerry Lee Lewis,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141,2025-03-20 12:27:13
+738,Juanes,https://www.allmusic.com/artist/juanes-mn0000245250,2025-03-20 12:27:47
+739,Sweet Honey in the Rock,https://www.allmusic.com/artist/sweet-honey-in-the-rock-mn0000044703,2025-03-20 12:27:47
+740,Ileana Cotrubas / Plácido Domingo / Carlos Kleiber / Sherrill Milnes,https://www.allmusic.com/artist/ileana-cotrubas-mn0000069876,2025-03-20 12:27:47
+742,Dave Holland / Dave Holland Quintet,https://www.allmusic.com/artist/dave-holland-mn0000585092,2025-03-20 12:27:47
+743,J Balvin,https://www.allmusic.com/artist/j-balvin-mn0002385504,2025-03-20 12:27:47
+745,"Earth, Wind & Fire",https://www.allmusic.com/artist/earth-wind-fire-mn0000135273,2025-03-20 12:27:48
+746,Bad Bunny,https://www.allmusic.com/artist/bad-bunny-mn0003595289,2025-03-20 12:27:48
+751,Aerosmith,https://www.allmusic.com/artist/aerosmith-mn0000604852,2025-03-20 12:28:21
+753,Queens of the Stone Age,https://www.allmusic.com/artist/queens-of-the-stone-age-mn0000376422,2025-03-20 12:28:22
+757,Bo Diddley,https://www.allmusic.com/artist/bo-diddley-mn0000055128,2025-03-20 12:28:22
+760,Deep Sea Diver,https://www.allmusic.com/artist/deep-sea-diver-mn0003178300,2025-03-20 12:28:22
+761,Harry Styles,https://www.allmusic.com/artist/harry-styles-mn0002854537,2025-03-20 12:28:57
+762,Joe Hisaishi,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330,2025-03-20 12:28:57
+763,µ-Ziq,https://www.allmusic.com/artist/%C2%B5-ziq-mn0000510042,2025-03-20 12:28:57
+764,Tierra Whack,https://www.allmusic.com/artist/tierra-whack-mn0003604268,2025-03-20 12:28:57
+765,Caribou,https://www.allmusic.com/artist/caribou-mn0000609590,2025-03-20 12:28:57
+767,The Monochrome Set,https://www.allmusic.com/artist/the-monochrome-set-mn0000475980,2025-03-20 12:28:57
+768,Pearl & the Oysters,https://www.allmusic.com/artist/pearl-the-oysters-mn0003783836,2025-03-20 12:28:57
+770,Randy Newman,https://www.allmusic.com/artist/randy-newman-mn0000394806,2025-03-20 12:29:33
+774,Ultramagnetic MC's,https://www.allmusic.com/artist/ultramagnetic-mcs-mn0000181299,2025-03-20 12:29:33
+791,Eric Church,https://www.allmusic.com/artist/eric-church-mn0000632233,2025-03-20 12:30:44
+793,Little Walter,https://www.allmusic.com/artist/little-walter-mn0000824599,2025-03-20 12:30:44
+803,Billy Joe Shaver,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205,2025-03-20 12:31:20
+807,J. Cole,https://www.allmusic.com/artist/j-cole-mn0001089515,2025-03-20 12:31:20
+813,Damon Locks,https://www.allmusic.com/artist/damon-locks-mn0000665826,2025-03-20 12:31:20
+817,Porter Wagoner,https://www.allmusic.com/artist/porter-wagoner-mn0000355451,2025-03-20 12:31:56
+821,Conway Twitty,https://www.allmusic.com/artist/conway-twitty-mn0000780451,2025-03-20 12:31:56
+823,John Patitucci,https://www.allmusic.com/artist/john-patitucci-mn0000188776,2025-03-20 12:31:56
+827,Flying Lotus,https://www.allmusic.com/artist/flying-lotus-mn0000717419,2025-03-20 12:32:31
+829,Johnny Depp / Stephen Sondheim,https://www.allmusic.com/artist/johnny-depp-mn0000247383,2025-03-20 12:32:31
+831,The Smashing Pumpkins,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521,2025-03-20 12:32:31
+833,Coil,https://www.allmusic.com/artist/coil-mn0000105561,2025-03-20 12:32:31
+834,Plastikman,https://www.allmusic.com/artist/plastikman-mn0000355386,2025-03-20 12:32:31
+842,Leontyne Price,https://www.allmusic.com/artist/leontyne-price-mn0000591857,2025-03-20 12:33:07
+862,Michael W. Smith,https://www.allmusic.com/artist/michael-w-smith-mn0000466759,2025-03-20 12:34:22
+863,The Winans,https://www.allmusic.com/artist/the-winans-mn0000576839,2025-03-20 12:34:22
+864,Mary Martin / Theodore Bikel / Original Broadway Cast / Richard Rodgers,https://www.allmusic.com/artist/mary-martin-mn0000040695,2025-03-20 12:34:22
+866,Miklós Rózsa,https://www.allmusic.com/artist/mikl%C3%B3s-r%C3%B3zsa-mn0000583723,2025-03-20 12:34:22
+869,"Clare College Choir, Cambridge / Graham Ross",https://www.allmusic.com/artist/clare-college-choir-cambridge-mn0001641078,2025-03-20 12:34:22
+870,Roman Válek / Czech Ensemble Baroque,https://www.allmusic.com/artist/roman-v%C3%A1lek-mn0002197737,2025-03-20 12:34:22
+875,Neil Young / Neil Young & Crazy Horse,https://www.allmusic.com/artist/neil-young-mn0000379125,2025-03-20 12:34:57
+877,Yes,https://www.allmusic.com/artist/yes-mn0000685647,2025-03-20 12:34:57
+882,Circuit des Yeux,https://www.allmusic.com/artist/circuit-des-yeux-mn0002609749,2025-03-20 12:34:58
+883,Keith Whitley,https://www.allmusic.com/artist/keith-whitley-mn0000081561,2025-03-20 12:35:31
+894,Seong-Jin Cho,https://www.allmusic.com/artist/seong-jin-cho-mn0003449260,2025-03-20 12:35:32
+896,John Williams / Stéphane Denève / Saito Kinen Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480,2025-03-20 12:36:06
+898,Owain Arwel Hughes / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/owain-arwel-hughes-mn0000116638,2025-03-20 12:36:07
+899,Paramore,https://www.allmusic.com/artist/paramore-mn0000366681,2025-03-20 12:36:07
+900,Simon Rattle / Alice Coote / Elizabeth Watts / London Symphony Orchestra,https://www.allmusic.com/artist/simon-rattle-mn0000932272,2025-03-20 12:36:07
+901,Quynh Nguyen / Stephen Barlow / Rieko Aizawa / London Symphony Orchestra,https://www.allmusic.com/artist/quynh-nguyen-mn0003472261,2025-03-20 12:36:07
+902,Gautier Capuçon / Antonio Pappano / London Symphony Orchestra,https://www.allmusic.com/artist/gautier-capu%C3%A7on-mn0002227074,2025-03-20 12:36:07
+907,Don Gibson,https://www.allmusic.com/artist/don-gibson-mn0000184814,2025-03-20 12:36:40
+924,The Impressions,https://www.allmusic.com/artist/the-impressions-mn0000082013,2025-03-20 12:37:14
+925,Glen Campbell,https://www.allmusic.com/artist/glen-campbell-mn0000664378,2025-03-20 12:37:14
+931,George Russell,https://www.allmusic.com/artist/george-russell-mn0000646353,2025-03-20 12:37:49
+932,Todd Terry,https://www.allmusic.com/artist/todd-terry-mn0000518313,2025-03-20 12:37:49
+936,Nat King Cole,https://www.allmusic.com/artist/nat-king-cole-mn0000317093,2025-03-20 12:37:49
+938,Stereolab,https://www.allmusic.com/artist/stereolab-mn0000026520,2025-03-20 12:37:49
+957,Jimmie Rodgers,https://www.allmusic.com/artist/jimmie-rodgers-mn0000343852,2025-03-20 12:38:57
+980,Herb Alpert & the Tijuana Brass / Herb Alpert,https://www.allmusic.com/artist/herb-alpert-the-tijuana-brass-mn0000955773,2025-03-20 12:40:09
+987,Brass Construction,https://www.allmusic.com/artist/brass-construction-mn0000932922,2025-03-20 12:40:09
+988,Nao,https://www.allmusic.com/artist/nao-mn0002947938,2025-03-20 12:40:09
+989,Michael Gregory Jackson,https://www.allmusic.com/artist/michael-gregory-jackson-mn0000887463,2025-03-20 12:40:09
+990,Glebe,https://www.allmusic.com/artist/glebe-mn0004772886,2025-03-20 12:40:09
+998,XTC,https://www.allmusic.com/artist/xtc-mn0000678339,2025-03-20 12:40:45
+1007,Karl Böhm / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286,2025-03-20 12:41:21
+1009,Berlin Philharmonic Orchestra / Karl Böhm,https://www.allmusic.com/artist/berlin-philharmonic-orchestra-mn0000188180,2025-03-20 12:41:21
+1010,Milton Nascimento / Esperanza Spalding,https://www.allmusic.com/artist/milton-nascimento-mn0000497132,2025-03-20 12:41:21
+1011,Jérémie Rhorer / Le Cercle de l'Harmonie,https://www.allmusic.com/artist/j%C3%A9r%C3%A9mie-rhorer-mn0001814847,2025-03-20 12:41:21
+1012,Traxman,https://www.allmusic.com/artist/traxman-mn0002357888,2025-03-20 12:41:21
+1015,Neil Diamond,https://www.allmusic.com/artist/neil-diamond-mn0000864209,2025-03-20 12:41:56
+1020,Bee Gees,https://www.allmusic.com/artist/bee-gees-mn0000043714,2025-03-20 12:41:56
+1035,Christine Busch / Stefania Neonato,https://www.allmusic.com/artist/christine-busch-mn0001655225,2025-03-20 12:42:30
+1036,Jordan Bak / Howard Griffiths / London Mozart Players,https://www.allmusic.com/artist/jordan-bak-mn0004049674,2025-03-20 12:42:30
+1040,Waylon Jennings,https://www.allmusic.com/artist/waylon-jennings-mn0000200791,2025-03-20 12:43:02
+1042,Ray Conniff,https://www.allmusic.com/artist/ray-conniff-mn0000869487,2025-03-20 12:43:03
+1052,Benny Goodman,https://www.allmusic.com/artist/benny-goodman-mn0000163133,2025-03-20 12:43:38
+1066,Barbra Streisand,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,2025-03-20 12:44:13
+1071,Everything Is Recorded,https://www.allmusic.com/artist/everything-is-recorded-mn0003633405,2025-03-20 12:44:13
+1073,The White Stripes,https://www.allmusic.com/artist/the-white-stripes-mn0000921710,2025-03-20 12:44:48
+1076,Freddie King,https://www.allmusic.com/artist/freddie-king-mn0000186734,2025-03-20 12:44:48
+1077,Ramones,https://www.allmusic.com/artist/ramones-mn0000490004,2025-03-20 12:44:48
+1078,Cheap Trick,https://www.allmusic.com/artist/cheap-trick-mn0000105354,2025-03-20 12:44:48
+1098,Led Zeppelin,https://www.allmusic.com/artist/led-zeppelin-mn0000139026,2025-03-20 12:45:59
+1102,Eagles,https://www.allmusic.com/artist/eagles-mn0000144847,2025-03-20 12:45:59
+1103,The Hollies,https://www.allmusic.com/artist/the-hollies-mn0000087985,2025-03-20 12:45:59
+1109,Donna Summer,https://www.allmusic.com/artist/donna-summer-mn0000661524,2025-03-20 12:46:35
+1111,Jah Shaka / Mad Professor,https://www.allmusic.com/artist/jah-shaka-mn0000107383,2025-03-20 12:46:35
+1112,Jimi Hendrix / The Jimi Hendrix Experience,https://www.allmusic.com/artist/jimi-hendrix-mn0000354105,2025-03-20 12:46:35
+1114,Isaac Hayes,https://www.allmusic.com/artist/isaac-hayes-mn0000101946,2025-03-20 12:46:35
+1121,Burning Spear,https://www.allmusic.com/artist/burning-spear-mn0000641994,2025-03-20 12:47:09
+1129,Julian Cope,https://www.allmusic.com/artist/julian-cope-mn0000308742,2025-03-20 12:47:10
+1133,John Williams / Boston Pops Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480,2025-03-20 12:47:45
+1139,Steven Wilson,https://www.allmusic.com/artist/steven-wilson-mn0000455886,2025-03-20 12:47:46
+1154,Andrés Segovia,https://www.allmusic.com/artist/andr%C3%A9s-segovia-mn0000958298,2025-03-20 12:48:55
+1155,Anne-Sophie Mutter / John Williams / Boston Symphony Orchestra,https://www.allmusic.com/artist/anne-sophie-mutter-mn0000032775,2025-03-20 12:48:55
+1157,Marty Robbins,https://www.allmusic.com/artist/marty-robbins-mn0000858710,2025-03-20 12:48:56
+1159,Tan Dun / Yo-Yo Ma,https://www.allmusic.com/artist/tan-dun-mn0000313685,2025-03-20 12:48:56
+1160,Henry Mancini / Henry Mancini & His Orchestra,https://www.allmusic.com/artist/henry-mancini-mn0000678009,2025-03-20 12:48:56
+1163,Krokofant,https://www.allmusic.com/artist/krokofant-mn0003215926,2025-03-20 12:48:56
+1164,Daniel Ögren,https://www.allmusic.com/artist/daniel-%C3gren-mn0002590901,2025-03-20 12:48:56
+1166,The Dave Brubeck Quartet / Dave Brubeck,https://www.allmusic.com/artist/the-dave-brubeck-quartet-mn0000142767,2025-03-20 12:49:32
+1168,Béla Fleck,https://www.allmusic.com/artist/b%C3%A9la-fleck-mn0000151290,2025-03-20 12:49:32
+1169,Emanuel Ax / Leonidas Kavakos / Yo-Yo Ma,https://www.allmusic.com/artist/emanuel-ax-mn0000763916,2025-03-20 12:49:32
+1170,Béla Fleck / Abigail Washburn,https://www.allmusic.com/artist/b%C3%A9la-fleck-mn0000151290,2025-03-20 12:49:32
+1171,Esther Yoo / Vasily Petrenko / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/esther-yoo-mn0003470298,2025-03-20 12:49:32
+1172,Dave Brubeck / The Dave Brubeck Quartet,https://www.allmusic.com/artist/dave-brubeck-mn0000958533,2025-03-20 12:49:32
+1177,Arturo Sandoval,https://www.allmusic.com/artist/arturo-sandoval-mn0000575122,2025-03-20 12:50:07
+1178,Philip Glass / Philip Glass Ensemble / Michael Riesman / Robert Wilson,https://www.allmusic.com/artist/philip-glass-mn0000849672,2025-03-20 12:50:07
+1179,Daft Punk,https://www.allmusic.com/artist/daft-punk-mn0000667669,2025-03-20 12:50:07
+1189,Raffi,https://www.allmusic.com/artist/raffi-mn0000327331,2025-03-20 12:50:43
+1190,Bette Midler,https://www.allmusic.com/artist/bette-midler-mn0000053739,2025-03-20 12:50:43
+1195,R. Kelly,https://www.allmusic.com/artist/r-kelly-mn0000319347,2025-03-20 12:50:43
+1214,Andrew Lloyd Webber / Original Broadway Cast,https://www.allmusic.com/artist/andrew-lloyd-webber-mn0000003595,2025-03-20 12:51:53
+1227,Igor Stravinsky,https://www.allmusic.com/artist/igor-stravinsky-mn0000364751,2025-03-20 12:52:29
+1230,Korn,https://www.allmusic.com/artist/korn-mn0000112789,2025-03-20 12:52:29
+1232,Tina Turner,https://www.allmusic.com/artist/tina-turner-mn0000597309,2025-03-20 12:53:04
+1233,Vladimir Ashkenazy / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/vladimir-ashkenazy-mn0000761916,2025-03-20 12:53:04
+1239,Orion Weiss,https://www.allmusic.com/artist/orion-weiss-mn0001673600,2025-03-20 12:53:04
+1240,María Dueñas,https://www.allmusic.com/artist/mar%C3%ADa-due%C3%B1as-mn0004342338,2025-03-20 12:53:04
+1241,Maxwell Quartet,https://www.allmusic.com/artist/maxwell-quartet-mn0003548528,2025-03-20 12:53:04
+1245,Elmore James,https://www.allmusic.com/artist/elmore-james-mn0000176936,2025-03-20 12:53:39
+1246,Max Roach,https://www.allmusic.com/artist/max-roach-mn0000396372,2025-03-20 12:53:39
+1248,Bad Brains,https://www.allmusic.com/artist/bad-brains-mn0000075264,2025-03-20 12:53:39
+1267,Marc Anthony,https://www.allmusic.com/artist/marc-anthony-mn0000673486,2025-03-20 12:54:49
+1268,Rihanna,https://www.allmusic.com/artist/rihanna-mn0000367188,2025-03-20 12:54:49
+1272,Vladimir Horowitz,https://www.allmusic.com/artist/vladimir-horowitz-mn0000119107,2025-03-20 12:54:50
+1283,Frank Ocean,https://www.allmusic.com/artist/frank-ocean-mn0002592086,2025-03-20 12:55:26
+1284,Airto Moreira / Flora Purim,https://www.allmusic.com/artist/airto-moreira-mn0000609992,2025-03-20 12:55:26
+1285,Laura Nyro,https://www.allmusic.com/artist/laura-nyro-mn0000137474,2025-03-20 12:55:26
+1291,Tom Waits,https://www.allmusic.com/artist/tom-waits-mn0000615119,2025-03-20 12:56:01
+1293,PJ Harvey,https://www.allmusic.com/artist/pj-harvey-mn0000000335,2025-03-20 12:56:01
+1294,Ornette Coleman,https://www.allmusic.com/artist/ornette-coleman-mn0000484396,2025-03-20 12:56:01
+1295,Gang of Four,https://www.allmusic.com/artist/gang-of-four-mn0000193231,2025-03-20 12:56:01
+1296,Autechre,https://www.allmusic.com/artist/autechre-mn0000759998,2025-03-20 12:56:02
+1297,Eric Dolphy,https://www.allmusic.com/artist/eric-dolphy-mn0000800100,2025-03-20 12:56:02
+1298,Pavement,https://www.allmusic.com/artist/pavement-mn0000752314,2025-03-20 12:56:02
+1335,Michel Bouvard / François Espinasse,https://www.allmusic.com/artist/michel-bouvard-mn0002209251,2025-03-20 12:57:47
+1349,ABBA,https://www.allmusic.com/artist/abba-mn0000922728,2025-03-20 12:58:58
+1350,Little Richard,https://www.allmusic.com/artist/little-richard-mn0000824022,2025-03-20 12:58:58
+1352,The Monkees,https://www.allmusic.com/artist/the-monkees-mn0000478603,2025-03-20 12:58:58
+1357,David Castro-Balbi / Teo Gheorghiu / Howard Griffiths,https://www.allmusic.com/artist/david-castro-balbi-mn0003910715,2025-03-20 12:58:59
+1358,Songhoy Blues,https://www.allmusic.com/artist/songhoy-blues-mn0003213330,2025-03-20 12:58:59
+1359,Taffy,https://www.allmusic.com/artist/taffy-mn0002064113,2025-03-20 12:58:59
+1364,Mongo Santamaría,https://www.allmusic.com/artist/mongo-santamar%C3%ADa-mn0000591104,2025-03-20 12:59:34
+1377,The Smiths,https://www.allmusic.com/artist/the-smiths-mn0000899530,2025-03-20 13:00:10
+1387,Yo-Yo Ma / Edgar Meyer / Mark O'Connor,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,2025-03-20 13:00:46
+1393,Matt Berry,https://www.allmusic.com/artist/matt-berry-mn0000272669,2025-03-20 13:00:46
+1399,Otis Redding,https://www.allmusic.com/artist/otis-redding-mn0000414251,2025-03-20 13:01:21
+1400,Muddy Waters,https://www.allmusic.com/artist/muddy-waters-mn0000608701,2025-03-20 13:01:21
+1403,Elmer Bernstein,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087,2025-03-20 13:01:55
+1407,Alice in Chains,https://www.allmusic.com/artist/alice-in-chains-mn0000007920,2025-03-20 13:01:56
+1408,Riccardo Muti / Chicago Symphony Orchestra,https://www.allmusic.com/artist/riccardo-muti-mn0000032776,2025-03-20 13:01:56
+1409,Vince Staples,https://www.allmusic.com/artist/vince-staples-mn0002592118,2025-03-20 13:01:56
+1411,Wrekmeister Harmonies,https://www.allmusic.com/artist/wrekmeister-harmonies-mn0001051874,2025-03-20 13:01:56
+1412,Ty Myers,https://www.allmusic.com/artist/ty-myers-mn0004640845,2025-03-20 13:01:56
+1414,Jaye Jayle,https://www.allmusic.com/artist/jaye-jayle-mn0003285869,2025-03-20 13:01:56
+1415,Mudhoney,https://www.allmusic.com/artist/mudhoney-mn0000509223,2025-03-20 13:02:44
+1416,Magic Sam / Magic Sam's Blues Band,https://www.allmusic.com/artist/magic-sam-mn0000191429,2025-03-20 13:02:44
+1417,Aretha Franklin,https://www.allmusic.com/artist/aretha-franklin-mn0000927555,2025-03-20 13:02:44
+1418,Nazareth,https://www.allmusic.com/artist/nazareth-mn0000377891,2025-03-20 13:02:44
+1419,"Gary Clark, Jr.",https://www.allmusic.com/artist/gary-clark-jr-mn0000989208,2025-03-20 13:02:44
+1420,Mastodon,https://www.allmusic.com/artist/mastodon-mn0000382565,2025-03-20 13:02:44
+1421,Buddy Guy,https://www.allmusic.com/artist/buddy-guy-mn0000942529,2025-03-20 13:02:45
+1438,Hamilton Leithauser,https://www.allmusic.com/artist/hamilton-leithauser-mn0000949957,2025-03-20 13:03:27
+1439,Frank Sinatra,https://www.allmusic.com/artist/frank-sinatra-mn0000792507,2025-03-20 13:04:00
+1440,Sam Butera / Louis Prima / Keely Smith,https://www.allmusic.com/artist/sam-butera-mn0000831009,2025-03-20 13:04:00
+1441,Chubby Carrier & The Bayou Swamp Band,https://www.allmusic.com/artist/chubby-carrier-the-bayou-swamp-band-mn0000100232,2025-03-20 13:04:00
+1443,Kylie Minogue,https://www.allmusic.com/artist/kylie-minogue-mn0000776093,2025-03-20 13:04:00
+1444,Big Joe Turner,https://www.allmusic.com/artist/big-joe-turner-mn0000060726,2025-03-20 13:04:01
+1445,Whodini,https://www.allmusic.com/artist/whodini-mn0000820545,2025-03-20 13:04:01
+1446,Louis Jordan,https://www.allmusic.com/artist/louis-jordan-mn0000287604,2025-03-20 13:04:01
+1450,Alpaca Sports,https://www.allmusic.com/artist/alpaca-sports-mn0003432789,2025-03-20 13:04:01
+1458,N.W.A,https://www.allmusic.com/artist/nwa-mn0000314793,2025-03-20 13:04:36
+1467,Lana Del Rey,https://www.allmusic.com/artist/lana-del-rey-mn0002784799,2025-03-20 13:05:12
+1469,Demi Lovato,https://www.allmusic.com/artist/demi-lovato-mn0000996127,2025-03-20 13:05:12
+1470,Deftones,https://www.allmusic.com/artist/deftones-mn0000813946,2025-03-20 13:05:12
+1474,Prince,https://www.allmusic.com/artist/prince-mn0000361393,2025-03-20 13:05:47
+1478,Ohio Players,https://www.allmusic.com/artist/ohio-players-mn0000390390,2025-03-20 13:05:48
+1479,Faces,https://www.allmusic.com/artist/faces-mn0000058372,2025-03-20 13:05:48
+1480,Marvin Gaye,https://www.allmusic.com/artist/marvin-gaye-mn0000316834,2025-03-20 13:05:48
+1494,Gerd Schaller / Philharmonie Festiva,https://www.allmusic.com/artist/gerd-schaller-mn0002268578,2025-03-20 13:06:23
+1496,Eliahu Inbal / SDR Symphony Orchestra / SWR Stuttgart Radio Symphony Orchestra,https://www.allmusic.com/artist/eliahu-inbal-mn0000781540,2025-03-20 13:06:23
+1505,Architects,https://www.allmusic.com/artist/architects-mn0001051850,2025-03-20 13:06:58
+1511,Roger Miller,https://www.allmusic.com/artist/roger-miller-mn0000151431,2025-03-20 13:07:34
+1517,Boston Early Music Festival Chamber Ensemble,https://www.allmusic.com/artist/boston-early-music-festival-chamber-ensemble-mn0003241165,2025-03-20 13:07:34
+1518,Faron Young,https://www.allmusic.com/artist/faron-young-mn0000143951,2025-03-20 13:08:09
+1521,Michael Jackson,https://www.allmusic.com/artist/michael-jackson-mn0000467203,2025-03-20 13:08:09
+1522,Al Green,https://www.allmusic.com/artist/al-green-mn0000607448,2025-03-20 13:08:09
+1525,Scarface,https://www.allmusic.com/artist/scarface-mn0000315463,2025-03-20 13:08:09
+1527,Max Richter,https://www.allmusic.com/artist/max-richter-mn0000203592,2025-03-20 13:08:45
+1529,Mickey Newbury,https://www.allmusic.com/artist/mickey-newbury-mn0000525789,2025-03-20 13:08:45
+1530,Ernest Gold,https://www.allmusic.com/artist/ernest-gold-mn0000200992,2025-03-20 13:08:45
+1535,John Findon / Christine Rice / Nicholas Collon,https://www.allmusic.com/artist/john-findon-mn0004305762,2025-03-20 13:08:45
+1536,Sinner DC / Sonic Boom,https://www.allmusic.com/artist/sinner-dc-mn0001512288,2025-03-20 13:08:45
+1539,Method Man,https://www.allmusic.com/artist/method-man-mn0000451483,2025-03-20 13:09:22
+1540,Kevin Hart,https://www.allmusic.com/artist/kevin-hart-mn0000082798,2025-03-20 13:09:22
+1541,Kode9,https://www.allmusic.com/artist/kode9-mn0000543345,2025-03-20 13:09:22
+1542,Brian Eno / Karl Hyde,https://www.allmusic.com/artist/brian-eno-mn0000617196,2025-03-20 13:09:22
+1543,The Go! Team,https://www.allmusic.com/artist/the-go%21-team-mn0000397794,2025-03-20 13:09:22
+1544,Sons of Kemet,https://www.allmusic.com/artist/sons-of-kemet-mn0003146048,2025-03-20 13:09:22
+1545,The Knack,https://www.allmusic.com/artist/the-knack-mn0000087179,2025-03-20 13:09:22
+1548,Sigur Rós,https://www.allmusic.com/artist/sigur-r%C3%B3s-mn0000753868,2025-03-20 13:09:56
+1551,Ravi Shankar,https://www.allmusic.com/artist/ravi-shankar-mn0000404463,2025-03-20 13:09:56
+1553,Steven Halpern,https://www.allmusic.com/artist/steven-halpern-mn0000042234,2025-03-20 13:09:56
+1554,King Tubby,https://www.allmusic.com/artist/king-tubby-mn0000093322,2025-03-20 13:09:56
+1555,Derrick May,https://www.allmusic.com/artist/derrick-may-mn0000205313,2025-03-20 13:09:56
+1563,Phish,https://www.allmusic.com/artist/phish-mn0000333464,2025-03-20 13:10:32
+1565,Yo-Yo Ma / Emanuel Ax,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,2025-03-20 13:10:32
+1566,Robert Glasper / Robert Glasper Experiment,https://www.allmusic.com/artist/robert-glasper-mn0000288985,2025-03-20 13:10:32
+1574,Augustus Pablo,https://www.allmusic.com/artist/augustus-pablo-mn0000052151,2025-03-20 13:11:07
+1576,John Cage,https://www.allmusic.com/artist/john-cage-mn0000183867,2025-03-20 13:11:07
+1577,Chick Corea,https://www.allmusic.com/artist/chick-corea-mn0000110541,2025-03-20 13:11:07
+1579,Ron Carter / Jim Hall,https://www.allmusic.com/artist/ron-carter-mn0000275832,2025-03-20 13:11:07
+1581,Dream Theater,https://www.allmusic.com/artist/dream-theater-mn0000803544,2025-03-20 13:11:07
+1593,The Pains of Being Pure at Heart,https://www.allmusic.com/artist/the-pains-of-being-pure-at-heart-mn0001006019,2025-03-20 13:11:43
+1599,Van Morrison,https://www.allmusic.com/artist/van-morrison-mn0000307461,2025-03-20 13:12:18
+1602,Charles Brown,https://www.allmusic.com/artist/charles-brown-mn0000805298,2025-03-20 13:12:18
+1604,Panda Bear,https://www.allmusic.com/artist/panda-bear-mn0000109628,2025-03-20 13:12:19
+1605,Noah Preminger,https://www.allmusic.com/artist/noah-preminger-mn0002442003,2025-03-20 13:12:19
+1606,bdrmm,https://www.allmusic.com/artist/bdrmm-mn0003927823,2025-03-20 13:12:19
+1620,The Band,https://www.allmusic.com/artist/the-band-mn0000038490,2025-03-20 13:13:31
+1621,Tricky,https://www.allmusic.com/artist/tricky-mn0000025462,2025-03-20 13:13:31
+1622,Low,https://www.allmusic.com/artist/low-mn0000250976,2025-03-20 13:13:31
+1624,Elliott Smith,https://www.allmusic.com/artist/elliott-smith-mn0000172167,2025-03-20 13:13:31
+1625,Liz Phair,https://www.allmusic.com/artist/liz-phair-mn0000225930,2025-03-20 13:13:31
+1634,Rodney Crowell,https://www.allmusic.com/artist/rodney-crowell-mn0000294085,2025-03-20 13:14:06
+1637,Pet Shop Boys,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212,2025-03-20 13:14:06
+1650,Buck Owens,https://www.allmusic.com/artist/buck-owens-mn0000941579,2025-03-20 13:14:42
+1652,Ladytron,https://www.allmusic.com/artist/ladytron-mn0000780948,2025-03-20 13:14:42
+1654,Jeffrey Lewis,https://www.allmusic.com/artist/jeffrey-lewis-mn0000263995,2025-03-20 13:14:42
+1658,The Statler Brothers,https://www.allmusic.com/artist/the-statler-brothers-mn0000578031,2025-03-20 13:15:18
+1671,Cannonball Adderley Quintet / Cannonball Adderley,https://www.allmusic.com/artist/cannonball-adderley-quintet-mn0000651258,2025-03-20 13:15:54
+1672,Owain Arwel Hughes / Cambridge Singers / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/owain-arwel-hughes-mn0000116638,2025-03-20 13:15:54
+1675,Clave Especial,https://www.allmusic.com/artist/clave-especial-mn0004641368,2025-03-20 13:15:54
+1676,Jerry Reed,https://www.allmusic.com/artist/jerry-reed-mn0000334644,2025-03-20 13:16:28
+1678,Ray Charles,https://www.allmusic.com/artist/ray-charles-mn0000046861,2025-03-20 13:16:28
+1680,Buddy Holly,https://www.allmusic.com/artist/buddy-holly-mn0000538677,2025-03-20 13:16:28
+1681,Fats Domino,https://www.allmusic.com/artist/fats-domino-mn0000137494,2025-03-20 13:16:28
+1682,Tommy Dorsey,https://www.allmusic.com/artist/tommy-dorsey-mn0000934072,2025-03-20 13:16:29
+1690,Airto / Airto Moreira,https://www.allmusic.com/artist/airto-mn0000511402,2025-03-20 13:17:04
+1692,Coldplay,https://www.allmusic.com/artist/coldplay-mn0000775877,2025-03-20 13:17:04
+1694,Yo-Yo Ma,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,2025-03-20 13:17:04
+1705,The Yardbirds,https://www.allmusic.com/artist/the-yardbirds-mn0000489303,2025-03-20 13:17:39
+1707,Sidney Bechet,https://www.allmusic.com/artist/sidney-bechet-mn0000033234,2025-03-20 13:17:40
+1714,Air,https://www.allmusic.com/artist/air-mn0000607202,2025-03-20 13:18:15
+1715,Shuggie Otis,https://www.allmusic.com/artist/shuggie-otis-mn0000752773,2025-03-20 13:18:15
+1716,Stan Getz,https://www.allmusic.com/artist/stan-getz-mn0000742899,2025-03-20 13:18:15
+1717,Common,https://www.allmusic.com/artist/common-mn0000115253,2025-03-20 13:18:15
+1718,George Harrison,https://www.allmusic.com/artist/george-harrison-mn0000209142,2025-03-20 13:18:15
+1719,Sade,https://www.allmusic.com/artist/sade-mn0000279337,2025-03-20 13:18:15
+1724,"Grover Washington, Jr.",https://www.allmusic.com/artist/grover-washington-jr-mn0000944206,2025-03-20 13:18:50
+1726,SZA,https://www.allmusic.com/artist/sza-mn0003180568,2025-03-20 13:18:50
+1729,Oneohtrix Point Never,https://www.allmusic.com/artist/oneohtrix-point-never-mn0001598199,2025-03-20 13:18:51
+1730,Marshall Allen / Sun Ra / Sun Ra & His Arkestra,https://www.allmusic.com/artist/marshall-allen-mn0000299353,2025-03-20 13:18:51
+1735,Geoffrey O'Connor,https://www.allmusic.com/artist/geoffrey-oconnor-mn0002768748,2025-03-20 13:18:51
+1738,Dean Martin,https://www.allmusic.com/artist/dean-martin-mn0000813392,2025-03-20 13:19:31
+1739,Jimmy Reed,https://www.allmusic.com/artist/jimmy-reed-mn0000076881,2025-03-20 13:19:31
+1741,Bob Marley & the Wailers / Bob Marley,https://www.allmusic.com/artist/bob-marley-the-wailers-mn0000069402,2025-03-20 13:19:31
+1742,Champion Jack Dupree,https://www.allmusic.com/artist/champion-jack-dupree-mn0000197040,2025-03-20 13:19:31
+1743,Lightnin' Hopkins,https://www.allmusic.com/artist/lightnin-hopkins-mn0000825208,2025-03-20 13:19:31
+1745,Vazz,https://www.allmusic.com/artist/vazz-mn0002847390,2025-03-20 13:19:31
+1749,Bill Evans Trio / Bill Evans,https://www.allmusic.com/artist/bill-evans-trio-mn0000781423,2025-03-20 13:20:06
+1753,Gerry Mulligan / Ben Webster,https://www.allmusic.com/artist/gerry-mulligan-mn0000542549,2025-03-20 13:20:07
+1773,Toby Keith,https://www.allmusic.com/artist/toby-keith-mn0000510805,2025-03-20 13:21:16
+1785,"Tyler, The Creator",https://www.allmusic.com/artist/tyler-the-creator-mn0002591087,2025-03-20 13:21:53
+1786,Meshell Ndegeocello,https://www.allmusic.com/artist/meshell-ndegeocello-mn0000402351,2025-03-20 13:21:53
+1788,Quercus / June Tabor / Iain Ballamy / Huw Warren,https://www.allmusic.com/artist/quercus-mn0003068616,2025-03-20 13:21:53
+1798,Wham!,https://www.allmusic.com/artist/wham%21-mn0000246960,2025-03-20 13:22:29
+1799,Red Hot Chili Peppers,https://www.allmusic.com/artist/red-hot-chili-peppers-mn0000883318,2025-03-20 13:22:29
+1800,Bachman-Turner Overdrive,https://www.allmusic.com/artist/bachman-turner-overdrive-mn0000062002,2025-03-20 13:22:29
+1803,Squid,https://www.allmusic.com/artist/squid-mn0003873970,2025-03-20 13:22:29
+1804,David Grubbs,https://www.allmusic.com/artist/david-grubbs-mn0000213408,2025-03-20 13:22:29
+1824,Leonard Bernstein / Original Broadway Cast,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859,2025-03-20 13:23:40
+1832,Anja Silja / Karl Böhm,https://www.allmusic.com/artist/anja-silja-mn0002269373,2025-03-20 13:24:16
+1834,Aaron Dilloway,https://www.allmusic.com/artist/aaron-dilloway-mn0000812176,2025-03-20 13:24:16
+1835,Andy Stott,https://www.allmusic.com/artist/andy-stott-mn0000975878,2025-03-20 13:24:16
+1843,José Serebrier / Cho-Liang Lin / Hila Plitmann / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/jos%C3%A9-serebrier-mn0000685491,2025-03-20 13:24:51
+1844,Alan Gilbert / New York Philharmonic,https://www.allmusic.com/artist/alan-gilbert-mn0002248331,2025-03-20 13:24:51
+1845,Anne-Sophie Mutter / John Williams / Los Angeles Recording Arts Orchestra,https://www.allmusic.com/artist/anne-sophie-mutter-mn0000032775,2025-03-20 13:24:51
+1850,Masma Dream World,https://www.allmusic.com/artist/masma-dream-world-mn0003992565,2025-03-20 13:24:51
+1854,Elmer Bernstein / James Sedares / Phoenix Symphony,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087,2025-03-20 13:25:25
+1867,Guns N' Roses,https://www.allmusic.com/artist/guns-n-roses-mn0000540883,2025-03-20 13:26:01
+1883,Richard Dawson,https://www.allmusic.com/artist/richard-dawson-mn0003314381,2025-03-20 13:26:37
+1895,Théotime Langlois de Swarte / Le Consort,https://www.allmusic.com/artist/th%C3%A9otime-langlois-de-swarte-mn0003854251,2025-03-20 13:27:13
+1899,Plácido Domingo / Eve Queler,https://www.allmusic.com/artist/pl%C3%A1cido-domingo-mn0000851639,2025-03-20 13:27:48
+1901,Leonard Bernstein / New York Philharmonic,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859,2025-03-20 13:27:48
+1902,André Previn / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250,2025-03-20 13:27:48
+1907,Hank Thompson,https://www.allmusic.com/artist/hank-thompson-mn0000947816,2025-03-20 13:28:24
+1910,The Doors,https://www.allmusic.com/artist/the-doors-mn0000114342,2025-03-20 13:28:24
+1915,Łukasz Borowicz / WDR Sinfonieorchester Köln,https://www.allmusic.com/artist/%C5ukasz-borowicz-mn0001815231,2025-03-20 13:28:24
+1918,Carl Cox,https://www.allmusic.com/artist/carl-cox-mn0000174470,2025-03-20 13:28:58
+1919,A Guy Called Gerald,https://www.allmusic.com/artist/a-guy-called-gerald-mn0000919598,2025-03-20 13:28:59
+1920,Juan Atkins / Moritz von Oswald / Borderland,https://www.allmusic.com/artist/juan-atkins-mn0000831104,2025-03-20 13:28:59
+1921,Mouse on Mars,https://www.allmusic.com/artist/mouse-on-mars-mn0000929800,2025-03-20 13:28:59
+1922,Bruno Mars,https://www.allmusic.com/artist/bruno-mars-mn0001032082,2025-03-20 13:28:59
+1923,The Genius / GZA,https://www.allmusic.com/artist/the-genius-mn0001799163,2025-03-20 13:28:59
+1926,Black Star / Mos Def / Talib Kweli,https://www.allmusic.com/artist/black-star-mn0000098433,2025-03-20 13:29:33
+1931,Stanley Turrentine,https://www.allmusic.com/artist/stanley-turrentine-mn0000012644,2025-03-20 13:29:34
+1935,Anoushka Shankar,https://www.allmusic.com/artist/anoushka-shankar-mn0000588694,2025-03-20 13:29:34
+1938,Drake,https://www.allmusic.com/artist/drake-mn0001035294,2025-03-20 13:30:09
+1939,Simon & Garfunkel,https://www.allmusic.com/artist/simon-garfunkel-mn0000038936,2025-03-20 13:30:09
+1941,Lykke Li,https://www.allmusic.com/artist/lykke-li-mn0000996075,2025-03-20 13:30:09
+1942,Charlie Rich,https://www.allmusic.com/artist/charlie-rich-mn0000179730,2025-03-20 13:30:09
+1952,Johnny Mathis,https://www.allmusic.com/artist/johnny-mathis-mn0000246885,2025-03-20 13:30:44
+1954,Enoch Light,https://www.allmusic.com/artist/enoch-light-mn0000149718,2025-03-20 13:30:44
+1959,TobyMac,https://www.allmusic.com/artist/tobymac-mn0000510885,2025-03-20 13:30:44
+1982,The Moles,https://www.allmusic.com/artist/the-moles-mn0000404742,2025-03-20 13:31:55
+1987,Buju Banton,https://www.allmusic.com/artist/buju-banton-mn0000939187,2025-03-20 13:32:31
+1989,Sarah Connolly / Masabane Cecilia Rangwanasha / Antonio Pappano / London Symphony Orchestra,https://www.allmusic.com/artist/sarah-connolly-mn0002343756,2025-03-20 13:32:31
+1990,The Wailing Souls,https://www.allmusic.com/artist/the-wailing-souls-mn0000812367,2025-03-20 13:32:31
+1992,Kestrels,https://www.allmusic.com/artist/kestrels-mn0002648972,2025-03-20 13:32:31
+1993,The King's Singers,https://www.allmusic.com/artist/the-kings-singers-mn0000929562,2025-03-20 13:33:07
+1995,Nas,https://www.allmusic.com/artist/nas-mn0000373634,2025-03-20 13:33:07
+1996,Lupe Fiasco,https://www.allmusic.com/artist/lupe-fiasco-mn0000239628,2025-03-20 13:33:07
+1998,King's College Choir of Cambridge / Daniel Hyde,https://www.allmusic.com/artist/kings-college-choir-of-cambridge-mn0000608992,2025-03-20 13:33:07
+1999,Anonymous 4,https://www.allmusic.com/artist/anonymous-4-mn0000222265,2025-03-20 13:33:07
+2000,Chanticleer,https://www.allmusic.com/artist/chanticleer-mn0000817257,2025-03-20 13:33:07
+2006,Kurt Masur / New York Philharmonic,https://www.allmusic.com/artist/kurt-masur-mn0000046842,2025-03-20 13:33:43
+2013,Paavo Järvi / Zurich Tonhalle Orchestra,https://www.allmusic.com/artist/paavo-j%C3%A4rvi-mn0000017107,2025-03-20 13:33:43
+2019,Hans Zimmer,https://www.allmusic.com/artist/hans-zimmer-mn0000961427,2025-03-20 13:34:18
+2021,Jaap van Zweden / New York Philharmonic,https://www.allmusic.com/artist/jaap-van-zweden-mn0001655338,2025-03-20 13:34:18
+2024,Andrea Marcon / Vasilisa Berzhanskaya / Benedetta Mazzucato / La Cetra,https://www.allmusic.com/artist/andrea-marcon-mn0002214957,2025-03-20 13:34:19
+2025,RAVEN,https://www.allmusic.com/artist/raven-mn0004191962,2025-03-20 13:34:19
+2042,Kronos Quartet / Mahsa Vahdat / Mahsa & Marjan Vahdat / Marjan Vahdat,https://www.allmusic.com/artist/kronos-quartet-mn0000775212,2025-03-20 13:35:28
+2043,Jean-Michel Jarre,https://www.allmusic.com/artist/jean-michel-jarre-mn0000230593,2025-03-20 13:35:28
+2046,Brown Spirits,https://www.allmusic.com/artist/brown-spirits-mn0004398917,2025-03-20 13:35:29
+2048,Gnod / White Hills,https://www.allmusic.com/artist/gnod-mn0002479499,2025-03-20 13:35:29
+2049,Lonnie Holley,https://www.allmusic.com/artist/lonnie-holley-mn0003016152,2025-03-20 13:35:29
+2051,Jim Reeves,https://www.allmusic.com/artist/jim-reeves-mn0000903609,2025-03-20 13:36:04
+2059,Andy Bell,https://www.allmusic.com/artist/andy-bell-mn0002443836,2025-03-20 13:36:04
+2061,The Weeknd,https://www.allmusic.com/artist/the-weeknd-mn0002674162,2025-03-20 13:36:39
+2066,Tame Impala,https://www.allmusic.com/artist/tame-impala-mn0002014409,2025-03-20 13:36:40
+2067,Travis Scott,https://www.allmusic.com/artist/travis-scott-mn0002998422,2025-03-20 13:36:40
+2069,High.,https://www.allmusic.com/artist/high-mn0004739806,2025-03-20 13:36:40
+2070,lots of hands,https://www.allmusic.com/artist/lots-of-hands-mn0004369444,2025-03-20 13:36:40
+2071,OsamaSon,https://www.allmusic.com/artist/osamason-mn0004485971,2025-03-20 13:36:40
+2072,2Pac,https://www.allmusic.com/artist/2pac-mn0000921895,2025-03-20 13:37:15
+2076,Gang Starr,https://www.allmusic.com/artist/gang-starr-mn0000193601,2025-03-20 13:37:16
+2087,Jlin,https://www.allmusic.com/artist/jlin-mn0002791912,2025-03-20 13:37:50
+2088,Every Time I Die,https://www.allmusic.com/artist/every-time-i-die-mn0000155091,2025-03-20 13:37:50
+2089,Doug Stanhope,https://www.allmusic.com/artist/doug-stanhope-mn0000803682,2025-03-20 13:37:51
+2090,Testament,https://www.allmusic.com/artist/testament-mn0000751910,2025-03-20 13:37:51
+2092,Sophie Jamieson,https://www.allmusic.com/artist/sophie-jamieson-mn0003012687,2025-03-20 13:37:51
+2093,Iggy & the Stooges / The Stooges,https://www.allmusic.com/artist/iggy-the-stooges-mn0000769915,2025-03-20 13:38:26
+2096,St. Vincent,https://www.allmusic.com/artist/st-vincent-mn0000574035,2025-03-20 13:38:26
+2100,Lalo Schifrin,https://www.allmusic.com/artist/lalo-schifrin-mn0000781932,2025-03-20 13:38:26
+2102,The Tubs,https://www.allmusic.com/artist/the-tubs-mn0003911636,2025-03-20 13:38:27
+2103,Whatever the Weather,https://www.allmusic.com/artist/whatever-the-weather-mn0004189203,2025-03-20 13:38:27
+2104,Vundabar,https://www.allmusic.com/artist/vundabar-mn0003904698,2025-03-20 13:38:27
+2114,Facs,https://www.allmusic.com/artist/facs-mn0003718618,2025-03-20 13:39:03
+2129,Linda Ronstadt,https://www.allmusic.com/artist/linda-ronstadt-mn0000686897,2025-03-20 13:40:14
+2131,Leon Redbone,https://www.allmusic.com/artist/leon-redbone-mn0000240503,2025-03-20 13:40:14
+2133,Van Dyke Parks,https://www.allmusic.com/artist/van-dyke-parks-mn0000838241,2025-03-20 13:40:14
+2134,Natalie Cole,https://www.allmusic.com/artist/natalie-cole-mn0000074195,2025-03-20 13:40:14
+2135,John Cale,https://www.allmusic.com/artist/john-cale-mn0000224638,2025-03-20 13:40:14
+2136,Edwyn Collins,https://www.allmusic.com/artist/edwyn-collins-mn0000620603,2025-03-20 13:40:14
+2137,Theo Hoffman / Steven Blier / Kunal Lahiry,https://www.allmusic.com/artist/theo-hoffman-mn0004721560,2025-03-20 13:40:15
+2151,Marmen Quartet,https://www.allmusic.com/artist/marmen-quartet-mn0004264138,2025-03-20 13:40:51
+2152,Ahmad Jamal / Ahmad Jamal Trio,https://www.allmusic.com/artist/ahmad-jamal-mn0000127369,2025-03-20 13:41:25
+2156,Ahmad Jamal,https://www.allmusic.com/artist/ahmad-jamal-mn0000127369,2025-03-20 13:41:26
+2168,André Rieu,https://www.allmusic.com/artist/andr%C3%A9-rieu-mn0000819535,2025-03-20 13:42:02
+2170,Paavo Berglund / Mariss Jansons / André Previn,https://www.allmusic.com/artist/paavo-berglund-mn0000538303,2025-03-20 13:42:02
+2176,Lauryn Hill,https://www.allmusic.com/artist/lauryn-hill-mn0000113753,2025-03-20 13:42:35
+2178,Dock Boggs,https://www.allmusic.com/artist/dock-boggs-mn0000794145,2025-03-20 13:42:36
+2180,Los Lobos,https://www.allmusic.com/artist/los-lobos-mn0000354733,2025-03-20 13:42:36
+2192,Milt Jackson,https://www.allmusic.com/artist/milt-jackson-mn0000489845,2025-03-20 13:43:12
+2194,Keith Jarrett,https://www.allmusic.com/artist/keith-jarrett-mn0000066570,2025-03-20 13:43:12
+2195,Romeo Santos,https://www.allmusic.com/artist/romeo-santos-mn0002367865,2025-03-20 13:43:12
+2201,Minor Threat,https://www.allmusic.com/artist/minor-threat-mn0000422947,2025-03-20 13:43:47
+2202,U2,https://www.allmusic.com/artist/u2-mn0000219203,2025-03-20 13:43:47
+2203,Bob Marley / Bob Marley & the Wailers,https://www.allmusic.com/artist/bob-marley-mn0000071514,2025-03-20 13:43:47
+2204,Sly & the Family Stone,https://www.allmusic.com/artist/sly-the-family-stone-mn0000033161,2025-03-20 13:43:47
+2206,Ice-T,https://www.allmusic.com/artist/ice-t-mn0000072003,2025-03-20 13:43:47
+2210,Richard Pryor,https://www.allmusic.com/artist/richard-pryor-mn0000295415,2025-03-20 13:44:21
+2212,Captain Beefheart & the Magic Band,https://www.allmusic.com/artist/captain-beefheart-the-magic-band-mn0000646816,2025-03-20 13:44:21
+2213,Slayer,https://www.allmusic.com/artist/slayer-mn0000022124,2025-03-20 13:44:22
+2214,Alice Cooper,https://www.allmusic.com/artist/alice-cooper-mn0000005953,2025-03-20 13:44:22
+2215,Ol' Dirty Bastard,https://www.allmusic.com/artist/ol-dirty-bastard-mn0000463803,2025-03-20 13:44:22
+2216,Bill Hicks,https://www.allmusic.com/artist/bill-hicks-mn0000077267,2025-03-20 13:44:22
+2233,Dexter Gordon,https://www.allmusic.com/artist/dexter-gordon-mn0000208404,2025-03-20 13:45:30
+2238,The Flying Burrito Brothers,https://www.allmusic.com/artist/the-flying-burrito-brothers-mn0000194703,2025-03-20 13:45:31
+2259,The Chieftains / Ry Cooder,https://www.allmusic.com/artist/the-chieftains-mn0000067406,2025-03-20 13:46:41
+2260,Arthur Fiedler / Boston Pops Orchestra / Chet Atkins,https://www.allmusic.com/artist/arthur-fiedler-mn0000932323,2025-03-20 13:46:41
+2262,Canadian Brass,https://www.allmusic.com/artist/canadian-brass-mn0000238292,2025-03-20 13:46:41
+2264,Blue's Clues,https://www.allmusic.com/artist/blues-clues-mn0000761868,2025-03-20 13:47:16
+2265,Alexandre Desplat,https://www.allmusic.com/artist/alexandre-desplat-mn0000254147,2025-03-20 13:47:16
+2266,Sia,https://www.allmusic.com/artist/sia-mn0000753742,2025-03-20 13:47:16
+2268,Tennis,https://www.allmusic.com/artist/tennis-mn0002515996,2025-03-20 13:47:16
+2269,Aziz Ansari,https://www.allmusic.com/artist/aziz-ansari-mn0002362500,2025-03-20 13:47:17
+2270,Death Cab for Cutie,https://www.allmusic.com/artist/death-cab-for-cutie-mn0000812711,2025-03-20 13:47:17
+2271,The Brecker Brothers,https://www.allmusic.com/artist/the-brecker-brothers-mn0000521674,2025-03-20 13:47:17
+2276,Rinde Eckert / Van-Anh Vanessa Vo / Kronos Quartet,https://www.allmusic.com/artist/rinde-eckert-mn0002230545,2025-03-20 13:47:52
+2280,Jesse Blumberg / Adriana Zabala / Martin Katz / J.J. Penna,https://www.allmusic.com/artist/jesse-blumberg-mn0002231564,2025-03-20 13:47:52
+2282,Adam Tendler,https://www.allmusic.com/artist/adam-tendler-mn0003614874,2025-03-20 13:47:52
+2283,Will Stratton,https://www.allmusic.com/artist/will-stratton-mn0000635973,2025-03-20 13:47:52
+2286,Anonymous 4 / Bruce Molsky,https://www.allmusic.com/artist/anonymous-4-mn0000222265,2025-03-20 13:48:26
+2287,Jordi Savall / Le Concert des Nations,https://www.allmusic.com/artist/jordi-savall-mn0000676650,2025-03-20 13:48:26
+2288,Chamber Orchestra of Europe / Alexander Janiczek,https://www.allmusic.com/artist/chamber-orchestra-of-europe-mn0000200797,2025-03-20 13:48:26
+2289,Isaac Stern,https://www.allmusic.com/artist/isaac-stern-mn0000965898,2025-03-20 13:48:27
+2290,Bob & Ray,https://www.allmusic.com/artist/bob-ray-mn0000047816,2025-03-20 13:48:27
+2291,Dora Schwarzberg / Martha Argerich,https://www.allmusic.com/artist/dora-schwarzberg-mn0002181296,2025-03-20 13:48:27
+2298,Bill Monroe / Bill Monroe & His Bluegrass Boys,https://www.allmusic.com/artist/bill-monroe-mn0000081083,2025-03-20 13:49:03
+2299,Flatt & Scruggs,https://www.allmusic.com/artist/flatt-scruggs-mn0000227527,2025-03-20 13:49:03
+2305,Dave Brubeck,https://www.allmusic.com/artist/dave-brubeck-mn0000958533,2025-03-20 13:49:37
+2306,Devo,https://www.allmusic.com/artist/devo-mn0000249973,2025-03-20 13:49:37
+2307,Beastie Boys,https://www.allmusic.com/artist/beastie-boys-mn0000038469,2025-03-20 13:49:37
+2308,Pucho & His Latin Soul Brothers,https://www.allmusic.com/artist/pucho-his-latin-soul-brothers-mn0000367219,2025-03-20 13:49:38
+2309,Biz Markie,https://www.allmusic.com/artist/biz-markie-mn0000107294,2025-03-20 13:49:38
+2311,The Bonzo Dog Band / Bonzo Dog Doo Dah Band,https://www.allmusic.com/artist/the-bonzo-dog-band-mn0000772191,2025-03-20 13:49:38
+2320,Beach House,https://www.allmusic.com/artist/beach-house-mn0000998969,2025-03-20 13:50:13
+2321,Rodgers & Hammerstein,https://www.allmusic.com/artist/rodgers-hammerstein-mn0000245385,2025-03-20 13:50:13
+2327,The Weather Station,https://www.allmusic.com/artist/the-weather-station-mn0001066820,2025-03-20 13:50:13
+2350,The Chills,https://www.allmusic.com/artist/the-chills-mn0000068738,2025-03-20 13:51:25
+2357,Future,https://www.allmusic.com/artist/future-mn0000802605,2025-03-20 13:52:00
+2370,Garth Brooks,https://www.allmusic.com/artist/garth-brooks-mn0000798248,2025-03-20 13:52:35
+2371,The Ink Spots,https://www.allmusic.com/artist/the-ink-spots-mn0000082831,2025-03-20 13:52:35
+2379,MC5,https://www.allmusic.com/artist/mc5-mn0000182598,2025-03-20 13:53:09
+2381,Roscoe Mitchell Sextet / Roscoe Mitchell,https://www.allmusic.com/artist/roscoe-mitchell-sextet-mn0001259929,2025-03-20 13:53:09
+2383,Peaches,https://www.allmusic.com/artist/peaches-mn0000752770,2025-03-20 13:53:09
+2391,Taylor Swift,https://www.allmusic.com/artist/taylor-swift-mn0000472102,2025-03-20 13:53:46
+2406,The Chieftains,https://www.allmusic.com/artist/the-chieftains-mn0000067406,2025-03-20 13:54:22
+2411,Joe Meek / Joe Meek & the Blue Men,https://www.allmusic.com/artist/joe-meek-mn0000209088,2025-03-20 13:54:56
+2412,Rachel Podger / Brecon Baroque,https://www.allmusic.com/artist/rachel-podger-mn0001291190,2025-03-20 13:54:56
+2413,Grigory Sokolov,https://www.allmusic.com/artist/grigory-sokolov-mn0002214879,2025-03-20 13:54:56
+2414,Buck Meek,https://www.allmusic.com/artist/buck-meek-mn0003518712,2025-03-20 13:54:56
+2415,Apollo's Fire / Jeannette Sorrell,https://www.allmusic.com/artist/apollos-fire-mn0002218641,2025-03-20 13:54:56
+2416,Marcus Farnsworth / Eric McElroy,https://www.allmusic.com/artist/marcus-farnsworth-mn0002669287,2025-03-20 13:54:56
+2418,Ari Roar,https://www.allmusic.com/artist/ari-roar-mn0003732622,2025-03-20 13:54:57
+2420,The Sugarcubes,https://www.allmusic.com/artist/the-sugarcubes-mn0000919525,2025-03-20 13:55:29
+2421,The Incredible String Band,https://www.allmusic.com/artist/the-incredible-string-band-mn0000099561,2025-03-20 13:55:30
+2422,Ween,https://www.allmusic.com/artist/ween-mn0000817754,2025-03-20 13:55:30
+2423,The Shaggs,https://www.allmusic.com/artist/the-shaggs-mn0000418794,2025-03-20 13:55:30
+2424,Beck,https://www.allmusic.com/artist/beck-mn0000124492,2025-03-20 13:55:30
+2425,The Dead Milkmen,https://www.allmusic.com/artist/the-dead-milkmen-mn0000140891,2025-03-20 13:55:30
+2432,Deniece Williams,https://www.allmusic.com/artist/deniece-williams-mn0000816701,2025-03-20 13:56:09
+2434,Lalah Hathaway,https://www.allmusic.com/artist/lalah-hathaway-mn0000127696,2025-03-20 13:56:09
+2435,Joyce DiDonato / Renée Fleming / Kelli O'Hara / Yannick Nézet-Séguin / Metropolitan Opera Orchestra,https://www.allmusic.com/artist/joyce-didonato-mn0000072457,2025-03-20 13:56:10
+2436,M83,https://www.allmusic.com/artist/m83-mn0000175525,2025-03-20 13:56:10
+2438,Mary J. Blige,https://www.allmusic.com/artist/mary-j-blige-mn0000376204,2025-03-20 13:56:10
+2442,Mereba,https://www.allmusic.com/artist/mereba-mn0003716335,2025-03-20 13:56:10
+2450,Harry James / Willie Smith,https://www.allmusic.com/artist/harry-james-mn0000950571,2025-03-20 13:56:46
+2455,The Replacements,https://www.allmusic.com/artist/the-replacements-mn0000422405,2025-03-20 13:57:20
+2459,Sebadoh,https://www.allmusic.com/artist/sebadoh-mn0000840523,2025-03-20 13:57:20
+2460,Sparklehorse,https://www.allmusic.com/artist/sparklehorse-mn0000008549,2025-03-20 13:57:20
+2461,Palace Music,https://www.allmusic.com/artist/palace-music-mn0001633598,2025-03-20 13:57:20
+2472,Mahalia Jackson,https://www.allmusic.com/artist/mahalia-jackson-mn0000814657,2025-03-20 13:57:54
+2479,Céline Dion,https://www.allmusic.com/artist/c%C3%A9line-dion-mn0000186185,2025-03-20 13:58:28
+2480,Mike Posner,https://www.allmusic.com/artist/mike-posner-mn0001740826,2025-03-20 13:58:28
+2481,Jim Oblon,https://www.allmusic.com/artist/jim-oblon-mn0002455463,2025-03-20 13:58:28
+2482,Xavier Rudd & the United Nations / Xavier Rudd,https://www.allmusic.com/artist/xavier-rudd-the-united-nations-mn0003364823,2025-03-20 13:58:28
+2483,John Legend / The Roots,https://www.allmusic.com/artist/john-legend-mn0000814387,2025-03-20 13:58:29
+2484,Priscilla Paris,https://www.allmusic.com/artist/priscilla-paris-mn0001215720,2025-03-20 13:58:29
+2485,Jimmy Eat World,https://www.allmusic.com/artist/jimmy-eat-world-mn0000852688,2025-03-20 13:58:29
+2486,Kelela,https://www.allmusic.com/artist/kelela-mn0002946658,2025-03-20 13:58:29
+2489,Livingston Taylor / BBC Concert Orchestra,https://www.allmusic.com/artist/livingston-taylor-mn0000266952,2025-03-20 13:58:29
+2501,Dennis Bovell,https://www.allmusic.com/artist/dennis-bovell-mn0000240402,2025-03-20 13:59:06
+2508,The Allman Brothers Band,https://www.allmusic.com/artist/the-allman-brothers-band-mn0000745964,2025-03-20 13:59:41
+2513,EST Gee,https://www.allmusic.com/artist/est-gee-mn0003877273,2025-03-20 13:59:41
+2531,John Lennon,https://www.allmusic.com/artist/john-lennon-mn0000232564,2025-03-20 14:00:51
+2542,Blur,https://www.allmusic.com/artist/blur-mn0000758444,2025-03-20 14:01:26
+2545,Chvrches,https://www.allmusic.com/artist/chvrches-mn0003052164,2025-03-20 14:01:27
+2546,Christopher Tin / Voces8 / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/christopher-tin-mn0001435165,2025-03-20 14:01:27
+2550,The Gentle Spring,https://www.allmusic.com/artist/the-gentle-spring-mn0004613282,2025-03-20 14:01:27
+2556,Lester Young,https://www.allmusic.com/artist/lester-young-mn0000259529,2025-03-20 14:02:02
+2571,Joan Armatrading,https://www.allmusic.com/artist/joan-armatrading-mn0000133969,2025-03-20 14:02:38
+2572,Ela Minus,https://www.allmusic.com/artist/ela-minus-mn0003595856,2025-03-20 14:02:38
+2573,Marinero,https://www.allmusic.com/artist/marinero-mn0002119549,2025-03-20 14:02:38
+2574,Souled American,https://www.allmusic.com/artist/souled-american-mn0000050498,2025-03-20 14:02:38
+2578,London Symphony Orchestra / John Williams,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907,2025-03-20 14:03:13
+2580,Yo-Yo Ma / Anne-Sophie Mutter / Daniel Barenboim / West-Eastern Divan Orchestra,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,2025-03-20 14:03:14
+2581,Solange,https://www.allmusic.com/artist/solange-mn0000041462,2025-03-20 14:03:14
+2585,Peter Donohoe / Karl Lutchmayer,https://www.allmusic.com/artist/peter-donohoe-mn0000075930,2025-03-20 14:03:14
+2594,George Strait,https://www.allmusic.com/artist/george-strait-mn0000944084,2025-03-20 14:03:48
+2602,James Cleveland,https://www.allmusic.com/artist/james-cleveland-mn0000668448,2025-03-20 14:04:23
+2617,Arthur Fiedler,https://www.allmusic.com/artist/arthur-fiedler-mn0000932323,2025-03-20 14:04:58
+2620,Renaud Capuçon / Daniel Harding / L'Orchestre de la Suisse Romande,https://www.allmusic.com/artist/renaud-capu%C3%A7on-mn0001655495,2025-03-20 14:04:59
+2622,Shannon Lee / Arseniy Gusev,https://www.allmusic.com/artist/shannon-lee-mn0002247614,2025-03-20 14:04:59
+2640,Minnie Riperton,https://www.allmusic.com/artist/minnie-riperton-mn0000500889,2025-03-20 14:06:07
+2641,Prefab Sprout,https://www.allmusic.com/artist/prefab-sprout-mn0000300024,2025-03-20 14:06:07
+2664,Buckwheat Zydeco / Buckwheat Zydeco Ils Sont Partis Band,https://www.allmusic.com/artist/buckwheat-zydeco-mn0000636106,2025-03-20 14:07:17
+2665,Oasis,https://www.allmusic.com/artist/oasis-mn0000393345,2025-03-20 14:07:17
+2666,Hasil Adkins,https://www.allmusic.com/artist/hasil-adkins-mn0000951924,2025-03-20 14:07:17
+2674,The Kingston Trio,https://www.allmusic.com/artist/the-kingston-trio-mn0000102050,2025-03-20 14:07:52
+2685,David Daniels / Lorraine Hunt Lieberson / Dawn Upshaw,https://www.allmusic.com/artist/david-daniels-mn0001648948,2025-03-20 14:08:27
+2687,Jan Garbarek / The Hilliard Ensemble,https://www.allmusic.com/artist/jan-garbarek-mn0000809334,2025-03-20 14:08:27
+2688,St. Albans Cathedral Choir / Andrew Lucas / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/st-albans-cathedral-choir-mn0002196837,2025-03-20 14:08:27
+2689,Ron Carter / Danny Simmons,https://www.allmusic.com/artist/ron-carter-mn0000275832,2025-03-20 14:08:27
+2690,King's College Choir of Cambridge / Stephen Cleobury / Gerald Finley / Orchestra of the Age of Enlightenment / Tom Pickard,https://www.allmusic.com/artist/kings-college-choir-of-cambridge-mn0000608992,2025-03-20 14:08:28
+2723,Marie Davidson,https://www.allmusic.com/artist/marie-davidson-mn0002476261,2025-03-20 14:10:17
+2732,Ex-Vöid,https://www.allmusic.com/artist/ex-v%C3%B6id-mn0003882516,2025-03-20 14:10:53
+2740,Sleaford Mods,https://www.allmusic.com/artist/sleaford-mods-mn0003160641,2025-03-20 14:11:29
+2741,Death Grips,https://www.allmusic.com/artist/death-grips-mn0002741208,2025-03-20 14:11:29
+2745,Bernard Herrmann,https://www.allmusic.com/artist/bernard-herrmann-mn0000760240,2025-03-20 14:12:05
+2753,Amanda Majeski / Gyula Orendt / Mirga Gražinytė-Tyla / Coro del Teatro Real de Madrid / Daveda Karanas / Orquesta Titular del Teatro Real / Nikolai Schukoff,https://www.allmusic.com/artist/amanda-majeski-mn0001708615,2025-03-20 14:12:05
+2756,Bilal,https://www.allmusic.com/artist/bilal-mn0000057280,2025-03-20 14:12:40
+2757,King Gizzard & the Lizard Wizard,https://www.allmusic.com/artist/king-gizzard-the-lizard-wizard-mn0003085959,2025-03-20 14:12:40
+2759,Daniel Hope / André de Ridder / Konzerthaus Kammerorchester Berlin / Max Richter,https://www.allmusic.com/artist/daniel-hope-mn0000117642,2025-03-20 14:12:41
+2760,Shabazz Palaces,https://www.allmusic.com/artist/shabazz-palaces-mn0002678775,2025-03-20 14:12:41
+2782,Prince Royce,https://www.allmusic.com/artist/prince-royce-mn0002385531,2025-03-20 14:13:55
+2784,Brandy,https://www.allmusic.com/artist/brandy-mn0000608945,2025-03-20 14:13:55
+2794,Webb Pierce,https://www.allmusic.com/artist/webb-pierce-mn0000198901,2025-03-20 14:14:30
+2801,Dusty Springfield,https://www.allmusic.com/artist/dusty-springfield-mn0000159214,2025-03-20 14:15:05
+2803,Basement Jaxx,https://www.allmusic.com/artist/basement-jaxx-mn0000142249,2025-03-20 14:15:05
+2804,George Michael,https://www.allmusic.com/artist/george-michael-mn0000545074,2025-03-20 14:15:05
+2805,Dead Can Dance,https://www.allmusic.com/artist/dead-can-dance-mn0000225948,2025-03-20 14:15:06
+2811,Bing Crosby,https://www.allmusic.com/artist/bing-crosby-mn0000094252,2025-03-20 14:15:40
+2812,Carole King,https://www.allmusic.com/artist/carole-king-mn0000174557,2025-03-20 14:15:40
+2817,The Platters,https://www.allmusic.com/artist/the-platters-mn0000894335,2025-03-20 14:15:40
+2830,Thin Lizzy,https://www.allmusic.com/artist/thin-lizzy-mn0000590479,2025-03-20 14:16:15
+2838,Daniel Harding / Håkan Hardenberger / London Symphony Orchestra,https://www.allmusic.com/artist/daniel-harding-mn0001674267,2025-03-20 14:16:50
+2839,Cabaret Voltaire,https://www.allmusic.com/artist/cabaret-voltaire-mn0000635413,2025-03-20 14:16:50
+2840,The Bug,https://www.allmusic.com/artist/the-bug-mn0000629224,2025-03-20 14:16:50
+2841,Ozzy Osbourne,https://www.allmusic.com/artist/ozzy-osbourne-mn0000424244,2025-03-20 14:16:50
+2842,Kronos Quartet,https://www.allmusic.com/artist/kronos-quartet-mn0000775212,2025-03-20 14:16:50
+2847,Madonna,https://www.allmusic.com/artist/madonna-mn0000237205,2025-03-20 14:17:24
+2848,D'Angelo,https://www.allmusic.com/artist/dangelo-mn0000134600,2025-03-20 14:17:24
+2856,Serge Gainsbourg,https://www.allmusic.com/artist/serge-gainsbourg-mn0000174822,2025-03-20 14:17:58
+2857,Barry White,https://www.allmusic.com/artist/barry-white-mn0000149044,2025-03-20 14:17:58
+2858,Chic,https://www.allmusic.com/artist/chic-mn0000092942,2025-03-20 14:17:58
+2861,Roxy Music,https://www.allmusic.com/artist/roxy-music-mn0000852855,2025-03-20 14:17:58
+2862,Luther Vandross,https://www.allmusic.com/artist/luther-vandross-mn0000208076,2025-03-20 14:17:58
+2891,Digital Underground,https://www.allmusic.com/artist/digital-underground-mn0000258276,2025-03-20 14:19:44
+2892,Snoop Dogg,https://www.allmusic.com/artist/snoop-dogg-mn0000029086,2025-03-20 14:19:44
+2893,AC/DC,https://www.allmusic.com/artist/ac-dc-mn0000574772,2025-03-20 14:19:44
+2896,Lil' Kim,https://www.allmusic.com/artist/lil-kim-mn0000278439,2025-03-20 14:19:45
+2897,The Donnas,https://www.allmusic.com/artist/the-donnas-mn0000784535,2025-03-20 14:19:45
+2898,Kool Keith,https://www.allmusic.com/artist/kool-keith-mn0000777156,2025-03-20 14:19:45
+2901,Oscar Peterson / Oscar Peterson Trio,https://www.allmusic.com/artist/oscar-peterson-mn0000489316,2025-03-20 14:20:19
+2928,Green Day,https://www.allmusic.com/artist/green-day-mn0000154544,2025-03-20 14:21:32
+2938,Ronnie Milsap,https://www.allmusic.com/artist/ronnie-milsap-mn0000334740,2025-03-20 14:22:10
+2941,Dolly Parton / Porter Wagoner,https://www.allmusic.com/artist/dolly-parton-mn0000175286,2025-03-20 14:22:10
+2942,Alessia Cara,https://www.allmusic.com/artist/alessia-cara-mn0003396562,2025-03-20 14:22:10
+2943,Simon Callaghan / Ashok Klouda / Members of Piatti Quartet,https://www.allmusic.com/artist/simon-callaghan-mn0002887281,2025-03-20 14:22:10
+2944,Edith Frost,https://www.allmusic.com/artist/edith-frost-mn0000798160,2025-03-20 14:22:10
+2994,Gustavo Dudamel / Los Angeles Master Chorale / Los Angeles Philharmonic Orchestra,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636,2025-03-20 14:25:11
+2995,Laurie Anderson / Tenzin Choegyal / Jesse Paris Smith,https://www.allmusic.com/artist/laurie-anderson-mn0000785773,2025-03-20 14:25:11
+2999,Ani DiFranco,https://www.allmusic.com/artist/ani-difranco-mn0000046794,2025-03-20 14:25:12
+3000,Billie Eilish,https://www.allmusic.com/artist/billie-eilish-mn0003475903,2025-03-20 14:25:12
+3001,Paul Bley / Paul Motian / Gary Peacock,https://www.allmusic.com/artist/paul-bley-mn0000745617,2025-03-20 14:25:12
+3017,Ora the Molecule,https://www.allmusic.com/artist/ora-the-molecule-mn0004023123,2025-03-20 14:25:48
+3021,Brownie McGhee,https://www.allmusic.com/artist/brownie-mcghee-mn0000630882,2025-03-20 14:26:22
+3022,Holly Golightly,https://www.allmusic.com/artist/holly-golightly-mn0000958907,2025-03-20 14:26:22
+3024,Violent Femmes,https://www.allmusic.com/artist/violent-femmes-mn0000922200,2025-03-20 14:26:22
+3033,Gipsy Kings,https://www.allmusic.com/artist/gipsy-kings-mn0000555695,2025-03-20 14:26:57
+3035,Santana,https://www.allmusic.com/artist/santana-mn0000295756,2025-03-20 14:26:57
+3051,The Lijadu Sisters,https://www.allmusic.com/artist/the-lijadu-sisters-mn0000094507,2025-03-20 14:28:09
+3052,Clive Lythgoe,https://www.allmusic.com/artist/clive-lythgoe-mn0001198853,2025-03-20 14:28:09
+3053,Mel Brooks / Carl Reiner,https://www.allmusic.com/artist/mel-brooks-mn0000342833,2025-03-20 14:28:09
+3054,Mayday!,https://www.allmusic.com/artist/mayday%21-mn0000602072,2025-03-20 14:28:09
+3055,Sabina,https://www.allmusic.com/artist/sabina-mn0003208768,2025-03-20 14:28:09
+3056,Buke and Gase,https://www.allmusic.com/artist/buke-and-gase-mn0002019109,2025-03-20 14:28:09
+3065,Skip James,https://www.allmusic.com/artist/skip-james-mn0000017137,2025-03-20 14:28:44
+3068,The Carter Family / The Original Carter Family,https://www.allmusic.com/artist/the-carter-family-mn0000051910,2025-03-20 14:28:44
+3089,George Benson,https://www.allmusic.com/artist/george-benson-mn0000201760,2025-03-20 14:29:55
+3091,The Go-Betweens,https://www.allmusic.com/artist/the-go-betweens-mn0000766361,2025-03-20 14:29:55
+3095,Sophie Yates,https://www.allmusic.com/artist/sophie-yates-mn0001652167,2025-03-20 14:29:55
+3113,Wes Montgomery,https://www.allmusic.com/artist/wes-montgomery-mn0000248392,2025-03-20 14:31:05
+3119,Gerhard Oppitz,https://www.allmusic.com/artist/gerhard-oppitz-mn0000621992,2025-03-20 14:31:06
+3138,Chance the Rapper,https://www.allmusic.com/artist/chance-the-rapper-mn0003115050,2025-03-20 14:32:15
+3144,Christopher Guild / Marcel Zidani,https://www.allmusic.com/artist/christopher-guild-mn0002962538,2025-03-20 14:32:16
+3176,Curtis Mayfield,https://www.allmusic.com/artist/curtis-mayfield-mn0000144458,2025-03-20 14:34:00
+3181,Chet Atkins,https://www.allmusic.com/artist/chet-atkins-mn0000094205,2025-03-20 14:34:34
+3183,Nelson Riddle,https://www.allmusic.com/artist/nelson-riddle-mn0000322027,2025-03-20 14:34:34
+3184,The Million Dollar Quartet / Elvis Presley / Jerry Lee Lewis / Carl Perkins / Johnny Cash,https://www.allmusic.com/artist/the-million-dollar-quartet-mn0000490877,2025-03-20 14:34:34
+3203,Maxi Priest,https://www.allmusic.com/artist/maxi-priest-mn0000866417,2025-03-20 14:35:44
+3204,Beth & Flo / Grace Davidson / Julia Doyle / Oliver Davis / Paul Bateman / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/beth-flo-mn0004033303,2025-03-20 14:35:44
+3205,Common / Pete Rock,https://www.allmusic.com/artist/common-mn0000115253,2025-03-20 14:35:44
+3206,Vampire Weekend,https://www.allmusic.com/artist/vampire-weekend-mn0000662416,2025-03-20 14:35:44
+3208,Ali Shaheed Muhammad / Marcos Valle / Adrian Younge,https://www.allmusic.com/artist/ali-shaheed-muhammad-mn0000389128,2025-03-20 14:35:44
+3209,Roy Ayers / Ali Shaheed Muhammad / Adrian Younge,https://www.allmusic.com/artist/roy-ayers-mn0000345168,2025-03-20 14:35:44
+3218,Bernard Herrmann / Joel McNeely / Royal Scottish National Orchestra,https://www.allmusic.com/artist/bernard-herrmann-mn0000760240,2025-03-20 14:36:19
+3229,Elastica,https://www.allmusic.com/artist/elastica-mn0000797431,2025-03-20 14:36:53
+3231,Charley Patton,https://www.allmusic.com/artist/charley-patton-mn0000166058,2025-03-20 14:36:53
+3232,Suede,https://www.allmusic.com/artist/suede-mn0000586694,2025-03-20 14:36:53
+3238,Big Star,https://www.allmusic.com/artist/big-star-mn0000051992,2025-03-20 14:37:26
+3239,The Lovin' Spoonful,https://www.allmusic.com/artist/the-lovin-spoonful-mn0000052900,2025-03-20 14:37:26
+3241,The Fleetwoods,https://www.allmusic.com/artist/the-fleetwoods-mn0000761706,2025-03-20 14:37:26
+3243,Donovan,https://www.allmusic.com/artist/donovan-mn0000799053,2025-03-20 14:37:27
+3244,Julie Andrews,https://www.allmusic.com/artist/julie-andrews-mn0000314113,2025-03-20 14:37:27
+3245,Marlo Thomas / Marlo Thomas & Friends,https://www.allmusic.com/artist/marlo-thomas-mn0000338442,2025-03-20 14:37:27
+3251,Maceo Parker,https://www.allmusic.com/artist/maceo-parker-mn0000185155,2025-03-20 14:38:01
+3253,Us3,https://www.allmusic.com/artist/us3-mn0000173289,2025-03-20 14:38:01
+3254,Pete Rock & C.L. Smooth,https://www.allmusic.com/artist/pete-rock-cl-smooth-mn0000841475,2025-03-20 14:38:01
+3255,Willie Mitchell,https://www.allmusic.com/artist/willie-mitchell-mn0000684830,2025-03-20 14:38:01
+3257,Mary Halvorson / Mary Halvorson Quartet,https://www.allmusic.com/artist/mary-halvorson-mn0000529394,2025-03-20 14:38:01
+3258,Sylvie Courvoisier / Mary Halvorson,https://www.allmusic.com/artist/sylvie-courvoisier-mn0000062099,2025-03-20 14:38:01
+3259,Sullivan Fortner,https://www.allmusic.com/artist/sullivan-fortner-mn0001018927,2025-03-20 14:38:01
+3260,Petra Haden,https://www.allmusic.com/artist/petra-haden-mn0000325889,2025-03-20 14:38:35
+3261,The Human Abstract,https://www.allmusic.com/artist/the-human-abstract-mn0000730382,2025-03-20 14:38:35
+3262,Appaloosa,https://www.allmusic.com/artist/appaloosa-mn0001209541,2025-03-20 14:38:35
+3263,The Haden Triplets,https://www.allmusic.com/artist/the-haden-triplets-mn0001700780,2025-03-20 14:38:35
+3264,The Dillinger Escape Plan,https://www.allmusic.com/artist/the-dillinger-escape-plan-mn0000787702,2025-03-20 14:38:35
+3265,Renegade Soundwave,https://www.allmusic.com/artist/renegade-soundwave-mn0000387765,2025-03-20 14:38:35
+3266,The HAARP Machine,https://www.allmusic.com/artist/the-haarp-machine-mn0002995469,2025-03-20 14:38:35
+3267,Alter Ego,https://www.allmusic.com/artist/alter-ego-mn0000180016,2025-03-20 14:38:35
+3269,The Foreign Exchange,https://www.allmusic.com/artist/the-foreign-exchange-mn0000738089,2025-03-20 14:39:09
+3270,Jesse Boykins III,https://www.allmusic.com/artist/jesse-boykins-iii-mn0001591840,2025-03-20 14:39:09
+3271,Miguel,https://www.allmusic.com/artist/miguel-mn0002570457,2025-03-20 14:39:09
+3272,The Beau Hunks,https://www.allmusic.com/artist/the-beau-hunks-mn0000042004,2025-03-20 14:39:09
+3273,Ledisi,https://www.allmusic.com/artist/ledisi-mn0000117356,2025-03-20 14:39:10
+3274,Taylor Barton,https://www.allmusic.com/artist/taylor-barton-mn0000012490,2025-03-20 14:39:10
+3275,Richard Meyer,https://www.allmusic.com/artist/richard-meyer-mn0000349240,2025-03-20 14:39:10
+3276,Burial,https://www.allmusic.com/artist/burial-mn0000643682,2025-03-20 14:39:10
+3281,The Jesus and Mary Chain,https://www.allmusic.com/artist/the-jesus-and-mary-chain-mn0000343930,2025-03-20 14:39:43
+3283,Television,https://www.allmusic.com/artist/television-mn0000019701,2025-03-20 14:39:44
+3284,Nirvana,https://www.allmusic.com/artist/nirvana-mn0000357406,2025-03-20 14:39:44
+3288,Minutemen,https://www.allmusic.com/artist/minutemen-mn0000474482,2025-03-20 14:39:44
+3297,Adam and the Ants,https://www.allmusic.com/artist/adam-and-the-ants-mn0000590787,2025-03-20 14:40:18
+3298,Supertramp,https://www.allmusic.com/artist/supertramp-mn0000033666,2025-03-20 14:40:18
+3299,ABC,https://www.allmusic.com/artist/abc-mn0000574597,2025-03-20 14:40:18
+3339,The Kills,https://www.allmusic.com/artist/the-kills-mn0000099508,2025-03-20 14:42:40
+3340,Danny Elfman,https://www.allmusic.com/artist/danny-elfman-mn0000569119,2025-03-20 14:42:40
+3342,Tool,https://www.allmusic.com/artist/tool-mn0000790820,2025-03-20 14:42:40
+3344,Wipers,https://www.allmusic.com/artist/wipers-mn0000485791,2025-03-20 14:42:40
+3358,The Velveteers,https://www.allmusic.com/artist/the-velveteers-mn0004111196,2025-03-20 14:43:17
+3361,Riccardo Muti / Dagmar Schellenberger / Anja Silja,https://www.allmusic.com/artist/riccardo-muti-mn0000032776,2025-03-20 14:43:50
+3364,Leonard Bernstein / Stephen Sondheim,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859,2025-03-20 14:43:50
+3367,Jean-Luc Tingaud / National Symphony Orchestra of Ireland,https://www.allmusic.com/artist/jean-luc-tingaud-mn0002252114,2025-03-20 14:43:51
+3368,Renaud Capuçon / Seiji Ozawa / Petr Popelka,https://www.allmusic.com/artist/renaud-capu%C3%A7on-mn0001655495,2025-03-20 14:43:51
+3369,Jürgen Bruns / Rheinland-Pfalz Staatsphilharmonie,https://www.allmusic.com/artist/j%C3%BCrgen-bruns-mn0002208783,2025-03-20 14:43:51
+3370,Klaus Florian Vogt / Ensemble Acht,https://www.allmusic.com/artist/klaus-florian-vogt-mn0002227740,2025-03-20 14:43:51
+3377,Yo-Yo Ma / John Williams / New York Philharmonic,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,2025-03-20 14:44:26
+3378,Colin Currie / JoAnn Falletta / Danny Elfman,https://www.allmusic.com/artist/colin-currie-mn0001788741,2025-03-20 14:44:26
+3386,ZZ Top,https://www.allmusic.com/artist/zz-top-mn0000690254,2025-03-20 14:44:59
+3388,Lil Wayne,https://www.allmusic.com/artist/lil-wayne-mn0000272689,2025-03-20 14:45:00
+3391,Happy Mondays,https://www.allmusic.com/artist/happy-mondays-mn0000553483,2025-03-20 14:45:32
+3395,DJ Shadow,https://www.allmusic.com/artist/dj-shadow-mn0000949820,2025-03-20 14:45:33
+3397,Jefferson Airplane,https://www.allmusic.com/artist/jefferson-airplane-mn0000840102,2025-03-20 14:45:33
+3402,Traffic,https://www.allmusic.com/artist/traffic-mn0000012472,2025-03-20 14:46:08
+3413,Christopher Monks / Armonico Consort,https://www.allmusic.com/artist/christopher-monks-mn0001791829,2025-03-20 14:46:08
+3421,D'Angelo and the Vanguard / D'Angelo,https://www.allmusic.com/artist/dangelo-and-the-vanguard-mn0003351988,2025-03-20 14:46:43
+3454,Chico Buarque,https://www.allmusic.com/artist/chico-buarque-mn0000095613,2025-03-20 14:48:33
+3468,James P. Johnson,https://www.allmusic.com/artist/james-p-johnson-mn0000142860,2025-03-20 14:49:08
+3484,Masaaki Suzuki,https://www.allmusic.com/artist/masaaki-suzuki-mn0001681843,2025-03-20 14:49:43
+3500,Mahavishnu Orchestra,https://www.allmusic.com/artist/mahavishnu-orchestra-mn0000233862,2025-03-20 14:50:58
+3520,The-Dream,https://www.allmusic.com/artist/the-dream-mn0001028077,2025-03-20 14:52:10
+3522,"Hank Williams, Jr.",https://www.allmusic.com/artist/hank-williams-jr-mn0000117844,2025-03-20 14:52:10
+3525,Gucci Mane,https://www.allmusic.com/artist/gucci-mane-mn0000545523,2025-03-20 14:52:10
+3527,Danny Brown,https://www.allmusic.com/artist/danny-brown-mn0001477553,2025-03-20 14:52:10
+3536,The Spinners,https://www.allmusic.com/artist/the-spinners-mn0000578141,2025-03-20 14:52:45
+3586,Matt Pond PA,https://www.allmusic.com/artist/matt-pond-pa-mn0000861795,2025-03-20 14:55:06
+3590,Tim Hecker,https://www.allmusic.com/artist/tim-hecker-mn0000930651,2025-03-20 14:55:06
+3627,Hank Williams,https://www.allmusic.com/artist/hank-williams-mn0000549797,2025-03-20 14:57:28

@@ -1,4 +1,12 @@
-from db.connection import connect_db
+import os
+import sys
+# Usar try/except para manejar las importaciones de forma más robusta
+try:
+    # Primero intenta importar como si estuviera en el scraper
+    from db.connection import connect_db
+except ImportError:
+    # Si falla, intenta importar como si estuviera desde app.py
+    from scraper.db.connection import connect_db
 
 def get_all_moods():
     try:
