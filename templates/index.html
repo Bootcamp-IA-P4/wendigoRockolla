@@ -27,6 +27,24 @@
                 </button>
             </form>
         </section>
+        <section class="integration-section">
+            <div class="integration-buttons">
+                <a href="{{ url_for('spotify_login') }}" class="spotify-button">
+                    <i class="fab fa-spotify"></i> Conectar con Spotify
+                </a>
+                <a href="#" class="genius-button" id="showLyricsSearch">
+                    <i class="fas fa-music"></i> Buscar Letras
+                </a>
+            </div>
+            
+            <div class="lyrics-search-form" id="lyricsSearchForm" style="display: none;">
+                <form action="{{ url_for('lyrics') }}" method="get">
+                    <input type="text" name="song" placeholder="Nombre de la canción" required class="search-input">
+                    <input type="text" name="artist" placeholder="Artista (opcional)" class="search-input">
+                    <button type="submit" class="genius-button">Buscar Letras</button>
+                </form>
+            </div>
+        </section>
         
         <section>
             <h2 class="section-title">Explora por Mood</h2>
@@ -99,5 +117,12 @@
             <p><a href="/admin/moods" style="color: var(--text-secondary); text-decoration: none;">Administrar Moods</a></p>
         </footer>
     </div>
+    <script>
+        document.getElementById('showLyricsSearch').addEventListener('click', function(e) {
+            e.preventDefault();
+            const form = document.getElementById('lyricsSearchForm');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones | Wendigo Music Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/recommendations.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Wendigo Music Finder</div>
+            <p class="tagline">Recomendaciones Musicales</p>
+        </header>
+        
+        <section>
+            <h2 class="section-title">
+                {% if mood %}Recomendaciones para mood: {{ mood }}
+                {% else %}Recomendaciones Personalizadas
+                {% endif %}
+            </h2>
+            
+            {% if error %}
+                <div class="error-message">
+                    {{ error }}
+                </div>
+            {% endif %}
+            
+            <div class="filter-form">
+                <form action="{{ url_for('spotify_recommendations') }}" method="get">
+                    <select name="mood" class="mood-select" onchange="this.form.submit()">
+                        <option value="">-- Selecciona un mood --</option>
+                        <option value="Happy" {% if mood == 'Happy' %}selected{% endif %}>Happy</option>
+                        <option value="Sad" {% if mood == 'Sad' %}selected{% endif %}>Sad</option>
+                        <option value="Energetic" {% if mood == 'Energetic' %}selected{% endif %}>Energetic</option>
+                        <option value="Relaxing" {% if mood == 'Relaxing' %}selected{% endif %}>Relaxing</option>
+                        <option value="Romantic" {% if mood == 'Romantic' %}selected{% endif %}>Romantic</option>
+                    </select>
+                </form>
+            </div>
+            
+            {% if recommendations and recommendations.tracks %}
+                <div class="recommendations-container">
+                    {% for track in recommendations.tracks %}
+                        <div class="track-item">
+                            <img src="{{ track.album.images[0].url if track.album.images else '' }}" alt="{{ track.name }}" class="track-image">
+                            <div class="track-info">
+                                <div class="track-name">{{ track.name }}</div>
+                                <div class="track-artist">
+                                    {% for artist in track.artists %}
+                                        {{ artist.name }}{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="track-actions">
+                                <a href="{{ track.external_urls.spotify }}" target="_blank" class="track-link" title="Abrir en Spotify">
+                                    <i class="fab fa-spotify"></i>
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <a href="{{ url_for('spotify_create_playlist_page', mood=mood) }}" class="create-playlist-button">
+                            <i class="fas fa-plus"></i> Crear Playlist con estas canciones
+                        </a>
+                    </div>
+                </div>
+            {% elif not error %}
+                <div class="recommendations-container" style="text-align: center; padding: 3rem;">
+                    <i class="fas fa-music" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <p style="font-size: 1.2rem; color: var(--text-secondary);">
+                        Selecciona un mood para obtener recomendaciones personalizadas
+                    </p>
+                </div>
+            {% endif %}
+            
+            <div style="margin-top: 2rem;">
+                <a href="{{ url_for('spotify_profile') }}" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Volver a tu perfil
+                </a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+        </footer>
+    </div>
+</body>
+</html>

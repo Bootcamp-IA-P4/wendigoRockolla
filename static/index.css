@@ -276,3 +276,247 @@ th {
 .back-link:hover {
     text-decoration: underline;
 }
+
+/* Pagina Liricas */ 
+
+.lyrics-container {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.lyrics-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.song-cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.song-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.song-info p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.lyrics-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    white-space: pre-line;
+    color: var(--text-primary);
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.back-button:hover {
+    background-color: #6a5acd;
+    transform: translateY(-2px);
+}
+
+.genius-credit {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+.genius-credit a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.error-message {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: #ff6b6b;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+/* Pagina de spotify */
+
+.profile-container {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.profile-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.profile-info p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.spotify-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #1DB954;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.spotify-button:hover {
+    background-color: #1ed760;
+    transform: translateY(-2px);
+}
+
+.stats-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.stat-card {
+    background-color: rgba(0,0,0,0.3);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Pagina de spotify playlist */
+
+.form-container {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 5px;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.spotify-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.spotify-button:hover {
+    background-color: #1ed760;
+    transform: translateY(-2px);
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.back-button:hover {
+    background-color: #6a5acd;
+    transform: translateY(-2px);
+}
+
+.error-message {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: #ff6b6b;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}

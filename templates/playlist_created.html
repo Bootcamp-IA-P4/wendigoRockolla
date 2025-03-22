@@ -1,0 +1,68 @@
+_created.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Creada | Wendigo Music Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Wendigo Music Finder</div>
+            <p class="tagline">Playlist Creada</p>
+        </header>
+        
+        <section>
+            <h2 class="section-title">¡Tu Playlist está lista!</h2>
+            
+            <div class="success-container">
+                <i class="fas fa-check-circle success-icon"></i>
+                <h2 class="success-title">¡Playlist creada con éxito!</h2>
+                <p class="success-message">Tu playlist ha sido añadida a tu cuenta de Spotify.</p>
+                
+                <div class="playlist-details">
+                    <h3>{{ playlist.name }}</h3>
+                    <p><i class="fas fa-align-left"></i> {{ playlist.description or "Sin descripción" }}</p>
+                    <p><i class="fas fa-music"></i> {{ playlist.tracks.total if playlist.tracks else 0 }} canciones</p>
+                    {% if mood %}
+                        <p><i class="fas fa-heart"></i> Mood: {{ mood }}</p>
+                    {% endif %}
+                </div>
+                
+                {% if error %}
+                    <div class="error-message">
+                        {{ error }}
+                    </div>
+                {% endif %}
+                
+                {% if failed_tracks and failed_tracks|length > 0 %}
+                    <div class="error-message">
+                        <p>Algunas canciones no se pudieron añadir a la playlist:</p>
+                        <ul style="margin-top: 10px; padding-left: 20px;">
+                            {% for track in failed_tracks %}
+                                <li>{{ track }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+                
+                <div>
+                    <a href="{{ playlist.external_urls.spotify }}" target="_blank" class="spotify-button">
+                        <i class="fab fa-spotify"></i> Abrir en Spotify
+                    </a>
+                    <a href="{{ url_for('spotify_profile') }}" class="back-button">
+                        <i class="fas fa-arrow-left"></i> Volver a tu perfil
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Wendigo Music Finder</div>
+            <p class="tagline">Letras de Canciones</p>
+        </header>
+        
+        <section>
+            {% if error %}
+                <div class="error-message">
+                    {{ error }}
+                </div>
+                
+                <a href="javascript:history.back()" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Volver
+                </a>
+            {% else %}
+                <div class="lyrics-container">
+                    <div class="lyrics-header">
+                        <img src="{{ song.header_image_url or song.song_art_image_url }}" alt="{{ song.title }}" class="song-cover">
+                        <div class="song-info">
+                            <h3>{{ song.title }}</h3>
+                            <p>Artista: {{ song.primary_artist.name }}</p>
+                            <p>Album: {{ song.album.name if song.album else 'No disponible' }}</p>
+                            <p>Lanzamiento: {{ song.release_date or 'No disponible' }}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="lyrics-text">{{ lyrics }}</div>
+                    
+                    <div class="genius-credit">
+                        Letra proporcionada por <a href="{{ song.url }}" target="_blank">Genius</a>
+                    </div>
+                </div>
+                
+                <a href="javascript:history.back()" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Volver a los resultados
+                </a>
+            {% endif %}
+        </section>
+        
+        <footer>
+            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+        </footer>
+    </div>
+</body>
+</html>
