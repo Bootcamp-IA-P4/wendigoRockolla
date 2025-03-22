@@ -2,9 +2,37 @@
     --bg-primary: #121212;
     --bg-secondary: #1f1f1f;
     --accent: #7b68ee;
+    --spotify-green: #1DB954;
+    --spotify-green-hover: #1ed760;
+    --genius-purple: #99c;
+    --error-red: #ff6b6b;
+    --success-green: #4caf50;
     --text-primary: #ffffff;
     --text-secondary: #b3b3b3;
+    --card-bg: #2c2c2c;
+    --border-radius: 10px;
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    --transition: all 0.2s ease;
 }
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 
 * {
     margin: 0;
@@ -13,16 +41,24 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;
 }
 
+/* Ajuste para el contenedor principal */
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0 2rem;
+}
+
+/* Mantener el contenido principal con margen */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 header {
@@ -113,6 +149,7 @@ header {
 }
 
 .mood-grid {
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 1.5rem;
@@ -120,7 +157,6 @@ header {
 
 .mood-card {
     background-color: var(--bg-secondary);
-    padding: 1.5rem 1rem;
     border-radius: 8px;
     text-align: center;
     transition: all 0.3s;
@@ -165,6 +201,60 @@ header {
     font-size: 1.1rem;
     color: var(--text-primary);
     font-weight: 500;
+}
+
+/* Estilos para la sección de artistas */
+.artist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.artist-card {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.artist-image {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.artist-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+.artist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.artist-card:hover::before {
+    transform: scaleX(1);
+}
+
+.artist-name {
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-primary);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 footer {
@@ -218,25 +308,30 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 2rem;
-    color: var(--text-primary);
+    margin-bottom: 2rem;
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    overflow: hidden;
 }
 
 th, td {
     padding: 1rem;
     text-align: left;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 th {
-    background-color: var(--bg-secondary);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    color: var(--accent);
 }
 
 .mood-thumbnail {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     object-fit: cover;
-    border-radius: 4px;
+    border: 2px solid var(--accent);
 }
 
 .actions {
@@ -247,23 +342,96 @@ th {
 .btn {
     padding: 0.5rem 1rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 50px;
     cursor: pointer;
-    color: white;
     font-weight: 500;
     transition: all 0.2s;
+    color: white;
 }
 
 .btn-edit {
-    background-color: #4caf50;
+    background-color: var(--accent);
+}
+
+.btn-edit:hover {
+    background-color: #6a5acd;
 }
 
 .btn-delete {
-    background-color: #f44336;
+    background-color: var(--error-red);
 }
 
-.btn:hover {
-    opacity: 0.8;
+.btn-delete:hover {
+    background-color: #e74c3c;
+}
+
+.btn-save {
+    background-color: var(--spotify-green);
+}
+
+.btn-save:hover {
+    background-color: var(--spotify-green-hover);
+}
+
+.btn-cancel {
+    background-color: #555;
+}
+
+.btn-cancel:hover {
+    background-color: #777;
+}
+
+.edit-form {
+    display: none;
+    padding: 1rem;
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.3);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.form-title {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.back-link i {
+    margin-right: 0.5rem;
 }
 
 .back-link {
@@ -274,7 +442,44 @@ th {
 }
 
 .back-link:hover {
-    text-decoration: underline;
+    background-color: #6a5acd;
+    transform: translateY(-2px);
+}
+
+.add-mood-btn {
+    margin-bottom: 1rem;
+    background-color: var(--spotify-green);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.add-mood-btn:hover {
+    background-color: var(--spotify-green-hover);
+}
+
+.alert {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background-color: rgba(46, 204, 113, 0.2);
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+}
+
+.alert-error {
+    background-color: rgba(231, 76, 60, 0.2);
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
 }
 
 /* Pagina Liricas */ 
@@ -339,6 +544,20 @@ th {
     transform: translateY(-2px);
 }
 
+/* Genius */
+
+.genius-button {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
 .genius-credit {
     margin-top: 2rem;
     font-size: 0.9rem;
@@ -519,4 +738,304 @@ textarea.form-control {
     padding: 1rem;
     border-radius: 5px;
     margin-bottom: 2rem;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    margin-right: 2em;
+}
+
+.navbar-logo {
+    margin-left:20em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo i {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+    max-width: 30px;
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Si estás usando una imagen como logo */
+.navbar-logo img {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.navbar-item {
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.navbar-item i {
+    margin-right: 0.5rem;
+}
+
+.navbar-item:hover, .navbar-item.active {
+    color: var(--text-primary);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-end {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.navbar-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.navbar-avatar-icon {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.spotify-login-btn {
+    background-color: var(--spotify-green);
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+}
+
+.spotify-login-btn:hover {
+    background-color: var(--spotify-green-hover);
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+}
+
+.logout-btn {
+    color: var(--error-red);
+}
+
+.logout-btn:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+/* ALBUM GRID */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.album-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.album-card {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.album-image {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.album-info {
+    padding: 1rem;
+}
+
+.album-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.album-artist {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* SONGS CONTAINER */
+.songs-container {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.2s;
+}
+
+.song-item:last-child {
+    border-bottom: none;
+}
+
+.song-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+}
+
+.song-artist {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.song-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.spotify-play-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--spotify-green);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.spotify-play-button i {
+    margin-right: 0.5rem;
+}
+
+.spotify-play-button:hover {
+    background-color: var(--spotify-green-hover);
+    transform: scale(1.05);
+}
+
+.view-more-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.view-more-button {
+    display: inline-block;
+    background-color: var(--accent);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.view-more-button:hover {
+    background-color: #6a5acd;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE ADJUSTMENTS */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .navbar-brand {
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-menu {
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navbar-end {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .album-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .song-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .song-actions {
+        margin-top: 0.8rem;
+    }
 }

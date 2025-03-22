@@ -20,6 +20,7 @@ mood_images = {
     'Melancholic': 'https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?w=500&h=500&fit=crop',
     'Dreamy': 'https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=500&h=500&fit=crop',
     'Dramatic': 'https://images.unsplash.com/photo-1595849884236-5697695cbb33?w=500&h=500&fit=crop',
+    'Foggy': 'https://images.unsplash.com/photo-1487111023822-2e903e12f6f0?q=80&w=1974&auto=format&fit=crop',
     # Imagen predeterminada para moods que no están en la lista
     'default': 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=500&h=500&fit=crop'
 }

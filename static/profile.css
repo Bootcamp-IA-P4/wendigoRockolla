@@ -16,6 +16,24 @@
     --transition: all 0.2s ease;
 }
 
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
 /* ===== RESET & BASE STYLES ===== */
 * {
     margin: 0;
@@ -24,7 +42,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;

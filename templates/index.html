@@ -6,9 +6,16 @@
     <title>Wendigo Music Finder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/static/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    {% include 'partials/navbar.html' %}
     <div class="container">
+        
+        
+        
         <header>
             <div class="logo">Wendigo Music Finder</div>
             <p class="tagline">Deja que la música te encuentre a ti</p>
@@ -21,6 +28,7 @@
                     <option value="mood">Mood</option>
                     <option value="artist">Artista</option>
                     <option value="song">Canción</option>
+                    <option value="album">Álbum</option>
                 </select>
                 <button type="submit" class="search-button">
                     <i class="fas fa-search"></i> Buscar
@@ -29,9 +37,6 @@
         </section>
         <section class="integration-section">
             <div class="integration-buttons">
-                <a href="{{ url_for('spotify_login') }}" class="spotify-button">
-                    <i class="fab fa-spotify"></i> Conectar con Spotify
-                </a>
                 <a href="#" class="genius-button" id="showLyricsSearch">
                     <i class="fas fa-music"></i> Buscar Letras
                 </a>
@@ -58,65 +63,123 @@
                 </a>
                 {% endfor %}
                 
-                <!-- Moods estáticos de ejemplo (si no hay moods en la base de datos) -->
+                <!-- Moods estáticos (como respaldo) -->
                 {% if not moods or moods|length < 8 %}
-                <a href="/search?query=Happy&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Happy') }}" alt="Happy" class="mood-image">
-                        <div class="mood-name">Happy</div>
-                    </div>
-                </a>
-                <a href="/search?query=Relaxing&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Relaxing') }}" alt="Relaxing" class="mood-image">
-                        <div class="mood-name">Relaxing</div>
-                    </div>
-                </a>
-                <a href="/search?query=Melancholic&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Melancholic') }}" alt="Melancholic" class="mood-image">
-                        <div class="mood-name">Melancholic</div>
-                    </div>
-                </a>
-                <a href="/search?query=Happy&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Happy') }}" alt="Happy" class="mood-image">
-                        <div class="mood-name">Happy</div>
-                    </div>
-                </a>
-                <a href="/search?query=Romantic&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Romantic') }}" alt="Romantic" class="mood-image">
-                        <div class="mood-name">Romantic</div>
-                    </div>
-                </a>
-                <a href="/search?query=Angry&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Angry') }}" alt="Angry" class="mood-image">
-                        <div class="mood-name">Angry</div>
-                    </div>
-                </a>
-                <a href="/search?query=Dreamy&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Dreamy') }}" alt="Dreamy" class="mood-image">
-                        <div class="mood-name">Dreamy</div>
-                    </div>
-                </a>
-                <a href="/search?query=Epic&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image('Epic') }}" alt="Epic" class="mood-image">
-                        <div class="mood-name">Epic</div>
-                    </div>
-                </a>
+                <!-- Tus moods existentes -->
                 {% endif %}
+            </div>
+            <div class="view-more-container">
+                <a href="/search?type=mood" class="view-more-button">Ver todos los moods</a>
+        </section>
+        
+        <!-- Sección actualizada de artistas -->
+        <section>
+            <h2 class="section-title">Explora por Artista</h2>
+            <div class="artist-grid">
+                {% for artist in artists %}
+                <a href="/search?query={{ artist.name }}&type=artist" style="text-decoration: none;">
+                    <div class="artist-card">
+                        <img src="{{ artist.url|default('static/img/default-artist.jpg') }}" alt="{{ artist.name }}" class="artist-image">
+                        <div class="artist-name">{{ artist.name }}</div>
+                    </div>
+                </a>
+                {% endfor %}
+                
+                {% if not artists or artists|length < 8 %}
+                <!-- Artistas estáticos (como respaldo) -->
+                {% endif %}
+            </div>
+            <div class="view-more-container">
+                <a href="/search?type=artist" class="view-more-button">Ver todos los artistas</a>
+            </div>
+        </section>
+        
+        <!-- NUEVA sección de álbumes -->
+        <section>
+            <h2 class="section-title">Explora por Álbum</h2>
+            <div class="album-grid">
+                {% for album in albums %}
+                <a href="/search?query={{ album.name }}&type=album" class="album-link">
+                    <div class="album-card">
+                        <img src="{{ album.cover_url|default('static/img/default-album.jpg') }}" alt="{{ album.name }}" class="album-image">
+                        <div class="album-info">
+                            <div class="album-name">{{ album.name }}</div>
+                            <div class="album-artist">{{ album.artist }}</div>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+                
+                {% if not albums or albums|length < 8 %}
+                <!-- Álbumes estáticos (como respaldo) -->
+                <a href="/search?query=Abbey Road&type=album" class="album-link">
+                    <div class="album-card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25" alt="Abbey Road" class="album-image">
+                        <div class="album-info">
+                            <div class="album-name">Abbey Road</div>
+                            <div class="album-artist">The Beatles</div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Añade más álbumes estáticos como respaldo -->
+                {% endif %}
+            </div>
+            <div class="view-more-container">
+                <a href="/search?type=album" class="view-more-button">Ver todos los álbumes</a>
+            </div>
+        </section>
+        
+        <!-- NUEVA sección de canciones con minireproductor -->
+        <section>
+            <h2 class="section-title">Canciones Populares</h2>
+            <div class="songs-container">
+                {% for song in popular_songs %}
+                <div class="song-item">
+                    <div class="song-info">
+                        <div class="song-name">{{ song.name }}</div>
+                        <div class="song-artist">{{ song.artist }}</div>
+                    </div>
+                    
+                    <div class="song-actions">
+                        {% if song.spotify_id %}
+                        <a href="https://open.spotify.com/track/{{ song.spotify_id }}" target="_blank" class="spotify-play-button">
+                            <i class="fab fa-spotify"></i> Reproducir
+                        </a>
+                        {% else %}
+                        <a href="{{ url_for('create_spotify_link', song_id=song.id) }}" class="spotify-play-button">
+                            <i class="fab fa-spotify"></i> Buscar
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+                
+                {% if not popular_songs or popular_songs|length < 5 %}
+                <!-- Canciones estáticas como respaldo -->
+                <div class="song-item">
+                    <div class="song-info">
+                        <div class="song-name">Bohemian Rhapsody</div>
+                        <div class="song-artist">Queen</div>
+                    </div>
+                    <div class="song-actions">
+                        <a href="https://open.spotify.com/track/4u7EnebtmKWzUH433cf5Qv" target="_blank" class="spotify-play-button">
+                            <i class="fab fa-spotify"></i> Reproducir
+                        </a>
+                    </div>
+                </div>
+                <!-- Añade más canciones estáticas como respaldo -->
+                {% endif %}
+            </div>
+            <div class="view-more-container">
+                <a href="/search?type=song" class="view-more-button">Ver todas las canciones</a>
             </div>
         </section>
         
         <footer>
             <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
-            <p><a href="/admin/moods" style="color: var(--text-secondary); text-decoration: none;">Administrar Moods</a></p>
         </footer>
     </div>
+    
     <script>
         document.getElementById('showLyricsSearch').addEventListener('click', function(e) {
             e.preventDefault();

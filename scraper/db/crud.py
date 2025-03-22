@@ -97,6 +97,40 @@ def get_mood_id(name):
         cursor.close()
         db.close()
 
+def get_mood_by_name(mood_name):
+    """Obtiene un mood por su nombre"""
+    try:
+        from scraper.db.connection import connect_db
+        conn = connect_db()
+        cursor = conn.cursor(dictionary=True)
+        
+        cursor.execute("SELECT * FROM moods WHERE name = %s", (mood_name,))
+        mood = cursor.fetchone()
+        
+        cursor.close()
+        conn.close()
+        return mood
+    except Exception as e:
+        print(f"Error al obtener mood por nombre: {e}")
+        return None
+    
+def get_songs_by_mood_id(mood_id):
+    """Obtiene todas las canciones asociadas a un mood por su ID"""
+    try:
+        from scraper.db.connection import connect_db
+        conn = connect_db()
+        cursor = conn.cursor(dictionary=True)
+
+        cursor.execute("SELECT songs.* FROM mood_songs JOIN songs ON mood_songs.song_id = songs.id WHERE mood_songs.mood_id = %s", (mood_id,))
+        songs = cursor.fetchall()
+
+        cursor.close()
+        conn.close()
+        return songs
+    except Exception as e:
+        print(f"Error al obtener canciones por mood ID: {e}")
+        return []
+
 def update_mood_url(mood_name, url):
     try:
         db = connect_db()
@@ -169,6 +203,50 @@ def get_album_id(name):
         cursor.close()
         db.close()
 
+
+def get_all_albums():
+    """Obtiene todos los álbumes de la base de datos"""
+    try:
+        db = connect_db()
+        cursor = db.cursor(dictionary=True)
+        query = "SELECT * FROM albums LIMIT 10"
+        cursor.execute(query)
+        results = cursor.fetchall()
+        cursor.close()
+        db.close()
+        return results
+    except Exception as e:
+        print(f"Error retrieving all albums: {e}")
+        return []
+    
+def get_songs(name):
+    try:
+        db = connect_db()
+        cursor = db.cursor()
+        query = "SELECT * FROM songs WHERE name LIKE %s"
+        cursor.execute(query, ('%' + name + '%',))
+        results = cursor.fetchall()
+        return results
+    except Exception as e:
+        print(f"Error retrieving songs: {e}")
+        return []
+    
+
+def get_all_artists():
+    """Obtiene todos los artistas de la base de datos"""
+    try:
+        db = connect_db()
+        cursor = db.cursor(dictionary=True)
+        query = "SELECT * FROM artists LIMIT 10"
+        cursor.execute(query)
+        results = cursor.fetchall()
+        cursor.close()
+        db.close()
+        return results
+    except Exception as e:
+        print(f"Error retrieving all artists: {e}")
+        return []
+
 def get_song_id(name):
     try:
         db = connect_db()
@@ -182,3 +260,25 @@ def get_song_id(name):
     finally:
         cursor.close()
         db.close()
+
+        
+def get_popular_songs():
+    """Obtiene las canciones más populares"""
+    try:
+        db = connect_db()
+        cursor = db.cursor(dictionary=True)
+        query = """
+            SELECT id, name, youtube_url, spotify_id,
+            'Artista Desconocido' as artist
+            FROM songs
+            ORDER BY RAND()
+            LIMIT 10
+        """
+        cursor.execute(query)
+        results = cursor.fetchall()
+        cursor.close()
+        db.close()
+        return results
+    except Exception as e:
+        print(f"Error retrieving popular songs: {e}")
+        return []

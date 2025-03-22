@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrar Moods - Wendigo Music Finder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="static/index.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 </head>
 <body>
     <div class="container">
+        <!-- Incluir el navbar -->
+        {% include 'partials/navbar.html' %}
+        
         <header>
             <div class="logo">Wendigo Music Finder</div>
             <p class="tagline">Panel de Administración</p>
@@ -16,6 +19,39 @@
         
         <section>
             <h2 class="section-title">Administrar Moods</h2>
+            
+            {% if message %}
+                <div class="alert {{ message_type }}">
+                    {{ message }}
+                </div>
+            {% endif %}
+            
+            <!-- Botón para mostrar formulario de añadir -->
+            <button id="showAddFormBtn" class="add-mood-btn">
+                <i class="fas fa-plus"></i> Añadir Nuevo Mood
+            </button>
+            
+            <!-- Formulario para añadir nuevo mood -->
+            <div id="addMoodForm" class="edit-form">
+                <div class="form-title">Añadir Nuevo Mood</div>
+                <form action="{{ url_for('add_mood') }}" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre del Mood:</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="url">URL de la imagen:</label>
+                            <input type="text" id="url" name="url" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" id="cancelAddBtn" class="btn btn-cancel">Cancelar</button>
+                        <button type="submit" class="btn btn-save">Guardar</button>
+                    </div>
+                </form>
+            </div>
             
             <table>
                 <thead>
@@ -29,23 +65,55 @@
                 </thead>
                 <tbody>
                     {% for mood in moods %}
-                    <tr>
+                    <tr id="mood-{{ mood.id }}-row">
                         <td>{{ mood.id }}</td>
                         <td>
                             <img src="{{ get_mood_image(mood.name) }}" alt="{{ mood.name }}" class="mood-thumbnail">
                         </td>
-                        <td>{{ mood.name }}</td>
-                        <td>{{ mood.url }}</td>
+                        <td id="mood-{{ mood.id }}-name">{{ mood.name }}</td>
+                        <td id="mood-{{ mood.id }}-url">{{ mood.url }}</td>
                         <td class="actions">
-                            <button class="btn btn-edit">Editar</button>
-                            <button class="btn btn-delete">Eliminar</button>
+                            <button class="btn btn-edit" 
+                                    data-mood-id="{{ mood.id }}" 
+                                    data-mood-name="{{ mood.name }}" 
+                                    data-mood-url="{{ mood.url|default('') }}">
+                                <i class="fas fa-edit"></i> Editar
+                            </button>
+                            <button class="btn btn-delete" 
+                                    data-mood-id="{{ mood.id }}">
+                                <i class="fas fa-trash-alt"></i> Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                    <tr id="edit-mood-{{ mood.id }}-form" style="display: none;">
+                        <td colspan="5">
+                            <div class="edit-form" style="display: block;">
+                                <div class="form-title">Editar Mood</div>
+                                <form action="{{ url_for('update_mood', mood_id=mood.id) }}" method="post">
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="edit-name-{{ mood.id }}">Nombre del Mood:</label>
+                                            <input type="text" id="edit-name-{{ mood.id }}" name="name" class="form-control" value="{{ mood.name }}" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="edit-url-{{ mood.id }}">URL de la imagen:</label>
+                                            <input type="text" id="edit-url-{{ mood.id }}" name="url" class="form-control" value="{{ mood.url|default('') }}">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-actions">
+                                        <button type="button" class="btn btn-cancel" data-cancel-id="{{ mood.id }}">Cancelar</button>
+                                        <button type="submit" class="btn btn-save">Guardar Cambios</button>
+                                    </div>
+                                </form>
+                            </div>
                         </td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
             
-            <a href="/" class="back-link">
+            <a href="{{ url_for('index') }}" class="back-link">
                 <i class="fas fa-arrow-left"></i> Volver a la página principal
             </a>
         </section>
@@ -54,5 +122,65 @@
             <p>© 2025 Wendigo Music Finder - Panel de Administración</p>
         </footer>
     </div>
+    
+    <script>
+        // Mostrar/ocultar formulario de añadir mood
+        document.getElementById('showAddFormBtn').addEventListener('click', function() {
+            const form = document.getElementById('addMoodForm');
+            form.style.display = 'block';
+            this.style.display = 'none';
+        });
+        
+        document.getElementById('cancelAddBtn').addEventListener('click', function() {
+            const form = document.getElementById('addMoodForm');
+            form.style.display = 'none';
+            document.getElementById('showAddFormBtn').style.display = 'flex';
+        });
+        
+        // Configurar botones de edición
+        document.querySelectorAll('.btn-edit').forEach(button => {
+            button.addEventListener('click', function() {
+                const id = this.dataset.moodId;
+                editMood(id);
+            });
+        });
+        
+        // Configurar botones de eliminar
+        document.querySelectorAll('.btn-delete').forEach(button => {
+            button.addEventListener('click', function() {
+                const id = this.dataset.moodId;
+                deleteMood(id);
+            });
+        });
+        
+        // Función para editar un mood existente
+        function editMood(id) {
+            document.getElementById(`mood-${id}-row`).style.display = 'none';
+            document.getElementById(`edit-mood-${id}-form`).style.display = 'table-row';
+        }
+        
+        // Función para cancelar la edición
+        function cancelEdit(id) {
+            document.getElementById(`mood-${id}-row`).style.display = 'table-row';
+            document.getElementById(`edit-mood-${id}-form`).style.display = 'none';
+        }
+
+        // Configurar botones de cancelar edición
+        document.addEventListener('click', function(e) {
+            if (e.target.matches('.btn-cancel[data-cancel-id]')) {
+                const id = e.target.dataset.cancelId;
+                if (id) {
+                    cancelEdit(id);
+                }
+            }
+        });
+        
+        // Función para eliminar un mood
+        function deleteMood(id) {
+            if (confirm('¿Estás seguro de que quieres eliminar este mood? Esta acción no se puede deshacer.')) {
+                window.location.href = `/admin/moods/delete/${id}`;
+            }
+        }
+    </script>
 </body>
 </html>

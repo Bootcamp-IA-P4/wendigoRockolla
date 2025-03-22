@@ -4,7 +4,7 @@ import secrets
 import sys
 import json
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from scraper.db.crud import get_data, get_all_moods
+from scraper.db.crud import get_data, get_all_moods, get_all_artists, get_all_albums, get_songs_by_mood_id, get_mood_by_name, get_popular_songs 
 from static.mood_images import get_mood_image
 from services.genius_service import get_song_lyrics, get_song_details
 from services.spotifyApi import (
@@ -12,6 +12,7 @@ from services.spotifyApi import (
     search_tracks, create_playlist, add_tracks_to_playlist,
     get_recommendations_by_mood, update_song_spotify_id, get_songs_by_mood_id, advanced_search_track
 )
+from scraper.db.connection import connect_db
 
 app = Flask(__name__)
 
@@ -27,6 +28,17 @@ app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
 def make_session_permanent():
     session.permanent = True
     
+@app.context_processor
+def inject_spotify_user():
+    """Inyecta el usuario de Spotify en todas las plantillas"""
+    spotify_user = None
+    if 'token_info' in session:
+        try:
+            spotify_user = get_user_profile()
+        except:
+            pass
+    return dict(spotify_user=spotify_user)
+
 # Función auxiliar para obtener iconos según el mood
 def get_mood_icon(mood_name):
     # Diccionario de iconos para algunos moods comunes
@@ -50,11 +62,23 @@ def get_mood_icon(mood_name):
 
 @app.route('/')
 def index():
-    # Obtener algunos moods de la base de datos (limita a 8-12 para la página principal)
+    
     moods_data = get_all_moods()
     moods = moods_data[:12] if moods_data else []
+    artists = get_all_artists()  # Función que debes implementar
+    albums = get_all_albums()
+    popular_songs = get_popular_songs()
     
-    return render_template('index.html', moods=moods, get_mood_icon=get_mood_icon, get_mood_image=get_mood_image)
+    # Obtener información del usuario de Spotify si está autenticado
+    spotify_user = None
+    if 'token_info' in session:
+        try:
+            spotify_user = get_user_profile()
+        except:
+            pass
+    
+    return render_template('index.html', moods=moods, artists=artists, albums=albums, popular_songs=popular_songs, spotify_user=spotify_user, get_mood_image=get_mood_image, get_mood_icon=get_mood_icon)
+    
 
 @app.route('/search')
 def search():
@@ -66,8 +90,80 @@ def search():
 # Página de administración para editar moods
 @app.route('/admin/moods')
 def admin_moods():
-    moods_data = get_all_moods()
-    return render_template('admin_moods.html', moods=moods_data, get_mood_image=get_mood_image)
+    moods = get_all_moods()
+    message = request.args.get('message')
+    message_type = request.args.get('type', 'alert-info')
+    
+    return render_template('admin_moods.html', moods=moods, get_mood_image=get_mood_image, message=message,message_type=message_type)
+
+@app.route('/admin/moods/add', methods=['POST'])
+def add_mood():
+    name = request.form.get('name')
+    url = request.form.get('url')
+    
+    try:
+        from scraper.db.connection import connect_db
+        conn = connect_db()
+        cursor = conn.cursor()
+        
+        # Insertar nuevo mood
+        cursor.execute("INSERT INTO moods (name, url) VALUES (%s, %s)", (name, url))
+        conn.commit()
+        
+        cursor.close()
+        conn.close()
+        
+        return redirect(url_for('admin_moods', message=f'Mood "{name}" añadido correctamente', type='alert-success'))
+    except Exception as e:
+        print(f"Error al añadir mood: {e}")
+        return redirect(url_for('admin_moods', message=f'Error al añadir mood: {e}', type='alert-error'))
+
+# Ruta para actualizar un mood existente
+@app.route('/admin/moods/update/<int:mood_id>', methods=['POST'])
+def update_mood(mood_id):
+    name = request.form.get('name')
+    url = request.form.get('url')
+    
+    try:
+        from scraper.db.connection import connect_db
+        conn = connect_db()
+        cursor = conn.cursor()
+        
+        # Actualizar mood
+        cursor.execute("UPDATE moods SET name = %s, url = %s WHERE id = %s", (name, url, mood_id))
+        conn.commit()
+        
+        cursor.close()
+        conn.close()
+        
+        return redirect(url_for('admin_moods', message=f'Mood actualizado correctamente', type='alert-success'))
+    except Exception as e:
+        print(f"Error al actualizar mood: {e}")
+        return redirect(url_for('admin_moods', message=f'Error al actualizar mood: {e}', type='alert-error'))
+
+# Ruta para eliminar un mood
+@app.route('/admin/moods/delete/<int:mood_id>')
+def delete_mood(mood_id):
+    try:
+        from scraper.db.connection import connect_db
+        conn = connect_db()
+        cursor = conn.cursor()
+        
+        # Primero eliminar referencias en la tabla mood_songs
+        cursor.execute("DELETE FROM mood_songs WHERE mood_id = %s", (mood_id,))
+        
+        # Luego eliminar el mood
+        cursor.execute("DELETE FROM moods WHERE id = %s", (mood_id,))
+        conn.commit()
+        
+        cursor.close()
+        conn.close()
+        
+        return redirect(url_for('admin_moods', message='Mood eliminado correctamente', type='alert-success'))
+    except Exception as e:
+        print(f"Error al eliminar mood: {e}")
+        return redirect(url_for('admin_moods', message=f'Error al eliminar mood: {e}', type='alert-error'))
+
 
 
 # Gestión de letras de canciones
@@ -120,6 +216,13 @@ def spotify_callback():
             return redirect(url_for('spotify_profile'))
     
     return render_template('error.html', message="Error al obtener el token de acceso")
+
+@app.route('/spotify/logout')
+def spotify_logout():
+    # Eliminar información de sesión relacionada con Spotify
+    session.pop('token_info', None)
+    return redirect(url_for('index'))
+
 
 @app.route('/spotify/profile')
 def spotify_profile():
@@ -227,6 +330,90 @@ def api_preview_spotify_search():
     
     return jsonify(results)
 
+# Función para obtener álbumes de la base de datos
+def get_albums():
+    try:
+        conn = connect_db()
+        cursor = conn.cursor(dictionary=True)
+        
+        # Adapta esta consulta a tu estructura de base de datos
+        cursor.execute("""
+            SELECT DISTINCT name, artist FROM albums 
+            ORDER BY name LIMIT 8
+        """)
+        
+        albums = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return albums
+    except Exception as e:
+        print(f"Error al obtener álbumes: {e}")
+        return []
+
+# Función para obtener canciones populares
+def get_popular_songs():
+    try:
+        conn = connect_db()
+        cursor = conn.cursor(dictionary=True)
+        
+        # Adapta esta consulta a tu estructura de base de datos
+        cursor.execute("""
+            SELECT s.id, s.name, s.spotify_id, 'Artista Desconocido' as artist
+            FROM songs s
+            WHERE s.spotify_id IS NOT NULL
+            ORDER BY RAND()
+            LIMIT 10
+        """)
+        
+        songs = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return songs
+    except Exception as e:
+        print(f"Error al obtener canciones populares: {e}")
+        return []
+
+# Función para crear un enlace de Spotify para una canción
+@app.route('/create_spotify_link/<int:song_id>')
+def create_spotify_link(song_id):
+    try:
+        import urllib.parse
+        # Obtener información de la canción
+        conn = connect_db()
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute("SELECT name FROM songs WHERE id = %s", (song_id,))
+        song = cursor.fetchone()
+        
+        if not song:
+            return redirect(url_for('index'))
+            
+        # Buscar en Spotify
+        search_result = search_tracks(song['name'], limit=1)
+        
+        if "error" not in search_result and search_result.get('tracks', {}).get('items'):
+            track = search_result['tracks']['items'][0]
+            spotify_id = track['id']
+            
+            # Actualizar la base de datos
+            cursor.execute("UPDATE songs SET spotify_id = %s WHERE id = %s", (spotify_id, song_id))
+            conn.commit()
+            
+            # Redirigir a Spotify
+            return redirect(f"https://open.spotify.com/track/{spotify_id}")
+        else:
+            # Si no encuentra la canción, redirigir a la búsqueda en Spotify
+            return redirect(f"https://open.spotify.com/search/{urllib.parse.quote(song['name'])}")
+            
+    except Exception as e:
+        print(f"Error al crear enlace de Spotify: {e}")
+        return redirect(url_for('index'))
+    finally:
+        if 'cursor' in locals() and cursor:
+            cursor.close()
+        if 'conn' in locals() and conn:
+            conn.close()
+
+
 @app.route('/spotify/recommendations')
 def spotify_recommendations():
     if "token_info" not in session:
@@ -261,7 +448,7 @@ def api_get_songs_by_mood():
     print(f"Buscando canciones para mood: {mood}")
     
     # Modificación: Primero intenta obtener el mood por nombre
-    from scraper.db.connection import connect_db
+    
     conn = connect_db()
     cursor = conn.cursor()
     
