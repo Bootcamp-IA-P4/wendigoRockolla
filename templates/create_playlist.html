@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Playlist | Wendigo Music Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Wendigo Music Finder</div>
+            <p class="tagline">Crear Playlist</p>
+        </header>
+        
+        <section>
+            <h2 class="section-title">Crear Playlist de Spotify con tus Moods</h2>
+            
+            {% if error %}
+                <div class="error-message">
+                    {{ error }}
+                </div>
+            {% endif %}
+            
+            <div class="form-container">
+                <form action="{{ url_for('spotify_create_playlist') }}" method="post" id="playlistForm">
+                    <div class="form-group">
+                        <label for="name">Nombre de la Playlist *</label>
+                        <input type="text" id="name" name="name" class="form-control" required placeholder="Ej: Mi Playlist de Wendigo" value="{{ (request.form.name or mood ~ ' Mix') if mood else '' }}">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Descripción</label>
+                        <textarea id="description" name="description" class="form-control" placeholder="Describe tu playlist...">{{ (request.form.description or 'Playlist creada con Wendigo Music Finder - Mood: ' ~ mood) if mood else '' }}</textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mood">Mood</label>
+                        <select id="mood" name="mood" class="form-control">
+                            <option value="">Selecciona un mood</option>
+                            {% for mood_item in all_moods %}
+                                <option value="{{ mood_item.name }}" {% if mood == mood_item.name %}selected{% endif %}>{{ mood_item.name }}</option>
+                            {% else %}
+                                <!-- Opciones estáticas como respaldo si no hay datos de la API -->
+                                <option value="Happy" {% if mood == 'Happy' %}selected{% endif %}>Happy</option>
+                                <option value="Sad" {% if mood == 'Sad' %}selected{% endif %}>Sad</option>
+                                <option value="Energetic" {% if mood == 'Energetic' %}selected{% endif %}>Energetic</option>
+                                <option value="Relaxing" {% if mood == 'Relaxing' %}selected{% endif %}>Relaxing</option>
+                                <option value="Romantic" {% if mood == 'Romantic' %}selected{% endif %}>Romantic</option>
+                                <option value="Epic" {% if mood == 'Epic' %}selected{% endif %}>Epic</option>
+                                <option value="Melancholic" {% if mood == 'Melancholic' %}selected{% endif %}>Melancholic</option>
+                                <option value="Dreamy" {% if mood == 'Dreamy' %}selected{% endif %}>Dreamy</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div id="loadingSongs" class="loading-spinner">
+                        <div class="spinner"></div> Cargando canciones...
+                    </div>
+                    
+                    <!-- Previsualización de canciones que se cargarán por AJAX -->
+                    <div id="songPreviewContainer" style="display: none;" class="form-group">
+                        <label>Canciones para la Playlist <small>(Selecciona hasta 50)</small></label>
+                        
+                        <div class="preview-header">
+                            <span><b><span id="selectedCount">0</span> canciones seleccionadas</b></span>
+                            <div class="selection-actions">
+                                <button type="button" class="selection-btn" id="selectAll">Seleccionar todas</button>
+                                <button type="button" class="selection-btn" id="deselectAll">Deseleccionar todas</button>
+                            </div>
+                        </div>
+                        
+                        <div class="song-preview" id="songPreview">
+                            <!-- Las canciones se cargarán aquí por JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Campo oculto para guardar IDs de las canciones seleccionadas -->
+                    <input type="hidden" name="selected_songs" id="selectedSongs" value="">
+                    
+                    <div style="display: flex; justify-content: space-between;">
+                        <a href="{{ url_for('spotify_profile') }}" class="back-button">
+                            <i class="fas fa-arrow-left"></i> Volver
+                        </a>
+                        <button type="submit" class="spotify-button">
+                            <i class="fab fa-spotify"></i> Crear Playlist
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Cuando se cambia el mood, cargar canciones relacionadas
+        document.getElementById('mood').addEventListener('change', function() {
+            const selectedMood = this.value;
+            if (!selectedMood) return;
+            
+            // Actualizar el nombre de la playlist si está vacío
+            const nameInput = document.getElementById('name');
+            if (!nameInput.value) {
+                nameInput.value = selectedMood + ' Mix';
+            }
+            
+            // Actualizar descripción si está vacía
+            const descInput = document.getElementById('description');
+            if (!descInput.value) {
+                descInput.value = 'Playlist creada con Wendigo Music Finder - Mood: ' + selectedMood;
+            }
+            
+            // Mostrar spinner de carga
+            document.getElementById('loadingSongs').style.display = 'block';
+            document.getElementById('songPreviewContainer').style.display = 'none';
+            
+            // Hacer la petición a la API local para obtener canciones por mood
+            fetch('/api/songs?mood=' + encodeURIComponent(selectedMood))
+                .then(response => response.json())
+                .then(data => {
+                    // Ocultar spinner
+                    document.getElementById('loadingSongs').style.display = 'none';
+                    
+                    // Mostrar contenedor de previsualización
+                    document.getElementById('songPreviewContainer').style.display = 'block';
+                    
+                    // Llenar el contenedor con las canciones
+                    const container = document.getElementById('songPreview');
+                    container.innerHTML = '';
+                    
+                    if (data.length === 0) {
+                        container.innerHTML = '<p>No se encontraron canciones para este mood.</p>';
+                        return;
+                    }
+                    
+                    data.forEach((song, index) => {
+                        const songElement = document.createElement('div');
+                        songElement.className = 'song-item';
+                        songElement.innerHTML = `
+                            <input type="checkbox" class="song-check" id="song${index}" 
+                                data-id="${song.id}" 
+                                data-spotify-id="${song.spotify_id || ''}" 
+                                data-name="${song.name}" 
+                                data-artist="${song.artist}">
+                            <label for="song${index}">
+                                <strong>${song.name}</strong> - ${song.artist}
+                            </label>
+                        `;
+                        container.appendChild(songElement);
+                    });
+                    
+                    // Inicializar eventos para los checkboxes y conteo
+                    initializeCheckboxes();
+                })
+                .catch(error => {
+                    console.error('Error al cargar canciones:', error);
+                    document.getElementById('loadingSongs').style.display = 'none';
+                    document.getElementById('songPreviewContainer').style.display = 'block';
+                    document.getElementById('songPreview').innerHTML = 
+                        '<p class="error-message">Error al cargar canciones. Inténtalo de nuevo.</p>';
+                });
+        });
+        
+        // Inicializar eventos para los checkboxes
+        function initializeCheckboxes() {
+            const checkboxes = document.querySelectorAll('.song-check');
+            
+            // Actualizar contador cuando se selecciona/deselecciona
+            checkboxes.forEach(cb => {
+                cb.addEventListener('change', updateSelectedCount);
+            });
+            
+            // Botón para seleccionar todos
+            document.getElementById('selectAll').addEventListener('click', function() {
+                checkboxes.forEach(cb => {
+                    cb.checked = true;
+                });
+                updateSelectedCount();
+            });
+            
+            // Botón para deseleccionar todos
+            document.getElementById('deselectAll').addEventListener('click', function() {
+                checkboxes.forEach(cb => {
+                    cb.checked = false;
+                });
+                updateSelectedCount();
+            });
+            
+            // Actualizar contador inicial
+            updateSelectedCount();
+        }
+        
+        // Actualizar contador de seleccionados
+        function updateSelectedCount() {
+            const selected = document.querySelectorAll('.song-check:checked');
+            document.getElementById('selectedCount').textContent = selected.length;
+            
+            // Construir lista de canciones seleccionadas para enviar
+            const selectedSongs = [];
+            selected.forEach(cb => {
+                selectedSongs.push({
+                    id: cb.dataset.id,
+                    spotify_id: cb.dataset.spotifyId,
+                    name: cb.dataset.name,
+                    artist: cb.dataset.artist
+                });
+            });
+            
+            // Actualizar campo oculto con la selección JSON
+            document.getElementById('selectedSongs').value = JSON.stringify(selectedSongs);
+        }
+        
+        // Si hay un mood preseleccionado, cargar sus canciones
+        document.addEventListener('DOMContentLoaded', function() {
+            const moodSelect = document.getElementById('mood');
+            if (moodSelect.value) {
+                // Simular cambio para cargar canciones
+                const event = new Event('change');
+                moodSelect.dispatchEvent(event);
+            }
+        });
+        
+        // Validación antes de enviar
+        document.getElementById('playlistForm').addEventListener('submit', function(e) {
+            const selectedSongs = document.querySelectorAll('.song-check:checked');
+            if (selectedSongs.length === 0 && document.getElementById('songPreviewContainer').style.display !== 'none') {
+                e.preventDefault();
+                alert('Por favor, selecciona al menos una canción para tu playlist.');
+            }
+        });
+    </script>
+</body>
+</html>

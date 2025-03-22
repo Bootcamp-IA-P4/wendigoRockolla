@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Profile | Wendigo Music Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Wendigo Music Finder</div>
+            <p class="tagline">Spotify Integration</p>
+        </header>
+        
+        <section>
+            <h2 class="section-title">Tu Perfil de Spotify</h2>
+            
+            <div class="profile-container">
+                <div class="profile-header">
+                    <img src="{{ profile.images[0].url if profile.images else url_for('static', filename='img/default-profile.png') }}" alt="{{ profile.display_name }}" class="profile-image">
+                    <div class="profile-info">
+                        <h3>{{ profile.display_name }}</h3>
+                        <p>{{ profile.email }}</p>
+                        <p>{{ profile.followers.total }} Seguidores</p>
+                        <p>
+                            <i class="fas fa-globe"></i> {{ profile.country }}
+                            {% if profile.product == 'premium' %}
+                                <span style="color: #1DB954; margin-left: 10px;">
+                                    <i class="fas fa-crown"></i> Premium
+                                </span>
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="stats-section">
+                    <div class="stat-card">
+                        <div class="stat-number">{{ profile.followers.total }}</div>
+                        <div class="stat-label">Seguidores</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">{{ profile.product|capitalize }}</div>
+                        <div class="stat-label">Tipo de Cuenta</div>
+                    </div>
+                </div>
+                
+                <a href="{{ url_for('index') }}" class="back-button" style="margin-right: 10px;">
+                    <i class="fas fa-home"></i> Inicio
+                </a>
+                <a href="{{ url_for('spotify_create_playlist_page') }}" class="spotify-button">
+                    <i class="fas fa-plus"></i> Crear Playlist
+                </a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+        </footer>
+    </div>
+</body>
+</html>
