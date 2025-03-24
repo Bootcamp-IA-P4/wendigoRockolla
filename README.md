@@ -24,13 +24,15 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
 - [Configuración](#configuración)  
 - [Uso](#uso)  
   - [Aplicación Principal](#app-principal)  
-  - [Scraper Principal](#scraper-principal)  
-  - [Scraper de Moods Existentes](#scraper-de-moods-existentes)  
-  - [Data Cleaner](#data-cleaner)  
+  - [Scraper Principal](#scraper-allmusic)  
+  - [Scraper de Moods Existentes](#scraper-de-moods-independientes)  
+  - [Data Cleaner](#limpiador-de-data)  
 - [Tecnologías](#tecnologías)  
 - [Funcionalidades](#funcionalidades)  
-- [APIs](#apis)  
-- [Licencia](#licencia)  
+- [Tests](#tests)  
+- [Licencia](#licencia)
+- [Contacto](#contacto)
+    
 
 ---
 
@@ -110,7 +112,7 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
 
 Podrás explorar las diferentes funcionalidades de la aplicación, como buscar música, ver tus playlists, etc.
 
-<em>Scraper Allmusic</em>
+### <em>Scraper Allmusic</em>
 
 1. **Asegúrate de estar a la altura del archivo scraper_allmusic.py**
 2. **Para iniciar el scraper:**
@@ -173,7 +175,7 @@ El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de
 
 ---
 
-## Tests 🧪
+## Tests
 
 1. **Asegúrate de estar a la altura del archivo test.py, en la rama test**
 2. **Instalación de las dependencias:**
@@ -224,15 +226,17 @@ Estos tests constituyen una base sólida para garantizar que Wendigo Music Finde
 ![test passed](https://github.com/user-attachments/assets/e2250153-02a2-49e0-9640-227611cafc3a)
 
 ---
-## Licencia 📜
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
 ---
-## Contacto 📧
+## Contacto
 Si tienes preguntas o comentarios, no dudes en contactarme:
 
+![Yellow Lined Illustrative Graphic Design LinkedIn Banner](https://github.com/user-attachments/assets/5dd229ac-9f3b-49ba-9912-bc3623c9a6cd)
 
+[![GitHub](https://img.shields.io/badge/GitHub-DarthVada36-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DarthVada36)
 
 
 
