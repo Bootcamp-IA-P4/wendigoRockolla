@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Música</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Elige un Mood 🎵</h1>
+    <form method="POST">
+        <select name="mood">
+            {% for mood in moods %}
+                <option value="{{ mood[0] }}">{{ mood[1] }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Buscar</button>
+    </form>
+
+    {% if recommendations.albums or recommendations.songs %}
+        <h2>Recomendaciones</h2>
+        <div class="recommendations">
+            {% if recommendations.albums %}
+                <h3>Álbumes</h3>
+                <ul>
+                    {% for album in recommendations.albums %}
+                        <li>
+                            <img src="{{ album[1] }}" alt="{{ album[0] }}" width="100">
+                            <p>{{ album[0] }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if recommendations.songs %}
+                <h3>Canciones</h3>
+                <ul>
+                    {% for song in recommendations.songs %}
+                        <li>
+                            <a href="{{ song[1] }}" target="_blank">{{ song[0] }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    {% endif %}
+</body>
+</html>
