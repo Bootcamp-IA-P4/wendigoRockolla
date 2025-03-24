@@ -152,6 +152,9 @@ El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de
 - ✔ **Recomendaciones Personalizadas:** Recibe recomendaciones basadas en tu historial de escucha
 - ✔ **Depuración de Datos:** Limpieza automatizada de datos para asegurar información de calidad
 
+![Macbook-Air](https://github.com/user-attachments/assets/269213b2-2cf2-45dd-b6a8-ea1b9ee7bde7)
+
+
 ---
 
 ## Tests 🧪
@@ -179,6 +182,9 @@ Lista de tests:
    - test_get_all_artists
    - test_get_all_albums
    - test_get_songs_by_mood_id
+  
+    ![crudtestpassed](https://github.com/user-attachments/assets/7542bc88-f065-43a3-9bde-cdf113816595)
+
 
 - Tests de la API de Spotify **(test_spotify_api.py)**
   - test_search_tracks
@@ -186,6 +192,9 @@ Lista de tests:
   - test_get_auth_url
   - test_get_token_info
   - test_get_user_profile
+ 
+  ![TestsapiSpotifyPassed](https://github.com/user-attachments/assets/1aeb6054-bcff-4aeb-a9de-98848d6e0649)
+
 
 **Base de datos de prueba:** Utilizan una base de datos separada para evitar modificar datos reales.
 
@@ -196,6 +205,8 @@ Lista de tests:
 **Automatización:** Pueden ejecutarse automáticamente como parte del proceso de desarrollo para detectar problemas temprano.
 
 Estos tests constituyen una base sólida para garantizar que Wendigo Music Finder funcione correctamente en todos sus componentes clave.
+
+![test passed](https://github.com/user-attachments/assets/e2250153-02a2-49e0-9640-227611cafc3a)
 
 ---
 ## Licencia 📜
