@@ -1,0 +1,44 @@
+<nav class="navbar">
+    <div class="navbar-brand">
+        <a href="{{ url_for('index') }}" class="navbar-logo">
+            <img src="{{url_for('static', filename='logoWnd.png')}}" alt="logoWnd">
+        </a>
+    </div>
+    
+    <div class="navbar-menu">
+        
+        {% if 'token_info' in session %}
+            <a href="{{ url_for('spotify_profile') }}" class="navbar-item {% if request.endpoint == 'spotify_profile' %}active{% endif %}">
+                <i class="fas fa-user"></i> Mi Perfil
+            </a>
+            
+            <a href="{{ url_for('spotify_create_playlist_page') }}" class="navbar-item {% if request.endpoint == 'spotify_create_playlist_page' %}active{% endif %}">
+                <i class="fas fa-plus-circle"></i> Crear Playlist
+            </a>
+        {% endif %}
+        
+        <a href="{{ url_for('admin_moods') }}" class="navbar-item {% if request.endpoint == 'admin_moods' %}active{% endif %}">
+            <i class="fas fa-sliders-h"></i> Admin Moods
+        </a>
+    </div>
+    
+    <div class="navbar-end">
+        {% if 'token_info' in session and spotify_user %}
+            <div class="navbar-user">
+                {% if spotify_user.images and spotify_user.images|length > 0 %}
+                    <img src="{{ spotify_user.images[0].url }}" alt="Perfil" class="navbar-avatar">
+                {% else %}
+                    <i class="fas fa-user-circle navbar-avatar-icon"></i>
+                {% endif %}
+                <span>{{ spotify_user.display_name }}</span>
+            </div>
+            <a href="{{ url_for('spotify_logout') }}" class="navbar-item logout-btn">
+                <i class="fas fa-sign-out-alt"></i> Salir
+            </a>
+        {% else %}
+            <a href="{{ url_for('spotify_login') }}" class="navbar-item spotify-login-btn">
+                <i class="fab fa-spotify"></i> Conectar
+            </a>
+        {% endif %}
+    </div>
+</nav>

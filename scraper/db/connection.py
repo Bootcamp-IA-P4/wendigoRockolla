@@ -2,7 +2,9 @@ import os
 import mysql.connector
 from dotenv import load_dotenv
 
-load_dotenv("../config/.env")  # Cargar credenciales desde .env
+# Load environment variables from .env file
+dotenv_path = os.path.join(os.path.dirname(__file__), '../../config/.env')
+load_dotenv(dotenv_path)
 
 def connect_db():
     return mysql.connector.connect(
