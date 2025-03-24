@@ -9,3 +9,8 @@ __pycache__
 *.env
 .csv
 *.log
+*.pyest_cache
+.env.test
+/*.pytest_cache
+/.pytest_cache
+.pytest_cache
