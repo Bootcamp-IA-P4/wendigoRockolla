@@ -1,19 +1,18 @@
 import os
 import sys
-# Usar try/except para manejar las importaciones de forma más robusta
 try:
-    # Primero intenta importar como si estuviera en el scraper
     from db.connection import connect_db
 except ImportError:
-    # Si falla, intenta importar como si estuviera desde app.py
     from scraper.db.connection import connect_db
 
+
+# CRUD de Moods
+"""Read all moods"""
 def get_all_moods():
     try:
         db = connect_db()
         cursor = db.cursor(dictionary=True)
         
-        # Primero verificamos si la columna url existe
         cursor.execute("SHOW COLUMNS FROM moods LIKE 'url'")
         column_exists = cursor.fetchone()
         
@@ -70,6 +69,16 @@ def insert_song(name, youtube_url):
         cursor.close()
         db.close()
 
+def add_mood(name, url=None):
+    try:
+        insert_mood(name)
+        if url:
+            update_mood_url(name, url)
+        return True
+    except Exception as e:
+        print(f"Error adding mood: {e}")
+        return False
+
 def insert_mood(name):
     try:
         db = connect_db()
@@ -82,6 +91,34 @@ def insert_mood(name):
     finally:
         cursor.close()
         db.close()
+
+def delete_mood_by_id(mood_id, conn=None):
+    """Elimina un mood por su ID"""
+    try:
+        close_conn = False
+        if conn is None:
+            from scraper.db.connection import connect_db
+            conn = connect_db()
+            close_conn = True
+        
+        cursor = conn.cursor()
+        
+        # Primero eliminar referencias en la tabla mood_songs
+        cursor.execute("DELETE FROM mood_songs WHERE mood_id = %s", (mood_id,))
+        
+        # Luego eliminar el mood
+        cursor.execute("DELETE FROM moods WHERE id = %s", (mood_id,))
+        
+        # Hacer commit
+        conn.commit()
+        
+        cursor.close()
+        if close_conn:
+            conn.close()
+        return True
+    except Exception as e:
+        print(f"Error al eliminar mood: {e}")
+        return False
 
 def get_mood_id(name):
     try:
@@ -131,19 +168,29 @@ def get_songs_by_mood_id(mood_id):
         print(f"Error al obtener canciones por mood ID: {e}")
         return []
 
-def update_mood_url(mood_name, url):
+def update_mood_url(mood_name, new_url):
+    """Actualiza la URL de un mood existente"""
     try:
-        db = connect_db()
-        cursor = db.cursor()
-        query = "UPDATE moods SET url = %s WHERE name = %s"
-        cursor.execute(query, (url, mood_name))
-        db.commit()
-        affected_rows = cursor.rowcount
+        from scraper.db.connection import connect_db
+        conn = connect_db()
+        cursor = conn.cursor()
+        
+        # Verificar si la columna url existe
+        cursor.execute("SHOW COLUMNS FROM moods LIKE 'url'")
+        column_exists = cursor.fetchone()
+        
+        if not column_exists:
+            cursor.execute("ALTER TABLE moods ADD COLUMN url VARCHAR(255)")
+            conn.commit()
+        
+        cursor.execute("UPDATE moods SET url = %s WHERE name = %s", (new_url, mood_name))
+        conn.commit()
+        
         cursor.close()
-        db.close()
-        return affected_rows > 0
+        conn.close()
+        return True
     except Exception as e:
-        print(f"Error updating mood URL for '{mood_name}': {e}")
+        print(f"Error al actualizar URL del mood: {e}")
         return False
 
 def insert_mood_song(mood_id, song_id):

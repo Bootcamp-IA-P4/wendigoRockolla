@@ -6,7 +6,11 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-from db.crud import insert_artist, insert_mood, insert_song, insert_albums, insert_mood_song, insert_mood_album, get_mood_id, get_album_id, get_song_id
+
+try:
+    from db.crud import insert_artist, insert_mood, insert_song, insert_albums, insert_mood_song, insert_mood_album, get_mood_id, get_album_id, get_song_id
+except ImportError:
+    from scraper.db.crud import insert_artist, insert_mood, insert_song, insert_albums, insert_mood_song, insert_mood_album, get_mood_id, get_album_id, get_song_id
 
 #Optiones de Selenium
 options = Options()

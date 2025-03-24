@@ -7,7 +7,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-from db.crud import insert_artist, insert_mood, insert_song, insert_albums, insert_mood_song, insert_mood_album, get_mood_id, get_album_id, get_song_id, get_all_moods, update_mood_url
+try:
+    from db.crud import insert_artist, insert_mood, insert_song, insert_albums, insert_mood_song, insert_mood_album, get_mood_id, get_album_id, get_song_id, get_all_moods, update_mood_url
+except ImportError:
+    from db.crud import insert_artist, insert_mood, insert_song, insert_albums, insert_mood_song, insert_mood_album, get_mood_id, get_album_id, get_song_id, get_all_moods, update_mood_url
 
 # Opciones de Selenium
 options = Options()
@@ -20,7 +23,6 @@ print("Open Google browser")
 
 def handle_cookie_consent():
     try:
-        # Espera un poco para que la página se cargue completamente
         time.sleep(3)
         consent_button = WebDriverWait(driver, 30).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "div.fc-consent-root button.fc-button.fc-cta-consent"))
