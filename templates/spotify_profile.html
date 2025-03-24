@@ -1,63 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Profile | Wendigo Music Finder</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <header>
             <div class="logo">Wendigo Music Finder</div>
             <p class="tagline">Spotify Integration</p>
         </header>
-        
+
         <section>
             <h2 class="section-title">Tu Perfil de Spotify</h2>
-            
+
             <div class="profile-container">
                 <div class="profile-header">
-                    <img src="{{ profile.images[0].url if profile.images else url_for('static', filename='img/default-profile.png') }}" alt="{{ profile.display_name }}" class="profile-image">
+                    <img src="{{ profile.images[0].url if profile.images else url_for('static', filename='img/default-profile.png') }}"
+                        alt="{{ profile.display_name }}" class="profile-image" />
                     <div class="profile-info">
                         <h3>{{ profile.display_name }}</h3>
-                        <p>{{ profile.email }}</p>
-                        <p>{{ profile.followers.total }} Seguidores</p>
                         <p>
-                            <i class="fas fa-globe"></i> {{ profile.country }}
+                            <i class="fas fa-globe"></i> {{ profile.country }} 
                             {% if profile.product == 'premium' %}
-                                <span style="color: #1DB954; margin-left: 10px;">
-                                    <i class="fas fa-crown"></i> Premium
-                                </span>
+                            <span style="color: #1db954; margin-left: 10px">
+                                <i class="fas fa-crown"></i> Premium
+                            </span>
                             {% endif %}
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="stats-section">
                     <div class="stat-card">
                         <div class="stat-number">{{ profile.followers.total }}</div>
                         <div class="stat-label">Seguidores</div>
                     </div>
+                    {% if profile.product != 'premium' %}
                     <div class="stat-card">
                         <div class="stat-number">{{ profile.product|capitalize }}</div>
                         <div class="stat-label">Tipo de Cuenta</div>
                     </div>
+                    {% endif %}
                 </div>
+
+                <div class="profile-actions">
+                    <a href="{{ url_for('index') }}" class="back-button" style="margin-right: 10px">
+                        <i class="fas fa-home"></i> Inicio
+                    </a>
+                    <a href="{{ url_for('spotify_create_playlist_page') }}" class="spotify-button">
+                        <i class="fas fa-plus"></i> Crear Playlist
+                    </a>
+                </div>
+            </div>
+            <!-- Sección de playlists -->
+            <div class="playlists-section">
+                <h2 class="section-title">Mis Playlists</h2>
                 
-                <a href="{{ url_for('index') }}" class="back-button" style="margin-right: 10px;">
-                    <i class="fas fa-home"></i> Inicio
-                </a>
-                <a href="{{ url_for('spotify_create_playlist_page') }}" class="spotify-button">
-                    <i class="fas fa-plus"></i> Crear Playlist
-                </a>
+                {% if playlists and 'items' in playlists %}
+                    <div class="playlists-grid">
+                        {% for playlist in playlists['items'] %}
+                            <div class="playlist-card">
+                                <a href="{{ playlist.external_urls.spotify }}" target="_blank" class="playlist-link">
+                                    <div class="playlist-image-container">
+                                        <img src="{{ playlist.images[0].url if playlist.images and playlist.images|length > 0 else url_for('static', filename='img/default-playlist.png') }}" 
+                                            alt="{{ playlist.name }}" class="playlist-image">
+                                        <div class="playlist-overlay">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="playlist-info">
+                                        <h4 class="playlist-name">{{ playlist.name }}</h4>
+                                        <p class="playlist-details">
+                                            {{ playlist.tracks.total }} canciones
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    
+                    {% if playlists.total > playlists['items']|length %}
+                        <div class="see-more">
+                            <a href="https://open.spotify.com/collection/playlists" target="_blank" class="see-more-link">
+                                Ver todas mis playlists <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    {% endif %}
+                {% else %}
+                    <p class="no-playlists">No se encontraron playlists</p>
+                {% endif %}
             </div>
         </section>
-        
+
         <footer>
-            <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
+            <p>
+                © 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo
+                Wendigo Rockolla
+            </p>
         </footer>
     </div>
 </body>
+
 </html>

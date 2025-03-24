@@ -145,6 +145,10 @@ def get_user_profile():
     """
     return make_api_request("me")
 
+def get_user_playlists(limit=10, offset=0):
+    endpoint = f"me/playlists?limit={limit}&offset={offset}"
+    return make_api_request(endpoint)
+
 def create_playlist(name, description="", public=True):
     """
     Crea una nueva playlist
@@ -171,6 +175,8 @@ def add_tracks_to_playlist(playlist_id, track_uris):
     data = {"uris": track_uris}
     
     return make_api_request(endpoint, method="POST", data=data)
+
+
 
 def get_recommendations_by_mood(mood, limit=20):
     """

@@ -10,7 +10,7 @@ from services.genius_service import get_song_lyrics, get_song_details
 from services.spotifyApi import (
     get_auth_url, get_token_info, get_user_profile, 
     search_tracks, create_playlist, add_tracks_to_playlist,
-    get_recommendations_by_mood, update_song_spotify_id, get_songs_by_mood_id, advanced_search_track
+    get_recommendations_by_mood, update_song_spotify_id, get_songs_by_mood_id, advanced_search_track, get_user_playlists
 )
 from scraper.db.connection import connect_db
 
@@ -229,12 +229,13 @@ def spotify_profile():
     if "token_info" not in session:
         return redirect(url_for('spotify_login'))
     
-    profile = get_user_profile()
+    profile = get_user_profile() 
+    playlists = get_user_playlists(limit=10)
     
     if "error" in profile:
         return render_template('error.html', message=f"Error: {profile['error']}")
     
-    return render_template('spotify_profile.html', profile=profile)
+    return render_template('spotify_profile.html', profile=profile, playlists=playlists)
 
 @app.route('/spotify/create_playlist')
 def spotify_create_playlist_page():
