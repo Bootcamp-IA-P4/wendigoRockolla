@@ -1,943 +1,636 @@
 id,name,url
-15,Eminem,https://www.allmusic.com/artist/eminem-mn0000157676
-16,The Rolling Stones,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465
-17,Soundgarden,https://www.allmusic.com/artist/soundgarden-mn0000001098
-18,Chuck Berry,https://www.allmusic.com/artist/chuck-berry-mn0000120521
-19,Neil Young,https://www.allmusic.com/artist/neil-young-mn0000379125
-20,Johnny Cash,https://www.allmusic.com/artist/johnny-cash-mn0000816890
-21,Bob Dylan,https://www.allmusic.com/artist/bob-dylan-mn0000066915
-22,The Kinks,https://www.allmusic.com/artist/the-kinks-mn0000100160
-23,2 Chainz / The Alchemist / Larry June,https://www.allmusic.com/artist/2-chainz-mn0002748040
-24,Throwing Muses,https://www.allmusic.com/artist/throwing-muses-mn0000925528
-25,Lambrini Girls,https://www.allmusic.com/artist/lambrini-girls-mn0004549798
-26,Courting,https://www.allmusic.com/artist/courting-mn0003988051
-27,Public Enemy,https://www.allmusic.com/artist/public-enemy-mn0000856785
-28,Rage Against the Machine,https://www.allmusic.com/artist/rage-against-the-machine-mn0000863790
-29,Ice Cube,https://www.allmusic.com/artist/ice-cube-mn0000086065
-30,Metallica,https://www.allmusic.com/artist/metallica-mn0000446509
-31,Wu-Tang Clan,https://www.allmusic.com/artist/wu-tang-clan-mn0000959876
-32,L7,https://www.allmusic.com/artist/l7-mn0000100473
-33,Motörhead,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407
-34,The Runaways,https://www.allmusic.com/artist/the-runaways-mn0000492275
-35,Ella Fitzgerald,https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502
-36,Jason Isbell,https://www.allmusic.com/artist/jason-isbell-mn0000562615
-38,The Ancients / Isaiah Collier / William Hooker / William Parker,https://www.allmusic.com/artist/the-ancients-mn0004768598
-39,Tim Hart / Tim Hart & Maddy Prior / Maddy Prior,https://www.allmusic.com/artist/tim-hart-mn0000503187
-40,Martha & the Vandellas,https://www.allmusic.com/artist/martha-the-vandellas-mn0001199135
-41,Nick Lowe,https://www.allmusic.com/artist/nick-lowe-mn0000866841
-42,Duke Ellington,https://www.allmusic.com/artist/duke-ellington-mn0000120323
-43,Tammy Wynette,https://www.allmusic.com/artist/tammy-wynette-mn0000136640
-44,Van Halen,https://www.allmusic.com/artist/van-halen-mn0000260206
-45,Wings / Paul McCartney / Paul McCartney & Wings,https://www.allmusic.com/artist/wings-mn0000956707
-46,Russ Taff,https://www.allmusic.com/artist/russ-taff-mn0000212810
-47,Riccardo Muti / Wiener Philharmoniker,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
-48,Edwyn Collins,https://www.allmusic.com/artist/edwyn-collins-mn0000620603
-49,Isabel Schicketanz,https://www.allmusic.com/artist/isabel-schicketanz-mn0003476936
-50,Fatma Said,https://www.allmusic.com/artist/fatma-said-mn0003904265
-51,Terry Riley,https://www.allmusic.com/artist/terry-riley-mn0000750519
-53,Edgar Froese / Klaus Schulze / Ashra,https://www.allmusic.com/artist/edgar-froese-mn0000147638
-54,Toumani Diabaté / Sidiki Diabaté,https://www.allmusic.com/artist/toumani-diabat%C3%A9-mn0000744075
-55,Philip Glass,https://www.allmusic.com/artist/philip-glass-mn0000849672
-56,Astor Piazzolla,https://www.allmusic.com/artist/astor-piazzolla-mn0000607967
-57,Four Tet,https://www.allmusic.com/artist/four-tet-mn0000741236
-59,Baths,https://www.allmusic.com/artist/baths-mn0002424501
-60,Nels Cline,https://www.allmusic.com/artist/nels-cline-mn0000861400
-61,Billy Hart Quartet / Billy Hart,https://www.allmusic.com/artist/billy-hart-quartet-mn0003213609
-62,Eddie Chacon,https://www.allmusic.com/artist/eddie-chacon-mn0001539810
-63,Radiohead,https://www.allmusic.com/artist/radiohead-mn0000326249
-64,Wayne Shorter,https://www.allmusic.com/artist/wayne-shorter-mn0000250435
-65,Charles Mingus,https://www.allmusic.com/artist/charles-mingus-mn0000009680
-66,Thelonious Monk,https://www.allmusic.com/artist/thelonious-monk-mn0000490416
-67,Sonny Rollins,https://www.allmusic.com/artist/sonny-rollins-mn0000039656
-68,Waylon Jennings,https://www.allmusic.com/artist/waylon-jennings-mn0000200791
-69,Bruce Springsteen,https://www.allmusic.com/artist/bruce-springsteen-mn0000530745
-70,Willie Nelson,https://www.allmusic.com/artist/willie-nelson-mn0000583959
-71,Lady Gaga,https://www.allmusic.com/artist/lady-gaga-mn0000994823
-72,Grateful Dead,https://www.allmusic.com/artist/grateful-dead-mn0000988440
-73,Kurt Elling / Sullivan Fortner,https://www.allmusic.com/artist/kurt-elling-mn0000777054
-74,Ambrose Akinmusire,https://www.allmusic.com/artist/ambrose-akinmusire-mn0000919421
-75,Louis Armstrong,https://www.allmusic.com/artist/louis-armstrong-mn0000234518
-76,De La Soul,https://www.allmusic.com/artist/de-la-soul-mn0000238322
-78,Cyndi Lauper,https://www.allmusic.com/artist/cyndi-lauper-mn0000122754
-79,Bob Wills and His Texas Playboys,https://www.allmusic.com/artist/bob-wills-and-his-texas-playboys-mn0000065538
-80,Pérez Prado,https://www.allmusic.com/artist/p%C3%A9rez-prado-mn0000310383
-86,Dead Kennedys,https://www.allmusic.com/artist/dead-kennedys-mn0000786613
-88,Black Flag,https://www.allmusic.com/artist/black-flag-mn0000091650
-89,Elvis Costello / Elvis Costello & the Attractions,https://www.allmusic.com/artist/elvis-costello-mn0000058549
-90,Pixies,https://www.allmusic.com/artist/pixies-mn0000895136
-93,The Clash,https://www.allmusic.com/artist/the-clash-mn0000075747
-94,Magdalena Kožená / Andrew Staples / Simon Rattle / London Symphony Orchestra,https://www.allmusic.com/artist/magdalena-ko%C5%BEen%C3%A1-mn0001467668
-95,Bob Mould,https://www.allmusic.com/artist/bob-mould-mn0000058386
-100,The Who,https://www.allmusic.com/artist/the-who-mn0000577627
-102,Nine Inch Nails,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733
-104,Depeche Mode,https://www.allmusic.com/artist/depeche-mode-mn0000239921
-106,"Bonnie ""Prince"" Billy",https://www.allmusic.com/artist/bonnie-prince-billy-mn0000094764
-108,Mac Miller,https://www.allmusic.com/artist/mac-miller-mn0002653603
-109,Florence + the Machine / Jules Buckley / Jules Buckley and His Orchestra,https://www.allmusic.com/artist/florence-the-machine-mn0002124046
-111,Lloyd Price,https://www.allmusic.com/artist/lloyd-price-mn0000827250
-113,Stevie Wonder,https://www.allmusic.com/artist/stevie-wonder-mn0000622805
-114,Patsy Cline,https://www.allmusic.com/artist/patsy-cline-mn0000014651
-115,Big Bill Broonzy,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873
-117,Nina Simone,https://www.allmusic.com/artist/nina-simone-mn0000411761
-118,The War and Treaty,https://www.allmusic.com/artist/the-war-and-treaty-mn0003749672
-119,FKA twigs,https://www.allmusic.com/artist/fka-twigs-mn0003145761
-120,Japanese Breakfast,https://www.allmusic.com/artist/japanese-breakfast-mn0003475118
-121,Sharon Van Etten,https://www.allmusic.com/artist/sharon-van-etten-mn0002132489
-122,Fiona Apple,https://www.allmusic.com/artist/fiona-apple-mn0000169795
-123,Karl Böhm,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
-124,Robert Craft / Edgard Varèse,https://www.allmusic.com/artist/robert-craft-mn0001792374
-125,Cecil Taylor,https://www.allmusic.com/artist/cecil-taylor-mn0000988386
-126,Royal Philharmonic Orchestra,https://www.allmusic.com/artist/royal-philharmonic-orchestra-mn0000350127
-127,Wynton Marsalis / Cristian Măcelaru / Philadelphia Orchestra,https://www.allmusic.com/artist/wynton-marsalis-mn0000961688
-128,Laurie Anderson / Kronos Quartet,https://www.allmusic.com/artist/laurie-anderson-mn0000785773
-129,Actress,https://www.allmusic.com/artist/actress-mn0001399533
-130,John Surman,https://www.allmusic.com/artist/john-surman-mn0000189180
-131,Roberto Prosseda / Nir Kabaretti / London Philharmonic Orchestra,https://www.allmusic.com/artist/roberto-prosseda-mn0001656464
-133,JACK Quartet,https://www.allmusic.com/artist/jack-quartet-mn0002434177
-135,Buzzcocks,https://www.allmusic.com/artist/buzzcocks-mn0000629564
-136,Moby,https://www.allmusic.com/artist/moby-mn0000477116
-137,John Williams,https://www.allmusic.com/artist/john-williams-mn0000232480
-138,Shirley Caesar,https://www.allmusic.com/artist/shirley-caesar-mn0000032071
-139,Wire,https://www.allmusic.com/artist/wire-mn0000672910
-144,Simon Rattle / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/simon-rattle-mn0000932272
-145,Tommy Castro,https://www.allmusic.com/artist/tommy-castro-mn0000613829
-146,Coldplay,https://www.allmusic.com/artist/coldplay-mn0000775877
-148,Def Leppard,https://www.allmusic.com/artist/def-leppard-mn0000193320
-150,The King's Singers / Fretwork,https://www.allmusic.com/artist/the-kings-singers-mn0000929562
-151,John Williams / Berlin Philharmonic Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480
-152,Judas Priest,https://www.allmusic.com/artist/judas-priest-mn0000246611
-153,System of a Down,https://www.allmusic.com/artist/system-of-a-down-mn0000005501
-154,Vulture Feather,https://www.allmusic.com/artist/vulture-feather-mn0004403945
-155,Art d'Ecco,https://www.allmusic.com/artist/art-decco-mn0003772089
-156,Karlheinz Stockhausen,https://www.allmusic.com/artist/karlheinz-stockhausen-mn0000854925
-157,Lorin Maazel / New York Philharmonic,https://www.allmusic.com/artist/lorin-maazel-mn0002078867
-159,King Crimson,https://www.allmusic.com/artist/king-crimson-mn0000076057
-160,Wilhelm Bruckner-Ruggeberg / Lotte Lenya / Heinz Sauerbaum / Kurt Weill,https://www.allmusic.com/artist/wilhelm-bruckner-ruggeberg-mn0001657198
-162,Marc Ribot / Marc Ribot's Ceramic Dog,https://www.allmusic.com/artist/marc-ribot-mn0000674728
-164,Rufus Wainwright,https://www.allmusic.com/artist/rufus-wainwright-mn0000854854
-165,Alabaster DePlume,https://www.allmusic.com/artist/alabaster-deplume-mn0003670691
-166,Gnod / White Hills,https://www.allmusic.com/artist/gnod-mn0002479499
-167,Bambara,https://www.allmusic.com/artist/bambara-mn0001073082
-168,Marios Papadopoulos / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/marios-papadopoulos-mn0000917804
-169,Pat Metheny,https://www.allmusic.com/artist/pat-metheny-mn0000179698
-170,Morton Subotnick,https://www.allmusic.com/artist/morton-subotnick-mn0000857040
-171,Ryuichi Sakamoto,https://www.allmusic.com/artist/ryuichi-sakamoto-mn0000587608
-172,Vladislav Delay,https://www.allmusic.com/artist/vladislav-delay-mn0000185680
-174,Carter Burwell,https://www.allmusic.com/artist/carter-burwell-mn0000149173
-175,Massive Attack,https://www.allmusic.com/artist/massive-attack-mn0000378288
-176,Barney Kessel,https://www.allmusic.com/artist/barney-kessel-mn0000784527
-178,Aphex Twin,https://www.allmusic.com/artist/aphex-twin-mn0000493848
-179,Maurizio Pollini / Karl Böhm,https://www.allmusic.com/artist/maurizio-pollini-mn0000925983
-180,Glenn Gould / Leopold Stokowski,https://www.allmusic.com/artist/glenn-gould-mn0000803752
-181,Sviatoslav Richter,https://www.allmusic.com/artist/sviatoslav-richter-mn0000818152
-182,Keith Jarrett / Dennis Russell Davies / Saarbrucken Radio Symphony Orchestra,https://www.allmusic.com/artist/keith-jarrett-mn0000066570
-186,Boris Giltburg,https://www.allmusic.com/artist/boris-giltburg-mn0002349504
-187,Samson Tsoy,https://www.allmusic.com/artist/samson-tsoy-mn0004612885
-188,The Orb,https://www.allmusic.com/artist/the-orb-mn0000891575
-189,Tortoise,https://www.allmusic.com/artist/tortoise-mn0000180023
-190,Sam Cooke,https://www.allmusic.com/artist/sam-cooke-mn0000238115
-191,Ennio Morricone,https://www.allmusic.com/artist/ennio-morricone-mn0000798662
-192,The Zombies,https://www.allmusic.com/artist/the-zombies-mn0000582313
-193,Brian Eno,https://www.allmusic.com/artist/brian-eno-mn0000617196
-196,"Lee ""Scratch"" Perry",https://www.allmusic.com/artist/lee-scratch-perry-mn0000785380
-199,Mogwai,https://www.allmusic.com/artist/mogwai-mn0000923705
-204,Nick Drake,https://www.allmusic.com/artist/nick-drake-mn0000336783
-205,Leonard Cohen,https://www.allmusic.com/artist/leonard-cohen-mn0000071209
-206,Son House,https://www.allmusic.com/artist/son-house-mn0000753094
-207,Kraftwerk,https://www.allmusic.com/artist/kraftwerk-mn0000104714
-211,Everything Is Recorded,https://www.allmusic.com/artist/everything-is-recorded-mn0003633405
-214,The Beatles,https://www.allmusic.com/artist/the-beatles-mn0000754032
-215,Horace Silver / Horace Silver Quintet,https://www.allmusic.com/artist/horace-silver-mn0000267354
-216,Portishead,https://www.allmusic.com/artist/portishead-mn0000301619
-217,Richard & Linda Thompson / Linda Thompson / Richard Thompson,https://www.allmusic.com/artist/richard-linda-thompson-mn0000288904
-218,Buffalo Springfield,https://www.allmusic.com/artist/buffalo-springfield-mn0000939567
-219,Elton John,https://www.allmusic.com/artist/elton-john-mn0000796734
-224,Too $hort,https://www.allmusic.com/artist/too-hort-mn0001052511
-225,Linkin Park,https://www.allmusic.com/artist/linkin-park-mn0000289599
-226,GZA,https://www.allmusic.com/artist/gza-mn0000170084
-227,Louis C.K.,https://www.allmusic.com/artist/louis-ck-mn0001035974
-228,50 Cent,https://www.allmusic.com/artist/50-cent-mn0000919805
-229,MC Lyte,https://www.allmusic.com/artist/mc-lyte-mn0000220590
-230,The Isley Brothers,https://www.allmusic.com/artist/the-isley-brothers-mn0000766893
-231,Ice-T,https://www.allmusic.com/artist/ice-t-mn0000072003
-233,Spiritbox,https://www.allmusic.com/artist/spiritbox-mn0003976760
-234,A Day to Remember,https://www.allmusic.com/artist/a-day-to-remember-mn0000938798
-235,Ella Jenkins,https://www.allmusic.com/artist/ella-jenkins-mn0000798086
-236,Steve Reich,https://www.allmusic.com/artist/steve-reich-mn0000037658
-238,Karl Böhm / Wilhelm Furtwängler,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
-243,Alice Sara Ott,https://www.allmusic.com/artist/alice-sara-ott-mn0002232982
-245,The Counterpoints,https://www.allmusic.com/artist/the-counterpoints-mn0003902919
-254,Black Uhuru,https://www.allmusic.com/artist/black-uhuru-mn0000081683
-257,Michi,https://www.allmusic.com/artist/michi-mn0004793236
-259,John Coltrane / Johnny Hartman,https://www.allmusic.com/artist/john-coltrane-mn0000175553
-260,Joni Mitchell,https://www.allmusic.com/artist/joni-mitchell-mn0000270491
-261,Sandy Denny,https://www.allmusic.com/artist/sandy-denny-mn0000245019
-262,Fred Neil,https://www.allmusic.com/artist/fred-neil-mn0000170815
-263,The Louvin Brothers,https://www.allmusic.com/artist/the-louvin-brothers-mn0000045057
-265,The Shins,https://www.allmusic.com/artist/the-shins-mn0000419102
-266,Gram Parsons,https://www.allmusic.com/artist/gram-parsons-mn0000987491
-268,Mary Chapin Carpenter,https://www.allmusic.com/artist/mary-chapin-carpenter-mn0000858375
-272,Lonnie Johnson,https://www.allmusic.com/artist/lonnie-johnson-mn0000275401
-273,Black Sabbath,https://www.allmusic.com/artist/black-sabbath-mn0000771438
-275,Ernest Tubb,https://www.allmusic.com/artist/ernest-tubb-mn0000200775
-280,Tate McRae,https://www.allmusic.com/artist/tate-mcrae-mn0003902427
-285,Elmore James,https://www.allmusic.com/artist/elmore-james-mn0000176936
-287,Aerosmith,https://www.allmusic.com/artist/aerosmith-mn0000604852
-289,James Cleveland,https://www.allmusic.com/artist/james-cleveland-mn0000668448
-290,Spike Jones,https://www.allmusic.com/artist/spike-jones-mn0000744548
-295,Karl Böhm / Wiener Philharmoniker,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
-296,Jay-Z,https://www.allmusic.com/artist/jay-z-mn0000224257
-298,Kanye West,https://www.allmusic.com/artist/kanye-west-mn0000361014
-300,Elvis Presley,https://www.allmusic.com/artist/elvis-presley-mn0000180228
-301,London Symphony Orchestra / John Williams,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907
-305,Martin Owen / Rumon Gamba / BBC Philharmonic Orchestra,https://www.allmusic.com/artist/martin-owen-mn0000101790
-306,clipping.,https://www.allmusic.com/artist/clipping-mn0003225062
-307,Otis Spann,https://www.allmusic.com/artist/otis-spann-mn0000486775
-309,Carly Rae Jepsen,https://www.allmusic.com/artist/carly-rae-jepsen-mn0002089077
-310,The Killers,https://www.allmusic.com/artist/the-killers-mn0000670226
-311,Kendrick Lamar,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646
-312,Damu the Fudgemunk / Raw Poetic / Archie Shepp,https://www.allmusic.com/artist/damu-the-fudgemunk-mn0000985856
-313,Jimmie Vaughan,https://www.allmusic.com/artist/jimmie-vaughan-mn0000347639
-314,Stan Getz / Stan Getz Quartet,https://www.allmusic.com/artist/stan-getz-mn0000742899
-315,Television Personalities,https://www.allmusic.com/artist/television-personalities-mn0000016438
-316,Jader Bignamini / Detroit Symphony Orchestra,https://www.allmusic.com/artist/jader-bignamini-mn0003482437
-318,Ali Shaheed Muhammad / Ebo Taylor / Adrian Younge,https://www.allmusic.com/artist/ali-shaheed-muhammad-mn0000389128
-322,Santana,https://www.allmusic.com/artist/santana-mn0000295756
-331,Dolly Parton,https://www.allmusic.com/artist/dolly-parton-mn0000175286
-332,Parliament,https://www.allmusic.com/artist/parliament-mn0000129775
-333,Woody Shaw,https://www.allmusic.com/artist/woody-shaw-mn0000680003
-335,Chicago,https://www.allmusic.com/artist/chicago-mn0000110161
-336,Leonard Bernstein,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
-337,Donald Byrd,https://www.allmusic.com/artist/donald-byrd-mn0000149946
-338,Freddie Hubbard,https://www.allmusic.com/artist/freddie-hubbard-mn0000798326
-343,Otis Redding,https://www.allmusic.com/artist/otis-redding-mn0000414251
-344,Electric Light Orchestra,https://www.allmusic.com/artist/electric-light-orchestra-mn0000163229
-350,Buena Vista Social Club,https://www.allmusic.com/artist/buena-vista-social-club-mn0000627250
-353,Kane Brown,https://www.allmusic.com/artist/kane-brown-mn0003444653
-355,Shania Twain,https://www.allmusic.com/artist/shania-twain-mn0000161808
-357,Dean Martin,https://www.allmusic.com/artist/dean-martin-mn0000813392
-359,Gerry Mulligan / Ben Webster,https://www.allmusic.com/artist/gerry-mulligan-mn0000542549
-360,Daryl Hall & John Oates,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887
-362,Wes Montgomery,https://www.allmusic.com/artist/wes-montgomery-mn0000248392
-366,TobyMac,https://www.allmusic.com/artist/tobymac-mn0000510885
-367,Woody Guthrie,https://www.allmusic.com/artist/woody-guthrie-mn0000577531
-369,The Ventures,https://www.allmusic.com/artist/the-ventures-mn0000921965
-373,Elvis Costello,https://www.allmusic.com/artist/elvis-costello-mn0000058549
-374,Ornette Coleman,https://www.allmusic.com/artist/ornette-coleman-mn0000484396
-376,Ladytron,https://www.allmusic.com/artist/ladytron-mn0000780948
-377,Franz Ferdinand,https://www.allmusic.com/artist/franz-ferdinand-mn0000172582
-383,Merle Haggard,https://www.allmusic.com/artist/merle-haggard-mn0000410219
-393,Bill Evans Trio / Bill Evans,https://www.allmusic.com/artist/bill-evans-trio-mn0000781423
-394,Milton Nascimento / Lô Borges,https://www.allmusic.com/artist/milton-nascimento-mn0000497132
-395,Amy Grant,https://www.allmusic.com/artist/amy-grant-mn0000024944
-396,Jim Reeves,https://www.allmusic.com/artist/jim-reeves-mn0000903609
-405,Fairport Convention,https://www.allmusic.com/artist/fairport-convention-mn0000162233
-406,Small Faces,https://www.allmusic.com/artist/small-faces-mn0000423267
-407,Martin Denny,https://www.allmusic.com/artist/martin-denny-mn0000311074
-408,David Bowie,https://www.allmusic.com/artist/david-bowie-mn0000531986
-410,Louis Jordan,https://www.allmusic.com/artist/louis-jordan-mn0000287604
-411,Sun Ra,https://www.allmusic.com/artist/sun-ra-mn0000924232
-412,Tori Amos,https://www.allmusic.com/artist/tori-amos-mn0000792530
-414,Joe Hisaishi / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330
-415,Mark Bebbington / Leon Botstein / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/mark-bebbington-mn0002219980
-417,Carlo Rizzi / Arsen Soghomonyan / Krassimira Stoyanova / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/carlo-rizzi-mn0000212025
-418,Daniel Barenboim / English Chamber Orchestra,https://www.allmusic.com/artist/daniel-barenboim-mn0000631790
-419,Valery Gergiev / London Symphony Orchestra,https://www.allmusic.com/artist/valery-gergiev-mn0000196621
-420,Modest Mouse,https://www.allmusic.com/artist/modest-mouse-mn0000480086
-421,Gustavo Dudamel / Los Angeles Philharmonic Orchestra,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636
-424,Nash Ensemble,https://www.allmusic.com/artist/nash-ensemble-mn0001914151
-425,Ernst Kovacic / Michael Gielen / ORF Vienna Radio Symphony Orchestra,https://www.allmusic.com/artist/ernst-kovacic-mn0001299883
-426,"Sammy Davis, Jr.",https://www.allmusic.com/artist/sammy-davis-jr-mn0000294376
-431,Lester Young,https://www.allmusic.com/artist/lester-young-mn0000259529
-433,Ray Conniff,https://www.allmusic.com/artist/ray-conniff-mn0000869487
-437,Bernard Haitink / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/bernard-haitink-mn0000164817
-438,Steve Goodman,https://www.allmusic.com/artist/steve-goodman-mn0000032366
-439,Suzanne Ciani,https://www.allmusic.com/artist/suzanne-ciani-mn0000046345
-440,Walter Berry / Hilde Güden / Léopold Simoneau / Karl Böhm / Wiener Philharmoniker,https://www.allmusic.com/artist/walter-berry-mn0001213176
-444,Cheech & Chong,https://www.allmusic.com/artist/cheech-chong-mn0000106298
-451,T-Bone Walker,https://www.allmusic.com/artist/t-bone-walker-mn0000003829
-461,Tom Petty & the Heartbreakers / Tom Petty,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137
-470,Guided by Voices,https://www.allmusic.com/artist/guided-by-voices-mn0000545726
-473,Joe Henderson,https://www.allmusic.com/artist/joe-henderson-mn0000139804
-479,Herbie Hancock,https://www.allmusic.com/artist/herbie-hancock-mn0000957296
-485,Caetano Veloso,https://www.allmusic.com/artist/caetano-veloso-mn0000639397
-494,Ringo Starr,https://www.allmusic.com/artist/ringo-starr-mn0000217792
-496,Karl Böhm / Berlin Philharmonic Orchestra,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
-499,Andrew Litton / Ann Murray / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/andrew-litton-mn0000004874
-500,André Previn,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250
-505,Ichiko Aoba,https://www.allmusic.com/artist/ichiko-aoba-mn0003180348
-506,William Wei / Evan Wong,https://www.allmusic.com/artist/william-wei-mn0004736435
-510,Steve Roach,https://www.allmusic.com/artist/steve-roach-mn0000040501
-512,Paco de Lucía,https://www.allmusic.com/artist/paco-de-luc%C3%ADa-mn0000082639
-513,The Dave Brubeck Quartet / Dave Brubeck,https://www.allmusic.com/artist/the-dave-brubeck-quartet-mn0000142767
-514,Thelonious Monk Quartet / Thelonious Monk,https://www.allmusic.com/artist/thelonious-monk-quartet-mn0000491786
-515,C Duncan,https://www.allmusic.com/artist/c-duncan-mn0002998091
-516,James Brandon Lewis Trio / James Brandon Lewis,https://www.allmusic.com/artist/james-brandon-lewis-trio-mn0003622581
-517,Erik Jekabson,https://www.allmusic.com/artist/erik-jekabson-mn0000199538
-520,Mike Oldfield,https://www.allmusic.com/artist/mike-oldfield-mn0000489520
-521,The Mothers of Invention / Frank Zappa,https://www.allmusic.com/artist/the-mothers-of-invention-mn0000405522
-523,Squeeze,https://www.allmusic.com/artist/squeeze-mn0000790732
-524,John Cage,https://www.allmusic.com/artist/john-cage-mn0000183867
-525,Missy Elliott,https://www.allmusic.com/artist/missy-elliott-mn0000502371
-528,The Great Learning Orchestra / Yoko Ono,https://www.allmusic.com/artist/the-great-learning-orchestra-mn0004798924
-529,Jefre Cantu-Ledesma,https://www.allmusic.com/artist/jefre-cantu-ledesma-mn0002000220
-530,Croatian Amor / Lust for Youth,https://www.allmusic.com/artist/croatian-amor-mn0003546942
-532,Joy Division,https://www.allmusic.com/artist/joy-division-mn0000290812
-534,Björk,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444
-536,Iggy Pop,https://www.allmusic.com/artist/iggy-pop-mn0000926548
-537,Laurie Anderson,https://www.allmusic.com/artist/laurie-anderson-mn0000785773
-542,Nico,https://www.allmusic.com/artist/nico-mn0000868306
-543,Allan Sherman,https://www.allmusic.com/artist/allan-sherman-mn0000002273
-547,The Art Ensemble of Chicago,https://www.allmusic.com/artist/the-art-ensemble-of-chicago-mn0000600734
-548,Riccardo Muti,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
-549,Gustavo Dudamel / Simón Bolívar Symphony Orchestra of Venezuela,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636
-551,Alessandro Corbelli / Alex Esposito / Vincenzo Milletarì,https://www.allmusic.com/artist/alessandro-corbelli-mn0002184323
-564,Dion,https://www.allmusic.com/artist/dion-mn0000265456
-567,Glenn Gould,https://www.allmusic.com/artist/glenn-gould-mn0000803752
-570,Shawn Colvin,https://www.allmusic.com/artist/shawn-colvin-mn0000013387
-574,The Loft,https://www.allmusic.com/artist/the-loft-mn0000786652
-575,Delivery,https://www.allmusic.com/artist/delivery-mn0004717443
-579,Chuck Jackson,https://www.allmusic.com/artist/chuck-jackson-mn0000103033
-582,Beyoncé,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179
-586,Annie and the Caldwells,https://www.allmusic.com/artist/annie-and-the-caldwells-mn0003126251
-587,Edith Frost,https://www.allmusic.com/artist/edith-frost-mn0000798160
-607,Howlin' Wolf,https://www.allmusic.com/artist/howlin-wolf-mn0000276085
-612,Juanes,https://www.allmusic.com/artist/juanes-mn0000245250
-613,Ileana Cotrubas / Plácido Domingo / Carlos Kleiber / Sherrill Milnes,https://www.allmusic.com/artist/ileana-cotrubas-mn0000069876
-614,Sweet Honey in the Rock,https://www.allmusic.com/artist/sweet-honey-in-the-rock-mn0000044703
-616,Dave Holland / Dave Holland Quintet,https://www.allmusic.com/artist/dave-holland-mn0000585092
-617,J Balvin,https://www.allmusic.com/artist/j-balvin-mn0002385504
-618,"Earth, Wind & Fire",https://www.allmusic.com/artist/earth-wind-fire-mn0000135273
-619,Stanley Turrentine,https://www.allmusic.com/artist/stanley-turrentine-mn0000012644
-620,Bad Bunny,https://www.allmusic.com/artist/bad-bunny-mn0003595289
-627,Queens of the Stone Age,https://www.allmusic.com/artist/queens-of-the-stone-age-mn0000376422
-628,Nirvana,https://www.allmusic.com/artist/nirvana-mn0000357406
-629,AC/DC,https://www.allmusic.com/artist/ac-dc-mn0000574772
-630,Bo Diddley,https://www.allmusic.com/artist/bo-diddley-mn0000055128
-635,Deep Sea Diver,https://www.allmusic.com/artist/deep-sea-diver-mn0003178300
-636,Harry Styles,https://www.allmusic.com/artist/harry-styles-mn0002854537
-637,Joe Hisaishi,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330
-638,µ-Ziq,https://www.allmusic.com/artist/%C2%B5-ziq-mn0000510042
-639,Tierra Whack,https://www.allmusic.com/artist/tierra-whack-mn0003604268
-640,Caribou,https://www.allmusic.com/artist/caribou-mn0000609590
-642,The Monochrome Set,https://www.allmusic.com/artist/the-monochrome-set-mn0000475980
-643,Pearl & the Oysters,https://www.allmusic.com/artist/pearl-the-oysters-mn0003783836
-645,Randy Newman,https://www.allmusic.com/artist/randy-newman-mn0000394806
-649,Ultramagnetic MC's,https://www.allmusic.com/artist/ultramagnetic-mcs-mn0000181299
-661,Ghost,https://www.allmusic.com/artist/ghost-mn0002616588
-666,Eric Church,https://www.allmusic.com/artist/eric-church-mn0000632233
-667,Little Walter,https://www.allmusic.com/artist/little-walter-mn0000824599
-672,Miles Davis,https://www.allmusic.com/artist/miles-davis-mn0000423829
-678,Billy Joe Shaver,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205
-682,J. Cole,https://www.allmusic.com/artist/j-cole-mn0001089515
-688,Damon Locks,https://www.allmusic.com/artist/damon-locks-mn0000665826
-694,The Spinners,https://www.allmusic.com/artist/the-spinners-mn0000578141
-695,Tony Bennett,https://www.allmusic.com/artist/tony-bennett-mn0000006334
-698,John Patitucci,https://www.allmusic.com/artist/john-patitucci-mn0000188776
-702,Flying Lotus,https://www.allmusic.com/artist/flying-lotus-mn0000717419
-704,Johnny Depp / Stephen Sondheim,https://www.allmusic.com/artist/johnny-depp-mn0000247383
-707,The Smashing Pumpkins,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521
-708,Coil,https://www.allmusic.com/artist/coil-mn0000105561
-709,Plastikman,https://www.allmusic.com/artist/plastikman-mn0000355386
-717,Leontyne Price,https://www.allmusic.com/artist/leontyne-price-mn0000591857
-718,Ella Fitzgerald / Louis Armstrong,https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502
-721,Patricia Kopatchinskaja / Thomas Kaufmann / Camerata Bern,https://www.allmusic.com/artist/patricia-kopatchinskaja-mn0002251650
-729,Enya,https://www.allmusic.com/artist/enya-mn0000988471
-737,Michael W. Smith,https://www.allmusic.com/artist/michael-w-smith-mn0000466759
-738,The Winans,https://www.allmusic.com/artist/the-winans-mn0000576839
-741,Mary Martin / Theodore Bikel / Original Broadway Cast / Richard Rodgers,https://www.allmusic.com/artist/mary-martin-mn0000040695
-742,Miklós Rózsa,https://www.allmusic.com/artist/mikl%C3%B3s-r%C3%B3zsa-mn0000583723
-745,"Clare College Choir, Cambridge / Graham Ross",https://www.allmusic.com/artist/clare-college-choir-cambridge-mn0001641078
-751,Vince Guaraldi / Vince Guaraldi Trio,https://www.allmusic.com/artist/vince-guaraldi-mn0000201678
-754,John Zorn,https://www.allmusic.com/artist/john-zorn-mn0000239329
-759,Keith Whitley,https://www.allmusic.com/artist/keith-whitley-mn0000081561
-770,Jérémie Rhorer / Le Cercle de l'Harmonie,https://www.allmusic.com/artist/j%C3%A9r%C3%A9mie-rhorer-mn0001814847
-773,John Williams / Stéphane Denève / Saito Kinen Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480
-774,Owain Arwel Hughes / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/owain-arwel-hughes-mn0000116638
-775,Paramore,https://www.allmusic.com/artist/paramore-mn0000366681
-776,Quynh Nguyen / Stephen Barlow / Rieko Aizawa / London Symphony Orchestra,https://www.allmusic.com/artist/quynh-nguyen-mn0003472261
-777,Simon Rattle / Alice Coote / Elizabeth Watts / London Symphony Orchestra,https://www.allmusic.com/artist/simon-rattle-mn0000932272
-778,Gautier Capuçon / Antonio Pappano / London Symphony Orchestra,https://www.allmusic.com/artist/gautier-capu%C3%A7on-mn0002227074
-798,The Impressions,https://www.allmusic.com/artist/the-impressions-mn0000082013
-800,The Beach Boys,https://www.allmusic.com/artist/the-beach-boys-mn0000041874
-802,Glen Campbell,https://www.allmusic.com/artist/glen-campbell-mn0000664378
-807,George Russell,https://www.allmusic.com/artist/george-russell-mn0000646353
-808,Todd Terry,https://www.allmusic.com/artist/todd-terry-mn0000518313
-813,Nat King Cole,https://www.allmusic.com/artist/nat-king-cole-mn0000317093
-814,Stereolab,https://www.allmusic.com/artist/stereolab-mn0000026520
-819,The Jimi Hendrix Experience / Jimi Hendrix,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906
-820,The Velvet Underground,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402
-821,Cypress Hill,https://www.allmusic.com/artist/cypress-hill-mn0000147315
-822,Pink Floyd,https://www.allmusic.com/artist/pink-floyd-mn0000346336
-823,Arthur Brown,https://www.allmusic.com/artist/arthur-brown-mn0000510278
-837,Jimmie Rodgers,https://www.allmusic.com/artist/jimmie-rodgers-mn0000343852
-856,Herb Alpert & the Tijuana Brass / Herb Alpert,https://www.allmusic.com/artist/herb-alpert-the-tijuana-brass-mn0000955773
-863,Brass Construction,https://www.allmusic.com/artist/brass-construction-mn0000932922
-864,Nao,https://www.allmusic.com/artist/nao-mn0002947938
-865,Carl Allen,https://www.allmusic.com/artist/carl-allen-mn0000145489
-866,Michael Gregory Jackson,https://www.allmusic.com/artist/michael-gregory-jackson-mn0000887463
-871,Genesis,https://www.allmusic.com/artist/genesis-mn0000199995
-874,XTC,https://www.allmusic.com/artist/xtc-mn0000678339
-884,Karl Böhm / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
-886,Berlin Philharmonic Orchestra / Karl Böhm,https://www.allmusic.com/artist/berlin-philharmonic-orchestra-mn0000188180
-889,Snapped Ankles,https://www.allmusic.com/artist/snapped-ankles-mn0003630171
-893,The Carter Family,https://www.allmusic.com/artist/the-carter-family-mn0000051910
-894,Neil Diamond,https://www.allmusic.com/artist/neil-diamond-mn0000864209
-896,Bee Gees,https://www.allmusic.com/artist/bee-gees-mn0000043714
-897,The Byrds,https://www.allmusic.com/artist/the-byrds-mn0000631774
-905,Selena,https://www.allmusic.com/artist/selena-mn0000004852
-907,Vince Guaraldi Trio / Vince Guaraldi,https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089
-908,Woody Herman,https://www.allmusic.com/artist/woody-herman-mn0000958076
-913,Christine Busch / Stefania Neonato,https://www.allmusic.com/artist/christine-busch-mn0001655225
-921,Harry James / Willie Smith,https://www.allmusic.com/artist/harry-james-mn0000950571
-926,Benny Goodman,https://www.allmusic.com/artist/benny-goodman-mn0000163133
-943,Barbra Streisand,https://www.allmusic.com/artist/barbra-streisand-mn0000855531
-945,Paul McCartney,https://www.allmusic.com/artist/paul-mccartney-mn0000029884
-949,Seong-Jin Cho,https://www.allmusic.com/artist/seong-jin-cho-mn0003449260
-950,The White Stripes,https://www.allmusic.com/artist/the-white-stripes-mn0000921710
-953,Freddie King,https://www.allmusic.com/artist/freddie-king-mn0000186734
-954,Ramones,https://www.allmusic.com/artist/ramones-mn0000490004
-955,Cheap Trick,https://www.allmusic.com/artist/cheap-trick-mn0000105354
-976,Led Zeppelin,https://www.allmusic.com/artist/led-zeppelin-mn0000139026
-979,Eagles,https://www.allmusic.com/artist/eagles-mn0000144847
-980,The Hollies,https://www.allmusic.com/artist/the-hollies-mn0000087985
-986,Donna Summer,https://www.allmusic.com/artist/donna-summer-mn0000661524
-988,Shakira,https://www.allmusic.com/artist/shakira-mn0000790797
-989,Jimi Hendrix / The Jimi Hendrix Experience,https://www.allmusic.com/artist/jimi-hendrix-mn0000354105
-990,Jah Shaka / Mad Professor,https://www.allmusic.com/artist/jah-shaka-mn0000107383
-991,Isaac Hayes,https://www.allmusic.com/artist/isaac-hayes-mn0000101946
-999,Burning Spear,https://www.allmusic.com/artist/burning-spear-mn0000641994
-1001,Kitaro,https://www.allmusic.com/artist/kitaro-mn0000081017
-1002,Ravi Shankar,https://www.allmusic.com/artist/ravi-shankar-mn0000404463
-1006,Julian Cope,https://www.allmusic.com/artist/julian-cope-mn0000308742
-1009,John Williams / Boston Pops Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480
-1016,Steven Wilson,https://www.allmusic.com/artist/steven-wilson-mn0000455886
-1018,St. Lucia,https://www.allmusic.com/artist/st-lucia-mn0002084411
-1026,Muddy Waters,https://www.allmusic.com/artist/muddy-waters-mn0000608701
-1031,Andrés Segovia,https://www.allmusic.com/artist/andr%C3%A9s-segovia-mn0000958298
-1032,Anne-Sophie Mutter / John Williams / Boston Symphony Orchestra,https://www.allmusic.com/artist/anne-sophie-mutter-mn0000032775
-1035,Tan Dun / Yo-Yo Ma,https://www.allmusic.com/artist/tan-dun-mn0000313685
-1036,Marty Robbins,https://www.allmusic.com/artist/marty-robbins-mn0000858710
-1037,Henry Mancini / Henry Mancini & His Orchestra,https://www.allmusic.com/artist/henry-mancini-mn0000678009
-1040,Krokofant,https://www.allmusic.com/artist/krokofant-mn0003215926
-1041,Daniel Ögren,https://www.allmusic.com/artist/daniel-%C3gren-mn0002590901
-1046,Béla Fleck / Abigail Washburn,https://www.allmusic.com/artist/b%C3%A9la-fleck-mn0000151290
-1047,Dave Brubeck / The Dave Brubeck Quartet,https://www.allmusic.com/artist/dave-brubeck-mn0000958533
-1048,Esther Yoo / Vasily Petrenko / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/esther-yoo-mn0003470298
-1054,Arturo Sandoval,https://www.allmusic.com/artist/arturo-sandoval-mn0000575122
-1056,Daft Punk,https://www.allmusic.com/artist/daft-punk-mn0000667669
-1057,Philip Glass / Philip Glass Ensemble / Michael Riesman / Robert Wilson,https://www.allmusic.com/artist/philip-glass-mn0000849672
-1066,Raffi,https://www.allmusic.com/artist/raffi-mn0000327331
-1067,Bette Midler,https://www.allmusic.com/artist/bette-midler-mn0000053739
-1071,R. Kelly,https://www.allmusic.com/artist/r-kelly-mn0000319347
-1092,Andrew Lloyd Webber / Original Broadway Cast,https://www.allmusic.com/artist/andrew-lloyd-webber-mn0000003595
-1096,Janelle Monáe,https://www.allmusic.com/artist/janelle-mon%C3%A1e-mn0000868086
-1105,Igor Stravinsky,https://www.allmusic.com/artist/igor-stravinsky-mn0000364751
-1108,Korn,https://www.allmusic.com/artist/korn-mn0000112789
-1111,Tina Turner,https://www.allmusic.com/artist/tina-turner-mn0000597309
-1112,Vladimir Ashkenazy / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/vladimir-ashkenazy-mn0000761916
-1115,Emanuel Ax / Leonidas Kavakos / Yo-Yo Ma,https://www.allmusic.com/artist/emanuel-ax-mn0000763916
-1117,Vladimir Ashkenazy,https://www.allmusic.com/artist/vladimir-ashkenazy-mn0000761916
-1118,Orion Weiss,https://www.allmusic.com/artist/orion-weiss-mn0001673600
-1119,María Dueñas,https://www.allmusic.com/artist/mar%C3%ADa-due%C3%B1as-mn0004342338
-1120,Adrian Chandler / La Serenissima,https://www.allmusic.com/artist/adrian-chandler-mn0001712537
-1121,Maxwell Quartet,https://www.allmusic.com/artist/maxwell-quartet-mn0003548528
-1123,Run-D.M.C.,https://www.allmusic.com/artist/run-dmc-mn0000358408
-1124,Fela Kuti,https://www.allmusic.com/artist/fela-kuti-mn0000138833
-1125,Max Roach,https://www.allmusic.com/artist/max-roach-mn0000396372
-1128,Bad Brains,https://www.allmusic.com/artist/bad-brains-mn0000075264
-1139,Fleetwood Mac,https://www.allmusic.com/artist/fleetwood-mac-mn0000182900
-1146,Marc Anthony,https://www.allmusic.com/artist/marc-anthony-mn0000673486
-1147,Rihanna,https://www.allmusic.com/artist/rihanna-mn0000367188
-1152,Vladimir Horowitz,https://www.allmusic.com/artist/vladimir-horowitz-mn0000119107
-1157,Oleg Shebeta-Dragan / Anna Skryleva / Odense Symphony Orchestra,https://www.allmusic.com/artist/oleg-shebeta-dragan-mn0004737408
-1158,The Skatalites,https://www.allmusic.com/artist/the-skatalites-mn0000425105
-1162,Frank Ocean,https://www.allmusic.com/artist/frank-ocean-mn0002592086
-1163,Airto Moreira / Flora Purim,https://www.allmusic.com/artist/airto-moreira-mn0000609992
-1164,Laura Nyro,https://www.allmusic.com/artist/laura-nyro-mn0000137474
-1170,Tom Waits,https://www.allmusic.com/artist/tom-waits-mn0000615119
-1173,PJ Harvey,https://www.allmusic.com/artist/pj-harvey-mn0000000335
-1174,Gang of Four,https://www.allmusic.com/artist/gang-of-four-mn0000193231
-1176,Eric Dolphy,https://www.allmusic.com/artist/eric-dolphy-mn0000800100
-1177,Pavement,https://www.allmusic.com/artist/pavement-mn0000752314
-1215,Michel Bouvard / François Espinasse,https://www.allmusic.com/artist/michel-bouvard-mn0002209251
-1229,Little Richard,https://www.allmusic.com/artist/little-richard-mn0000824022
-1230,ABBA,https://www.allmusic.com/artist/abba-mn0000922728
-1234,The Monkees,https://www.allmusic.com/artist/the-monkees-mn0000478603
-1237,David Castro-Balbi / Teo Gheorghiu / Howard Griffiths,https://www.allmusic.com/artist/david-castro-balbi-mn0003910715
-1238,Songhoy Blues,https://www.allmusic.com/artist/songhoy-blues-mn0003213330
-1239,Taffy,https://www.allmusic.com/artist/taffy-mn0002064113
-1242,Mongo Santamaría,https://www.allmusic.com/artist/mongo-santamar%C3%ADa-mn0000591104
-1246,Jelly Roll Morton,https://www.allmusic.com/artist/jelly-roll-morton-mn0000317290
-1247,Prince,https://www.allmusic.com/artist/prince-mn0000361393
-1251,Lonnie Holley,https://www.allmusic.com/artist/lonnie-holley-mn0003016152
-1268,Yo-Yo Ma / Edgar Meyer / Mark O'Connor,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
-1275,Matt Berry,https://www.allmusic.com/artist/matt-berry-mn0000272669
-1285,Elmer Bernstein,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087
-1289,Alice in Chains,https://www.allmusic.com/artist/alice-in-chains-mn0000007920
-1290,Riccardo Muti / Chicago Symphony Orchestra,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
-1293,Wrekmeister Harmonies,https://www.allmusic.com/artist/wrekmeister-harmonies-mn0001051874
-1294,Ty Myers,https://www.allmusic.com/artist/ty-myers-mn0004640845
-1295,Jaye Jayle,https://www.allmusic.com/artist/jaye-jayle-mn0003285869
-1297,Mudhoney,https://www.allmusic.com/artist/mudhoney-mn0000509223
-1298,Magic Sam / Magic Sam's Blues Band,https://www.allmusic.com/artist/magic-sam-mn0000191429
-1299,Aretha Franklin,https://www.allmusic.com/artist/aretha-franklin-mn0000927555
-1300,Nazareth,https://www.allmusic.com/artist/nazareth-mn0000377891
-1301,"Gary Clark, Jr.",https://www.allmusic.com/artist/gary-clark-jr-mn0000989208
-1302,Mastodon,https://www.allmusic.com/artist/mastodon-mn0000382565
-1303,Buddy Guy,https://www.allmusic.com/artist/buddy-guy-mn0000942529
-1304,James Brown,https://www.allmusic.com/artist/james-brown-mn0000128099
-1313,Etta James,https://www.allmusic.com/artist/etta-james-mn0000806542
-1321,Frank Sinatra,https://www.allmusic.com/artist/frank-sinatra-mn0000792507
-1322,Sam Butera / Louis Prima / Keely Smith,https://www.allmusic.com/artist/sam-butera-mn0000831009
-1323,Chubby Carrier & The Bayou Swamp Band,https://www.allmusic.com/artist/chubby-carrier-the-bayou-swamp-band-mn0000100232
-1325,Kylie Minogue,https://www.allmusic.com/artist/kylie-minogue-mn0000776093
-1326,Big Joe Turner,https://www.allmusic.com/artist/big-joe-turner-mn0000060726
-1327,Whodini,https://www.allmusic.com/artist/whodini-mn0000820545
-1332,Nicky Spence / Julius Drake / Piatti Quartet,https://www.allmusic.com/artist/nicky-spence-mn0000403224
-1339,Guns N' Roses,https://www.allmusic.com/artist/guns-n-roses-mn0000540883
-1340,John Lennon / Plastic Ono Band,https://www.allmusic.com/artist/john-lennon-mn0000232564
-1349,Lana Del Rey,https://www.allmusic.com/artist/lana-del-rey-mn0002784799
-1351,Demi Lovato,https://www.allmusic.com/artist/demi-lovato-mn0000996127
-1352,Deftones,https://www.allmusic.com/artist/deftones-mn0000813946
-1361,Ohio Players,https://www.allmusic.com/artist/ohio-players-mn0000390390
-1362,Faces,https://www.allmusic.com/artist/faces-mn0000058372
-1373,Elmer Bernstein / James Sedares / Phoenix Symphony,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087
-1377,Gerd Schaller / Philharmonie Festiva,https://www.allmusic.com/artist/gerd-schaller-mn0002268578
-1379,Eliahu Inbal / SDR Symphony Orchestra / SWR Stuttgart Radio Symphony Orchestra,https://www.allmusic.com/artist/eliahu-inbal-mn0000781540
-1388,Architects,https://www.allmusic.com/artist/architects-mn0001051850
-1393,George Jones,https://www.allmusic.com/artist/george-jones-mn0000944310
-1400,Jeffrey Lewis,https://www.allmusic.com/artist/jeffrey-lewis-mn0000263995
-1402,Faron Young,https://www.allmusic.com/artist/faron-young-mn0000143951
-1403,Michael Jackson,https://www.allmusic.com/artist/michael-jackson-mn0000467203
-1405,Al Green,https://www.allmusic.com/artist/al-green-mn0000607448
-1408,Scarface,https://www.allmusic.com/artist/scarface-mn0000315463
-1410,Max Richter,https://www.allmusic.com/artist/max-richter-mn0000203592
-1412,Mickey Newbury,https://www.allmusic.com/artist/mickey-newbury-mn0000525789
-1413,Ernest Gold,https://www.allmusic.com/artist/ernest-gold-mn0000200992
-1418,John Findon / Christine Rice / Nicholas Collon,https://www.allmusic.com/artist/john-findon-mn0004305762
-1419,Sinner DC / Sonic Boom,https://www.allmusic.com/artist/sinner-dc-mn0001512288
-1422,Method Man,https://www.allmusic.com/artist/method-man-mn0000451483
-1423,Kevin Hart,https://www.allmusic.com/artist/kevin-hart-mn0000082798
-1424,Kode9,https://www.allmusic.com/artist/kode9-mn0000543345
-1425,Brian Eno / Karl Hyde,https://www.allmusic.com/artist/brian-eno-mn0000617196
-1426,The Go! Team,https://www.allmusic.com/artist/the-go%21-team-mn0000397794
-1427,Sons of Kemet,https://www.allmusic.com/artist/sons-of-kemet-mn0003146048
-1428,The Knack,https://www.allmusic.com/artist/the-knack-mn0000087179
-1430,Traxman,https://www.allmusic.com/artist/traxman-mn0002357888
-1431,Sigur Rós,https://www.allmusic.com/artist/sigur-r%C3%B3s-mn0000753868
-1436,Steven Halpern,https://www.allmusic.com/artist/steven-halpern-mn0000042234
-1437,King Tubby,https://www.allmusic.com/artist/king-tubby-mn0000093322
-1438,Derrick May,https://www.allmusic.com/artist/derrick-may-mn0000205313
-1447,Phish,https://www.allmusic.com/artist/phish-mn0000333464
-1449,Yo-Yo Ma / Emanuel Ax,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
-1457,"Grover Washington, Jr.",https://www.allmusic.com/artist/grover-washington-jr-mn0000944206
-1458,Ron Carter / Jim Hall,https://www.allmusic.com/artist/ron-carter-mn0000275832
-1459,Erroll Garner,https://www.allmusic.com/artist/erroll-garner-mn0000206967
-1460,Keith Jarrett,https://www.allmusic.com/artist/keith-jarrett-mn0000066570
-1461,Queen,https://www.allmusic.com/artist/queen-mn0000858827
-1464,Dream Theater,https://www.allmusic.com/artist/dream-theater-mn0000803544
-1465,Ora the Molecule,https://www.allmusic.com/artist/ora-the-molecule-mn0004023123
-1476,The Pains of Being Pure at Heart,https://www.allmusic.com/artist/the-pains-of-being-pure-at-heart-mn0001006019
-1477,Alpaca Sports,https://www.allmusic.com/artist/alpaca-sports-mn0003432789
-1482,Van Morrison,https://www.allmusic.com/artist/van-morrison-mn0000307461
-1485,Charles Brown,https://www.allmusic.com/artist/charles-brown-mn0000805298
-1487,Panda Bear,https://www.allmusic.com/artist/panda-bear-mn0000109628
-1488,Noah Preminger,https://www.allmusic.com/artist/noah-preminger-mn0002442003
-1489,bdrmm,https://www.allmusic.com/artist/bdrmm-mn0003927823
-1503,The Band,https://www.allmusic.com/artist/the-band-mn0000038490
-1504,Tricky,https://www.allmusic.com/artist/tricky-mn0000025462
-1505,Low,https://www.allmusic.com/artist/low-mn0000250976
-1507,Elliott Smith,https://www.allmusic.com/artist/elliott-smith-mn0000172167
-1508,Liz Phair,https://www.allmusic.com/artist/liz-phair-mn0000225930
-1517,Rodney Crowell,https://www.allmusic.com/artist/rodney-crowell-mn0000294085
-1519,Pet Shop Boys,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212
-1533,Buck Owens,https://www.allmusic.com/artist/buck-owens-mn0000941579
-1544,Funkadelic,https://www.allmusic.com/artist/funkadelic-mn0000187581
-1554,Cannonball Adderley Quintet / Cannonball Adderley,https://www.allmusic.com/artist/cannonball-adderley-quintet-mn0000651258
-1556,Chick Corea / Béla Fleck,https://www.allmusic.com/artist/chick-corea-mn0000110541
-1557,Juan Gabriel,https://www.allmusic.com/artist/juan-gabriel-mn0000240252
-1558,Clave Especial,https://www.allmusic.com/artist/clave-especial-mn0004641368
-1573,Airto / Airto Moreira,https://www.allmusic.com/artist/airto-mn0000511402
-1587,Sidney Bechet,https://www.allmusic.com/artist/sidney-bechet-mn0000033234
-1590,The Yardbirds,https://www.allmusic.com/artist/the-yardbirds-mn0000489303
-1597,Air,https://www.allmusic.com/artist/air-mn0000607202
-1598,Shuggie Otis,https://www.allmusic.com/artist/shuggie-otis-mn0000752773
-1599,Stan Getz,https://www.allmusic.com/artist/stan-getz-mn0000742899
-1600,Common,https://www.allmusic.com/artist/common-mn0000115253
-1601,George Harrison,https://www.allmusic.com/artist/george-harrison-mn0000209142
-1602,Sade,https://www.allmusic.com/artist/sade-mn0000279337
-1609,SZA,https://www.allmusic.com/artist/sza-mn0003180568
-1612,Oneohtrix Point Never,https://www.allmusic.com/artist/oneohtrix-point-never-mn0001598199
-1614,Marshall Allen / Sun Ra / Sun Ra & His Arkestra,https://www.allmusic.com/artist/marshall-allen-mn0000299353
-1622,Peter Tosh,https://www.allmusic.com/artist/peter-tosh-mn0000328014
-1623,Bob Marley & the Wailers / Bob Marley,https://www.allmusic.com/artist/bob-marley-the-wailers-mn0000069402
-1624,Lightnin' Hopkins,https://www.allmusic.com/artist/lightnin-hopkins-mn0000825208
-1626,Champion Jack Dupree,https://www.allmusic.com/artist/champion-jack-dupree-mn0000197040
-1628,Vazz,https://www.allmusic.com/artist/vazz-mn0002847390
-1668,Meshell Ndegeocello,https://www.allmusic.com/artist/meshell-ndegeocello-mn0000402351
-1669,"Tyler, The Creator",https://www.allmusic.com/artist/tyler-the-creator-mn0002591087
-1671,Quercus / June Tabor / Iain Ballamy / Huw Warren,https://www.allmusic.com/artist/quercus-mn0003068616
-1680,Wham!,https://www.allmusic.com/artist/wham%21-mn0000246960
-1682,Red Hot Chili Peppers,https://www.allmusic.com/artist/red-hot-chili-peppers-mn0000883318
-1683,Bachman-Turner Overdrive,https://www.allmusic.com/artist/bachman-turner-overdrive-mn0000062002
-1684,NRBQ,https://www.allmusic.com/artist/nrbq-mn0000377908
-1686,Squid,https://www.allmusic.com/artist/squid-mn0003873970
-1687,David Grubbs,https://www.allmusic.com/artist/david-grubbs-mn0000213408
-1715,Anja Silja / Karl Böhm,https://www.allmusic.com/artist/anja-silja-mn0002269373
-1717,Aaron Dilloway,https://www.allmusic.com/artist/aaron-dilloway-mn0000812176
-1718,Andy Stott,https://www.allmusic.com/artist/andy-stott-mn0000975878
-1721,Circuit des Yeux,https://www.allmusic.com/artist/circuit-des-yeux-mn0002609749
-1758,Jerry Lee Lewis,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141
-1766,Richard Dawson,https://www.allmusic.com/artist/richard-dawson-mn0003314381
-1777,Isabelle Faust / Enrico Onofri / Münchener Kammerorchester,https://www.allmusic.com/artist/isabelle-faust-mn0001637330
-1778,Théotime Langlois de Swarte / Le Consort,https://www.allmusic.com/artist/th%C3%A9otime-langlois-de-swarte-mn0003854251
-1782,Plácido Domingo / Eve Queler,https://www.allmusic.com/artist/pl%C3%A1cido-domingo-mn0000851639
-1783,Leonard Bernstein / New York Philharmonic,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
-1784,André Previn / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250
-1792,Hank Thompson,https://www.allmusic.com/artist/hank-thompson-mn0000947816
-1798,Łukasz Borowicz / WDR Sinfonieorchester Köln,https://www.allmusic.com/artist/%C5ukasz-borowicz-mn0001815231
-1801,Carl Cox,https://www.allmusic.com/artist/carl-cox-mn0000174470
-1802,A Guy Called Gerald,https://www.allmusic.com/artist/a-guy-called-gerald-mn0000919598
-1803,Juan Atkins / Moritz von Oswald / Borderland,https://www.allmusic.com/artist/juan-atkins-mn0000831104
-1804,Mouse on Mars,https://www.allmusic.com/artist/mouse-on-mars-mn0000929800
-1805,Bruno Mars,https://www.allmusic.com/artist/bruno-mars-mn0001032082
-1806,The Genius / GZA,https://www.allmusic.com/artist/the-genius-mn0001799163
-1809,Black Star / Mos Def / Talib Kweli,https://www.allmusic.com/artist/black-star-mn0000098433
-1821,Drake,https://www.allmusic.com/artist/drake-mn0001035294
-1822,Simon & Garfunkel,https://www.allmusic.com/artist/simon-garfunkel-mn0000038936
-1823,Billie Holiday,https://www.allmusic.com/artist/billie-holiday-mn0000079016
-1824,Lykke Li,https://www.allmusic.com/artist/lykke-li-mn0000996075
-1825,Charlie Rich,https://www.allmusic.com/artist/charlie-rich-mn0000179730
-1833,Johnny Mathis,https://www.allmusic.com/artist/johnny-mathis-mn0000246885
-1834,Enoch Light,https://www.allmusic.com/artist/enoch-light-mn0000149718
-1850,The Temptations,https://www.allmusic.com/artist/the-temptations-mn0000569685
-1865,The Moles,https://www.allmusic.com/artist/the-moles-mn0000404742
-1870,Buju Banton,https://www.allmusic.com/artist/buju-banton-mn0000939187
-1872,Sarah Connolly / Masabane Cecilia Rangwanasha / Antonio Pappano / London Symphony Orchestra,https://www.allmusic.com/artist/sarah-connolly-mn0002343756
-1873,The Wailing Souls,https://www.allmusic.com/artist/the-wailing-souls-mn0000812367
-1875,Kestrels,https://www.allmusic.com/artist/kestrels-mn0002648972
-1876,The King's Singers,https://www.allmusic.com/artist/the-kings-singers-mn0000929562
-1878,Nas,https://www.allmusic.com/artist/nas-mn0000373634
-1879,Lupe Fiasco,https://www.allmusic.com/artist/lupe-fiasco-mn0000239628
-1881,King's College Choir of Cambridge / Daniel Hyde,https://www.allmusic.com/artist/kings-college-choir-of-cambridge-mn0000608992
-1882,Anonymous 4,https://www.allmusic.com/artist/anonymous-4-mn0000222265
-1883,Chanticleer,https://www.allmusic.com/artist/chanticleer-mn0000817257
-1891,Charles Gerhardt / Erich Wolfgang Korngold / National Philharmonic Orchestra,https://www.allmusic.com/artist/charles-gerhardt-mn0000199802
-1896,Paavo Järvi / Zurich Tonhalle Orchestra,https://www.allmusic.com/artist/paavo-j%C3%A4rvi-mn0000017107
-1902,Hans Zimmer,https://www.allmusic.com/artist/hans-zimmer-mn0000961427
-1907,Andrea Marcon / Vasilisa Berzhanskaya / Benedetta Mazzucato / La Cetra,https://www.allmusic.com/artist/andrea-marcon-mn0002214957
-1908,RAVEN,https://www.allmusic.com/artist/raven-mn0004191962
-1915,Robert Glasper / Robert Glasper Experiment,https://www.allmusic.com/artist/robert-glasper-mn0000288985
-1925,Jean-Michel Jarre,https://www.allmusic.com/artist/jean-michel-jarre-mn0000230593
-1927,Kronos Quartet / Mahsa Vahdat / Mahsa & Marjan Vahdat / Marjan Vahdat,https://www.allmusic.com/artist/kronos-quartet-mn0000775212
-1929,Brown Spirits,https://www.allmusic.com/artist/brown-spirits-mn0004398917
-1935,Fats Domino,https://www.allmusic.com/artist/fats-domino-mn0000137494
-1942,Andy Bell,https://www.allmusic.com/artist/andy-bell-mn0002443836
-1944,The Weeknd,https://www.allmusic.com/artist/the-weeknd-mn0002674162
-1949,Tame Impala,https://www.allmusic.com/artist/tame-impala-mn0002014409
-1950,Travis Scott,https://www.allmusic.com/artist/travis-scott-mn0002998422
-1952,lots of hands,https://www.allmusic.com/artist/lots-of-hands-mn0004369444
-1953,High.,https://www.allmusic.com/artist/high-mn0004739806
-1954,OsamaSon,https://www.allmusic.com/artist/osamason-mn0004485971
-1956,2Pac,https://www.allmusic.com/artist/2pac-mn0000921895
-1958,Gang Starr,https://www.allmusic.com/artist/gang-starr-mn0000193601
-1962,Bernard Herrmann / Joel McNeely / Royal Scottish National Orchestra,https://www.allmusic.com/artist/bernard-herrmann-mn0000760240
-1970,Jlin,https://www.allmusic.com/artist/jlin-mn0002791912
-1971,Every Time I Die,https://www.allmusic.com/artist/every-time-i-die-mn0000155091
-1972,Doug Stanhope,https://www.allmusic.com/artist/doug-stanhope-mn0000803682
-1973,Testament,https://www.allmusic.com/artist/testament-mn0000751910
-1975,Sophie Jamieson,https://www.allmusic.com/artist/sophie-jamieson-mn0003012687
-1976,Iggy & the Stooges / The Stooges,https://www.allmusic.com/artist/iggy-the-stooges-mn0000769915
-1979,St. Vincent,https://www.allmusic.com/artist/st-vincent-mn0000574035
-1980,Lalo Schifrin,https://www.allmusic.com/artist/lalo-schifrin-mn0000781932
-1985,The Tubs,https://www.allmusic.com/artist/the-tubs-mn0003911636
-1986,Vundabar,https://www.allmusic.com/artist/vundabar-mn0003904698
-1987,Whatever the Weather,https://www.allmusic.com/artist/whatever-the-weather-mn0004189203
-1997,Facs,https://www.allmusic.com/artist/facs-mn0003718618
-2012,Linda Ronstadt,https://www.allmusic.com/artist/linda-ronstadt-mn0000686897
-2014,Leon Redbone,https://www.allmusic.com/artist/leon-redbone-mn0000240503
-2016,Van Dyke Parks,https://www.allmusic.com/artist/van-dyke-parks-mn0000838241
-2017,Natalie Cole,https://www.allmusic.com/artist/natalie-cole-mn0000074195
-2018,John Cale,https://www.allmusic.com/artist/john-cale-mn0000224638
-2020,Matthew Aubin / Jackson Symphony Orchestra,https://www.allmusic.com/artist/matthew-aubin-mn0003437279
-2021,Theo Hoffman / Steven Blier / Kunal Lahiry,https://www.allmusic.com/artist/theo-hoffman-mn0004721560
-2022,Horsegirl,https://www.allmusic.com/artist/horsegirl-mn0004027845
-2034,Marmen Quartet,https://www.allmusic.com/artist/marmen-quartet-mn0004264138
-2035,Ahmad Jamal / Ahmad Jamal Trio,https://www.allmusic.com/artist/ahmad-jamal-mn0000127369
-2039,Leonard Bernstein / Original Broadway Cast,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
-2040,Ahmad Jamal,https://www.allmusic.com/artist/ahmad-jamal-mn0000127369
-2051,André Rieu,https://www.allmusic.com/artist/andr%C3%A9-rieu-mn0000819535
-2053,Paavo Berglund / Mariss Jansons / André Previn,https://www.allmusic.com/artist/paavo-berglund-mn0000538303
-2056,Jordan Bak / Howard Griffiths / London Mozart Players,https://www.allmusic.com/artist/jordan-bak-mn0004049674
-2057,Véronique Gens / Reinoud Van Mechelen / Hervé Niquet,https://www.allmusic.com/artist/v%C3%A9ronique-gens-mn0000161782
-2059,Lauryn Hill,https://www.allmusic.com/artist/lauryn-hill-mn0000113753
-2061,Dock Boggs,https://www.allmusic.com/artist/dock-boggs-mn0000794145
-2063,Los Lobos,https://www.allmusic.com/artist/los-lobos-mn0000354733
-2076,Milt Jackson,https://www.allmusic.com/artist/milt-jackson-mn0000489845
-2078,Romeo Santos,https://www.allmusic.com/artist/romeo-santos-mn0002367865
-2084,Minor Threat,https://www.allmusic.com/artist/minor-threat-mn0000422947
-2085,U2,https://www.allmusic.com/artist/u2-mn0000219203
-2086,Bob Marley / Bob Marley & the Wailers,https://www.allmusic.com/artist/bob-marley-mn0000071514
-2087,Sly & the Family Stone,https://www.allmusic.com/artist/sly-the-family-stone-mn0000033161
-2093,Richard Pryor,https://www.allmusic.com/artist/richard-pryor-mn0000295415
-2095,Captain Beefheart & the Magic Band,https://www.allmusic.com/artist/captain-beefheart-the-magic-band-mn0000646816
-2096,Slayer,https://www.allmusic.com/artist/slayer-mn0000022124
-2097,Alice Cooper,https://www.allmusic.com/artist/alice-cooper-mn0000005953
-2098,Ol' Dirty Bastard,https://www.allmusic.com/artist/ol-dirty-bastard-mn0000463803
-2099,Bill Hicks,https://www.allmusic.com/artist/bill-hicks-mn0000077267
-2112,Dub Syndicate,https://www.allmusic.com/artist/dub-syndicate-mn0000210697
-2114,Marvin Gaye,https://www.allmusic.com/artist/marvin-gaye-mn0000316834
-2116,Dexter Gordon,https://www.allmusic.com/artist/dexter-gordon-mn0000208404
-2121,The Flying Burrito Brothers,https://www.allmusic.com/artist/the-flying-burrito-brothers-mn0000194703
-2141,The Chieftains / Ry Cooder,https://www.allmusic.com/artist/the-chieftains-mn0000067406
-2144,Arthur Fiedler / Boston Pops Orchestra / Chet Atkins,https://www.allmusic.com/artist/arthur-fiedler-mn0000932323
-2145,Canadian Brass,https://www.allmusic.com/artist/canadian-brass-mn0000238292
-2147,Blue's Clues,https://www.allmusic.com/artist/blues-clues-mn0000761868
-2148,Sia,https://www.allmusic.com/artist/sia-mn0000753742
-2149,Alexandre Desplat,https://www.allmusic.com/artist/alexandre-desplat-mn0000254147
-2151,Tennis,https://www.allmusic.com/artist/tennis-mn0002515996
-2152,Aziz Ansari,https://www.allmusic.com/artist/aziz-ansari-mn0002362500
-2153,Death Cab for Cutie,https://www.allmusic.com/artist/death-cab-for-cutie-mn0000812711
-2154,The Brecker Brothers,https://www.allmusic.com/artist/the-brecker-brothers-mn0000521674
-2163,Jesse Blumberg / Adriana Zabala / Martin Katz / J.J. Penna,https://www.allmusic.com/artist/jesse-blumberg-mn0002231564
-2165,Adam Tendler,https://www.allmusic.com/artist/adam-tendler-mn0003614874
-2166,Will Stratton,https://www.allmusic.com/artist/will-stratton-mn0000635973
-2169,Jordi Savall / Le Concert des Nations,https://www.allmusic.com/artist/jordi-savall-mn0000676650
-2170,Anonymous 4 / Bruce Molsky,https://www.allmusic.com/artist/anonymous-4-mn0000222265
-2171,Isaac Stern,https://www.allmusic.com/artist/isaac-stern-mn0000965898
-2172,Chamber Orchestra of Europe / Alexander Janiczek,https://www.allmusic.com/artist/chamber-orchestra-of-europe-mn0000200797
-2173,Dora Schwarzberg / Martha Argerich,https://www.allmusic.com/artist/dora-schwarzberg-mn0002181296
-2174,Bob & Ray,https://www.allmusic.com/artist/bob-ray-mn0000047816
-2188,Dave Brubeck,https://www.allmusic.com/artist/dave-brubeck-mn0000958533
-2189,Devo,https://www.allmusic.com/artist/devo-mn0000249973
-2190,Beastie Boys,https://www.allmusic.com/artist/beastie-boys-mn0000038469
-2191,Pucho & His Latin Soul Brothers,https://www.allmusic.com/artist/pucho-his-latin-soul-brothers-mn0000367219
-2192,Biz Markie,https://www.allmusic.com/artist/biz-markie-mn0000107294
-2194,The Bonzo Dog Band / Bonzo Dog Doo Dah Band,https://www.allmusic.com/artist/the-bonzo-dog-band-mn0000772191
-2202,Beach House,https://www.allmusic.com/artist/beach-house-mn0000998969
-2204,Rodgers & Hammerstein,https://www.allmusic.com/artist/rodgers-hammerstein-mn0000245385
-2210,The Weather Station,https://www.allmusic.com/artist/the-weather-station-mn0001066820
-2233,The Chills,https://www.allmusic.com/artist/the-chills-mn0000068738
-2240,Future,https://www.allmusic.com/artist/future-mn0000802605
-2247,The Statler Brothers,https://www.allmusic.com/artist/the-statler-brothers-mn0000578031
-2258,Jasmine.4.T,https://www.allmusic.com/artist/jasmine4t-mn0004693622
-2262,MC5,https://www.allmusic.com/artist/mc5-mn0000182598
-2264,Roscoe Mitchell Sextet / Roscoe Mitchell,https://www.allmusic.com/artist/roscoe-mitchell-sextet-mn0001259929
-2266,Peaches,https://www.allmusic.com/artist/peaches-mn0000752770
-2274,Taylor Swift,https://www.allmusic.com/artist/taylor-swift-mn0000472102
-2289,The Chieftains,https://www.allmusic.com/artist/the-chieftains-mn0000067406
-2290,Yo-Yo Ma,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
-2294,Joe Meek / Joe Meek & the Blue Men,https://www.allmusic.com/artist/joe-meek-mn0000209088
-2295,Rachel Podger / Brecon Baroque,https://www.allmusic.com/artist/rachel-podger-mn0001291190
-2296,Grigory Sokolov,https://www.allmusic.com/artist/grigory-sokolov-mn0002214879
-2297,Buck Meek,https://www.allmusic.com/artist/buck-meek-mn0003518712
-2299,Marcus Farnsworth / Eric McElroy,https://www.allmusic.com/artist/marcus-farnsworth-mn0002669287
-2300,Apollo's Fire / Jeannette Sorrell,https://www.allmusic.com/artist/apollos-fire-mn0002218641
-2301,Common Holly,https://www.allmusic.com/artist/common-holly-mn0003768183
-2303,The Sugarcubes,https://www.allmusic.com/artist/the-sugarcubes-mn0000919525
-2304,The Incredible String Band,https://www.allmusic.com/artist/the-incredible-string-band-mn0000099561
-2305,Ween,https://www.allmusic.com/artist/ween-mn0000817754
-2306,The Shaggs,https://www.allmusic.com/artist/the-shaggs-mn0000418794
-2307,Beck,https://www.allmusic.com/artist/beck-mn0000124492
-2308,The Dead Milkmen,https://www.allmusic.com/artist/the-dead-milkmen-mn0000140891
-2314,Deniece Williams,https://www.allmusic.com/artist/deniece-williams-mn0000816701
-2317,Lalah Hathaway,https://www.allmusic.com/artist/lalah-hathaway-mn0000127696
-2318,Joyce DiDonato / Renée Fleming / Kelli O'Hara / Yannick Nézet-Séguin / Metropolitan Opera Orchestra,https://www.allmusic.com/artist/joyce-didonato-mn0000072457
-2319,M83,https://www.allmusic.com/artist/m83-mn0000175525
-2321,Mary J. Blige,https://www.allmusic.com/artist/mary-j-blige-mn0000376204
-2325,Mereba,https://www.allmusic.com/artist/mereba-mn0003716335
-2338,The Replacements,https://www.allmusic.com/artist/the-replacements-mn0000422405
-2342,Sebadoh,https://www.allmusic.com/artist/sebadoh-mn0000840523
-2343,Sparklehorse,https://www.allmusic.com/artist/sparklehorse-mn0000008549
-2344,Palace Music,https://www.allmusic.com/artist/palace-music-mn0001633598
-2358,Hamilton Leithauser,https://www.allmusic.com/artist/hamilton-leithauser-mn0000949957
-2362,Céline Dion,https://www.allmusic.com/artist/c%C3%A9line-dion-mn0000186185
-2363,Mike Posner,https://www.allmusic.com/artist/mike-posner-mn0001740826
-2364,Jim Oblon,https://www.allmusic.com/artist/jim-oblon-mn0002455463
-2365,Xavier Rudd & the United Nations / Xavier Rudd,https://www.allmusic.com/artist/xavier-rudd-the-united-nations-mn0003364823
-2366,John Legend / The Roots,https://www.allmusic.com/artist/john-legend-mn0000814387
-2367,Priscilla Paris,https://www.allmusic.com/artist/priscilla-paris-mn0001215720
-2368,Jimmy Eat World,https://www.allmusic.com/artist/jimmy-eat-world-mn0000852688
-2369,Kelela,https://www.allmusic.com/artist/kelela-mn0002946658
-2372,Livingston Taylor / BBC Concert Orchestra,https://www.allmusic.com/artist/livingston-taylor-mn0000266952
-2384,Dennis Bovell,https://www.allmusic.com/artist/dennis-bovell-mn0000240402
-2392,The Allman Brothers Band,https://www.allmusic.com/artist/the-allman-brothers-band-mn0000745964
-2396,EST Gee,https://www.allmusic.com/artist/est-gee-mn0003877273
-2414,John Lennon,https://www.allmusic.com/artist/john-lennon-mn0000232564
-2425,Blur,https://www.allmusic.com/artist/blur-mn0000758444
-2428,Chvrches,https://www.allmusic.com/artist/chvrches-mn0003052164
-2429,Christopher Tin / Voces8 / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/christopher-tin-mn0001435165
-2453,Bill Monroe / Bill Monroe & His Bluegrass Boys,https://www.allmusic.com/artist/bill-monroe-mn0000081083
-2454,Joan Armatrading,https://www.allmusic.com/artist/joan-armatrading-mn0000133969
-2455,Ela Minus,https://www.allmusic.com/artist/ela-minus-mn0003595856
-2456,Marinero,https://www.allmusic.com/artist/marinero-mn0002119549
-2457,Souled American,https://www.allmusic.com/artist/souled-american-mn0000050498
-2463,Yo-Yo Ma / Anne-Sophie Mutter / Daniel Barenboim / West-Eastern Divan Orchestra,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
-2465,Solange,https://www.allmusic.com/artist/solange-mn0000041462
-2468,Peter Donohoe / Karl Lutchmayer,https://www.allmusic.com/artist/peter-donohoe-mn0000075930
-2476,George Strait,https://www.allmusic.com/artist/george-strait-mn0000944084
-2486,The Soul Stirrers,https://www.allmusic.com/artist/the-soul-stirrers-mn0000507836
-2499,Yo-Yo Ma / Ennio Morricone,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
-2505,Renaud Capuçon / Daniel Harding / L'Orchestre de la Suisse Romande,https://www.allmusic.com/artist/renaud-capu%C3%A7on-mn0001655495
-2523,Minnie Riperton,https://www.allmusic.com/artist/minnie-riperton-mn0000500889
-2524,Prefab Sprout,https://www.allmusic.com/artist/prefab-sprout-mn0000300024
-2547,Buckwheat Zydeco / Buckwheat Zydeco Ils Sont Partis Band,https://www.allmusic.com/artist/buckwheat-zydeco-mn0000636106
-2548,Oasis,https://www.allmusic.com/artist/oasis-mn0000393345
-2549,Hasil Adkins,https://www.allmusic.com/artist/hasil-adkins-mn0000951924
-2561,The Kingston Trio,https://www.allmusic.com/artist/the-kingston-trio-mn0000102050
-2568,David Daniels / Lorraine Hunt Lieberson / Dawn Upshaw,https://www.allmusic.com/artist/david-daniels-mn0001648948
-2570,Jan Garbarek / The Hilliard Ensemble,https://www.allmusic.com/artist/jan-garbarek-mn0000809334
-2571,St. Albans Cathedral Choir / Andrew Lucas / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/st-albans-cathedral-choir-mn0002196837
-2572,Ron Carter / Danny Simmons,https://www.allmusic.com/artist/ron-carter-mn0000275832
-2573,Masma Dream World,https://www.allmusic.com/artist/masma-dream-world-mn0003992565
-2605,Marie Davidson,https://www.allmusic.com/artist/marie-davidson-mn0002476261
-2614,Ex-Vöid,https://www.allmusic.com/artist/ex-v%C3%B6id-mn0003882516
-2622,Sleaford Mods,https://www.allmusic.com/artist/sleaford-mods-mn0003160641
-2623,Death Grips,https://www.allmusic.com/artist/death-grips-mn0002741208
-2627,Bernard Herrmann,https://www.allmusic.com/artist/bernard-herrmann-mn0000760240
-2637,Bilal,https://www.allmusic.com/artist/bilal-mn0000057280
-2638,King Gizzard & the Lizard Wizard,https://www.allmusic.com/artist/king-gizzard-the-lizard-wizard-mn0003085959
-2640,Daniel Hope / André de Ridder / Konzerthaus Kammerorchester Berlin / Max Richter,https://www.allmusic.com/artist/daniel-hope-mn0000117642
-2641,Shabazz Palaces,https://www.allmusic.com/artist/shabazz-palaces-mn0002678775
-2662,Prince Royce,https://www.allmusic.com/artist/prince-royce-mn0002385531
-2665,Brandy,https://www.allmusic.com/artist/brandy-mn0000608945
-2673,Conway Twitty,https://www.allmusic.com/artist/conway-twitty-mn0000780451
-2674,Don Gibson,https://www.allmusic.com/artist/don-gibson-mn0000184814
-2675,Webb Pierce,https://www.allmusic.com/artist/webb-pierce-mn0000198901
-2682,Dusty Springfield,https://www.allmusic.com/artist/dusty-springfield-mn0000159214
-2684,Basement Jaxx,https://www.allmusic.com/artist/basement-jaxx-mn0000142249
-2685,George Michael,https://www.allmusic.com/artist/george-michael-mn0000545074
-2686,Dead Can Dance,https://www.allmusic.com/artist/dead-can-dance-mn0000225948
-2692,Bing Crosby,https://www.allmusic.com/artist/bing-crosby-mn0000094252
-2693,Carole King,https://www.allmusic.com/artist/carole-king-mn0000174557
-2698,The Platters,https://www.allmusic.com/artist/the-platters-mn0000894335
-2711,Thin Lizzy,https://www.allmusic.com/artist/thin-lizzy-mn0000590479
-2719,Daniel Harding / Håkan Hardenberger / London Symphony Orchestra,https://www.allmusic.com/artist/daniel-harding-mn0001674267
-2720,Cabaret Voltaire,https://www.allmusic.com/artist/cabaret-voltaire-mn0000635413
-2721,The Bug,https://www.allmusic.com/artist/the-bug-mn0000629224
-2722,Ozzy Osbourne,https://www.allmusic.com/artist/ozzy-osbourne-mn0000424244
-2723,Kronos Quartet,https://www.allmusic.com/artist/kronos-quartet-mn0000775212
-2728,Madonna,https://www.allmusic.com/artist/madonna-mn0000237205
-2729,D'Angelo,https://www.allmusic.com/artist/dangelo-mn0000134600
-2737,Serge Gainsbourg,https://www.allmusic.com/artist/serge-gainsbourg-mn0000174822
-2738,Barry White,https://www.allmusic.com/artist/barry-white-mn0000149044
-2739,Chic,https://www.allmusic.com/artist/chic-mn0000092942
-2742,Roxy Music,https://www.allmusic.com/artist/roxy-music-mn0000852855
-2743,Luther Vandross,https://www.allmusic.com/artist/luther-vandross-mn0000208076
-2764,Roger Miller,https://www.allmusic.com/artist/roger-miller-mn0000151431
-2766,Jerry Reed,https://www.allmusic.com/artist/jerry-reed-mn0000334644
-2772,Digital Underground,https://www.allmusic.com/artist/digital-underground-mn0000258276
-2773,Snoop Dogg,https://www.allmusic.com/artist/snoop-dogg-mn0000029086
-2777,Lil' Kim,https://www.allmusic.com/artist/lil-kim-mn0000278439
-2778,The Donnas,https://www.allmusic.com/artist/the-donnas-mn0000784535
-2779,Kool Keith,https://www.allmusic.com/artist/kool-keith-mn0000777156
-2809,Green Day,https://www.allmusic.com/artist/green-day-mn0000154544
-2817,Ronnie Milsap,https://www.allmusic.com/artist/ronnie-milsap-mn0000334740
-2822,Duke Ellington / Duke Ellington & His Orchestra,https://www.allmusic.com/artist/duke-ellington-mn0000120323
-2823,Alessia Cara,https://www.allmusic.com/artist/alessia-cara-mn0003396562
-2824,Simon Callaghan / Ashok Klouda / Members of Piatti Quartet,https://www.allmusic.com/artist/simon-callaghan-mn0002887281
-2875,Gustavo Dudamel / Los Angeles Master Chorale / Los Angeles Philharmonic Orchestra,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636
-2876,Laurie Anderson / Tenzin Choegyal / Jesse Paris Smith,https://www.allmusic.com/artist/laurie-anderson-mn0000785773
-2880,Ani DiFranco,https://www.allmusic.com/artist/ani-difranco-mn0000046794
-2881,Billie Eilish,https://www.allmusic.com/artist/billie-eilish-mn0003475903
-2882,Pablo Ferrández / Anne-Sophie Mutter,https://www.allmusic.com/artist/pablo-ferr%C3%A1ndez-mn0003213788
-2902,Brownie McGhee,https://www.allmusic.com/artist/brownie-mcghee-mn0000630882
-2903,Holly Golightly,https://www.allmusic.com/artist/holly-golightly-mn0000958907
-2905,Violent Femmes,https://www.allmusic.com/artist/violent-femmes-mn0000922200
-2918,Gipsy Kings,https://www.allmusic.com/artist/gipsy-kings-mn0000555695
-2923,Mahavishnu Orchestra,https://www.allmusic.com/artist/mahavishnu-orchestra-mn0000233862
-2932,The Lijadu Sisters,https://www.allmusic.com/artist/the-lijadu-sisters-mn0000094507
-2933,Clive Lythgoe,https://www.allmusic.com/artist/clive-lythgoe-mn0001198853
-2934,Mel Brooks / Carl Reiner,https://www.allmusic.com/artist/mel-brooks-mn0000342833
-2935,Mayday!,https://www.allmusic.com/artist/mayday%21-mn0000602072
-2936,Sabina,https://www.allmusic.com/artist/sabina-mn0003208768
-2937,Buke and Gase,https://www.allmusic.com/artist/buke-and-gase-mn0002019109
-2970,George Benson,https://www.allmusic.com/artist/george-benson-mn0000201760
-2972,The Go-Betweens,https://www.allmusic.com/artist/the-go-betweens-mn0000766361
-2976,Sophie Yates,https://www.allmusic.com/artist/sophie-yates-mn0001652167
-3000,Gerhard Oppitz,https://www.allmusic.com/artist/gerhard-oppitz-mn0000621992
-3019,Chance the Rapper,https://www.allmusic.com/artist/chance-the-rapper-mn0003115050
-3062,Chet Atkins,https://www.allmusic.com/artist/chet-atkins-mn0000094205
-3065,The Million Dollar Quartet / Elvis Presley / Jerry Lee Lewis / Carl Perkins / Johnny Cash,https://www.allmusic.com/artist/the-million-dollar-quartet-mn0000490877
-3085,Maxi Priest,https://www.allmusic.com/artist/maxi-priest-mn0000866417
-3086,Common / Pete Rock,https://www.allmusic.com/artist/common-mn0000115253
-3087,Vampire Weekend,https://www.allmusic.com/artist/vampire-weekend-mn0000662416
-3089,Ali Shaheed Muhammad / Marcos Valle / Adrian Younge,https://www.allmusic.com/artist/ali-shaheed-muhammad-mn0000389128
-3090,Roy Ayers / Ali Shaheed Muhammad / Adrian Younge,https://www.allmusic.com/artist/roy-ayers-mn0000345168
-3108,The Doors,https://www.allmusic.com/artist/the-doors-mn0000114342
-3110,Elastica,https://www.allmusic.com/artist/elastica-mn0000797431
-3112,Charley Patton,https://www.allmusic.com/artist/charley-patton-mn0000166058
-3113,Suede,https://www.allmusic.com/artist/suede-mn0000586694
-3119,Big Star,https://www.allmusic.com/artist/big-star-mn0000051992
-3120,The Lovin' Spoonful,https://www.allmusic.com/artist/the-lovin-spoonful-mn0000052900
-3122,The Fleetwoods,https://www.allmusic.com/artist/the-fleetwoods-mn0000761706
-3124,Donovan,https://www.allmusic.com/artist/donovan-mn0000799053
-3125,Julie Andrews,https://www.allmusic.com/artist/julie-andrews-mn0000314113
-3126,Marlo Thomas / Marlo Thomas & Friends,https://www.allmusic.com/artist/marlo-thomas-mn0000338442
-3132,Maceo Parker,https://www.allmusic.com/artist/maceo-parker-mn0000185155
-3134,Us3,https://www.allmusic.com/artist/us3-mn0000173289
-3135,Pete Rock & C.L. Smooth,https://www.allmusic.com/artist/pete-rock-cl-smooth-mn0000841475
-3136,Willie Mitchell,https://www.allmusic.com/artist/willie-mitchell-mn0000684830
-3138,Mary Halvorson / Mary Halvorson Quartet,https://www.allmusic.com/artist/mary-halvorson-mn0000529394
-3139,Sylvie Courvoisier / Mary Halvorson,https://www.allmusic.com/artist/sylvie-courvoisier-mn0000062099
-3140,Sullivan Fortner,https://www.allmusic.com/artist/sullivan-fortner-mn0001018927
-3141,Petra Haden,https://www.allmusic.com/artist/petra-haden-mn0000325889
-3142,The Human Abstract,https://www.allmusic.com/artist/the-human-abstract-mn0000730382
-3143,Appaloosa,https://www.allmusic.com/artist/appaloosa-mn0001209541
-3144,The Haden Triplets,https://www.allmusic.com/artist/the-haden-triplets-mn0001700780
-3145,The Dillinger Escape Plan,https://www.allmusic.com/artist/the-dillinger-escape-plan-mn0000787702
-3146,Renegade Soundwave,https://www.allmusic.com/artist/renegade-soundwave-mn0000387765
-3147,The HAARP Machine,https://www.allmusic.com/artist/the-haarp-machine-mn0002995469
-3148,Alter Ego,https://www.allmusic.com/artist/alter-ego-mn0000180016
-3150,The Foreign Exchange,https://www.allmusic.com/artist/the-foreign-exchange-mn0000738089
-3151,Jesse Boykins III,https://www.allmusic.com/artist/jesse-boykins-iii-mn0001591840
-3152,Miguel,https://www.allmusic.com/artist/miguel-mn0002570457
-3153,The Beau Hunks,https://www.allmusic.com/artist/the-beau-hunks-mn0000042004
-3154,Ledisi,https://www.allmusic.com/artist/ledisi-mn0000117356
-3155,Taylor Barton,https://www.allmusic.com/artist/taylor-barton-mn0000012490
-3156,Richard Meyer,https://www.allmusic.com/artist/richard-meyer-mn0000349240
-3157,Burial,https://www.allmusic.com/artist/burial-mn0000643682
-3162,The Jesus and Mary Chain,https://www.allmusic.com/artist/the-jesus-and-mary-chain-mn0000343930
-3164,Television,https://www.allmusic.com/artist/television-mn0000019701
-3169,Minutemen,https://www.allmusic.com/artist/minutemen-mn0000474482
-3178,Adam and the Ants,https://www.allmusic.com/artist/adam-and-the-ants-mn0000590787
-3179,Supertramp,https://www.allmusic.com/artist/supertramp-mn0000033666
-3180,ABC,https://www.allmusic.com/artist/abc-mn0000574597
-3220,The Kills,https://www.allmusic.com/artist/the-kills-mn0000099508
-3221,Danny Elfman,https://www.allmusic.com/artist/danny-elfman-mn0000569119
-3222,Tool,https://www.allmusic.com/artist/tool-mn0000790820
-3225,Wipers,https://www.allmusic.com/artist/wipers-mn0000485791
-3239,The Velveteers,https://www.allmusic.com/artist/the-velveteers-mn0004111196
-3242,Riccardo Muti / Dagmar Schellenberger / Anja Silja,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
-3243,Leonard Bernstein / Stephen Sondheim,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
-3244,Montserrat Caballé / Plácido Domingo / Carlo Maria Giulini,https://www.allmusic.com/artist/montserrat-caball%C3%A9-mn0000659071
-3245,André Previn / London Symphony Orchestra,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250
-3246,Plácido Domingo / Marcello Viotti,https://www.allmusic.com/artist/pl%C3%A1cido-domingo-mn0000851639
-3248,Jean-Luc Tingaud / National Symphony Orchestra of Ireland,https://www.allmusic.com/artist/jean-luc-tingaud-mn0002252114
-3249,Renaud Capuçon / Seiji Ozawa / Petr Popelka,https://www.allmusic.com/artist/renaud-capu%C3%A7on-mn0001655495
-3250,Jürgen Bruns / Rheinland-Pfalz Staatsphilharmonie,https://www.allmusic.com/artist/j%C3%BCrgen-bruns-mn0002208783
-3251,Klaus Florian Vogt / Ensemble Acht,https://www.allmusic.com/artist/klaus-florian-vogt-mn0002227740
-3257,José Serebrier / Cho-Liang Lin / Hila Plitmann / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/jos%C3%A9-serebrier-mn0000685491
-3258,Yo-Yo Ma / John Williams / New York Philharmonic,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
-3259,Colin Currie / JoAnn Falletta / Danny Elfman,https://www.allmusic.com/artist/colin-currie-mn0001788741
-3267,ZZ Top,https://www.allmusic.com/artist/zz-top-mn0000690254
-3272,Happy Mondays,https://www.allmusic.com/artist/happy-mondays-mn0000553483
-3276,DJ Shadow,https://www.allmusic.com/artist/dj-shadow-mn0000949820
-3278,Jefferson Airplane,https://www.allmusic.com/artist/jefferson-airplane-mn0000840102
-3283,Traffic,https://www.allmusic.com/artist/traffic-mn0000012472
-3290,Leonard Bernstein / Glenn Gould / New York Philharmonic,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
-3294,Christopher Monks / Armonico Consort,https://www.allmusic.com/artist/christopher-monks-mn0001791829
-3300,D'Angelo and the Vanguard / D'Angelo,https://www.allmusic.com/artist/dangelo-and-the-vanguard-mn0003351988
-3330,Geoffrey O'Connor,https://www.allmusic.com/artist/geoffrey-oconnor-mn0002768748
-3337,Chico Buarque,https://www.allmusic.com/artist/chico-buarque-mn0000095613
-3365,Masaaki Suzuki,https://www.allmusic.com/artist/masaaki-suzuki-mn0001681843
-3401,The-Dream,https://www.allmusic.com/artist/the-dream-mn0001028077
-3403,"Hank Williams, Jr.",https://www.allmusic.com/artist/hank-williams-jr-mn0000117844
-3406,Gucci Mane,https://www.allmusic.com/artist/gucci-mane-mn0000545523
-3408,Danny Brown,https://www.allmusic.com/artist/danny-brown-mn0001477553
-3443,Bobby Bare,https://www.allmusic.com/artist/bobby-bare-mn0000066429
-3467,Matt Pond PA,https://www.allmusic.com/artist/matt-pond-pa-mn0000861795
-3471,Tim Hecker,https://www.allmusic.com/artist/tim-hecker-mn0000930651
-3508,Hank Williams,https://www.allmusic.com/artist/hank-williams-mn0000549797
-3514,John Coltrane,https://www.allmusic.com/artist/john-coltrane-mn0000175553
+1,Eminem,https://www.allmusic.com/artist/eminem-mn0000157676
+2,The Rolling Stones,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465
+3,Soundgarden,https://www.allmusic.com/artist/soundgarden-mn0000001098
+4,Chuck Berry,https://www.allmusic.com/artist/chuck-berry-mn0000120521
+5,Neil Young,https://www.allmusic.com/artist/neil-young-mn0000379125
+6,Johnny Cash,https://www.allmusic.com/artist/johnny-cash-mn0000816890
+7,Bob Dylan,https://www.allmusic.com/artist/bob-dylan-mn0000066915
+8,The Kinks,https://www.allmusic.com/artist/the-kinks-mn0000100160
+9,2 Chainz / The Alchemist / Larry June,https://www.allmusic.com/artist/2-chainz-mn0002748040
+10,Throwing Muses,https://www.allmusic.com/artist/throwing-muses-mn0000925528
+11,Lambrini Girls,https://www.allmusic.com/artist/lambrini-girls-mn0004549798
+12,Courting,https://www.allmusic.com/artist/courting-mn0003988051
+13,Public Enemy,https://www.allmusic.com/artist/public-enemy-mn0000856785
+14,Rage Against the Machine,https://www.allmusic.com/artist/rage-against-the-machine-mn0000863790
+15,Ice Cube,https://www.allmusic.com/artist/ice-cube-mn0000086065
+16,Metallica,https://www.allmusic.com/artist/metallica-mn0000446509
+17,Wu-Tang Clan,https://www.allmusic.com/artist/wu-tang-clan-mn0000959876
+18,L7,https://www.allmusic.com/artist/l7-mn0000100473
+19,Motörhead,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407
+20,The Runaways,https://www.allmusic.com/artist/the-runaways-mn0000492275
+21,Ella Fitzgerald,https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502
+22,Jason Isbell,https://www.allmusic.com/artist/jason-isbell-mn0000562615
+24,The Ancients / Isaiah Collier / William Hooker / William Parker,https://www.allmusic.com/artist/the-ancients-mn0004768598
+25,Tim Hart / Tim Hart & Maddy Prior / Maddy Prior,https://www.allmusic.com/artist/tim-hart-mn0000503187
+26,Martha & the Vandellas,https://www.allmusic.com/artist/martha-the-vandellas-mn0001199135
+27,Nick Lowe,https://www.allmusic.com/artist/nick-lowe-mn0000866841
+28,Duke Ellington,https://www.allmusic.com/artist/duke-ellington-mn0000120323
+29,Tammy Wynette,https://www.allmusic.com/artist/tammy-wynette-mn0000136640
+30,Van Halen,https://www.allmusic.com/artist/van-halen-mn0000260206
+31,Wings / Paul McCartney / Paul McCartney & Wings,https://www.allmusic.com/artist/wings-mn0000956707
+32,Russ Taff,https://www.allmusic.com/artist/russ-taff-mn0000212810
+33,Riccardo Muti / Wiener Philharmoniker,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
+34,Edwyn Collins,https://www.allmusic.com/artist/edwyn-collins-mn0000620603
+35,Isabel Schicketanz,https://www.allmusic.com/artist/isabel-schicketanz-mn0003476936
+36,Fatma Said,https://www.allmusic.com/artist/fatma-said-mn0003904265
+37,Terry Riley,https://www.allmusic.com/artist/terry-riley-mn0000750519
+39,Edgar Froese / Klaus Schulze / Ashra,https://www.allmusic.com/artist/edgar-froese-mn0000147638
+40,Toumani Diabaté / Sidiki Diabaté,https://www.allmusic.com/artist/toumani-diabat%C3%A9-mn0000744075
+41,Philip Glass,https://www.allmusic.com/artist/philip-glass-mn0000849672
+42,Astor Piazzolla,https://www.allmusic.com/artist/astor-piazzolla-mn0000607967
+43,Four Tet,https://www.allmusic.com/artist/four-tet-mn0000741236
+45,Baths,https://www.allmusic.com/artist/baths-mn0002424501
+46,Nels Cline,https://www.allmusic.com/artist/nels-cline-mn0000861400
+47,Billy Hart Quartet / Billy Hart,https://www.allmusic.com/artist/billy-hart-quartet-mn0003213609
+48,Eddie Chacon,https://www.allmusic.com/artist/eddie-chacon-mn0001539810
+49,Radiohead,https://www.allmusic.com/artist/radiohead-mn0000326249
+50,Wayne Shorter,https://www.allmusic.com/artist/wayne-shorter-mn0000250435
+51,Charles Mingus,https://www.allmusic.com/artist/charles-mingus-mn0000009680
+52,Thelonious Monk,https://www.allmusic.com/artist/thelonious-monk-mn0000490416
+53,Sonny Rollins,https://www.allmusic.com/artist/sonny-rollins-mn0000039656
+54,Waylon Jennings,https://www.allmusic.com/artist/waylon-jennings-mn0000200791
+55,Bruce Springsteen,https://www.allmusic.com/artist/bruce-springsteen-mn0000530745
+56,Willie Nelson,https://www.allmusic.com/artist/willie-nelson-mn0000583959
+57,Lady Gaga,https://www.allmusic.com/artist/lady-gaga-mn0000994823
+58,Grateful Dead,https://www.allmusic.com/artist/grateful-dead-mn0000988440
+59,Kurt Elling / Sullivan Fortner,https://www.allmusic.com/artist/kurt-elling-mn0000777054
+60,Ambrose Akinmusire,https://www.allmusic.com/artist/ambrose-akinmusire-mn0000919421
+61,Louis Armstrong,https://www.allmusic.com/artist/louis-armstrong-mn0000234518
+62,De La Soul,https://www.allmusic.com/artist/de-la-soul-mn0000238322
+64,Cyndi Lauper,https://www.allmusic.com/artist/cyndi-lauper-mn0000122754
+65,Bob Wills and His Texas Playboys,https://www.allmusic.com/artist/bob-wills-and-his-texas-playboys-mn0000065538
+66,Pérez Prado,https://www.allmusic.com/artist/p%C3%A9rez-prado-mn0000310383
+72,Dead Kennedys,https://www.allmusic.com/artist/dead-kennedys-mn0000786613
+74,Black Flag,https://www.allmusic.com/artist/black-flag-mn0000091650
+75,Elvis Costello / Elvis Costello & the Attractions,https://www.allmusic.com/artist/elvis-costello-mn0000058549
+76,Pixies,https://www.allmusic.com/artist/pixies-mn0000895136
+79,The Clash,https://www.allmusic.com/artist/the-clash-mn0000075747
+80,Magdalena Kožená / Andrew Staples / Simon Rattle / London Symphony Orchestra,https://www.allmusic.com/artist/magdalena-ko%C5%BEen%C3%A1-mn0001467668
+81,Bob Mould,https://www.allmusic.com/artist/bob-mould-mn0000058386
+86,The Who,https://www.allmusic.com/artist/the-who-mn0000577627
+88,Nine Inch Nails,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733
+90,Depeche Mode,https://www.allmusic.com/artist/depeche-mode-mn0000239921
+92,"Bonnie ""Prince"" Billy",https://www.allmusic.com/artist/bonnie-prince-billy-mn0000094764
+94,Mac Miller,https://www.allmusic.com/artist/mac-miller-mn0002653603
+95,Florence + the Machine / Jules Buckley / Jules Buckley and His Orchestra,https://www.allmusic.com/artist/florence-the-machine-mn0002124046
+97,Lloyd Price,https://www.allmusic.com/artist/lloyd-price-mn0000827250
+99,Stevie Wonder,https://www.allmusic.com/artist/stevie-wonder-mn0000622805
+100,Patsy Cline,https://www.allmusic.com/artist/patsy-cline-mn0000014651
+101,Big Bill Broonzy,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873
+103,Nina Simone,https://www.allmusic.com/artist/nina-simone-mn0000411761
+104,The War and Treaty,https://www.allmusic.com/artist/the-war-and-treaty-mn0003749672
+105,FKA twigs,https://www.allmusic.com/artist/fka-twigs-mn0003145761
+106,Japanese Breakfast,https://www.allmusic.com/artist/japanese-breakfast-mn0003475118
+107,Sharon Van Etten,https://www.allmusic.com/artist/sharon-van-etten-mn0002132489
+108,Fiona Apple,https://www.allmusic.com/artist/fiona-apple-mn0000169795
+109,Karl Böhm,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
+110,Robert Craft / Edgard Varèse,https://www.allmusic.com/artist/robert-craft-mn0001792374
+111,Cecil Taylor,https://www.allmusic.com/artist/cecil-taylor-mn0000988386
+112,Royal Philharmonic Orchestra,https://www.allmusic.com/artist/royal-philharmonic-orchestra-mn0000350127
+113,Wynton Marsalis / Cristian Măcelaru / Philadelphia Orchestra,https://www.allmusic.com/artist/wynton-marsalis-mn0000961688
+114,Laurie Anderson / Kronos Quartet,https://www.allmusic.com/artist/laurie-anderson-mn0000785773
+115,Actress,https://www.allmusic.com/artist/actress-mn0001399533
+116,John Surman,https://www.allmusic.com/artist/john-surman-mn0000189180
+117,Roberto Prosseda / Nir Kabaretti / London Philharmonic Orchestra,https://www.allmusic.com/artist/roberto-prosseda-mn0001656464
+119,JACK Quartet,https://www.allmusic.com/artist/jack-quartet-mn0002434177
+121,Buzzcocks,https://www.allmusic.com/artist/buzzcocks-mn0000629564
+122,Moby,https://www.allmusic.com/artist/moby-mn0000477116
+123,John Williams,https://www.allmusic.com/artist/john-williams-mn0000232480
+124,Shirley Caesar,https://www.allmusic.com/artist/shirley-caesar-mn0000032071
+125,Wire,https://www.allmusic.com/artist/wire-mn0000672910
+130,Simon Rattle / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/simon-rattle-mn0000932272
+131,Tommy Castro,https://www.allmusic.com/artist/tommy-castro-mn0000613829
+132,Coldplay,https://www.allmusic.com/artist/coldplay-mn0000775877
+134,Def Leppard,https://www.allmusic.com/artist/def-leppard-mn0000193320
+136,The King's Singers / Fretwork,https://www.allmusic.com/artist/the-kings-singers-mn0000929562
+137,John Williams / Berlin Philharmonic Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480
+138,Judas Priest,https://www.allmusic.com/artist/judas-priest-mn0000246611
+139,System of a Down,https://www.allmusic.com/artist/system-of-a-down-mn0000005501
+140,Vulture Feather,https://www.allmusic.com/artist/vulture-feather-mn0004403945
+141,Art d'Ecco,https://www.allmusic.com/artist/art-decco-mn0003772089
+142,Karlheinz Stockhausen,https://www.allmusic.com/artist/karlheinz-stockhausen-mn0000854925
+143,Lorin Maazel / New York Philharmonic,https://www.allmusic.com/artist/lorin-maazel-mn0002078867
+145,King Crimson,https://www.allmusic.com/artist/king-crimson-mn0000076057
+146,Wilhelm Bruckner-Ruggeberg / Lotte Lenya / Heinz Sauerbaum / Kurt Weill,https://www.allmusic.com/artist/wilhelm-bruckner-ruggeberg-mn0001657198
+148,Marc Ribot / Marc Ribot's Ceramic Dog,https://www.allmusic.com/artist/marc-ribot-mn0000674728
+150,Rufus Wainwright,https://www.allmusic.com/artist/rufus-wainwright-mn0000854854
+151,Alabaster DePlume,https://www.allmusic.com/artist/alabaster-deplume-mn0003670691
+152,Gnod / White Hills,https://www.allmusic.com/artist/gnod-mn0002479499
+153,Bambara,https://www.allmusic.com/artist/bambara-mn0001073082
+154,Marios Papadopoulos / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/marios-papadopoulos-mn0000917804
+155,Pat Metheny,https://www.allmusic.com/artist/pat-metheny-mn0000179698
+156,Morton Subotnick,https://www.allmusic.com/artist/morton-subotnick-mn0000857040
+157,Ryuichi Sakamoto,https://www.allmusic.com/artist/ryuichi-sakamoto-mn0000587608
+158,Vladislav Delay,https://www.allmusic.com/artist/vladislav-delay-mn0000185680
+160,Carter Burwell,https://www.allmusic.com/artist/carter-burwell-mn0000149173
+161,Massive Attack,https://www.allmusic.com/artist/massive-attack-mn0000378288
+162,Barney Kessel,https://www.allmusic.com/artist/barney-kessel-mn0000784527
+164,Aphex Twin,https://www.allmusic.com/artist/aphex-twin-mn0000493848
+165,Maurizio Pollini / Karl Böhm,https://www.allmusic.com/artist/maurizio-pollini-mn0000925983
+166,Glenn Gould / Leopold Stokowski,https://www.allmusic.com/artist/glenn-gould-mn0000803752
+167,Sviatoslav Richter,https://www.allmusic.com/artist/sviatoslav-richter-mn0000818152
+168,Keith Jarrett / Dennis Russell Davies / Saarbrucken Radio Symphony Orchestra,https://www.allmusic.com/artist/keith-jarrett-mn0000066570
+172,Boris Giltburg,https://www.allmusic.com/artist/boris-giltburg-mn0002349504
+173,Samson Tsoy,https://www.allmusic.com/artist/samson-tsoy-mn0004612885
+174,The Orb,https://www.allmusic.com/artist/the-orb-mn0000891575
+175,Tortoise,https://www.allmusic.com/artist/tortoise-mn0000180023
+176,Sam Cooke,https://www.allmusic.com/artist/sam-cooke-mn0000238115
+177,Ennio Morricone,https://www.allmusic.com/artist/ennio-morricone-mn0000798662
+178,The Zombies,https://www.allmusic.com/artist/the-zombies-mn0000582313
+179,Brian Eno,https://www.allmusic.com/artist/brian-eno-mn0000617196
+182,"Lee ""Scratch"" Perry",https://www.allmusic.com/artist/lee-scratch-perry-mn0000785380
+185,Mogwai,https://www.allmusic.com/artist/mogwai-mn0000923705
+190,Nick Drake,https://www.allmusic.com/artist/nick-drake-mn0000336783
+191,Leonard Cohen,https://www.allmusic.com/artist/leonard-cohen-mn0000071209
+192,Son House,https://www.allmusic.com/artist/son-house-mn0000753094
+193,Kraftwerk,https://www.allmusic.com/artist/kraftwerk-mn0000104714
+197,Everything Is Recorded,https://www.allmusic.com/artist/everything-is-recorded-mn0003633405
+200,The Beatles,https://www.allmusic.com/artist/the-beatles-mn0000754032
+201,Horace Silver / Horace Silver Quintet,https://www.allmusic.com/artist/horace-silver-mn0000267354
+202,Portishead,https://www.allmusic.com/artist/portishead-mn0000301619
+203,Richard & Linda Thompson / Linda Thompson / Richard Thompson,https://www.allmusic.com/artist/richard-linda-thompson-mn0000288904
+204,Buffalo Springfield,https://www.allmusic.com/artist/buffalo-springfield-mn0000939567
+205,Elton John,https://www.allmusic.com/artist/elton-john-mn0000796734
+210,Too $hort,https://www.allmusic.com/artist/too-hort-mn0001052511
+211,Linkin Park,https://www.allmusic.com/artist/linkin-park-mn0000289599
+212,GZA,https://www.allmusic.com/artist/gza-mn0000170084
+213,Louis C.K.,https://www.allmusic.com/artist/louis-ck-mn0001035974
+214,50 Cent,https://www.allmusic.com/artist/50-cent-mn0000919805
+215,MC Lyte,https://www.allmusic.com/artist/mc-lyte-mn0000220590
+216,The Isley Brothers,https://www.allmusic.com/artist/the-isley-brothers-mn0000766893
+217,Ice-T,https://www.allmusic.com/artist/ice-t-mn0000072003
+219,Spiritbox,https://www.allmusic.com/artist/spiritbox-mn0003976760
+220,A Day to Remember,https://www.allmusic.com/artist/a-day-to-remember-mn0000938798
+221,Ella Jenkins,https://www.allmusic.com/artist/ella-jenkins-mn0000798086
+222,Steve Reich,https://www.allmusic.com/artist/steve-reich-mn0000037658
+224,Karl Böhm / Wilhelm Furtwängler,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
+229,Alice Sara Ott,https://www.allmusic.com/artist/alice-sara-ott-mn0002232982
+231,The Counterpoints,https://www.allmusic.com/artist/the-counterpoints-mn0003902919
+240,Black Uhuru,https://www.allmusic.com/artist/black-uhuru-mn0000081683
+243,Michi,https://www.allmusic.com/artist/michi-mn0004793236
+245,John Coltrane / Johnny Hartman,https://www.allmusic.com/artist/john-coltrane-mn0000175553
+246,Joni Mitchell,https://www.allmusic.com/artist/joni-mitchell-mn0000270491
+247,Sandy Denny,https://www.allmusic.com/artist/sandy-denny-mn0000245019
+248,Fred Neil,https://www.allmusic.com/artist/fred-neil-mn0000170815
+249,The Louvin Brothers,https://www.allmusic.com/artist/the-louvin-brothers-mn0000045057
+251,The Shins,https://www.allmusic.com/artist/the-shins-mn0000419102
+252,Gram Parsons,https://www.allmusic.com/artist/gram-parsons-mn0000987491
+254,Mary Chapin Carpenter,https://www.allmusic.com/artist/mary-chapin-carpenter-mn0000858375
+258,Lonnie Johnson,https://www.allmusic.com/artist/lonnie-johnson-mn0000275401
+259,Black Sabbath,https://www.allmusic.com/artist/black-sabbath-mn0000771438
+261,Ernest Tubb,https://www.allmusic.com/artist/ernest-tubb-mn0000200775
+266,Tate McRae,https://www.allmusic.com/artist/tate-mcrae-mn0003902427
+271,Elmore James,https://www.allmusic.com/artist/elmore-james-mn0000176936
+273,Aerosmith,https://www.allmusic.com/artist/aerosmith-mn0000604852
+275,James Cleveland,https://www.allmusic.com/artist/james-cleveland-mn0000668448
+276,Spike Jones,https://www.allmusic.com/artist/spike-jones-mn0000744548
+281,Karl Böhm / Wiener Philharmoniker,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
+282,Jay-Z,https://www.allmusic.com/artist/jay-z-mn0000224257
+284,Kanye West,https://www.allmusic.com/artist/kanye-west-mn0000361014
+286,Elvis Presley,https://www.allmusic.com/artist/elvis-presley-mn0000180228
+287,London Symphony Orchestra / John Williams,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907
+291,Martin Owen / Rumon Gamba / BBC Philharmonic Orchestra,https://www.allmusic.com/artist/martin-owen-mn0000101790
+292,clipping.,https://www.allmusic.com/artist/clipping-mn0003225062
+293,Otis Spann,https://www.allmusic.com/artist/otis-spann-mn0000486775
+295,Carly Rae Jepsen,https://www.allmusic.com/artist/carly-rae-jepsen-mn0002089077
+296,The Killers,https://www.allmusic.com/artist/the-killers-mn0000670226
+297,Kendrick Lamar,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646
+298,Damu the Fudgemunk / Raw Poetic / Archie Shepp,https://www.allmusic.com/artist/damu-the-fudgemunk-mn0000985856
+299,Jimmie Vaughan,https://www.allmusic.com/artist/jimmie-vaughan-mn0000347639
+300,Stan Getz / Stan Getz Quartet,https://www.allmusic.com/artist/stan-getz-mn0000742899
+301,Television Personalities,https://www.allmusic.com/artist/television-personalities-mn0000016438
+302,Jader Bignamini / Detroit Symphony Orchestra,https://www.allmusic.com/artist/jader-bignamini-mn0003482437
+304,Ali Shaheed Muhammad / Ebo Taylor / Adrian Younge,https://www.allmusic.com/artist/ali-shaheed-muhammad-mn0000389128
+308,Santana,https://www.allmusic.com/artist/santana-mn0000295756
+317,Dolly Parton,https://www.allmusic.com/artist/dolly-parton-mn0000175286
+318,Parliament,https://www.allmusic.com/artist/parliament-mn0000129775
+319,Woody Shaw,https://www.allmusic.com/artist/woody-shaw-mn0000680003
+321,Chicago,https://www.allmusic.com/artist/chicago-mn0000110161
+322,Leonard Bernstein,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
+323,Donald Byrd,https://www.allmusic.com/artist/donald-byrd-mn0000149946
+324,Freddie Hubbard,https://www.allmusic.com/artist/freddie-hubbard-mn0000798326
+329,Otis Redding,https://www.allmusic.com/artist/otis-redding-mn0000414251
+330,Electric Light Orchestra,https://www.allmusic.com/artist/electric-light-orchestra-mn0000163229
+336,Buena Vista Social Club,https://www.allmusic.com/artist/buena-vista-social-club-mn0000627250
+339,Kane Brown,https://www.allmusic.com/artist/kane-brown-mn0003444653
+341,Shania Twain,https://www.allmusic.com/artist/shania-twain-mn0000161808
+343,Dean Martin,https://www.allmusic.com/artist/dean-martin-mn0000813392
+345,Gerry Mulligan / Ben Webster,https://www.allmusic.com/artist/gerry-mulligan-mn0000542549
+346,Daryl Hall & John Oates,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887
+348,Wes Montgomery,https://www.allmusic.com/artist/wes-montgomery-mn0000248392
+352,TobyMac,https://www.allmusic.com/artist/tobymac-mn0000510885
+353,Woody Guthrie,https://www.allmusic.com/artist/woody-guthrie-mn0000577531
+355,The Ventures,https://www.allmusic.com/artist/the-ventures-mn0000921965
+359,Elvis Costello,https://www.allmusic.com/artist/elvis-costello-mn0000058549
+360,Ornette Coleman,https://www.allmusic.com/artist/ornette-coleman-mn0000484396
+362,Ladytron,https://www.allmusic.com/artist/ladytron-mn0000780948
+363,Franz Ferdinand,https://www.allmusic.com/artist/franz-ferdinand-mn0000172582
+369,Merle Haggard,https://www.allmusic.com/artist/merle-haggard-mn0000410219
+379,Bill Evans Trio / Bill Evans,https://www.allmusic.com/artist/bill-evans-trio-mn0000781423
+380,Milton Nascimento / Lô Borges,https://www.allmusic.com/artist/milton-nascimento-mn0000497132
+381,Amy Grant,https://www.allmusic.com/artist/amy-grant-mn0000024944
+382,Jim Reeves,https://www.allmusic.com/artist/jim-reeves-mn0000903609
+391,Fairport Convention,https://www.allmusic.com/artist/fairport-convention-mn0000162233
+392,Small Faces,https://www.allmusic.com/artist/small-faces-mn0000423267
+393,Martin Denny,https://www.allmusic.com/artist/martin-denny-mn0000311074
+394,David Bowie,https://www.allmusic.com/artist/david-bowie-mn0000531986
+396,Louis Jordan,https://www.allmusic.com/artist/louis-jordan-mn0000287604
+397,Sun Ra,https://www.allmusic.com/artist/sun-ra-mn0000924232
+398,Tori Amos,https://www.allmusic.com/artist/tori-amos-mn0000792530
+400,Joe Hisaishi / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330
+401,Mark Bebbington / Leon Botstein / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/mark-bebbington-mn0002219980
+403,Carlo Rizzi / Arsen Soghomonyan / Krassimira Stoyanova / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/carlo-rizzi-mn0000212025
+404,Daniel Barenboim / English Chamber Orchestra,https://www.allmusic.com/artist/daniel-barenboim-mn0000631790
+405,Valery Gergiev / London Symphony Orchestra,https://www.allmusic.com/artist/valery-gergiev-mn0000196621
+406,Modest Mouse,https://www.allmusic.com/artist/modest-mouse-mn0000480086
+407,Gustavo Dudamel / Los Angeles Philharmonic Orchestra,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636
+410,Nash Ensemble,https://www.allmusic.com/artist/nash-ensemble-mn0001914151
+411,Ernst Kovacic / Michael Gielen / ORF Vienna Radio Symphony Orchestra,https://www.allmusic.com/artist/ernst-kovacic-mn0001299883
+412,"Sammy Davis, Jr.",https://www.allmusic.com/artist/sammy-davis-jr-mn0000294376
+417,Lester Young,https://www.allmusic.com/artist/lester-young-mn0000259529
+419,Ray Conniff,https://www.allmusic.com/artist/ray-conniff-mn0000869487
+423,Bernard Haitink / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/bernard-haitink-mn0000164817
+424,Steve Goodman,https://www.allmusic.com/artist/steve-goodman-mn0000032366
+425,Suzanne Ciani,https://www.allmusic.com/artist/suzanne-ciani-mn0000046345
+426,Walter Berry / Hilde Güden / Léopold Simoneau / Karl Böhm / Wiener Philharmoniker,https://www.allmusic.com/artist/walter-berry-mn0001213176
+430,Cheech & Chong,https://www.allmusic.com/artist/cheech-chong-mn0000106298
+437,T-Bone Walker,https://www.allmusic.com/artist/t-bone-walker-mn0000003829
+447,Tom Petty & the Heartbreakers / Tom Petty,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137
+456,Guided by Voices,https://www.allmusic.com/artist/guided-by-voices-mn0000545726
+459,Joe Henderson,https://www.allmusic.com/artist/joe-henderson-mn0000139804
+465,Herbie Hancock,https://www.allmusic.com/artist/herbie-hancock-mn0000957296
+471,Caetano Veloso,https://www.allmusic.com/artist/caetano-veloso-mn0000639397
+480,Ringo Starr,https://www.allmusic.com/artist/ringo-starr-mn0000217792
+482,Karl Böhm / Berlin Philharmonic Orchestra,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
+485,Andrew Litton / Ann Murray / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/andrew-litton-mn0000004874
+486,André Previn,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250
+491,Ichiko Aoba,https://www.allmusic.com/artist/ichiko-aoba-mn0003180348
+492,William Wei / Evan Wong,https://www.allmusic.com/artist/william-wei-mn0004736435
+496,Steve Roach,https://www.allmusic.com/artist/steve-roach-mn0000040501
+498,Paco de Lucía,https://www.allmusic.com/artist/paco-de-luc%C3%ADa-mn0000082639
+499,The Dave Brubeck Quartet / Dave Brubeck,https://www.allmusic.com/artist/the-dave-brubeck-quartet-mn0000142767
+500,Thelonious Monk Quartet / Thelonious Monk,https://www.allmusic.com/artist/thelonious-monk-quartet-mn0000491786
+501,C Duncan,https://www.allmusic.com/artist/c-duncan-mn0002998091
+502,James Brandon Lewis Trio / James Brandon Lewis,https://www.allmusic.com/artist/james-brandon-lewis-trio-mn0003622581
+503,Erik Jekabson,https://www.allmusic.com/artist/erik-jekabson-mn0000199538
+506,Mike Oldfield,https://www.allmusic.com/artist/mike-oldfield-mn0000489520
+507,The Mothers of Invention / Frank Zappa,https://www.allmusic.com/artist/the-mothers-of-invention-mn0000405522
+509,Squeeze,https://www.allmusic.com/artist/squeeze-mn0000790732
+510,John Cage,https://www.allmusic.com/artist/john-cage-mn0000183867
+511,Missy Elliott,https://www.allmusic.com/artist/missy-elliott-mn0000502371
+514,The Great Learning Orchestra / Yoko Ono,https://www.allmusic.com/artist/the-great-learning-orchestra-mn0004798924
+515,Jefre Cantu-Ledesma,https://www.allmusic.com/artist/jefre-cantu-ledesma-mn0002000220
+516,Croatian Amor / Lust for Youth,https://www.allmusic.com/artist/croatian-amor-mn0003546942
+518,Joy Division,https://www.allmusic.com/artist/joy-division-mn0000290812
+520,Björk,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444
+522,Iggy Pop,https://www.allmusic.com/artist/iggy-pop-mn0000926548
+523,Laurie Anderson,https://www.allmusic.com/artist/laurie-anderson-mn0000785773
+528,Nico,https://www.allmusic.com/artist/nico-mn0000868306
+529,Allan Sherman,https://www.allmusic.com/artist/allan-sherman-mn0000002273
+533,The Art Ensemble of Chicago,https://www.allmusic.com/artist/the-art-ensemble-of-chicago-mn0000600734
+534,Riccardo Muti,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
+535,Gustavo Dudamel / Simón Bolívar Symphony Orchestra of Venezuela,https://www.allmusic.com/artist/gustavo-dudamel-mn0001693636
+537,Alessandro Corbelli / Alex Esposito / Vincenzo Milletarì,https://www.allmusic.com/artist/alessandro-corbelli-mn0002184323
+550,Dion,https://www.allmusic.com/artist/dion-mn0000265456
+553,Glenn Gould,https://www.allmusic.com/artist/glenn-gould-mn0000803752
+556,Shawn Colvin,https://www.allmusic.com/artist/shawn-colvin-mn0000013387
+560,The Loft,https://www.allmusic.com/artist/the-loft-mn0000786652
+561,Delivery,https://www.allmusic.com/artist/delivery-mn0004717443
+565,Chuck Jackson,https://www.allmusic.com/artist/chuck-jackson-mn0000103033
+568,Beyoncé,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179
+572,Annie and the Caldwells,https://www.allmusic.com/artist/annie-and-the-caldwells-mn0003126251
+573,Edith Frost,https://www.allmusic.com/artist/edith-frost-mn0000798160
+593,Howlin' Wolf,https://www.allmusic.com/artist/howlin-wolf-mn0000276085
+598,Juanes,https://www.allmusic.com/artist/juanes-mn0000245250
+599,Ileana Cotrubas / Plácido Domingo / Carlos Kleiber / Sherrill Milnes,https://www.allmusic.com/artist/ileana-cotrubas-mn0000069876
+600,Sweet Honey in the Rock,https://www.allmusic.com/artist/sweet-honey-in-the-rock-mn0000044703
+602,Dave Holland / Dave Holland Quintet,https://www.allmusic.com/artist/dave-holland-mn0000585092
+603,J Balvin,https://www.allmusic.com/artist/j-balvin-mn0002385504
+604,"Earth, Wind & Fire",https://www.allmusic.com/artist/earth-wind-fire-mn0000135273
+605,Stanley Turrentine,https://www.allmusic.com/artist/stanley-turrentine-mn0000012644
+606,Bad Bunny,https://www.allmusic.com/artist/bad-bunny-mn0003595289
+613,Queens of the Stone Age,https://www.allmusic.com/artist/queens-of-the-stone-age-mn0000376422
+614,Nirvana,https://www.allmusic.com/artist/nirvana-mn0000357406
+615,AC/DC,https://www.allmusic.com/artist/ac-dc-mn0000574772
+616,Bo Diddley,https://www.allmusic.com/artist/bo-diddley-mn0000055128
+621,Deep Sea Diver,https://www.allmusic.com/artist/deep-sea-diver-mn0003178300
+622,Harry Styles,https://www.allmusic.com/artist/harry-styles-mn0002854537
+623,Joe Hisaishi,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330
+624,µ-Ziq,https://www.allmusic.com/artist/%C2%B5-ziq-mn0000510042
+625,Tierra Whack,https://www.allmusic.com/artist/tierra-whack-mn0003604268
+626,Caribou,https://www.allmusic.com/artist/caribou-mn0000609590
+628,The Monochrome Set,https://www.allmusic.com/artist/the-monochrome-set-mn0000475980
+629,Pearl & the Oysters,https://www.allmusic.com/artist/pearl-the-oysters-mn0003783836
+631,Randy Newman,https://www.allmusic.com/artist/randy-newman-mn0000394806
+635,Ultramagnetic MC's,https://www.allmusic.com/artist/ultramagnetic-mcs-mn0000181299
+647,Ghost,https://www.allmusic.com/artist/ghost-mn0002616588
+652,Eric Church,https://www.allmusic.com/artist/eric-church-mn0000632233
+653,Little Walter,https://www.allmusic.com/artist/little-walter-mn0000824599
+658,Miles Davis,https://www.allmusic.com/artist/miles-davis-mn0000423829
+664,Billy Joe Shaver,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205
+668,J. Cole,https://www.allmusic.com/artist/j-cole-mn0001089515
+674,Damon Locks,https://www.allmusic.com/artist/damon-locks-mn0000665826
+680,The Spinners,https://www.allmusic.com/artist/the-spinners-mn0000578141
+681,Tony Bennett,https://www.allmusic.com/artist/tony-bennett-mn0000006334
+684,John Patitucci,https://www.allmusic.com/artist/john-patitucci-mn0000188776
+688,Flying Lotus,https://www.allmusic.com/artist/flying-lotus-mn0000717419
+690,Johnny Depp / Stephen Sondheim,https://www.allmusic.com/artist/johnny-depp-mn0000247383
+693,The Smashing Pumpkins,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521
+694,Coil,https://www.allmusic.com/artist/coil-mn0000105561
+695,Plastikman,https://www.allmusic.com/artist/plastikman-mn0000355386
+703,Leontyne Price,https://www.allmusic.com/artist/leontyne-price-mn0000591857
+704,Ella Fitzgerald / Louis Armstrong,https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502
+707,Patricia Kopatchinskaja / Thomas Kaufmann / Camerata Bern,https://www.allmusic.com/artist/patricia-kopatchinskaja-mn0002251650
+715,Enya,https://www.allmusic.com/artist/enya-mn0000988471
+723,Michael W. Smith,https://www.allmusic.com/artist/michael-w-smith-mn0000466759
+724,The Winans,https://www.allmusic.com/artist/the-winans-mn0000576839
+727,Mary Martin / Theodore Bikel / Original Broadway Cast / Richard Rodgers,https://www.allmusic.com/artist/mary-martin-mn0000040695
+728,Miklós Rózsa,https://www.allmusic.com/artist/mikl%C3%B3s-r%C3%B3zsa-mn0000583723
+731,"Clare College Choir, Cambridge / Graham Ross",https://www.allmusic.com/artist/clare-college-choir-cambridge-mn0001641078
+737,Vince Guaraldi / Vince Guaraldi Trio,https://www.allmusic.com/artist/vince-guaraldi-mn0000201678
+740,John Zorn,https://www.allmusic.com/artist/john-zorn-mn0000239329
+745,Keith Whitley,https://www.allmusic.com/artist/keith-whitley-mn0000081561
+756,Jérémie Rhorer / Le Cercle de l'Harmonie,https://www.allmusic.com/artist/j%C3%A9r%C3%A9mie-rhorer-mn0001814847
+759,John Williams / Stéphane Denève / Saito Kinen Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480
+760,Owain Arwel Hughes / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/owain-arwel-hughes-mn0000116638
+761,Paramore,https://www.allmusic.com/artist/paramore-mn0000366681
+762,Quynh Nguyen / Stephen Barlow / Rieko Aizawa / London Symphony Orchestra,https://www.allmusic.com/artist/quynh-nguyen-mn0003472261
+763,Simon Rattle / Alice Coote / Elizabeth Watts / London Symphony Orchestra,https://www.allmusic.com/artist/simon-rattle-mn0000932272
+764,Gautier Capuçon / Antonio Pappano / London Symphony Orchestra,https://www.allmusic.com/artist/gautier-capu%C3%A7on-mn0002227074
+784,The Impressions,https://www.allmusic.com/artist/the-impressions-mn0000082013
+786,The Beach Boys,https://www.allmusic.com/artist/the-beach-boys-mn0000041874
+788,Glen Campbell,https://www.allmusic.com/artist/glen-campbell-mn0000664378
+793,George Russell,https://www.allmusic.com/artist/george-russell-mn0000646353
+794,Todd Terry,https://www.allmusic.com/artist/todd-terry-mn0000518313
+799,Nat King Cole,https://www.allmusic.com/artist/nat-king-cole-mn0000317093
+800,Stereolab,https://www.allmusic.com/artist/stereolab-mn0000026520
+805,The Jimi Hendrix Experience / Jimi Hendrix,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906
+806,The Velvet Underground,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402
+807,Cypress Hill,https://www.allmusic.com/artist/cypress-hill-mn0000147315
+808,Pink Floyd,https://www.allmusic.com/artist/pink-floyd-mn0000346336
+809,Arthur Brown,https://www.allmusic.com/artist/arthur-brown-mn0000510278
+823,Jimmie Rodgers,https://www.allmusic.com/artist/jimmie-rodgers-mn0000343852
+842,Herb Alpert & the Tijuana Brass / Herb Alpert,https://www.allmusic.com/artist/herb-alpert-the-tijuana-brass-mn0000955773
+849,Brass Construction,https://www.allmusic.com/artist/brass-construction-mn0000932922
+850,Nao,https://www.allmusic.com/artist/nao-mn0002947938
+851,Carl Allen,https://www.allmusic.com/artist/carl-allen-mn0000145489
+852,Michael Gregory Jackson,https://www.allmusic.com/artist/michael-gregory-jackson-mn0000887463
+857,Genesis,https://www.allmusic.com/artist/genesis-mn0000199995
+860,XTC,https://www.allmusic.com/artist/xtc-mn0000678339
+870,Karl Böhm / Bavarian Radio Symphony Orchestra,https://www.allmusic.com/artist/karl-b%C3%B6hm-mn0000182286
+872,Berlin Philharmonic Orchestra / Karl Böhm,https://www.allmusic.com/artist/berlin-philharmonic-orchestra-mn0000188180
+875,Snapped Ankles,https://www.allmusic.com/artist/snapped-ankles-mn0003630171
+879,The Carter Family,https://www.allmusic.com/artist/the-carter-family-mn0000051910
+880,Neil Diamond,https://www.allmusic.com/artist/neil-diamond-mn0000864209
+882,Bee Gees,https://www.allmusic.com/artist/bee-gees-mn0000043714
+883,The Byrds,https://www.allmusic.com/artist/the-byrds-mn0000631774
+891,Selena,https://www.allmusic.com/artist/selena-mn0000004852
+893,Vince Guaraldi Trio / Vince Guaraldi,https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089
+894,Woody Herman,https://www.allmusic.com/artist/woody-herman-mn0000958076
+899,Christine Busch / Stefania Neonato,https://www.allmusic.com/artist/christine-busch-mn0001655225
+907,Harry James / Willie Smith,https://www.allmusic.com/artist/harry-james-mn0000950571
+912,Benny Goodman,https://www.allmusic.com/artist/benny-goodman-mn0000163133
+929,Barbra Streisand,https://www.allmusic.com/artist/barbra-streisand-mn0000855531
+931,Paul McCartney,https://www.allmusic.com/artist/paul-mccartney-mn0000029884
+935,Seong-Jin Cho,https://www.allmusic.com/artist/seong-jin-cho-mn0003449260
+936,The White Stripes,https://www.allmusic.com/artist/the-white-stripes-mn0000921710
+939,Freddie King,https://www.allmusic.com/artist/freddie-king-mn0000186734
+940,Ramones,https://www.allmusic.com/artist/ramones-mn0000490004
+941,Cheap Trick,https://www.allmusic.com/artist/cheap-trick-mn0000105354
+962,Led Zeppelin,https://www.allmusic.com/artist/led-zeppelin-mn0000139026
+965,Eagles,https://www.allmusic.com/artist/eagles-mn0000144847
+966,The Hollies,https://www.allmusic.com/artist/the-hollies-mn0000087985
+972,Donna Summer,https://www.allmusic.com/artist/donna-summer-mn0000661524
+974,Shakira,https://www.allmusic.com/artist/shakira-mn0000790797
+975,Jimi Hendrix / The Jimi Hendrix Experience,https://www.allmusic.com/artist/jimi-hendrix-mn0000354105
+976,Jah Shaka / Mad Professor,https://www.allmusic.com/artist/jah-shaka-mn0000107383
+977,Isaac Hayes,https://www.allmusic.com/artist/isaac-hayes-mn0000101946
+985,Burning Spear,https://www.allmusic.com/artist/burning-spear-mn0000641994
+987,Kitaro,https://www.allmusic.com/artist/kitaro-mn0000081017
+988,Ravi Shankar,https://www.allmusic.com/artist/ravi-shankar-mn0000404463
+992,Julian Cope,https://www.allmusic.com/artist/julian-cope-mn0000308742
+995,John Williams / Boston Pops Orchestra,https://www.allmusic.com/artist/john-williams-mn0000232480
+1002,Steven Wilson,https://www.allmusic.com/artist/steven-wilson-mn0000455886
+1004,St. Lucia,https://www.allmusic.com/artist/st-lucia-mn0002084411
+1012,Muddy Waters,https://www.allmusic.com/artist/muddy-waters-mn0000608701
+1017,Andrés Segovia,https://www.allmusic.com/artist/andr%C3%A9s-segovia-mn0000958298
+1018,Anne-Sophie Mutter / John Williams / Boston Symphony Orchestra,https://www.allmusic.com/artist/anne-sophie-mutter-mn0000032775
+1021,Tan Dun / Yo-Yo Ma,https://www.allmusic.com/artist/tan-dun-mn0000313685
+1022,Marty Robbins,https://www.allmusic.com/artist/marty-robbins-mn0000858710
+1023,Henry Mancini / Henry Mancini & His Orchestra,https://www.allmusic.com/artist/henry-mancini-mn0000678009
+1026,Krokofant,https://www.allmusic.com/artist/krokofant-mn0003215926
+1027,Daniel Ögren,https://www.allmusic.com/artist/daniel-%C3gren-mn0002590901
+1032,Béla Fleck / Abigail Washburn,https://www.allmusic.com/artist/b%C3%A9la-fleck-mn0000151290
+1033,Dave Brubeck / The Dave Brubeck Quartet,https://www.allmusic.com/artist/dave-brubeck-mn0000958533
+1034,Esther Yoo / Vasily Petrenko / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/esther-yoo-mn0003470298
+1040,Arturo Sandoval,https://www.allmusic.com/artist/arturo-sandoval-mn0000575122
+1042,Daft Punk,https://www.allmusic.com/artist/daft-punk-mn0000667669
+1043,Philip Glass / Philip Glass Ensemble / Michael Riesman / Robert Wilson,https://www.allmusic.com/artist/philip-glass-mn0000849672
+1052,Raffi,https://www.allmusic.com/artist/raffi-mn0000327331
+1053,Bette Midler,https://www.allmusic.com/artist/bette-midler-mn0000053739
+1057,R. Kelly,https://www.allmusic.com/artist/r-kelly-mn0000319347
+1078,Andrew Lloyd Webber / Original Broadway Cast,https://www.allmusic.com/artist/andrew-lloyd-webber-mn0000003595
+1082,Janelle Monáe,https://www.allmusic.com/artist/janelle-mon%C3%A1e-mn0000868086
+1091,Igor Stravinsky,https://www.allmusic.com/artist/igor-stravinsky-mn0000364751
+1094,Korn,https://www.allmusic.com/artist/korn-mn0000112789
+1097,Tina Turner,https://www.allmusic.com/artist/tina-turner-mn0000597309
+1098,Vladimir Ashkenazy / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/vladimir-ashkenazy-mn0000761916
+1101,Emanuel Ax / Leonidas Kavakos / Yo-Yo Ma,https://www.allmusic.com/artist/emanuel-ax-mn0000763916
+1103,Vladimir Ashkenazy,https://www.allmusic.com/artist/vladimir-ashkenazy-mn0000761916
+1104,Orion Weiss,https://www.allmusic.com/artist/orion-weiss-mn0001673600
+1105,María Dueñas,https://www.allmusic.com/artist/mar%C3%ADa-due%C3%B1as-mn0004342338
+1106,Adrian Chandler / La Serenissima,https://www.allmusic.com/artist/adrian-chandler-mn0001712537
+1107,Maxwell Quartet,https://www.allmusic.com/artist/maxwell-quartet-mn0003548528
+1109,Run-D.M.C.,https://www.allmusic.com/artist/run-dmc-mn0000358408
+1110,Fela Kuti,https://www.allmusic.com/artist/fela-kuti-mn0000138833
+1111,Max Roach,https://www.allmusic.com/artist/max-roach-mn0000396372
+1114,Bad Brains,https://www.allmusic.com/artist/bad-brains-mn0000075264
+1125,Fleetwood Mac,https://www.allmusic.com/artist/fleetwood-mac-mn0000182900
+1132,Marc Anthony,https://www.allmusic.com/artist/marc-anthony-mn0000673486
+1133,Rihanna,https://www.allmusic.com/artist/rihanna-mn0000367188
+1138,Vladimir Horowitz,https://www.allmusic.com/artist/vladimir-horowitz-mn0000119107
+1143,Oleg Shebeta-Dragan / Anna Skryleva / Odense Symphony Orchestra,https://www.allmusic.com/artist/oleg-shebeta-dragan-mn0004737408
+1144,The Skatalites,https://www.allmusic.com/artist/the-skatalites-mn0000425105
+1148,Frank Ocean,https://www.allmusic.com/artist/frank-ocean-mn0002592086
+1149,Airto Moreira / Flora Purim,https://www.allmusic.com/artist/airto-moreira-mn0000609992
+1150,Laura Nyro,https://www.allmusic.com/artist/laura-nyro-mn0000137474
+1156,Tom Waits,https://www.allmusic.com/artist/tom-waits-mn0000615119
+1159,PJ Harvey,https://www.allmusic.com/artist/pj-harvey-mn0000000335
+1160,Gang of Four,https://www.allmusic.com/artist/gang-of-four-mn0000193231
+1162,Eric Dolphy,https://www.allmusic.com/artist/eric-dolphy-mn0000800100
+1163,Pavement,https://www.allmusic.com/artist/pavement-mn0000752314
+1201,Michel Bouvard / François Espinasse,https://www.allmusic.com/artist/michel-bouvard-mn0002209251
+1215,Little Richard,https://www.allmusic.com/artist/little-richard-mn0000824022
+1216,ABBA,https://www.allmusic.com/artist/abba-mn0000922728
+1220,The Monkees,https://www.allmusic.com/artist/the-monkees-mn0000478603
+1223,David Castro-Balbi / Teo Gheorghiu / Howard Griffiths,https://www.allmusic.com/artist/david-castro-balbi-mn0003910715
+1224,Songhoy Blues,https://www.allmusic.com/artist/songhoy-blues-mn0003213330
+1225,Taffy,https://www.allmusic.com/artist/taffy-mn0002064113
+1228,Mongo Santamaría,https://www.allmusic.com/artist/mongo-santamar%C3%ADa-mn0000591104
+1232,Jelly Roll Morton,https://www.allmusic.com/artist/jelly-roll-morton-mn0000317290
+1233,Prince,https://www.allmusic.com/artist/prince-mn0000361393
+1237,Lonnie Holley,https://www.allmusic.com/artist/lonnie-holley-mn0003016152
+1254,Yo-Yo Ma / Edgar Meyer / Mark O'Connor,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
+1261,Matt Berry,https://www.allmusic.com/artist/matt-berry-mn0000272669
+1271,Elmer Bernstein,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087
+1275,Alice in Chains,https://www.allmusic.com/artist/alice-in-chains-mn0000007920
+1276,Riccardo Muti / Chicago Symphony Orchestra,https://www.allmusic.com/artist/riccardo-muti-mn0000032776
+1279,Wrekmeister Harmonies,https://www.allmusic.com/artist/wrekmeister-harmonies-mn0001051874
+1280,Ty Myers,https://www.allmusic.com/artist/ty-myers-mn0004640845
+1281,Jaye Jayle,https://www.allmusic.com/artist/jaye-jayle-mn0003285869
+1283,Mudhoney,https://www.allmusic.com/artist/mudhoney-mn0000509223
+1284,Magic Sam / Magic Sam's Blues Band,https://www.allmusic.com/artist/magic-sam-mn0000191429
+1285,Aretha Franklin,https://www.allmusic.com/artist/aretha-franklin-mn0000927555
+1286,Nazareth,https://www.allmusic.com/artist/nazareth-mn0000377891
+1287,"Gary Clark, Jr.",https://www.allmusic.com/artist/gary-clark-jr-mn0000989208
+1288,Mastodon,https://www.allmusic.com/artist/mastodon-mn0000382565
+1289,Buddy Guy,https://www.allmusic.com/artist/buddy-guy-mn0000942529
+1290,James Brown,https://www.allmusic.com/artist/james-brown-mn0000128099
+1299,Etta James,https://www.allmusic.com/artist/etta-james-mn0000806542
+1307,Frank Sinatra,https://www.allmusic.com/artist/frank-sinatra-mn0000792507
+1308,Sam Butera / Louis Prima / Keely Smith,https://www.allmusic.com/artist/sam-butera-mn0000831009
+1309,Chubby Carrier & The Bayou Swamp Band,https://www.allmusic.com/artist/chubby-carrier-the-bayou-swamp-band-mn0000100232
+1311,Kylie Minogue,https://www.allmusic.com/artist/kylie-minogue-mn0000776093
+1312,Big Joe Turner,https://www.allmusic.com/artist/big-joe-turner-mn0000060726
+1313,Whodini,https://www.allmusic.com/artist/whodini-mn0000820545
+1318,Nicky Spence / Julius Drake / Piatti Quartet,https://www.allmusic.com/artist/nicky-spence-mn0000403224
+1325,Guns N' Roses,https://www.allmusic.com/artist/guns-n-roses-mn0000540883
+1326,John Lennon / Plastic Ono Band,https://www.allmusic.com/artist/john-lennon-mn0000232564
+1335,Lana Del Rey,https://www.allmusic.com/artist/lana-del-rey-mn0002784799
+1337,Demi Lovato,https://www.allmusic.com/artist/demi-lovato-mn0000996127
+1338,Deftones,https://www.allmusic.com/artist/deftones-mn0000813946
+1347,Ohio Players,https://www.allmusic.com/artist/ohio-players-mn0000390390
+1348,Faces,https://www.allmusic.com/artist/faces-mn0000058372
+1359,Elmer Bernstein / James Sedares / Phoenix Symphony,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087
+1363,Gerd Schaller / Philharmonie Festiva,https://www.allmusic.com/artist/gerd-schaller-mn0002268578
+1365,Eliahu Inbal / SDR Symphony Orchestra / SWR Stuttgart Radio Symphony Orchestra,https://www.allmusic.com/artist/eliahu-inbal-mn0000781540
+1374,Architects,https://www.allmusic.com/artist/architects-mn0001051850
+1379,George Jones,https://www.allmusic.com/artist/george-jones-mn0000944310
+1386,Jeffrey Lewis,https://www.allmusic.com/artist/jeffrey-lewis-mn0000263995
+1388,Faron Young,https://www.allmusic.com/artist/faron-young-mn0000143951
+1389,Michael Jackson,https://www.allmusic.com/artist/michael-jackson-mn0000467203
+1391,Al Green,https://www.allmusic.com/artist/al-green-mn0000607448
+1394,Scarface,https://www.allmusic.com/artist/scarface-mn0000315463
+1396,Max Richter,https://www.allmusic.com/artist/max-richter-mn0000203592
+1398,Mickey Newbury,https://www.allmusic.com/artist/mickey-newbury-mn0000525789
+1399,Ernest Gold,https://www.allmusic.com/artist/ernest-gold-mn0000200992
+1404,John Findon / Christine Rice / Nicholas Collon,https://www.allmusic.com/artist/john-findon-mn0004305762
+1405,Sinner DC / Sonic Boom,https://www.allmusic.com/artist/sinner-dc-mn0001512288
+1408,Method Man,https://www.allmusic.com/artist/method-man-mn0000451483
+1409,Kevin Hart,https://www.allmusic.com/artist/kevin-hart-mn0000082798
+1410,Kode9,https://www.allmusic.com/artist/kode9-mn0000543345
+1411,Brian Eno / Karl Hyde,https://www.allmusic.com/artist/brian-eno-mn0000617196
+1412,The Go! Team,https://www.allmusic.com/artist/the-go%21-team-mn0000397794
+1413,Sons of Kemet,https://www.allmusic.com/artist/sons-of-kemet-mn0003146048
+1414,The Knack,https://www.allmusic.com/artist/the-knack-mn0000087179
+1416,Traxman,https://www.allmusic.com/artist/traxman-mn0002357888
+1417,Sigur Rós,https://www.allmusic.com/artist/sigur-r%C3%B3s-mn0000753868
+1422,Steven Halpern,https://www.allmusic.com/artist/steven-halpern-mn0000042234
+1423,King Tubby,https://www.allmusic.com/artist/king-tubby-mn0000093322
+1424,Derrick May,https://www.allmusic.com/artist/derrick-may-mn0000205313
+1433,Phish,https://www.allmusic.com/artist/phish-mn0000333464
+1435,Yo-Yo Ma / Emanuel Ax,https://www.allmusic.com/artist/yo-yo-ma-mn0000962133
+1443,"Grover Washington, Jr.",https://www.allmusic.com/artist/grover-washington-jr-mn0000944206
+1444,Ron Carter / Jim Hall,https://www.allmusic.com/artist/ron-carter-mn0000275832
+1445,Erroll Garner,https://www.allmusic.com/artist/erroll-garner-mn0000206967
+1446,Keith Jarrett,https://www.allmusic.com/artist/keith-jarrett-mn0000066570
+1447,Queen,https://www.allmusic.com/artist/queen-mn0000858827
+1450,Dream Theater,https://www.allmusic.com/artist/dream-theater-mn0000803544
+1451,Ora the Molecule,https://www.allmusic.com/artist/ora-the-molecule-mn0004023123
+1462,The Pains of Being Pure at Heart,https://www.allmusic.com/artist/the-pains-of-being-pure-at-heart-mn0001006019
+1463,Alpaca Sports,https://www.allmusic.com/artist/alpaca-sports-mn0003432789
+1468,Van Morrison,https://www.allmusic.com/artist/van-morrison-mn0000307461
+1471,Charles Brown,https://www.allmusic.com/artist/charles-brown-mn0000805298
+1473,Panda Bear,https://www.allmusic.com/artist/panda-bear-mn0000109628
+1474,Noah Preminger,https://www.allmusic.com/artist/noah-preminger-mn0002442003
+1475,bdrmm,https://www.allmusic.com/artist/bdrmm-mn0003927823
+1489,The Band,https://www.allmusic.com/artist/the-band-mn0000038490
+1490,Tricky,https://www.allmusic.com/artist/tricky-mn0000025462
+1491,Low,https://www.allmusic.com/artist/low-mn0000250976
+1493,Elliott Smith,https://www.allmusic.com/artist/elliott-smith-mn0000172167
+1494,Liz Phair,https://www.allmusic.com/artist/liz-phair-mn0000225930
+1503,Rodney Crowell,https://www.allmusic.com/artist/rodney-crowell-mn0000294085
+1505,Pet Shop Boys,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212
+1519,Buck Owens,https://www.allmusic.com/artist/buck-owens-mn0000941579
+1530,Funkadelic,https://www.allmusic.com/artist/funkadelic-mn0000187581
+1540,Cannonball Adderley Quintet / Cannonball Adderley,https://www.allmusic.com/artist/cannonball-adderley-quintet-mn0000651258
+1542,Chick Corea / Béla Fleck,https://www.allmusic.com/artist/chick-corea-mn0000110541
+1543,Juan Gabriel,https://www.allmusic.com/artist/juan-gabriel-mn0000240252
+1544,Clave Especial,https://www.allmusic.com/artist/clave-especial-mn0004641368
+1559,Airto / Airto Moreira,https://www.allmusic.com/artist/airto-mn0000511402
+1573,Sidney Bechet,https://www.allmusic.com/artist/sidney-bechet-mn0000033234
+1576,The Yardbirds,https://www.allmusic.com/artist/the-yardbirds-mn0000489303
+1583,Air,https://www.allmusic.com/artist/air-mn0000607202
+1584,Shuggie Otis,https://www.allmusic.com/artist/shuggie-otis-mn0000752773
+1585,Stan Getz,https://www.allmusic.com/artist/stan-getz-mn0000742899
+1586,Common,https://www.allmusic.com/artist/common-mn0000115253
+1587,George Harrison,https://www.allmusic.com/artist/george-harrison-mn0000209142
+1588,Sade,https://www.allmusic.com/artist/sade-mn0000279337
+1595,SZA,https://www.allmusic.com/artist/sza-mn0003180568
+1598,Oneohtrix Point Never,https://www.allmusic.com/artist/oneohtrix-point-never-mn0001598199
+1600,Marshall Allen / Sun Ra / Sun Ra & His Arkestra,https://www.allmusic.com/artist/marshall-allen-mn0000299353
+1608,Peter Tosh,https://www.allmusic.com/artist/peter-tosh-mn0000328014
+1609,Bob Marley & the Wailers / Bob Marley,https://www.allmusic.com/artist/bob-marley-the-wailers-mn0000069402
+1610,Lightnin' Hopkins,https://www.allmusic.com/artist/lightnin-hopkins-mn0000825208
+1612,Champion Jack Dupree,https://www.allmusic.com/artist/champion-jack-dupree-mn0000197040
+1614,Vazz,https://www.allmusic.com/artist/vazz-mn0002847390
+1654,Meshell Ndegeocello,https://www.allmusic.com/artist/meshell-ndegeocello-mn0000402351
+1655,"Tyler, The Creator",https://www.allmusic.com/artist/tyler-the-creator-mn0002591087
+1657,Quercus / June Tabor / Iain Ballamy / Huw Warren,https://www.allmusic.com/artist/quercus-mn0003068616
+1666,Wham!,https://www.allmusic.com/artist/wham%21-mn0000246960
+1668,Red Hot Chili Peppers,https://www.allmusic.com/artist/red-hot-chili-peppers-mn0000883318
+1669,Bachman-Turner Overdrive,https://www.allmusic.com/artist/bachman-turner-overdrive-mn0000062002
+1670,NRBQ,https://www.allmusic.com/artist/nrbq-mn0000377908
+1672,Squid,https://www.allmusic.com/artist/squid-mn0003873970
+1673,David Grubbs,https://www.allmusic.com/artist/david-grubbs-mn0000213408
+1701,Anja Silja / Karl Böhm,https://www.allmusic.com/artist/anja-silja-mn0002269373
+1703,Aaron Dilloway,https://www.allmusic.com/artist/aaron-dilloway-mn0000812176
+1704,Andy Stott,https://www.allmusic.com/artist/andy-stott-mn0000975878
+1707,Circuit des Yeux,https://www.allmusic.com/artist/circuit-des-yeux-mn0002609749
+1744,Jerry Lee Lewis,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141
+1752,Richard Dawson,https://www.allmusic.com/artist/richard-dawson-mn0003314381
+1763,Isabelle Faust / Enrico Onofri / Münchener Kammerorchester,https://www.allmusic.com/artist/isabelle-faust-mn0001637330
+1764,Théotime Langlois de Swarte / Le Consort,https://www.allmusic.com/artist/th%C3%A9otime-langlois-de-swarte-mn0003854251
+1768,Plácido Domingo / Eve Queler,https://www.allmusic.com/artist/pl%C3%A1cido-domingo-mn0000851639
+1769,Leonard Bernstein / New York Philharmonic,https://www.allmusic.com/artist/leonard-bernstein-mn0000239859
+1770,André Previn / Royal Philharmonic Orchestra,https://www.allmusic.com/artist/andr%C3%A9-previn-mn0000030250
+1778,Hank Thompson,https://www.allmusic.com/artist/hank-thompson-mn0000947816
+1784,Łukasz Borowicz / WDR Sinfonieorchester Köln,https://www.allmusic.com/artist/%C5ukasz-borowicz-mn0001815231
+1787,Carl Cox,https://www.allmusic.com/artist/carl-cox-mn0000174470
+1788,A Guy Called Gerald,https://www.allmusic.com/artist/a-guy-called-gerald-mn0000919598
+1789,Juan Atkins / Moritz von Oswald / Borderland,https://www.allmusic.com/artist/juan-atkins-mn0000831104
+1790,Mouse on Mars,https://www.allmusic.com/artist/mouse-on-mars-mn0000929800
+1791,Bruno Mars,https://www.allmusic.com/artist/bruno-mars-mn0001032082
+1792,The Genius / GZA,https://www.allmusic.com/artist/the-genius-mn0001799163
+1795,Black Star / Mos Def / Talib Kweli,https://www.allmusic.com/artist/black-star-mn0000098433
+1807,Drake,https://www.allmusic.com/artist/drake-mn0001035294
+1808,Simon & Garfunkel,https://www.allmusic.com/artist/simon-garfunkel-mn0000038936
+1809,Billie Holiday,https://www.allmusic.com/artist/billie-holiday-mn0000079016
+1810,Lykke Li,https://www.allmusic.com/artist/lykke-li-mn0000996075
+1811,Charlie Rich,https://www.allmusic.com/artist/charlie-rich-mn0000179730
+1819,Johnny Mathis,https://www.allmusic.com/artist/johnny-mathis-mn0000246885
+1820,Enoch Light,https://www.allmusic.com/artist/enoch-light-mn0000149718
+1836,The Temptations,https://www.allmusic.com/artist/the-temptations-mn0000569685
+1851,The Moles,https://www.allmusic.com/artist/the-moles-mn0000404742
+1856,Buju Banton,https://www.allmusic.com/artist/buju-banton-mn0000939187
+1858,Sarah Connolly / Masabane Cecilia Rangwanasha / Antonio Pappano / London Symphony Orchestra,https://www.allmusic.com/artist/sarah-connolly-mn0002343756
+1859,The Wailing Souls,https://www.allmusic.com/artist/the-wailing-souls-mn0000812367
+1861,Kestrels,https://www.allmusic.com/artist/kestrels-mn0002648972
+1862,The King's Singers,https://www.allmusic.com/artist/the-kings-singers-mn0000929562
+1864,Nas,https://www.allmusic.com/artist/nas-mn0000373634
+1865,Lupe Fiasco,https://www.allmusic.com/artist/lupe-fiasco-mn0000239628
+1867,King's College Choir of Cambridge / Daniel Hyde,https://www.allmusic.com/artist/kings-college-choir-of-cambridge-mn0000608992
+1868,Anonymous 4,https://www.allmusic.com/artist/anonymous-4-mn0000222265
+1869,Chanticleer,https://www.allmusic.com/artist/chanticleer-mn0000817257
+1877,Charles Gerhardt / Erich Wolfgang Korngold / National Philharmonic Orchestra,https://www.allmusic.com/artist/charles-gerhardt-mn0000199802
+1882,Paavo Järvi / Zurich Tonhalle Orchestra,https://www.allmusic.com/artist/paavo-j%C3%A4rvi-mn0000017107
+1888,Hans Zimmer,https://www.allmusic.com/artist/hans-zimmer-mn0000961427
+1893,Andrea Marcon / Vasilisa Berzhanskaya / Benedetta Mazzucato / La Cetra,https://www.allmusic.com/artist/andrea-marcon-mn0002214957
+1894,RAVEN,https://www.allmusic.com/artist/raven-mn0004191962
+1901,Robert Glasper / Robert Glasper Experiment,https://www.allmusic.com/artist/robert-glasper-mn0000288985
+1911,Jean-Michel Jarre,https://www.allmusic.com/artist/jean-michel-jarre-mn0000230593
+1913,Kronos Quartet / Mahsa Vahdat / Mahsa & Marjan Vahdat / Marjan Vahdat,https://www.allmusic.com/artist/kronos-quartet-mn0000775212
+1915,Brown Spirits,https://www.allmusic.com/artist/brown-spirits-mn0004398917
+1921,Fats Domino,https://www.allmusic.com/artist/fats-domino-mn0000137494
+1928,Andy Bell,https://www.allmusic.com/artist/andy-bell-mn0002443836

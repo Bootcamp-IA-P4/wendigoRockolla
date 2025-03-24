@@ -1,1118 +1,679 @@
 id,name,youtube_url,spotify_id,created_at
-13,Lose Yourself,https://www.allmusic.com/artist/eminem-mn0000157676,,2025-03-24 13:24:24
-14,(I Can't Get No) Satisfaction,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 13:24:24
-15,Black Hole Sun,https://www.allmusic.com/artist/soundgarden-mn0000001098,,2025-03-24 13:24:24
-16,Maybellene,https://www.allmusic.com/artist/chuck-berry-mn0000120521,,2025-03-24 13:24:24
-17,Cinnamon Girl,https://www.allmusic.com/artist/crazy-horse-mn0000130932,,2025-03-24 13:24:24
-18,One Piece at a Time,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 13:24:24
-19,Positively 4th Street,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 13:24:24
-20,Sunny Afternoon,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 13:24:25
-21,Time,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 13:24:25
-22,Dancing with the Moonlit Knight,https://www.allmusic.com/artist/genesis-mn0000199995,,2025-03-24 13:24:25
-23,Fuck tha Police,https://www.allmusic.com/artist/nwa-mn0000314793,,2025-03-24 13:25:13
-24,Breaking the Law,https://www.allmusic.com/artist/judas-priest-mn0000246611,,2025-03-24 13:25:13
-25,Mama Said Knock You Out,https://www.allmusic.com/artist/ll-cool-j-mn0000094752,,2025-03-24 13:25:13
-26,Fight the Power,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 13:25:13
-27,Wish,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 13:25:13
-28,Ace of Spades,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407,,2025-03-24 13:25:13
-29,Kick Out the Jams,https://www.allmusic.com/artist/mc5-mn0000182598,,2025-03-24 13:25:13
-30,Bawitdaba,https://www.allmusic.com/artist/kid-rock-mn0000088180,,2025-03-24 13:25:13
-31,Get at Me Dog,https://www.allmusic.com/artist/dmx-mn0000661795,,2025-03-24 13:25:13
-32,Communication Breakdown,https://www.allmusic.com/artist/led-zeppelin-mn0000139026,,2025-03-24 13:25:13
-33,Maid That's Deep in Love,https://www.allmusic.com/artist/tim-hart-mn0000503187,,2025-03-24 13:25:48
-34,Dancing in the Street,https://www.allmusic.com/artist/martha-the-vandellas-mn0001199135,,2025-03-24 13:25:48
-35,Raging Eyes,https://www.allmusic.com/artist/nick-lowe-mn0000866841,,2025-03-24 13:25:48
-36,Stand by Your Man,https://www.allmusic.com/artist/tammy-wynette-mn0000136640,,2025-03-24 13:25:48
-37,Hot for Teacher,https://www.allmusic.com/artist/van-halen-mn0000260206,,2025-03-24 13:25:48
-38,Live and Let Die,https://www.allmusic.com/artist/wings-mn0000956707,,2025-03-24 13:25:48
-39,Wrong Side of Memphis,https://www.allmusic.com/artist/trisha-yearwood-mn0000749476,,2025-03-24 13:25:48
-40,Mi Gente,https://www.allmusic.com/artist/j-balvin-mn0002385504,,2025-03-24 13:25:48
-41,I Don't Know Why,https://www.allmusic.com/artist/shawn-colvin-mn0000013387,,2025-03-24 13:25:48
-42,Hamadoun Toure,https://www.allmusic.com/artist/sidiki-diabat%C3%A9-mn0003269780,,2025-03-24 13:25:48
-43,"A Rainbow in Curved Air, for electric piano, dumbak & tambourines (partially improvised)",https://www.allmusic.com/artist/terry-riley-mn0000750519,,2025-03-24 13:26:40
-45,77 Slightly Delayed,https://www.allmusic.com/artist/ashra-mn0000520097,,2025-03-24 13:26:40
-47,Freezing,https://www.allmusic.com/artist/philip-glass-mn0000849672,,2025-03-24 13:26:41
-48,As Serious as Your Life,https://www.allmusic.com/artist/four-tet-mn0000741236,,2025-03-24 13:26:41
-49,"New Blues [Live at Nice Festival, France, July, 1986]",https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 13:26:41
-50,Lassie Lie Near Me,https://www.allmusic.com/artist/iain-ballamy-mn0000768849,,2025-03-24 13:26:41
-51,"Grá agus Bás, for singer and ensemble",https://www.allmusic.com/artist/crash-ensemble-mn0002217309,,2025-03-24 13:26:41
-52,The Trees,https://www.allmusic.com/artist/max-richter-mn0000203592,,2025-03-24 13:26:41
-53,Everything in Its Right Place,https://www.allmusic.com/artist/radiohead-mn0000326249,,2025-03-24 13:27:15
-54,El Gaucho,https://www.allmusic.com/artist/wayne-shorter-mn0000250435,,2025-03-24 13:27:15
-55,Goodbye Pork Pie Hat,https://www.allmusic.com/artist/charles-mingus-mn0000009680,,2025-03-24 13:27:15
-56,Bemsha Swing,https://www.allmusic.com/artist/thelonious-monk-mn0000490416,,2025-03-24 13:27:15
-57,St. Thomas,https://www.allmusic.com/artist/tommy-flanagan-mn0000519715,,2025-03-24 13:27:15
-58,Brilliant Disguise,https://www.allmusic.com/artist/bruce-springsteen-mn0000530745,,2025-03-24 13:27:15
-59,Crazy,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 13:27:15
-61,Wouldn't It Be Nice,https://www.allmusic.com/artist/the-beach-boys-mn0000041874,,2025-03-24 13:27:15
-62,My Baby Just Cares for Me,https://www.allmusic.com/artist/nina-simone-mn0000411761,,2025-03-24 13:27:15
-63,ABC,https://www.allmusic.com/artist/the-jackson-5-mn0000083013,,2025-03-24 13:27:49
-64,It's Only a Paper Moon,https://www.allmusic.com/artist/nat-king-cole-mn0000317093,,2025-03-24 13:27:49
-65,Five Guys Named Moe,https://www.allmusic.com/artist/louis-jordan-mn0000287604,,2025-03-24 13:27:49
-66,Give Me the Simple Life,https://www.allmusic.com/artist/june-christy-mn0000837592,,2025-03-24 13:27:49
-67,Baby I'm-A Want You,https://www.allmusic.com/artist/bread-mn0000610706,,2025-03-24 13:27:49
-68,Joy Spring,https://www.allmusic.com/artist/clifford-brown-mn0000789775,,2025-03-24 13:27:49
-69,Wake Me Up Before You Go-Go,https://www.allmusic.com/artist/wham%21-mn0000246960,,2025-03-24 13:27:49
-70,Calendar Girl,https://www.allmusic.com/artist/neil-sedaka-mn0000330575,,2025-03-24 13:27:50
-71,Girls Just Want to Have Fun,https://www.allmusic.com/artist/cyndi-lauper-mn0000122754,,2025-03-24 13:27:50
-72,Ac-Cent-Tchu-Ate the Positive,https://www.allmusic.com/artist/the-andrews-sisters-mn0000043499,,2025-03-24 13:27:50
-73,Straight Outta Compton,https://www.allmusic.com/artist/nwa-mn0000314793,,2025-03-24 13:28:23
-74,Bombtrack,https://www.allmusic.com/artist/rage-against-the-machine-mn0000863790,,2025-03-24 13:28:23
-75,London Calling,https://www.allmusic.com/artist/the-clash-mn0000075747,,2025-03-24 13:28:23
-77,Violet,https://www.allmusic.com/artist/hole-mn0000680476,,2025-03-24 13:28:23
-78,Rid of Me,https://www.allmusic.com/artist/pj-harvey-mn0000000335,,2025-03-24 13:28:23
-79,Head Like a Hole,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 13:28:23
-80,Territorial Pissings,https://www.allmusic.com/artist/nirvana-mn0000357406,,2025-03-24 13:28:23
-81,God Save the Queen,https://www.allmusic.com/artist/sex-pistols-mn0000418740,,2025-03-24 13:28:23
-82,Welcome to the Jungle,https://www.allmusic.com/artist/guns-n-roses-mn0000540883,,2025-03-24 13:28:23
-85,Won't Get Fooled Again,https://www.allmusic.com/artist/the-who-mn0000577627,,2025-03-24 13:29:10
-87,Reptile,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 13:29:10
-89,Never Let Me Down Again,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 13:29:10
-90,Enjoy the Silence,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 13:29:10
-91,What Is Life?,https://www.allmusic.com/artist/black-uhuru-mn0000081683,,2025-03-24 13:29:10
-92,Sheila Take a Bow,https://www.allmusic.com/artist/the-smiths-mn0000899530,,2025-03-24 13:29:10
-94,Lawdy Miss Clawdy,https://www.allmusic.com/artist/lloyd-price-mn0000827250,,2025-03-24 13:29:45
-96,Part-Time Lover,https://www.allmusic.com/artist/stevie-wonder-mn0000622805,,2025-03-24 13:29:45
-98,It's a Low Down Dirty Shame,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873,,2025-03-24 13:29:45
-101,Zombie,https://www.allmusic.com/artist/fela-kuti-mn0000138833,,2025-03-24 13:29:45
-103,Every Single Night,https://www.allmusic.com/artist/fiona-apple-mn0000169795,,2025-03-24 13:30:20
-104,Ionisation,https://www.allmusic.com/artist/edgard-var%C3%A8se-mn0000734199,,2025-03-24 13:30:20
-105,Landfall~Built You a Mountain,https://www.allmusic.com/artist/laurie-anderson-mn0000785773,,2025-03-24 13:30:20
-106,Hubble,https://www.allmusic.com/artist/actress-mn0001399533,,2025-03-24 13:30:20
-107,Kyanite,https://www.allmusic.com/artist/jlin-mn0002791912,,2025-03-24 13:30:20
-108,Shameika,https://www.allmusic.com/artist/fiona-apple-mn0000169795,,2025-03-24 13:30:20
-109,Devotion,https://www.allmusic.com/artist/john-mclaughlin-mn0000223701,,2025-03-24 13:30:20
-110,Señorita,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 13:30:20
-112,What Do I Get?,https://www.allmusic.com/artist/buzzcocks-mn0000629564,,2025-03-24 13:30:55
-113,Go,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 13:30:55
-114,Superman (Main Title),https://www.allmusic.com/artist/john-williams-mn0000232480,,2025-03-24 13:30:55
-115,No Charge,https://www.allmusic.com/artist/shirley-caesar-mn0000032071,,2025-03-24 13:30:55
-116,Pink Flag,https://www.allmusic.com/artist/wire-mn0000672910,,2025-03-24 13:30:55
-117,Outdoor Miner,https://www.allmusic.com/artist/wire-mn0000672910,,2025-03-24 13:30:55
-119,Llama,https://www.allmusic.com/artist/phish-mn0000333464,,2025-03-24 13:30:55
-120,Man in Black,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 13:30:55
-121,Lost!,https://www.allmusic.com/artist/coldplay-mn0000775877,,2025-03-24 13:31:30
-122,Marry the Night,https://www.allmusic.com/artist/lady-gaga-mn0000994823,,2025-03-24 13:31:30
-123,Pour Some Sugar on Me,https://www.allmusic.com/artist/def-leppard-mn0000193320,,2025-03-24 13:31:30
-124,Rock of Ages,https://www.allmusic.com/artist/def-leppard-mn0000193320,,2025-03-24 13:31:30
-125,Living After Midnight,https://www.allmusic.com/artist/judas-priest-mn0000246611,,2025-03-24 13:31:30
-126,Toxicity,https://www.allmusic.com/artist/system-of-a-down-mn0000005501,,2025-03-24 13:31:30
-127,Absolution,https://www.allmusic.com/artist/ghost-mn0002616588,,2025-03-24 13:31:30
-128,Ojos Asi,https://www.allmusic.com/artist/shakira-mn0000790797,,2025-03-24 13:31:30
-130,Lizard: Prince Rupert Awakes/Bolero: The Peacock's Tale/The Battle of G,https://www.allmusic.com/artist/king-crimson-mn0000076057,,2025-03-24 13:32:04
-132,Personal Nancy,https://www.allmusic.com/artist/marc-ribot-mn0000674728,,2025-03-24 13:32:05
-133,Make Me Bad,https://www.allmusic.com/artist/korn-mn0000112789,,2025-03-24 13:32:05
-134,Eight Cut Scars [For Robert Turman],https://www.allmusic.com/artist/aaron-dilloway-mn0000812176,,2025-03-24 13:32:05
-135,Medellín,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 13:32:05
-136,I Am the Brother of the Wind,https://www.allmusic.com/artist/sun-ra-his-intergalactic-solar-arkestra-mn0000584244,,2025-03-24 13:32:05
-137,Mastema,https://www.allmusic.com/artist/pat-metheny-mn0000179698,,2025-03-24 13:32:39
-138,Silver Apples of the Moon~Part A,https://www.allmusic.com/artist/morton-subotnick-mn0000857040,,2025-03-24 13:32:39
-139,"Life, Life",https://www.allmusic.com/artist/ryuichi-sakamoto-mn0000587608,,2025-03-24 13:32:39
-140,Raajat,https://www.allmusic.com/artist/vladislav-delay-mn0000185680,,2025-03-24 13:32:39
-141,Eurydice,https://www.allmusic.com/artist/wayne-shorter-mn0000250435,,2025-03-24 13:32:39
-142,Night Falls on Inisherin,https://www.allmusic.com/artist/carter-burwell-mn0000149173,,2025-03-24 13:32:39
-143,Girl I Love You,https://www.allmusic.com/artist/massive-attack-mn0000378288,,2025-03-24 13:32:39
-144,"Alabama Song, for voice & orchestra (from ""Aufstieg und Fall der Stadt Mahagonny"")~Alabama Song",https://www.allmusic.com/artist/marianne-faithfull-mn0000651107,,2025-03-24 13:32:39
-145,Beki Miri,https://www.allmusic.com/artist/amadou-mariam-mn0000013647,,2025-03-24 13:32:39
-146,(Back Home Again In) Indiana,https://www.allmusic.com/artist/barney-kessel-mn0000784527,,2025-03-24 13:33:14
-147,"Koyaanisqatsi, film score~Koyaanisqatsi",https://www.allmusic.com/artist/philip-glass-ensemble-mn0000342981,,2025-03-24 13:33:14
-148,Minipops 67 [Source Field Mix],https://www.allmusic.com/artist/aphex-twin-mn0000493848,,2025-03-24 13:33:14
-149,"Piano Concerto, Op. 38~1. Allegro appassionato",https://www.allmusic.com/artist/keith-jarrett-mn0000066570,,2025-03-24 13:33:14
-150,Mettavolution,https://www.allmusic.com/artist/rodrigo-y-gabriela-mn0000400110,,2025-03-24 13:33:14
-151,As the Spirit Sings,https://www.allmusic.com/artist/john-mclaughlin-mn0000223701,,2025-03-24 13:33:14
-152,Fascination Street,https://www.allmusic.com/artist/the-cure-mn0000137390,,2025-03-24 13:33:47
-153,Ladies and Gentlemen We Are Floating in Space,https://www.allmusic.com/artist/spiritualized-mn0000746731,,2025-03-24 13:33:47
-154,Providence,https://www.allmusic.com/artist/sonic-youth-mn0000755156,,2025-03-24 13:33:48
-155,Rhinoceros,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521,,2025-03-24 13:33:48
-157,Feed Me with Your Kiss,https://www.allmusic.com/artist/my-bloody-valentine-mn0000937003,,2025-03-24 13:33:48
-158,Baker Street,https://www.allmusic.com/artist/gerry-rafferty-mn0000945196,,2025-03-24 13:33:48
-159,Do You Realize??,https://www.allmusic.com/artist/the-flaming-lips-mn0000065590,,2025-03-24 13:33:48
-160,I'll Come Running,https://www.allmusic.com/artist/brian-eno-mn0000617196,,2025-03-24 13:33:48
-161,Lost Cause,https://www.allmusic.com/artist/beck-mn0000124492,,2025-03-24 13:33:48
-166,Way to Blue,https://www.allmusic.com/artist/nick-drake-mn0000336783,,2025-03-24 13:34:22
-167,Chelsea Hotel No. 2,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,,2025-03-24 13:34:22
-168,John the Revelator,https://www.allmusic.com/artist/son-house-mn0000753094,,2025-03-24 13:34:22
-169,Kometenmelodie 2,https://www.allmusic.com/artist/kraftwerk-mn0000104714,,2025-03-24 13:34:22
-170,Mister Magic,https://www.allmusic.com/artist/grover-washington-jr-mn0000944206,,2025-03-24 13:34:22
-171,Just a Gigolo,https://www.allmusic.com/artist/thelonious-monk-quartet-mn0000491786,,2025-03-24 13:34:22
-172,Bird on the Wire,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,,2025-03-24 13:34:56
-173,Sundown,https://www.allmusic.com/artist/gordon-lightfoot-mn0000667794,,2025-03-24 13:34:56
-174,Autumn Sweater,https://www.allmusic.com/artist/yo-la-tengo-mn0000687487,,2025-03-24 13:34:56
-175,Time of the Season,https://www.allmusic.com/artist/the-zombies-mn0000582313,,2025-03-24 13:34:56
-176,Pink Moon,https://www.allmusic.com/artist/nick-drake-mn0000336783,,2025-03-24 13:34:56
-177,Old Man,https://www.allmusic.com/artist/neil-young-mn0000379125,,2025-03-24 13:34:56
-178,September Gurls,https://www.allmusic.com/artist/big-star-mn0000051992,,2025-03-24 13:34:56
-179,Harvest Moon,https://www.allmusic.com/artist/neil-young-mn0000379125,,2025-03-24 13:34:56
-180,Miss Misery,https://www.allmusic.com/artist/elliott-smith-mn0000172167,,2025-03-24 13:34:56
-181,Autumn Serenade,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 13:34:56
-182,Don't Fight the Feelin',https://www.allmusic.com/artist/too-hort-mn0001052511,,2025-03-24 13:35:30
-183,In the End,https://www.allmusic.com/artist/linkin-park-mn0000289599,,2025-03-24 13:35:30
-184,Liquid Swords,https://www.allmusic.com/artist/gza-mn0000170084,,2025-03-24 13:35:31
-185,Intro/Dead People,https://www.allmusic.com/artist/louis-ck-mn0001035974,,2025-03-24 13:35:31
-186,How to Rob,https://www.allmusic.com/artist/50-cent-mn0000919805,,2025-03-24 13:35:31
-187,Lyte as a Rock,https://www.allmusic.com/artist/mc-lyte-mn0000220590,,2025-03-24 13:35:31
-188,"The Pride, Pts. 1 & 2",https://www.allmusic.com/artist/the-isley-brothers-mn0000766893,,2025-03-24 13:35:31
-189,6 'n the Mornin',https://www.allmusic.com/artist/ice-t-mn0000072003,,2025-03-24 13:35:31
-190,Interzone 1,https://www.allmusic.com/artist/john-zorn-mn0000239329,,2025-03-24 13:35:31
-191,Eat Me,https://www.allmusic.com/artist/demi-lovato-mn0000996127,,2025-03-24 13:35:31
-192,May-Ree Mack,https://www.allmusic.com/artist/ella-jenkins-mn0000798086,,2025-03-24 13:36:14
-193,"Music for 18 Musicians, for 4 female voices & 16 instruments~Pulses",https://www.allmusic.com/artist/steve-reich-mn0000037658,,2025-03-24 13:36:14
-194,Cocaine Blues,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 13:36:14
-195,Miss Mary Mack,https://www.allmusic.com/artist/ella-jenkins-mn0000798086,,2025-03-24 13:36:14
-204,Downtown Train,https://www.allmusic.com/artist/tom-waits-mn0000615119,,2025-03-24 13:36:49
-206,Voices Carry,https://www.allmusic.com/artist/til-tuesday-mn0000498961,,2025-03-24 13:37:22
-207,Amelia,https://www.allmusic.com/artist/joni-mitchell-mn0000270491,,2025-03-24 13:37:22
-208,Song to the Siren,https://www.allmusic.com/artist/tim-buckley-mn0000595101,,2025-03-24 13:37:22
-209,I Fall to Pieces,https://www.allmusic.com/artist/patsy-cline-mn0000014651,,2025-03-24 13:37:22
-210,Who Knows Where the Time Goes?,https://www.allmusic.com/artist/fairport-convention-mn0000162233,,2025-03-24 13:37:22
-211,Here Comes a Regular,https://www.allmusic.com/artist/the-replacements-mn0000422405,,2025-03-24 13:37:22
-212,I Just Don't Know What to Do With Myself,https://www.allmusic.com/artist/dionne-warwick-mn0000165011,,2025-03-24 13:37:22
-213,Funny How Time Slips Away,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 13:37:22
-214,Bus Stop,https://www.allmusic.com/artist/the-hollies-mn0000087985,,2025-03-24 13:37:22
-215,I Am the Cosmos,https://www.allmusic.com/artist/chris-bell-mn0000105845,,2025-03-24 13:37:23
-217,Got the Blues for Murder Only,https://www.allmusic.com/artist/lonnie-johnson-mn0000275401,,2025-03-24 13:37:57
-218,War Pigs,https://www.allmusic.com/artist/black-sabbath-mn0000771438,,2025-03-24 13:37:57
-220,Walkin' the Floor Over You,https://www.allmusic.com/artist/ernest-tubb-mn0000200775,,2025-03-24 13:37:57
-224,"High Water Everywhere, Pt. 1",https://www.allmusic.com/artist/charley-patton-mn0000166058,,2025-03-24 13:37:57
-228,Dust My Broom,https://www.allmusic.com/artist/elmore-james-mn0000176936,,2025-03-24 13:38:32
-230,Walk This Way,https://www.allmusic.com/artist/aerosmith-mn0000604852,,2025-03-24 13:38:32
-232,Lord Do It,https://www.allmusic.com/artist/james-cleveland-mn0000668448,,2025-03-24 13:38:32
-233,The Sheik of Araby,https://www.allmusic.com/artist/spike-jones-mn0000744548,,2025-03-24 13:38:32
-234,East St. Louis Toodle-Oo,https://www.allmusic.com/artist/duke-ellington-mn0000120323,,2025-03-24 13:38:32
-235,Chan Chan,https://www.allmusic.com/artist/buena-vista-social-club-mn0000627250,,2025-03-24 13:38:32
-236,Dead Presidents II,https://www.allmusic.com/artist/jay-z-mn0000224257,,2025-03-24 13:39:07
-238,Black Skinhead,https://www.allmusic.com/artist/kanye-west-mn0000361014,,2025-03-24 13:39:07
-240,You've Lost That Lovin' Feelin',https://www.allmusic.com/artist/elvis-presley-mn0000180228,,2025-03-24 13:39:07
-241,Superman~Love Theme from Superman,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907,,2025-03-24 13:39:07
-244,Power,https://www.allmusic.com/artist/kanye-west-mn0000361014,,2025-03-24 13:39:07
-245,Sucker M.C.'s (Krush-Groove 1),https://www.allmusic.com/artist/run-dmc-mn0000358408,,2025-03-24 13:39:07
-246,The Hard Way,https://www.allmusic.com/artist/otis-spann-mn0000486775,,2025-03-24 13:39:42
-248,Run Away with Me,https://www.allmusic.com/artist/carly-rae-jepsen-mn0002089077,,2025-03-24 13:39:42
-249,Human,https://www.allmusic.com/artist/the-killers-mn0000670226,,2025-03-24 13:39:42
-250,gnx,https://www.allmusic.com/artist/hitta-j3-mn0003346207,,2025-03-24 13:39:42
-251,Learning to Breathe,https://www.allmusic.com/artist/damu-the-fudgemunk-mn0000985856,,2025-03-24 13:39:42
-252,Wait on Time,https://www.allmusic.com/artist/the-fabulous-thunderbirds-mn0000126048,,2025-03-24 13:39:42
-253,Airegin,https://www.allmusic.com/artist/stan-getz-quartet-mn0000743938,,2025-03-24 13:39:43
-254,200mph,https://www.allmusic.com/artist/bad-bunny-mn0003595289,,2025-03-24 13:39:43
-255,Chica Ni Lambo,https://www.allmusic.com/artist/eddie-palmieri-mn0000172612,,2025-03-24 13:39:43
-259,Oye Como Va,https://www.allmusic.com/artist/santana-mn0000295756,,2025-03-24 13:40:17
-264,"A-Tisket, A-Tasket",https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502,,2025-03-24 13:40:18
-266,Jolene,https://www.allmusic.com/artist/dolly-parton-mn0000175286,,2025-03-24 13:40:52
-267,Give Up the Funk (Tear the Roof off the Sucker),https://www.allmusic.com/artist/parliament-mn0000129775,,2025-03-24 13:40:53
-268,Boo Ann's Grand,https://www.allmusic.com/artist/woody-shaw-mn0000680003,,2025-03-24 13:40:53
-269,Apartment No. 9,https://www.allmusic.com/artist/tammy-wynette-mn0000136640,,2025-03-24 13:40:53
-270,Saturday in the Park,https://www.allmusic.com/artist/chicago-mn0000110161,,2025-03-24 13:40:53
-271,The Black Disciple,https://www.allmusic.com/artist/donald-byrd-mn0000149946,,2025-03-24 13:40:53
-272,Straight Life,https://www.allmusic.com/artist/freddie-hubbard-mn0000798326,,2025-03-24 13:40:53
-273,Miles Ahead,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 13:40:53
-274,Lady Fingers,https://www.allmusic.com/artist/herb-alpert-mn0000674332,,2025-03-24 13:40:53
-275,Vivir Mi Vida,https://www.allmusic.com/artist/marc-anthony-mn0000673486,,2025-03-24 13:40:53
-276,(Sittin' On) The Dock of the Bay,https://www.allmusic.com/artist/otis-redding-mn0000414251,,2025-03-24 13:41:27
-277,Can't Get It Out of My Head,https://www.allmusic.com/artist/electric-light-orchestra-mn0000163229,,2025-03-24 13:41:27
-285,"Super Bad, Pts. 1&2",https://www.allmusic.com/artist/james-brown-mn0000128099,,2025-03-24 13:41:28
-286,You're Still the One,https://www.allmusic.com/artist/shania-twain-mn0000161808,,2025-03-24 13:42:02
-288,Everybody Loves Somebody,https://www.allmusic.com/artist/dean-martin-mn0000813392,,2025-03-24 13:42:02
-290,Chelsea Bridge,https://www.allmusic.com/artist/gerry-mulligan-mn0000542549,,2025-03-24 13:42:02
-291,Maneater,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887,,2025-03-24 13:42:02
-293,Four on Six,https://www.allmusic.com/artist/wes-montgomery-mn0000248392,,2025-03-24 13:42:03
-296,Jesse James,https://www.allmusic.com/artist/woody-guthrie-mn0000577531,,2025-03-24 13:42:37
-298,Slaughter on Tenth Avenue,https://www.allmusic.com/artist/the-ventures-mn0000921965,,2025-03-24 13:42:37
-300,Steps,https://www.allmusic.com/artist/cecil-taylor-mn0000988386,,2025-03-24 13:42:37
-302,Pump It Up,https://www.allmusic.com/artist/elvis-costello-mn0000058549,,2025-03-24 13:42:37
-303,Congeniality,https://www.allmusic.com/artist/ornette-coleman-mn0000484396,,2025-03-24 13:42:37
-305,Candy Says,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,,2025-03-24 13:42:37
-310,Workin' Man Blues,https://www.allmusic.com/artist/merle-haggard-mn0000410219,,2025-03-24 13:43:12
-315,These Foolish Things,https://www.allmusic.com/artist/billie-holiday-mn0000079016,,2025-03-24 13:43:12
-318,My Foolish Heart,https://www.allmusic.com/artist/bill-evans-trio-mn0000781423,,2025-03-24 13:43:48
-319,Tudo Que Você Podia Ser,https://www.allmusic.com/artist/l%C3%B4-borges-mn0000827524,,2025-03-24 13:43:48
-320,Big Yellow Taxi,https://www.allmusic.com/artist/amy-grant-mn0000024944,,2025-03-24 13:43:48
-321,Am I Losing You?,https://www.allmusic.com/artist/jim-reeves-mn0000903609,,2025-03-24 13:43:48
-325,Orinoco Flow,https://www.allmusic.com/artist/enya-mn0000988471,,2025-03-24 13:43:48
-328,A Sailor's Life,https://www.allmusic.com/artist/fairport-convention-mn0000162233,,2025-03-24 13:44:22
-329,Here Comes the Nice,https://www.allmusic.com/artist/small-faces-mn0000423267,,2025-03-24 13:44:22
-330,Quiet Village,https://www.allmusic.com/artist/martin-denny-mn0000311074,,2025-03-24 13:44:22
-331,Five Years,https://www.allmusic.com/artist/david-bowie-mn0000531986,,2025-03-24 13:44:22
-332,Porcelain,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 13:44:22
-333,Caldonia,https://www.allmusic.com/artist/louis-jordan-mn0000287604,,2025-03-24 13:44:22
-334,Sixteen Tons,https://www.allmusic.com/artist/tennessee-ernie-ford-mn0000020403,,2025-03-24 13:44:22
-335,Poison,https://www.allmusic.com/artist/alice-cooper-mn0000005953,,2025-03-24 13:44:22
-336,Gravity Rides Everything,https://www.allmusic.com/artist/modest-mouse-mn0000480086,,2025-03-24 13:44:57
-337,"Experiment in Terror, film score~Teen-Age Hostage",https://www.allmusic.com/artist/henry-mancini-mn0000678009,,2025-03-24 13:44:57
-338,I've Gotta Be Me,https://www.allmusic.com/artist/sammy-davis-jr-mn0000294376,,2025-03-24 13:45:32
-343,Pagin' the Devil,https://www.allmusic.com/artist/lester-young-mn0000259529,,2025-03-24 13:45:32
-344,Friend of the Devil,https://www.allmusic.com/artist/grateful-dead-mn0000988440,,2025-03-24 13:45:32
-345,The Way You Look Tonight,https://www.allmusic.com/artist/ray-conniff-mn0000869487,,2025-03-24 13:45:32
-348,Would You Like to Learn to Dance?,https://www.allmusic.com/artist/steve-goodman-mn0000032366,,2025-03-24 13:46:07
-349,The Velocity of Love,https://www.allmusic.com/artist/suzanne-ciani-mn0000046345,,2025-03-24 13:46:07
-351,Watchin' Joey Glow,https://www.allmusic.com/artist/steve-goodman-mn0000032366,,2025-03-24 13:46:07
-352,Super Freaky Girl,https://www.allmusic.com/artist/nicki-minaj-mn0001013175,,2025-03-24 13:46:07
-353,Reedin,https://www.allmusic.com/artist/wagon-christ-mn0000229210,,2025-03-24 13:46:07
-354,Brand New,https://www.allmusic.com/artist/pharrell-williams-mn0000275757,,2025-03-24 13:46:07
-355,Wonderbread,https://www.allmusic.com/artist/danny-brown-mn0001477553,,2025-03-24 13:46:07
-357,By the Sea,https://www.allmusic.com/artist/annaleigh-ashford-mn0001575846,,2025-03-24 13:46:07
-361,Tell Me What's the Reason,https://www.allmusic.com/artist/t-bone-walker-mn0000003829,,2025-03-24 13:46:42
-367,Spoonful,https://www.allmusic.com/artist/howlin-wolf-mn0000276085,,2025-03-24 13:46:42
-369,Don't Do Me Like That,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137,,2025-03-24 13:47:16
-376,These Days (I Barely Get By),https://www.allmusic.com/artist/george-jones-mn0000944310,,2025-03-24 13:47:16
-379,Isfahan,https://www.allmusic.com/artist/joe-henderson-mn0000139804,,2025-03-24 13:47:51
-385,Dolphin Dance,https://www.allmusic.com/artist/herbie-hancock-mn0000957296,,2025-03-24 13:47:51
-386,You Know You Know,https://www.allmusic.com/artist/mahavishnu-orchestra-mn0000233862,,2025-03-24 13:47:51
-389,Sampa,https://www.allmusic.com/artist/caetano-veloso-mn0000639397,,2025-03-24 13:48:26
-398,Heroes,https://www.allmusic.com/artist/philip-glass-mn0000849672,,2025-03-24 13:49:00
-399,4,https://www.allmusic.com/artist/aphex-twin-mn0000493848,,2025-03-24 13:49:00
-400,Laughable Butane Bob,https://www.allmusic.com/artist/afx-mn0000483189,,2025-03-24 13:49:00
-401,Won't You Be My Neighbor?,https://www.allmusic.com/artist/mister-rogers-mn0001216264,,2025-03-24 13:49:00
-402,Song for Sally,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 13:49:00
-403,Dave,https://www.allmusic.com/artist/cheech-chong-mn0000106298,,2025-03-24 13:49:01
-404,Sister Mary Elephant,https://www.allmusic.com/artist/cheech-chong-mn0000106298,,2025-03-24 13:49:01
-406,This Here Giraffe,https://www.allmusic.com/artist/the-flaming-lips-mn0000065590,,2025-03-24 13:49:01
-410,The Breathing Stone,https://www.allmusic.com/artist/steve-roach-mn0000040501,,2025-03-24 13:49:35
-412,Blue Rondo à la Turk,https://www.allmusic.com/artist/the-dave-brubeck-quartet-mn0000142767,,2025-03-24 13:49:35
-415,Black Cat Bone,https://www.allmusic.com/artist/lightnin-hopkins-mn0000825208,,2025-03-24 13:49:35
-416,Big Legs Ida Blues,https://www.allmusic.com/artist/roosevelt-sykes-mn0000284104,,2025-03-24 13:49:35
-418,"Tubular Bells, Pt. 1",https://www.allmusic.com/artist/mike-oldfield-mn0000489520,,2025-03-24 13:50:10
-419,Who Needs the Peace Corps?,https://www.allmusic.com/artist/the-mothers-of-invention-mn0000405522,,2025-03-24 13:50:10
-421,Goodbye Girl,https://www.allmusic.com/artist/squeeze-mn0000790732,,2025-03-24 13:50:10
-422,Hit 'Em Wit da Hee,https://www.allmusic.com/artist/missy-elliott-mn0000502371,,2025-03-24 13:50:10
-425,Block Rockin' Beats,https://www.allmusic.com/artist/the-chemical-brothers-mn0000067631,,2025-03-24 13:50:10
-426,Blush Response,https://www.allmusic.com/artist/vangelis-mn0000840000,,2025-03-24 13:50:10
-427,The Things You Said,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 13:50:43
-428,[Untitled],https://www.allmusic.com/artist/sigur-r%C3%B3s-mn0000753868,,2025-03-24 13:50:43
-429,Angel,https://www.allmusic.com/artist/massive-attack-mn0000378288,,2025-03-24 13:50:43
-430,Hunter,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 13:50:44
-431,At the Heart of Winter,https://www.allmusic.com/artist/immortal-mn0000094102,,2025-03-24 13:50:44
-432,Metal,https://www.allmusic.com/artist/gary-numan-mn0000183858,,2025-03-24 13:50:44
-433,Marked,https://www.allmusic.com/artist/ema-mn0002130309,,2025-03-24 13:50:44
-434,Night Sky,https://www.allmusic.com/artist/chvrches-mn0003052164,,2025-03-24 13:50:44
-435,"Heaven and Hell, Pt. 1/So Long Ago, So Clear",https://www.allmusic.com/artist/vangelis-mn0000840000,,2025-03-24 13:50:44
-436,3 Ghosts I,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 13:50:44
-437,The Twelve Gifts of Christmas,https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 13:51:20
-439,"You Went The Wrong Way, Old King Louie",https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 13:51:20
-441,One Hippopotami,https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 13:51:20
-442,Shake Hands with Your Uncle Max,https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 13:51:20
-455,Kickin' Child,https://www.allmusic.com/artist/dion-mn0000265456,,2025-03-24 13:52:28
-460,"(What's So Funny 'Bout) Peace, Love and Understanding",https://www.allmusic.com/artist/brinsley-schwarz-mn0002363693,,2025-03-24 13:52:29
-462,Kicking,https://www.allmusic.com/artist/torche-mn0000081480,,2025-03-24 13:52:29
-463,"Speechless, Pt. 2",https://www.allmusic.com/artist/nas-mn0000373634,,2025-03-24 13:52:29
-464,Sunny Came Home,https://www.allmusic.com/artist/shawn-colvin-mn0000013387,,2025-03-24 13:52:29
-467,Winter,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 13:53:03
-468,Beg Me,https://www.allmusic.com/artist/chuck-jackson-mn0000103033,,2025-03-24 13:53:03
-471,Freedom,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179,,2025-03-24 13:53:04
-472,Ghosts Again,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 13:53:04
-473,Gin Smoke & Lies,https://www.allmusic.com/artist/turnpike-troubadours-mn0002038565,,2025-03-24 13:53:04
-493,High School Confidential,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141,,2025-03-24 13:54:13
-495,Mis Planes Son Amarte,https://www.allmusic.com/artist/juanes-mn0000245250,,2025-03-24 13:54:48
-496,Biko,https://www.allmusic.com/artist/sweet-honey-in-the-rock-mn0000044703,,2025-03-24 13:54:48
-497,The Balance,https://www.allmusic.com/artist/dave-holland-quintet-mn0000684198,,2025-03-24 13:54:48
-499,After the Love Has Gone,https://www.allmusic.com/artist/earth-wind-fire-mn0000135273,,2025-03-24 13:54:48
-500,Don't Mess With Mister T.,https://www.allmusic.com/artist/stanley-turrentine-mn0000012644,,2025-03-24 13:54:48
-501,The Look of Love,https://www.allmusic.com/artist/dusty-springfield-mn0000159214,,2025-03-24 13:54:48
-502,Reasons,https://www.allmusic.com/artist/earth-wind-fire-mn0000135273,,2025-03-24 13:54:48
-503,Shifting Gears,https://www.allmusic.com/artist/lalo-schifrin-mn0000781932,,2025-03-24 13:54:48
-507,I Sat By the Ocean,https://www.allmusic.com/artist/queens-of-the-stone-age-mn0000376422,,2025-03-24 13:55:25
-508,Come as You Are,https://www.allmusic.com/artist/nirvana-mn0000357406,,2025-03-24 13:55:25
-509,Hells Bells,https://www.allmusic.com/artist/ac-dc-mn0000574772,,2025-03-24 13:55:25
-510,You Can't Judge a Book by Its Cover,https://www.allmusic.com/artist/bo-diddley-mn0000055128,,2025-03-24 13:55:25
-511,Battery,https://www.allmusic.com/artist/metallica-mn0000446509,,2025-03-24 13:55:25
-512,Foxey Lady,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 13:55:25
-513,Back in the Saddle,https://www.allmusic.com/artist/aerosmith-mn0000604852,,2025-03-24 13:55:25
-514,Late Night Talking,https://www.allmusic.com/artist/harry-styles-mn0002854537,,2025-03-24 13:55:59
-515,My Neighbour Totoro~My Neighbour Totoro,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330,,2025-03-24 13:55:59
-516,Bassbins,https://www.allmusic.com/artist/%C2%B5-ziq-mn0000510042,,2025-03-24 13:55:59
-517,SHOWER SONG,https://www.allmusic.com/artist/tierra-whack-mn0003604268,,2025-03-24 13:55:59
-518,Broke My Heart,https://www.allmusic.com/artist/caribou-mn0000609590,,2025-03-24 13:55:59
-519,Building a Mountain,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 13:55:59
-520,The Strange Boutique,https://www.allmusic.com/artist/the-monochrome-set-mn0000475980,,2025-03-24 13:55:59
-521,Fireflies,https://www.allmusic.com/artist/pearl-the-oysters-mn0003783836,,2025-03-24 13:55:59
-522,Delicious,https://www.allmusic.com/artist/shampoo-mn0000160055,,2025-03-24 13:55:59
-523,Levitate the Coin,https://www.allmusic.com/artist/john-powell-mn0000230451,,2025-03-24 13:55:59
-524,I Wanna Destroy You,https://www.allmusic.com/artist/the-soft-boys-mn0000501802,,2025-03-24 13:56:33
-525,I Love L.A.,https://www.allmusic.com/artist/randy-newman-mn0000394806,,2025-03-24 13:56:33
-526,"Lawyers, Guns and Money",https://www.allmusic.com/artist/warren-zevon-mn0000816900,,2025-03-24 13:56:33
-527,I Know What Boys Like,https://www.allmusic.com/artist/the-waitresses-mn0000585210,,2025-03-24 13:56:33
-528,Big Shot,https://www.allmusic.com/artist/billy-joel-mn0000085915,,2025-03-24 13:56:33
-529,Money,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 13:56:33
-531,911 Is a Joke,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 13:56:33
-532,E.M.I.,https://www.allmusic.com/artist/sex-pistols-mn0000418740,,2025-03-24 13:56:33
-533,Peace Sells,https://www.allmusic.com/artist/megadeth-mn0000406294,,2025-03-24 13:56:33
-539,Stonemilker,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 13:57:08
-543,Mr. Misunderstood,https://www.allmusic.com/artist/eric-church-mn0000632233,,2025-03-24 13:57:42
-546,Directions,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 13:57:43
-547,DNA.,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646,,2025-03-24 13:57:43
-549,Akiwowo,https://www.allmusic.com/artist/michael-olatunji-mn0000395264,,2025-03-24 13:57:43
-550,Quadrant 4,https://www.allmusic.com/artist/billy-cobham-mn0000767741,,2025-03-24 13:57:43
-551,It Was Fun While It Lasted,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205,,2025-03-24 13:58:17
-552,Black Rose,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205,,2025-03-24 13:58:17
-554,Fell on Black Days,https://www.allmusic.com/artist/soundgarden-mn0000001098,,2025-03-24 13:58:17
-555,Lights Please,https://www.allmusic.com/artist/j-cole-mn0001089515,,2025-03-24 13:58:17
-556,The Troublemaker,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 13:58:17
-557,She is Gone,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 13:58:18
-558,Blue Eyes Crying in the Rain,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 13:58:18
-564,I'll Be Around,https://www.allmusic.com/artist/the-spinners-mn0000578141,,2025-03-24 13:58:52
-565,Rags to Riches,https://www.allmusic.com/artist/tony-bennett-mn0000006334,,2025-03-24 13:58:52
-570,Moment of Hesitation,https://www.allmusic.com/artist/flying-lotus-mn0000717419,,2025-03-24 13:59:27
-573,Sighommi,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521,,2025-03-24 13:59:27
-574,Who by Fire,https://www.allmusic.com/artist/coil-mn0000105561,,2025-03-24 13:59:27
-575,Spastik,https://www.allmusic.com/artist/plastikman-mn0000355386,,2025-03-24 13:59:27
-576,Plasticity,https://www.allmusic.com/artist/plastikman-mn0000355386,,2025-03-24 13:59:27
-577,Fuck You,https://www.allmusic.com/artist/the-bug-mn0000629224,,2025-03-24 13:59:27
-578,Crazy Train,https://www.allmusic.com/artist/bob-daisley-mn0000067146,,2025-03-24 13:59:27
-580,"I Loves You, Porgy",https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 14:00:01
-581,Something I Can Never Have,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 14:00:01
-583,"Medley: Here Come de Honey Man, Crab Man, Oh, Dey's So Fresh and Fine (Strawberry Woman)",https://www.allmusic.com/artist/louis-armstrong-mn0000234518,,2025-03-24 14:00:01
-584,Last,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 14:00:01
-585,Yeah Yeah You Would,https://www.allmusic.com/artist/diddy-mn0000413000,,2025-03-24 14:00:01
-586,Dive for Your Memory,https://www.allmusic.com/artist/the-go-betweens-mn0000766361,,2025-03-24 14:00:01
-587,She Even Woke Me Up to Say Goodbye,https://www.allmusic.com/artist/mickey-newbury-mn0000525789,,2025-03-24 14:00:02
-588,La Iguana,https://www.allmusic.com/artist/the-chieftains-mn0000067406,,2025-03-24 14:00:02
-597,Rebel Rebel,https://www.allmusic.com/artist/david-bowie-mn0000531986,,2025-03-24 14:00:36
-601,I Will Be Here for You,https://www.allmusic.com/artist/michael-w-smith-mn0000466759,,2025-03-24 14:01:11
-604,The Sound of Music~Climb Ev'ry Mountain,https://www.allmusic.com/artist/patricia-neway-mn0000010209,,2025-03-24 14:01:11
-605,Missing Person,https://www.allmusic.com/artist/michael-w-smith-mn0000466759,,2025-03-24 14:01:11
-606,Sixteen Going on Seventeen,https://www.allmusic.com/artist/charmian-carr-mn0001011777,,2025-03-24 14:01:11
-609,Rebel Without a Pause,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 14:01:46
-611,"Oh, Good Grief!",https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089,,2025-03-24 14:01:46
-612,Blowin' in the Wind,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 14:01:46
-613,Spillane,https://www.allmusic.com/artist/john-zorn-mn0000239329,,2025-03-24 14:01:46
-614,Long Distance Runaround,https://www.allmusic.com/artist/jon-anderson-mn0000253861,,2025-03-24 14:01:46
-615,Cowgirl in the Sand,https://www.allmusic.com/artist/neil-young-crazy-horse-mn0000860578,,2025-03-24 14:01:46
-616,Three Little Words,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 14:01:46
-617,Do I Move You?,https://www.allmusic.com/artist/nina-simone-mn0000411761,,2025-03-24 14:01:46
-618,It Ain't Nothin',https://www.allmusic.com/artist/keith-whitley-mn0000081561,,2025-03-24 14:02:21
-619,"The Good, the Bad and the Ugly (Main Title)",https://www.allmusic.com/artist/ennio-morricone-mn0000798662,,2025-03-24 14:02:21
-623,Runaway Train,https://www.allmusic.com/artist/rosanne-cash-mn0000285272,,2025-03-24 14:02:21
-624,Frankie Machine,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087,,2025-03-24 14:02:21
-627,This Is Why,https://www.allmusic.com/artist/paramore-mn0000366681,,2025-03-24 14:02:56
-628,"Cello Concerto in E Minor, Op. 85~II. Lento - Allegro molto",https://www.allmusic.com/artist/gautier-capu%C3%A7on-mn0002227074,,2025-03-24 14:02:56
-629,We Belong [Squarepusher Remix],https://www.allmusic.com/artist/danny-elfman-mn0000569119,,2025-03-24 14:02:56
-630,European Echoes,https://www.allmusic.com/artist/ornette-coleman-trio-mn0001765439,,2025-03-24 14:02:56
-644,People Get Ready,https://www.allmusic.com/artist/the-impressions-mn0000082013,,2025-03-24 14:04:06
-645,Black Byrd,https://www.allmusic.com/artist/donald-byrd-mn0000149946,,2025-03-24 14:04:06
-648,By the Time I Get to Phoenix,https://www.allmusic.com/artist/glen-campbell-mn0000664378,,2025-03-24 14:04:06
-650,The Girl From Ipanema,https://www.allmusic.com/artist/astrud-gilberto-mn0000931086,,2025-03-24 14:04:06
-651,I Wanna Go Bang,https://www.allmusic.com/artist/limelife-mn0000832455,,2025-03-24 14:04:41
-655,Star Wars: Episode I - The Phantom Menace~Duel of the Fates,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907,,2025-03-24 14:04:41
-656,Motoroller Scalatron,https://www.allmusic.com/artist/stereolab-mn0000026520,,2025-03-24 14:04:41
-659,Opposite People,https://www.allmusic.com/artist/afrika-70-mn0000930720,,2025-03-24 14:04:41
-660,White Rabbit,https://www.allmusic.com/artist/jefferson-airplane-mn0000840102,,2025-03-24 14:05:14
-661,Purple Haze,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 14:05:14
-662,Astronomy Domine,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 14:05:14
-663,Heroin,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,,2025-03-24 14:05:14
-665,L.S.D.,https://www.allmusic.com/artist/the-pretty-things-mn0000489676,,2025-03-24 14:05:14
-666,Three Days,https://www.allmusic.com/artist/janes-addiction-mn0000806829,,2025-03-24 14:05:14
-667,Sweet Leaf,https://www.allmusic.com/artist/black-sabbath-mn0000771438,,2025-03-24 14:05:14
-668,Aftermath,https://www.allmusic.com/artist/tricky-mn0000025462,,2025-03-24 14:05:14
-669,Dark Star,https://www.allmusic.com/artist/grateful-dead-mn0000988440,,2025-03-24 14:05:14
-676,T for Texas (Blue Yodel No. 1),https://www.allmusic.com/artist/jimmie-rodgers-mn0000343852,,2025-03-24 14:05:49
-695,Down the Street to 301,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 14:06:59
-696,I Still Miss Someone,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 14:06:59
-698,Busted,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 14:07:00
-699,Orange Blossom Special,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 14:07:00
-706,Venus as a Boy,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 14:07:34
-707,Life Begins at the Hop,https://www.allmusic.com/artist/xtc-mn0000678339,,2025-03-24 14:07:34
-711,Um Vento Passou (Para Paul Simon),https://www.allmusic.com/artist/milton-nascimento-mn0000497132,,2025-03-24 14:08:09
-717,Keep on the Sunny Side,https://www.allmusic.com/artist/the-carter-family-mn0000051910,,2025-03-24 14:08:44
-718,Shilo,https://www.allmusic.com/artist/neil-diamond-mn0000864209,,2025-03-24 14:08:44
-720,Stayin Alive,https://www.allmusic.com/artist/bee-gees-mn0000043714,,2025-03-24 14:08:44
-721,She Don't Care About Time,https://www.allmusic.com/artist/the-byrds-mn0000631774,,2025-03-24 14:08:44
-722,Dádrá,https://www.allmusic.com/artist/ravi-shankar-mn0000404463,,2025-03-24 14:08:44
-727,Bidi Bidi Bom Bom,https://www.allmusic.com/artist/selena-mn0000004852,,2025-03-24 14:09:19
-729,Linus & Lucy,https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089,,2025-03-24 14:09:19
-730,Blowin' up a Storm,https://www.allmusic.com/artist/woody-herman-mn0000958076,,2025-03-24 14:09:19
-742,Sunday Sun,https://www.allmusic.com/artist/beck-mn0000124492,,2025-03-24 14:09:54
-743,All Africa,https://www.allmusic.com/artist/max-roach-mn0000396372,,2025-03-24 14:09:54
-744,"Sing, Sing, Sing",https://www.allmusic.com/artist/benny-goodman-mn0000163133,,2025-03-24 14:10:28
-757,I’m Waiting for the Man,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,,2025-03-24 14:11:03
-758,Love,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 14:11:03
-759,Wanderlust,https://www.allmusic.com/artist/paul-mccartney-mn0000029884,,2025-03-24 14:11:03
-760,People,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 14:11:03
-761,If You Could Read My Mind,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 14:11:04
-762,My Lord and Master,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 14:11:04
-763,I Stayed Too Long at the Fair,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 14:11:04
-764,Blitzkrieg Bop,https://www.allmusic.com/artist/ramones-mn0000490004,,2025-03-24 14:11:37
-765,I Got You (I Feel Good),https://www.allmusic.com/artist/james-brown-mn0000128099,,2025-03-24 14:11:37
-766,Rocket 88,https://www.allmusic.com/artist/jackie-brenston-mn0000782307,,2025-03-24 14:11:37
-768,Ballroom Blitz,https://www.allmusic.com/artist/sweet-mn0000536275,,2025-03-24 14:11:37
-769,Sister Anne,https://www.allmusic.com/artist/mc5-mn0000182598,,2025-03-24 14:11:37
-770,Into the Groove,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 14:11:37
-771,Long Tall Sally,https://www.allmusic.com/artist/little-richard-mn0000824022,,2025-03-24 14:11:37
-772,C'mon Everybody,https://www.allmusic.com/artist/eddie-cochran-mn0000793988,,2025-03-24 14:11:37
-773,I Gotcha,https://www.allmusic.com/artist/joe-tex-mn0000210323,,2025-03-24 14:11:37
-782,Wild Night,https://www.allmusic.com/artist/van-morrison-mn0000307461,,2025-03-24 14:12:12
-787,Black Dog,https://www.allmusic.com/artist/led-zeppelin-mn0000139026,,2025-03-24 14:12:47
-790,Take It Easy,https://www.allmusic.com/artist/eagles-mn0000144847,,2025-03-24 14:12:47
-792,Blue Train,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 14:12:47
-793,"A Love Supreme, Pt. 3: Pursuance/Pt. 4: Psalm",https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 14:12:47
-795,Love to Love You Baby,https://www.allmusic.com/artist/donna-summer-mn0000661524,,2025-03-24 14:13:21
-796,"Te Aviso, Te Anuncio (Tango)",https://www.allmusic.com/artist/shakira-mn0000790797,,2025-03-24 14:13:21
-797,The Wind Cries Mary,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 14:13:21
-798,Walk On By,https://www.allmusic.com/artist/isaac-hayes-mn0000101946,,2025-03-24 14:13:21
-799,She Wolf,https://www.allmusic.com/artist/shakira-mn0000790797,,2025-03-24 14:13:21
-800,I Turned You On,https://www.allmusic.com/artist/the-isley-brothers-mn0000766893,,2025-03-24 14:13:21
-802,The D.O.C. & The Doctor,https://www.allmusic.com/artist/the-doc-mn0000114775,,2025-03-24 14:13:21
-807,Slavery Days,https://www.allmusic.com/artist/burning-spear-mn0000641994,,2025-03-24 14:13:56
-809,Theme From Silk Road,https://www.allmusic.com/artist/kitaro-mn0000081017,,2025-03-24 14:13:56
-820,1000 Deaths,https://www.allmusic.com/artist/dangelo-and-the-vanguard-mn0003351988,,2025-03-24 14:14:31
-830,She Moves Me,https://www.allmusic.com/artist/muddy-waters-mn0000608701,,2025-03-24 14:15:05
-834,Constancy (Ua Like No a Like),https://www.allmusic.com/artist/marty-robbins-mn0000858710,,2025-03-24 14:15:41
-835,The Pink Panther Theme,https://www.allmusic.com/artist/henry-mancini-his-orchestra-mn0000675890,,2025-03-24 14:15:41
-836,Green (Vincent's Tune),https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,,2025-03-24 14:15:41
-837,Take Me to Harlan,https://www.allmusic.com/artist/b%C3%A9la-fleck-mn0000151290,,2025-03-24 14:15:41
-838,The Lady With the Golden Stockings (aka The Golden Lady),https://www.allmusic.com/artist/sun-ra-his-solar-myth-arkestra-mn0000924706,,2025-03-24 14:15:41
-843,Blue Rondo a La Turk,https://www.allmusic.com/artist/dave-brubeck-mn0000958533,,2025-03-24 14:16:16
-845,Blues 88,https://www.allmusic.com/artist/arturo-sandoval-mn0000575122,,2025-03-24 14:16:52
-846,Tubular Bells,https://www.allmusic.com/artist/mike-oldfield-mn0000489520,,2025-03-24 14:16:52
-847,One More Time,https://www.allmusic.com/artist/daft-punk-mn0000667669,,2025-03-24 14:16:52
-855,The More We Get Together,https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 14:17:28
-856,The Rose,https://www.allmusic.com/artist/bette-midler-mn0000053739,,2025-03-24 14:17:28
-857,Les Zombis et les Loups-Garous,https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 14:17:28
-859,Your Body's Callin',https://www.allmusic.com/artist/r-kelly-mn0000319347,,2025-03-24 14:17:28
-860,Wind Beneath My Wings,https://www.allmusic.com/artist/bette-midler-mn0000053739,,2025-03-24 14:17:28
-861,De Colores,https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 14:17:28
-862,The Banana Boat Song (Day-O),https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 14:17:28
-874,Close Encounters of the Third Kind~Main Title and Mountains Visions,https://www.allmusic.com/artist/john-williams-mn0000232480,,2025-03-24 14:18:39
-878,Dance or Die,https://www.allmusic.com/artist/janelle-mon%C3%A1e-mn0000868086,,2025-03-24 14:18:39
-883,Caught a Lite Sneeze,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 14:19:15
-885,"I Am Not a Woman, I'm a God",https://www.allmusic.com/artist/halsey-mn0003010517,,2025-03-24 14:19:15
-888,What's Love Got to Do with It,https://www.allmusic.com/artist/tina-turner-mn0000597309,,2025-03-24 14:19:50
-889,Sweetheart Like You – Infidels alternate take,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 14:19:50
-890,Do the Mussolini (Headkick),https://www.allmusic.com/artist/cabaret-voltaire-mn0000635413,,2025-03-24 14:19:50
-891,Cake & Eat It Too,https://www.allmusic.com/artist/bilal-mn0000057280,,2025-03-24 14:19:50
-893,The Feed-Back,https://www.allmusic.com/artist/gruppo-di-improvvisazione-nuova-consonanza-mn0001409455,,2025-03-24 14:19:50
-899,Killed by Death,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407,,2025-03-24 14:20:26
-900,Banned in D.C.,https://www.allmusic.com/artist/bad-brains-mn0000075264,,2025-03-24 14:20:26
-901,Commando,https://www.allmusic.com/artist/ramones-mn0000490004,,2025-03-24 14:20:26
-902,Complete Control,https://www.allmusic.com/artist/the-clash-mn0000075747,,2025-03-24 14:20:26
-903,Legalize It,https://www.allmusic.com/artist/peter-tosh-mn0000328014,,2025-03-24 14:20:26
-909,Don't Stop,https://www.allmusic.com/artist/fleetwood-mac-mn0000182900,,2025-03-24 14:21:02
-915,Kiss It Better,https://www.allmusic.com/artist/rihanna-mn0000367188,,2025-03-24 14:21:37
-920,All We Got,https://www.allmusic.com/artist/chance-the-rapper-mn0003115050,,2025-03-24 14:21:37
-922,Simmer Down,https://www.allmusic.com/artist/bob-marley-mn0000071514,,2025-03-24 14:22:12
-926,Thinkin Bout You,https://www.allmusic.com/artist/frank-ocean-mn0002592086,,2025-03-24 14:22:12
-927,Eli's Comin',https://www.allmusic.com/artist/laura-nyro-mn0000137474,,2025-03-24 14:22:12
-936,Ether,https://www.allmusic.com/artist/gang-of-four-mn0000193231,,2025-03-24 14:22:47
-938,Out to Lunch,https://www.allmusic.com/artist/eric-dolphy-mn0000800100,,2025-03-24 14:22:47
-939,Summer Babe,https://www.allmusic.com/artist/pavement-mn0000752314,,2025-03-24 14:22:47
-941,Dael,https://www.allmusic.com/artist/autrechre-mn0001530964,,2025-03-24 14:22:47
-967,Everloving,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 14:24:34
-981,Good Golly Miss Molly,https://www.allmusic.com/artist/little-richard-mn0000824022,,2025-03-24 14:25:47
-982,Gimme! Gimme! Gimme! (A Man After Midnight),https://www.allmusic.com/artist/abba-mn0000922728,,2025-03-24 14:25:47
-984,She Loves You,https://www.allmusic.com/artist/the-beatles-mn0000754032,,2025-03-24 14:25:47
-985,Rip It Up,https://www.allmusic.com/artist/little-richard-mn0000824022,,2025-03-24 14:25:47
-986,Sometime in the Morning,https://www.allmusic.com/artist/the-monkees-mn0000478603,,2025-03-24 14:25:47
-987,S.O.S.,https://www.allmusic.com/artist/abba-mn0000922728,,2025-03-24 14:25:47
-989,"Green, Green",https://www.allmusic.com/artist/the-new-christy-minstrels-mn0000328352,,2025-03-24 14:25:47
-992,Watermelon Man,https://www.allmusic.com/artist/mongo-santamar%C3%ADa-mn0000591104,,2025-03-24 14:26:28
-993,Gone Fishin',https://www.allmusic.com/artist/louis-armstrong-mn0000234518,,2025-03-24 14:26:28
-996,Doctor Jazz,https://www.allmusic.com/artist/jelly-roll-morton-mn0000317290,,2025-03-24 14:26:28
-997,Little Red Corvette,https://www.allmusic.com/artist/prince-mn0000361393,,2025-03-24 14:26:28
-999,Fire,https://www.allmusic.com/artist/ohio-players-mn0000390390,,2025-03-24 14:26:28
-1013,Honey in Your Hips,https://www.allmusic.com/artist/eric-clapton-mn0000187478,,2025-03-24 14:27:53
-1015,"Suite for solo cello No. 1 in G major, BWV 1007~Prelude",https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,,2025-03-24 14:27:53
-1017,Smooth Operator,https://www.allmusic.com/artist/sade-mn0000279337,,2025-03-24 14:27:53
-1028,Flying,https://www.allmusic.com/artist/faces-mn0000058372,,2025-03-24 14:28:28
-1029,Make Me a Pallet on the Floor,https://www.allmusic.com/artist/jimmy-yancey-mn0000783025,,2025-03-24 14:28:28
-1030,"The Great Escape, film score~Main Title",https://www.allmusic.com/artist/elmer-bernstein-mn0000175087,,2025-03-24 14:29:04
-1033,Rooster,https://www.allmusic.com/artist/alice-in-chains-mn0000007920,,2025-03-24 14:29:04
-1035,Lift Me Up,https://www.allmusic.com/artist/vince-staples-mn0002592118,,2025-03-24 14:29:04
-1052,Tell Mama,https://www.allmusic.com/artist/etta-james-mn0000806542,,2025-03-24 14:30:17
-1058,I'm a Believer,https://www.allmusic.com/artist/the-monkees-mn0000478603,,2025-03-24 14:30:51
-1060,Love Shack,https://www.allmusic.com/artist/the-b-52s-mn0000043489,,2025-03-24 14:30:51
-1061,Going to a Go-Go,https://www.allmusic.com/artist/smokey-robinson-the-miracles-mn0000035021,,2025-03-24 14:30:52
-1062,In the Mood,https://www.allmusic.com/artist/glenn-miller-mn0000661172,,2025-03-24 14:30:52
-1064,Walk Like an Egyptian,https://www.allmusic.com/artist/bangles-mn0000757085,,2025-03-24 14:30:52
-1065,The Way You Do the Things You Do,https://www.allmusic.com/artist/the-temptations-mn0000569685,,2025-03-24 14:30:52
-1066,Spanish Flea,https://www.allmusic.com/artist/herb-alpert-mn0000674332,,2025-03-24 14:30:52
-1067,Do You Believe in Magic?,https://www.allmusic.com/artist/the-lovin-spoonful-mn0000052900,,2025-03-24 14:30:52
-1074,Sweet Child O' Mine,https://www.allmusic.com/artist/guns-n-roses-mn0000540883,,2025-03-24 14:31:27
-1075,Remember,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 14:31:27
-1076,Me Against the World,https://www.allmusic.com/artist/2pac-mn0000921895,,2025-03-24 14:31:27
-1077,Method Man,https://www.allmusic.com/artist/wu-tang-clan-mn0000959876,,2025-03-24 14:31:27
-1081,Outshined,https://www.allmusic.com/artist/soundgarden-mn0000001098,,2025-03-24 14:32:02
-1082,Mariners Apartment Complex,https://www.allmusic.com/artist/lana-del-rey-mn0002784799,,2025-03-24 14:32:02
-1085,Pompeji,https://www.allmusic.com/artist/deftones-mn0000813946,,2025-03-24 14:32:02
-1086,Shoots and Ladders,https://www.allmusic.com/artist/korn-mn0000112789,,2025-03-24 14:32:02
-1087,You'll Never Find Me,https://www.allmusic.com/artist/korn-mn0000112789,,2025-03-24 14:32:02
-1125,King of the Road,https://www.allmusic.com/artist/roger-miller-mn0000151431,,2025-03-24 14:34:24
-1127,Alone With You,https://www.allmusic.com/artist/faron-young-mn0000143951,,2025-03-24 14:35:02
-1128,Billie Jean,https://www.allmusic.com/artist/michael-jackson-mn0000467203,,2025-03-24 14:35:02
-1129,All Falls Down,https://www.allmusic.com/artist/kanye-west-mn0000361014,,2025-03-24 14:35:02
-1130,Let's Stay Together,https://www.allmusic.com/artist/al-green-mn0000607448,,2025-03-24 14:35:02
-1131,Money Honey,https://www.allmusic.com/artist/elvis-presley-mn0000180228,,2025-03-24 14:35:02
-1132,I Can't Wait (For the Sun to Go Down),https://www.allmusic.com/artist/faron-young-mn0000143951,,2025-03-24 14:35:02
-1133,Hand of the Dead Body,https://www.allmusic.com/artist/devin-the-dude-mn0000062761,,2025-03-24 14:35:02
-1134,Gloria: In Excelsis Deo/Gloria,https://www.allmusic.com/artist/patti-smith-mn0000747445,,2025-03-24 14:35:02
-1135,Cry to Me,https://www.allmusic.com/artist/solomon-burke-mn0000031067,,2025-03-24 14:35:02
-1140,Ain't No Grave,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 14:35:37
-1141,Mount Analogue,https://www.allmusic.com/artist/john-zorn-mn0000239329,,2025-03-24 14:35:37
-1142,The Golden Streets of Glory,https://www.allmusic.com/artist/dolly-parton-mn0000175286,,2025-03-24 14:35:37
-1143,Oleo,https://www.allmusic.com/artist/miles-davis-quintet-mn0000424302,,2025-03-24 14:35:37
-1144,My Only Love,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 14:35:37
-1146,All I Need,https://www.allmusic.com/artist/method-man-mn0000451483,,2025-03-24 14:36:13
-1147,Step Dad,https://www.allmusic.com/artist/kevin-hart-mn0000082798,,2025-03-24 14:36:13
-1148,Spiralz,https://www.allmusic.com/artist/zomby-mn0000990404,,2025-03-24 14:36:13
-1149,Return,https://www.allmusic.com/artist/brian-eno-mn0000617196,,2025-03-24 14:36:13
-1150,Lady Flash,https://www.allmusic.com/artist/the-go%21-team-mn0000397794,,2025-03-24 14:36:13
-1151,My Queen Is Ada Eastman,https://www.allmusic.com/artist/sons-of-kemet-mn0003146048,,2025-03-24 14:36:13
-1152,(She's So) Selfish,https://www.allmusic.com/artist/the-knack-mn0000087179,,2025-03-24 14:36:13
-1153,Someone,https://www.allmusic.com/artist/simple-minds-mn0000049374,,2025-03-24 14:36:13
-1154,Stonehenge,https://www.allmusic.com/artist/ruins-mn0000300959,,2025-03-24 14:36:13
-1155,Phaedra,https://www.allmusic.com/artist/tangerine-dream-mn0000002411,,2025-03-24 14:36:48
-1156,Interstellar Overdrive,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 14:36:48
-1157,Chasing a Bee,https://www.allmusic.com/artist/mercury-rev-mn0000408696,,2025-03-24 14:36:48
-1158,Protection,https://www.allmusic.com/artist/massive-attack-mn0000378288,,2025-03-24 14:36:48
-1159,For Silence,https://www.allmusic.com/artist/flying-saucer-attack-mn0000803003,,2025-03-24 14:36:48
-1160,Twin Peaks,https://www.allmusic.com/artist/angelo-badalamenti-mn0000041431,,2025-03-24 14:36:48
-1161,Raga Malika,https://www.allmusic.com/artist/ali-akbar-khan-mn0000742673,,2025-03-24 14:36:48
-1162,War Ina Babylon,https://www.allmusic.com/artist/max-romeo-mn0000334101,,2025-03-24 14:36:48
-1164,Original Sufferhead,https://www.allmusic.com/artist/fela-kuti-mn0000138833,,2025-03-24 14:36:48
-1171,Afro Blue,https://www.allmusic.com/artist/robert-glasper-mn0000288985,,2025-03-24 14:37:24
-1172,Saving All My Love For You,https://www.allmusic.com/artist/lester-bowies-brass-fantasy-mn0000213973,,2025-03-24 14:37:24
-1175,Indian Summer,https://www.allmusic.com/artist/ron-carter-mn0000275832,,2025-03-24 14:38:00
-1176,Red Top,https://www.allmusic.com/artist/erroll-garner-mn0000206967,,2025-03-24 14:38:00
-1177,Part I,https://www.allmusic.com/artist/keith-jarrett-mn0000066570,,2025-03-24 14:38:00
-1178,I'm in Love with My Car,https://www.allmusic.com/artist/queen-mn0000858827,,2025-03-24 14:38:00
-1179,Bohemian Rhapsody,https://www.allmusic.com/artist/queen-mn0000858827,,2025-03-24 14:38:00
-1180,Armando's Rhumba,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 14:38:00
-1181,King Tubby Meets the Rockers Uptown,https://www.allmusic.com/artist/augustus-pablo-mn0000052151,,2025-03-24 14:38:00
-1182,Owner of a Lonely Heart,https://www.allmusic.com/artist/yes-mn0000685647,,2025-03-24 14:38:00
-1199,Sweet Thing,https://www.allmusic.com/artist/van-morrison-mn0000307461,,2025-03-24 14:39:11
-1200,In the Evening When the Sun Goes Down,https://www.allmusic.com/artist/charles-brown-mn0000805298,,2025-03-24 14:39:11
-1202,Fly on the Windscreen,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 14:39:11
-1213,Which Will,https://www.allmusic.com/artist/nick-drake-mn0000336783,,2025-03-24 14:40:21
-1214,So What,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 14:40:21
-1215,If Ever I See You Again,https://www.allmusic.com/artist/roberta-flack-mn0000290072,,2025-03-24 14:40:21
-1216,Thirteen,https://www.allmusic.com/artist/big-star-mn0000051992,,2025-03-24 14:40:21
-1218,Here's Where the Story Ends,https://www.allmusic.com/artist/the-sundays-mn0000564726,,2025-03-24 14:40:21
-1219,Mam'selle,https://www.allmusic.com/artist/johnny-hartman-mn0000212612,,2025-03-24 14:40:21
-1220,Sugar Mountain,https://www.allmusic.com/artist/neil-young-mn0000379125,,2025-03-24 14:40:21
-1221,Morning Has Broken,https://www.allmusic.com/artist/cat-stevens-mn0000198480,,2025-03-24 14:40:21
-1222,Silent All These Years,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 14:40:21
-1226,After All This Time,https://www.allmusic.com/artist/rodney-crowell-mn0000294085,,2025-03-24 14:40:56
-1228,Left to My Own Devices,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212,,2025-03-24 14:40:56
-1231,Ballad of Forty Dollars,https://www.allmusic.com/artist/tom-t-hall-mn0000515628,,2025-03-24 14:40:56
-1240,African Woman,https://www.allmusic.com/artist/burning-spear-mn0000641994,,2025-03-24 14:41:36
-1241,Ballade de Melody Nelson,https://www.allmusic.com/artist/serge-gainsbourg-mn0000174822,,2025-03-24 14:41:36
-1249,One Nation Under a Groove,https://www.allmusic.com/artist/funkadelic-mn0000187581,,2025-03-24 14:42:11
-1253,The Brakes,https://www.allmusic.com/artist/cannonball-adderley-mn0000548338,,2025-03-24 14:42:46
-1258,Dust Devil,https://www.allmusic.com/artist/madness-mn0000195874,,2025-03-24 14:42:46
-1259,Chant of the Groove [Live],https://www.allmusic.com/artist/coleman-hawkins-his-orchestra-mn0000092350,,2025-03-24 14:42:46
-1260,Brief Eternity,https://www.allmusic.com/artist/bobby-mcferrin-mn0000768367,,2025-03-24 14:42:46
-1273,Return to Forever,https://www.allmusic.com/artist/airto-moreira-mn0000609992,,2025-03-24 14:43:58
-1280,Ghost Town,https://www.allmusic.com/artist/the-specials-mn0000482334,,2025-03-24 14:43:59
-1287,For Your Love,https://www.allmusic.com/artist/the-yardbirds-mn0000489303,,2025-03-24 14:44:34
-1289,Hokum Stomp,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873,,2025-03-24 14:44:34
-1290,Miles Runs the Voodoo Down,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 14:44:34
-1291,Gentle on My Mind,https://www.allmusic.com/artist/glen-campbell-mn0000664378,,2025-03-24 14:45:09
-1292,The Sweetest Taboo,https://www.allmusic.com/artist/sade-mn0000279337,,2025-03-24 14:45:09
-1294,Wild World,https://www.allmusic.com/artist/cat-stevens-mn0000198480,,2025-03-24 14:45:10
-1295,Desafinado,https://www.allmusic.com/artist/stan-getz-mn0000742899,,2025-03-24 14:45:10
-1296,Hey Nineteen,https://www.allmusic.com/artist/steely-dan-mn0000011707,,2025-03-24 14:45:10
-1297,Midnight Special,https://www.allmusic.com/artist/jimmy-smith-mn0000781172,,2025-03-24 14:45:10
-1298,Ventura Highway,https://www.allmusic.com/artist/america-mn0000019297,,2025-03-24 14:45:10
-1299,Sara Smile,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887,,2025-03-24 14:45:10
-1303,Love Galore,https://www.allmusic.com/artist/sza-mn0003180568,,2025-03-24 14:45:45
-1304,Levon,https://www.allmusic.com/artist/elton-john-mn0000796734,,2025-03-24 14:45:45
-1305,Power of Persuasion,https://www.allmusic.com/artist/oneohtrix-point-never-mn0001598199,,2025-03-24 14:45:45
-1307,Richer Than Errybody,https://www.allmusic.com/artist/gucci-mane-mn0000545523,,2025-03-24 14:45:45
-1308,Posse on Bouldercrest,https://www.allmusic.com/artist/gucci-mane-mn0000545523,,2025-03-24 14:45:45
-1309,Blue Boy,https://www.allmusic.com/artist/mac-demarco-mn0002872922,,2025-03-24 14:45:45
-1314,No Woman No Cry,https://www.allmusic.com/artist/bob-marley-mn0000071514,,2025-03-24 14:46:20
-1316,Junker's Blues,https://www.allmusic.com/artist/champion-jack-dupree-mn0000197040,,2025-03-24 14:46:20
-1317,"Bright Lights, Big City",https://www.allmusic.com/artist/jimmy-reed-mn0000076881,,2025-03-24 14:46:20
-1318,Packin' Trunk Blues,https://www.allmusic.com/artist/lead-belly-mn0000124390,,2025-03-24 14:46:20
-1353,Objects in Mirror Are Closer Than They Appear,https://www.allmusic.com/artist/meshell-ndegeocello-mn0000402351,,2025-03-24 14:48:41
-1354,See You Again,https://www.allmusic.com/artist/tyler-the-creator-mn0002591087,,2025-03-24 14:48:41
-1355,Générique,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 14:48:41
-1359,Blue Bayou,https://www.allmusic.com/artist/linda-ronstadt-mn0000686897,,2025-03-24 14:48:41
-1362,Santana,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 14:49:16
-1364,Human Nature,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 14:49:16
-1365,Black Summer,https://www.allmusic.com/artist/red-hot-chili-peppers-mn0000883318,,2025-03-24 14:49:16
-1366,You Ain't Seen Nothing Yet,https://www.allmusic.com/artist/bachman-turner-overdrive-mn0000062002,,2025-03-24 14:49:16
-1367,That I Get Back Home,https://www.allmusic.com/artist/nrbq-mn0000377908,,2025-03-24 14:49:16
-1368,London Ting//Dark as Fuck,https://www.allmusic.com/artist/loraine-james-mn0003861000,,2025-03-24 14:49:16
-1369,Right Back to It,https://www.allmusic.com/artist/waxahatchee-mn0002845726,,2025-03-24 14:49:16
-1386,No Tengo Dinero,https://www.allmusic.com/artist/juan-gabriel-mn0000240252,,2025-03-24 14:50:29
-1390,Sleepless,https://www.allmusic.com/artist/andy-stott-mn0000975878,,2025-03-24 14:51:04
-1392,Went to See the Gypsy,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 14:51:04
-1395,Zenith,https://www.allmusic.com/artist/ghost-mn0002616588,,2025-03-24 14:51:04
-1410,The Wrong Nigga to Fuck Wit,https://www.allmusic.com/artist/ice-cube-mn0000086065,,2025-03-24 14:52:50
-1411,Big Poppa,https://www.allmusic.com/artist/the-notorious-big-mn0000892827,,2025-03-24 14:52:50
-1429,Mary Jane's Last Dance,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137,,2025-03-24 14:54:03
-1436,(I Keep A) Close Watch,https://www.allmusic.com/artist/john-cale-mn0000224638,,2025-03-24 14:54:38
-1437,Spillways,https://www.allmusic.com/artist/ghost-mn0002616588,,2025-03-24 14:54:38
-1445,On the Road Again,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 14:55:13
-1446,"So Fresh, So Clean",https://www.allmusic.com/artist/outkast-mn0000420381,,2025-03-24 14:55:13
-1447,Me and Paul,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 14:55:13
-1450,Energy,https://www.allmusic.com/artist/a-guy-called-gerald-mn0000919598,,2025-03-24 14:55:47
-1451,Odyssey,https://www.allmusic.com/artist/borderland-mn0003504368,,2025-03-24 14:55:47
-1452,Rerelease Hysteresis,https://www.allmusic.com/artist/mouse-on-mars-mn0000929800,,2025-03-24 14:55:47
-1453,Finesse,https://www.allmusic.com/artist/bruno-mars-mn0001032082,,2025-03-24 14:55:47
-1454,Amplified Sample,https://www.allmusic.com/artist/gza-mn0000170084,,2025-03-24 14:55:47
-1455,Love Cry,https://www.allmusic.com/artist/four-tet-mn0000741236,,2025-03-24 14:55:47
-1456,Good Drank,https://www.allmusic.com/artist/2-chainz-mn0002748040,,2025-03-24 14:55:48
-1457,Epithalame,https://www.allmusic.com/artist/art-zoyd-mn0000526901,,2025-03-24 14:55:48
-1459,Definition,https://www.allmusic.com/artist/black-star-mn0000098433,,2025-03-24 14:56:22
-1462,Ambient 1: Music for Airports~1/1,https://www.allmusic.com/artist/brian-eno-mn0000617196,,2025-03-24 14:56:23
-1464,Zebra,https://www.allmusic.com/artist/beach-house-mn0000998969,,2025-03-24 14:56:23
-1465,Wake-Up Call,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 14:56:23
-1467,Remember (Walking in the Sand),https://www.allmusic.com/artist/the-shangri-las-mn0000418955,,2025-03-24 14:56:58
-1468,The Sun Ain't Gonna Shine (Anymore),https://www.allmusic.com/artist/the-walker-brothers-mn0000582024,,2025-03-24 14:56:58
-1469,Emma's House,https://www.allmusic.com/artist/the-field-mice-mn0000066869,,2025-03-24 14:56:58
-1470,Hello Walls,https://www.allmusic.com/artist/faron-young-mn0000143951,,2025-03-24 14:56:58
-1471,Maggie May,https://www.allmusic.com/artist/rod-stewart-mn0000293896,,2025-03-24 14:56:58
-1472,"100,000 Fireflies",https://www.allmusic.com/artist/the-magnetic-fields-mn0000056358,,2025-03-24 14:56:58
-1473,Walking Wounded,https://www.allmusic.com/artist/everything-but-the-girl-mn0000127360,,2025-03-24 14:56:58
-1474,Goin' Back,https://www.allmusic.com/artist/dusty-springfield-mn0000159214,,2025-03-24 14:56:58
-1475,Hot Burrito No. 2,https://www.allmusic.com/artist/the-flying-burrito-brothers-mn0000194703,,2025-03-24 14:56:58
-1476,Only the Lonely,https://www.allmusic.com/artist/roy-orbison-mn0000852007,,2025-03-24 14:56:58
-1479,Wonderful! Wonderful!,https://www.allmusic.com/artist/johnny-mathis-mn0000246885,,2025-03-24 14:57:33
-1509,Ring the Alarm Quick,https://www.allmusic.com/artist/buju-banton-mn0000939187,,2025-03-24 14:59:18
-1511,In the Morning,https://www.allmusic.com/artist/j-cole-mn0001089515,,2025-03-24 14:59:18
-1513,As We Enter,https://www.allmusic.com/artist/damian-marley-mn0000951374,,2025-03-24 14:59:18
-1514,"Hail Caesar!~Hail, Caesar!",https://www.allmusic.com/artist/carter-burwell-mn0000149173,,2025-03-24 14:59:18
-1516,Precious Things,https://www.allmusic.com/artist/lupe-fiasco-mn0000239628,,2025-03-24 14:59:53
-1517,LUMBERJACK,https://www.allmusic.com/artist/tyler-the-creator-mn0002591087,,2025-03-24 14:59:53
-1522,Part 1. Introduction,https://www.allmusic.com/artist/mike-oldfield-mn0000489520,,2025-03-24 15:01:04
-1533,"Oh, Me",https://www.allmusic.com/artist/meat-puppets-mn0000339577,,2025-03-24 15:01:40
-1538,OV zarmanali (Hymn of the baptism of Christ),https://www.allmusic.com/artist/jan-garbarek-mn0000809334,,2025-03-24 15:02:16
-1542,My Blue Heaven,https://www.allmusic.com/artist/fats-domino-mn0000137494,,2025-03-24 15:02:52
-1551,Wicked Games,https://www.allmusic.com/artist/the-weeknd-mn0002674162,,2025-03-24 15:03:27
-1555,Be Above It,https://www.allmusic.com/artist/tame-impala-mn0002014409,,2025-03-24 15:03:27
-1556,Sicko Mode,https://www.allmusic.com/artist/travis-scott-mn0002998422,,2025-03-24 15:03:27
-1557,Land: Horses/Land of a Thousand Dances/La Mer (De),https://www.allmusic.com/artist/patti-smith-mn0000747445,,2025-03-24 15:03:27
-1558,Privilege (Set Me Free),https://www.allmusic.com/artist/patti-smith-group-mn0000015288,,2025-03-24 15:03:27
-1563,Soliloquy of Chaos,https://www.allmusic.com/artist/gang-starr-mn0000193601,,2025-03-24 15:04:02
-1567,Vertigo Prelude and Rooftop,https://www.allmusic.com/artist/bernard-herrmann-mn0000760240,,2025-03-24 15:04:02
-1568,Telephone Road,https://www.allmusic.com/artist/rodney-crowell-mn0000294085,,2025-03-24 15:04:02
-1574,Piggy (Nothing Can Stop Me Now),https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 15:04:38
-1575,Echoplex,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 15:04:38
-1576,Hangover,https://www.allmusic.com/artist/doug-stanhope-mn0000803682,,2025-03-24 15:04:38
-1577,The New Order,https://www.allmusic.com/artist/testament-mn0000751910,,2025-03-24 15:04:38
-1578,Riding the Snake,https://www.allmusic.com/artist/testament-mn0000751910,,2025-03-24 15:04:38
-1579,Your Pretty Face Is Going to Hell,https://www.allmusic.com/artist/iggy-the-stooges-mn0000769915,,2025-03-24 15:05:13
-1582,Masseduction,https://www.allmusic.com/artist/st-vincent-mn0000574035,,2025-03-24 15:05:13
-1583,"Mission Impossible, music for the television series~Danube Incident",https://www.allmusic.com/artist/lalo-schifrin-mn0000781932,,2025-03-24 15:05:13
-1586,The Murder,https://www.allmusic.com/artist/national-philharmonic-orchestra-mn0000762100,,2025-03-24 15:05:13
-1595,The Real Slim Shady,https://www.allmusic.com/artist/eminem-mn0000157676,,2025-03-24 15:05:49
-1607,The Village Green Preservation Society,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 15:07:21
-1608,Are the Good Times Really Over (I Wish a Buck Was Still Silver),https://www.allmusic.com/artist/merle-haggard-mn0000410219,,2025-03-24 15:07:21
-1609,Across the Great Divide,https://www.allmusic.com/artist/the-band-mn0000038490,,2025-03-24 15:07:21
-1610,Do You Remember Walter?,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 15:07:21
-1611,Picture Book,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 15:07:21
-1612,Grandma Harp,https://www.allmusic.com/artist/merle-haggard-mn0000410219,,2025-03-24 15:07:21
-1613,Do You Remember Rock 'n' Roll Radio?,https://www.allmusic.com/artist/ramones-mn0000490004,,2025-03-24 15:07:21
-1627,Poinciana,https://www.allmusic.com/artist/ahmad-jamal-trio-mn0001395160,,2025-03-24 15:08:33
-1631,Ahmad's Blues,https://www.allmusic.com/artist/ahmad-jamal-trio-mn0001395160,,2025-03-24 15:08:34
-1632,Music! Music! Music! (Put Another Nickel),https://www.allmusic.com/artist/ahmad-jamal-trio-mn0001395160,,2025-03-24 15:08:34
-1641,Latch,https://www.allmusic.com/artist/disclosure-mn0002528416,,2025-03-24 15:09:09
-1642,Cuff It,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179,,2025-03-24 15:09:09
-1643,Step in the Name of Love,https://www.allmusic.com/artist/hart-hollman-the-motown-romance-orchestra-mn0001737734,,2025-03-24 15:09:09
-1644,Up on Cripple Creek,https://www.allmusic.com/artist/the-band-mn0000038490,,2025-03-24 15:09:46
-1645,Truckin',https://www.allmusic.com/artist/grateful-dead-mn0000988440,,2025-03-24 15:09:46
-1646,"Mercy, Mercy, Mercy",https://www.allmusic.com/artist/cannonball-adderley-quintet-mn0000651258,,2025-03-24 15:09:46
-1647,Gentleman,https://www.allmusic.com/artist/fela-kuti-mn0000138833,,2025-03-24 15:09:46
-1648,Can the Circle Be Unbroken (Bye and Bye),https://www.allmusic.com/artist/the-carter-family-mn0000051910,,2025-03-24 15:09:46
-1649,Redemption Song,https://www.allmusic.com/artist/bob-marley-mn0000071514,,2025-03-24 15:09:46
-1650,Djangology,https://www.allmusic.com/artist/django-reinhardt-mn0000136220,,2025-03-24 15:09:46
-1651,Don't Come Home a Drinkin' (With Lovin' on Your Mind),https://www.allmusic.com/artist/loretta-lynn-mn0000234325,,2025-03-24 15:09:46
-1652,"Old Dogs, Children and Watermelon Wine",https://www.allmusic.com/artist/tom-t-hall-mn0000515628,,2025-03-24 15:09:46
-1653,Fu-Gee-La,https://www.allmusic.com/artist/fugees-mn0000182415,,2025-03-24 15:09:46
-1658,People Make the World Go Round,https://www.allmusic.com/artist/milt-jackson-mn0000489845,,2025-03-24 15:10:22
-1659,Eres Mía,https://www.allmusic.com/artist/romeo-santos-mn0002367865,,2025-03-24 15:10:22
-1660,Canto a Colombia,https://www.allmusic.com/artist/juan-luis-guerra-mn0000291502,,2025-03-24 15:10:22
-1661,The Lonesome Death of Hattie Carroll,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 15:10:56
-1662,How Can a Poor Man Stand Such Times and Live?,https://www.allmusic.com/artist/the-del-lords-mn0000814955,,2025-03-24 15:10:56
-1663,Which Side Are You On,https://www.allmusic.com/artist/pete-seeger-mn0000266160,,2025-03-24 15:10:56
-1667,Gypsy Woman,https://www.allmusic.com/artist/the-impressions-mn0000082013,,2025-03-24 15:10:56
-1668,Hambone,https://www.allmusic.com/artist/archie-shepp-mn0000503279,,2025-03-24 15:10:56
-1669,"Red, Red Wine",https://www.allmusic.com/artist/ub40-mn0000181376,,2025-03-24 15:10:56
-1678,I Lost on Jeopardy,https://www.allmusic.com/artist/weird-al-yankovic-mn0000817315,,2025-03-24 15:11:30
-1679,No Headstone on My Grave,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141,,2025-03-24 15:11:30
-1691,What'd I Say,https://www.allmusic.com/artist/ray-charles-mn0000046861,,2025-03-24 15:12:40
-1693,Better Get Hit in Yo' Soul,https://www.allmusic.com/artist/charles-mingus-mn0000009680,,2025-03-24 15:12:40
-1694,Think,https://www.allmusic.com/artist/aretha-franklin-mn0000927555,,2025-03-24 15:12:40
-1695,"Please, Please, Please",https://www.allmusic.com/artist/james-brown-mn0000128099,,2025-03-24 15:12:40
-1696,Good Rockin' Tonight,https://www.allmusic.com/artist/elvis-presley-mn0000180228,,2025-03-24 15:12:40
-1697,Piece of My Heart,https://www.allmusic.com/artist/big-brother-the-holding-company-mn0000758943,,2025-03-24 15:12:40
-1698,What's Going On,https://www.allmusic.com/artist/marvin-gaye-mn0000316834,,2025-03-24 15:12:40
-1699,Go Tell It on the Mountain,https://www.allmusic.com/artist/mahalia-jackson-mn0000814657,,2025-03-24 15:12:40
-1700,Born to Run,https://www.allmusic.com/artist/bruce-springsteen-mn0000530745,,2025-03-24 15:12:41
-1714,Country Gentleman,https://www.allmusic.com/artist/chet-atkins-mn0000094205,,2025-03-24 15:13:50
-1715,String Quartet No. 1~Ulysses Simpson Kay,https://www.allmusic.com/artist/wadada-leo-smith-mn0000812348,,2025-03-24 15:13:50
-1716,The Fight,https://www.allmusic.com/artist/sia-mn0000753742,,2025-03-24 15:14:26
-1717,The Secret Life of Pets~Meet the Pets,https://www.allmusic.com/artist/alexandre-desplat-mn0000254147,,2025-03-24 15:14:26
-1718,In the Morning I'll Be Better,https://www.allmusic.com/artist/tennis-mn0002515996,,2025-03-24 15:14:26
-1719,My Cousin Harris,https://www.allmusic.com/artist/aziz-ansari-mn0002362500,,2025-03-24 15:14:26
-1720,Home Is a Fire,https://www.allmusic.com/artist/death-cab-for-cutie-mn0000812711,,2025-03-24 15:14:27
-1721,Some Skunk Funk,https://www.allmusic.com/artist/the-brecker-brothers-mn0000521674,,2025-03-24 15:14:27
-1722,Cage Dead,https://www.allmusic.com/artist/penguin-cafe-orchestra-mn0000308762,,2025-03-24 15:14:27
-1723,Tryouts for the Human Race,https://www.allmusic.com/artist/sparks-mn0000009084,,2025-03-24 15:14:27
-1726,Pablo Pueblo,https://www.allmusic.com/artist/rub%C3%A9n-blades-mn0000296024,,2025-03-24 15:15:02
-1730,"Low Symphony, for orchestra~Warszawa",https://www.allmusic.com/artist/brooklyn-philharmonic-orchestra-mn0001274991,,2025-03-24 15:15:39
-1731,More Surprised Than Me,https://www.allmusic.com/artist/morgan-wallen-mn0003351348,,2025-03-24 15:15:39
-1732,Harden My Heart,https://www.allmusic.com/artist/quarterflash-mn0000858006,,2025-03-24 15:15:39
-1733,Girl You Want,https://www.allmusic.com/artist/devo-mn0000249973,,2025-03-24 15:15:39
-1734,Devil I've Been,https://www.allmusic.com/artist/post-malone-mn0003426458,,2025-03-24 15:15:39
-1735,Twelve-Thirty (Young Girls Are Coming to the Canyon),https://www.allmusic.com/artist/rufus-wainwright-mn0000854854,,2025-03-24 15:15:39
-1736,Leaving on a Jet Plane,https://www.allmusic.com/artist/the-chad-mitchell-trio-mn0000066326,,2025-03-24 15:15:39
-1745,Blue Moon of Kentucky,https://www.allmusic.com/artist/bill-monroe-his-bluegrass-boys-mn0000735310,,2025-03-24 15:16:14
-1747,Birdhouse in Your Soul,https://www.allmusic.com/artist/they-might-be-giants-mn0000493327,,2025-03-24 15:16:49
-1748,Salt Peanuts,https://www.allmusic.com/artist/dizzy-gillespie-sextet-mn0000791931,,2025-03-24 15:16:49
-1749,Groove Is in the Heart,https://www.allmusic.com/artist/deee-lite-mn0000231342,,2025-03-24 15:16:49
-1750,"Sugar, Sugar",https://www.allmusic.com/artist/the-archies-mn0000034094,,2025-03-24 15:16:49
-1751,Boogie Woogie Bugle Boy,https://www.allmusic.com/artist/the-andrews-sisters-mn0000043499,,2025-03-24 15:16:49
-1752,Love Is Strange,https://www.allmusic.com/artist/mickey-sylvia-mn0000889449,,2025-03-24 15:16:49
-1753,Kiss,https://www.allmusic.com/artist/prince-mn0000361393,,2025-03-24 15:16:50
-1754,Mother-In-Law,https://www.allmusic.com/artist/ernie-k-doe-mn0000169677,,2025-03-24 15:16:50
-1755,El Scorcho,https://www.allmusic.com/artist/weezer-mn0000243008,,2025-03-24 15:16:50
-1764,Heart Sutra Song: Gone Beyond,https://www.allmusic.com/artist/laurie-anderson-mn0000785773,,2025-03-24 15:17:25
-1765,We Are on the Edge,https://www.allmusic.com/artist/the-art-ensemble-of-chicago-mn0000600734,,2025-03-24 15:17:25
-1779,LoveGame,https://www.allmusic.com/artist/lady-gaga-mn0000994823,,2025-03-24 15:18:36
-1789,Alright,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646,,2025-03-24 15:19:11
-1791,Blow a Bag,https://www.allmusic.com/artist/future-mn0000802605,,2025-03-24 15:19:11
-1796,I'll Go to My Grave Loving You,https://www.allmusic.com/artist/the-statler-brothers-mn0000578031,,2025-03-24 15:19:47
-1801,Don't Worry,https://www.allmusic.com/artist/marty-robbins-mn0000858710,,2025-03-24 15:19:47
-1803,She's Got Everything,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 15:19:47
-1806,Jealous Again,https://www.allmusic.com/artist/black-flag-mn0000091650,,2025-03-24 15:20:22
-1807,The Fightin' Side of Me,https://www.allmusic.com/artist/merle-haggard-mn0000410219,,2025-03-24 15:20:22
-1809,Like a Prayer,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 15:20:22
-1810,Looking for a Kiss,https://www.allmusic.com/artist/new-york-dolls-mn0000866786,,2025-03-24 15:20:22
-1811,California Über Alles,https://www.allmusic.com/artist/dead-kennedys-mn0000786613,,2025-03-24 15:20:22
-1812,Me and a Gun,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 15:20:23
-1813,Welcome to the Terrordome,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 15:20:23
-1814,There Goes the Neighborhood,https://www.allmusic.com/artist/body-count-mn0000078191,,2025-03-24 15:20:23
-1815,50ft Queenie,https://www.allmusic.com/artist/pj-harvey-mn0000000335,,2025-03-24 15:20:23
-1819,Wildest Dreams,https://www.allmusic.com/artist/taylor-swift-mn0000472102,,2025-03-24 15:20:58
-1832,The Bublight,https://www.allmusic.com/artist/joe-meek-the-blue-men-mn0000172688,,2025-03-24 15:22:09
-1833,"Adagio in B minor, K. 540",https://www.allmusic.com/artist/grigory-sokolov-mn0002214879,,2025-03-24 15:22:10
-1834,Pareidolia,https://www.allmusic.com/artist/buck-meek-mn0003518712,,2025-03-24 15:22:10
-1835,Haunted Mountain,https://www.allmusic.com/artist/buck-meek-mn0003518712,,2025-03-24 15:22:10
-1836,Central Booking,https://www.allmusic.com/artist/common-holly-mn0003768183,,2025-03-24 15:22:10
-1837,Took Off,https://www.allmusic.com/artist/ari-roar-mn0003732622,,2025-03-24 15:22:10
-1838,Whip It,https://www.allmusic.com/artist/devo-mn0000249973,,2025-03-24 15:22:46
-1839,Abba Zaba,https://www.allmusic.com/artist/captain-beefheart-the-magic-band-mn0000646816,,2025-03-24 15:22:46
-1840,Rock Lobster,https://www.allmusic.com/artist/the-b-52s-mn0000043489,,2025-03-24 15:22:46
-1841,Don't Eat the Yellow Snow,https://www.allmusic.com/artist/frank-zappa-mn0000138699,,2025-03-24 15:22:46
-1842,In Walked Bud,https://www.allmusic.com/artist/thelonious-monk-mn0000490416,,2025-03-24 15:22:46
-1843,Don't Let's Start,https://www.allmusic.com/artist/they-might-be-giants-mn0000493327,,2025-03-24 15:22:47
-1844,Blister in the Sun,https://www.allmusic.com/artist/violent-femmes-mn0000922200,,2025-03-24 15:22:47
-1845,The Humpty Dance,https://www.allmusic.com/artist/digital-underground-mn0000258276,,2025-03-24 15:22:47
-1846,One Week,https://www.allmusic.com/artist/barenaked-ladies-mn0000139089,,2025-03-24 15:22:47
-1847,Where It's At,https://www.allmusic.com/artist/beck-mn0000124492,,2025-03-24 15:22:47
-1848,Baby Baby My Love's All for You,https://www.allmusic.com/artist/deniece-williams-mn0000816701,,2025-03-24 15:23:22
-1850,No Lie,https://www.allmusic.com/artist/lalah-hathaway-mn0000127696,,2025-03-24 15:23:22
-1851,Midnight City,https://www.allmusic.com/artist/m83-mn0000175525,,2025-03-24 15:23:22
-1852,Turn Your Lights Down Low,https://www.allmusic.com/artist/bob-marley-the-wailers-mn0000069402,,2025-03-24 15:23:22
-1853,Rent Money,https://www.allmusic.com/artist/mary-j-blige-mn0000376204,,2025-03-24 15:23:22
-1854,Good Good,https://www.allmusic.com/artist/meshell-ndegeocello-mn0000402351,,2025-03-24 15:23:22
-1865,"Oh, My My",https://www.allmusic.com/artist/ringo-starr-mn0000217792,,2025-03-24 15:24:33
-1866,Folk Jam,https://www.allmusic.com/artist/pavement-mn0000752314,,2025-03-24 15:24:33
-1867,Foggy Eyes,https://www.allmusic.com/artist/beat-happening-mn0000154530,,2025-03-24 15:24:33
-1868,Supersonic Rocket Ship,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 15:24:33
-1869,Loser,https://www.allmusic.com/artist/beck-mn0000124492,,2025-03-24 15:24:33
-1870,Philosophy of the World,https://www.allmusic.com/artist/the-shaggs-mn0000418794,,2025-03-24 15:24:33
-1871,Rag Mama Rag,https://www.allmusic.com/artist/the-band-mn0000038490,,2025-03-24 15:24:33
-1872,The No No Song,https://www.allmusic.com/artist/hoyt-axton-mn0000278575,,2025-03-24 15:24:33
-1873,Hassle,https://www.allmusic.com/artist/sebadoh-mn0000840523,,2025-03-24 15:24:33
-1874,Into the Drink,https://www.allmusic.com/artist/mudhoney-mn0000509223,,2025-03-24 15:24:33
-1885,Stranger in My House,https://www.allmusic.com/artist/ronnie-milsap-mn0000334740,,2025-03-24 15:25:43
-1888,Smoky Mountain Rain,https://www.allmusic.com/artist/ronnie-milsap-mn0000334740,,2025-03-24 15:25:43
-1893,Pretty Polly,https://www.allmusic.com/artist/burl-ives-mn0000536754,,2025-03-24 15:25:43
-1911,One Way Out [Live at Fillmore East],https://www.allmusic.com/artist/the-allman-brothers-band-mn0000745964,,2025-03-24 15:26:53
-1925,In My Life,https://www.allmusic.com/artist/the-beatles-mn0000754032,,2025-03-24 15:28:04
-1926,Nightswimming,https://www.allmusic.com/artist/rem-mn0000325459,,2025-03-24 15:28:04
-1928,Set Adrift on Memory Bliss,https://www.allmusic.com/artist/pm-dawn-mn0000741718,,2025-03-24 15:28:04
-1929,In the Wee Small Hours of the Morning,https://www.allmusic.com/artist/frank-sinatra-mn0000792507,,2025-03-24 15:28:04
-1930,Surf's Up,https://www.allmusic.com/artist/the-beach-boys-mn0000041874,,2025-03-24 15:28:04
-1931,We've Only Just Begun,https://www.allmusic.com/artist/carpenters-mn0000051909,,2025-03-24 15:28:04
-1932,All Things Must Pass,https://www.allmusic.com/artist/george-harrison-mn0000209142,,2025-03-24 15:28:04
-1933,Diamonds & Rust,https://www.allmusic.com/artist/joan-baez-mn0000069153,,2025-03-24 15:28:04
-1938,The Narcissist,https://www.allmusic.com/artist/blur-mn0000758444,,2025-03-24 15:28:39
-1940,The Mother We Share,https://www.allmusic.com/artist/chvrches-mn0003052164,,2025-03-24 15:28:39
-1941,love.,https://www.allmusic.com/artist/kid-cudi-mn0001011323,,2025-03-24 15:28:39
-1966,Cranes in the Sky,https://www.allmusic.com/artist/solange-mn0000041462,,2025-03-24 15:30:30
-1967,Star,https://www.allmusic.com/artist/primal-scream-mn0000358820,,2025-03-24 15:30:30
-1968,Maids When You're Young Never Wed an Old Man,https://www.allmusic.com/artist/joni-mitchell-mn0000270491,,2025-03-24 15:30:30
-1969,Gonna Fly Now (Theme from Rocky),https://www.allmusic.com/artist/deetta-little-mn0000238457,,2025-03-24 15:30:30
-1975,Ace in the Hole,https://www.allmusic.com/artist/george-strait-mn0000944084,,2025-03-24 15:31:34
-1984,He's My Guide,https://www.allmusic.com/artist/the-soul-stirrers-mn0000507836,,2025-03-24 15:32:16
-1992,Rhapsody in Blue,https://www.allmusic.com/artist/george-gershwin-mn0000197918,,2025-03-24 15:32:51
-1993,"Goin' Home (from Symphony No. 9 'From The New World', Op. 95, B. 17B)",https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,,2025-03-24 15:32:51
-1994,Raindrops,https://www.allmusic.com/artist/dave-holland-mn0000585092,,2025-03-24 15:32:51
-2005,Tupelo Honey,https://www.allmusic.com/artist/van-morrison-mn0000307461,,2025-03-24 15:34:01
-2007,Oh Girl,https://www.allmusic.com/artist/the-chi-lites-mn0000762731,,2025-03-24 15:34:02
-2008,Don't Worry Baby,https://www.allmusic.com/artist/the-beach-boys-mn0000041874,,2025-03-24 15:34:02
-2009,You Are the Sunshine of My Life,https://www.allmusic.com/artist/stevie-wonder-mn0000622805,,2025-03-24 15:34:02
-2010,Cherish,https://www.allmusic.com/artist/the-association-mn0000753963,,2025-03-24 15:34:02
-2011,Three Times a Lady,https://www.allmusic.com/artist/commodores-mn0000766094,,2025-03-24 15:34:02
-2012,The First Time Ever I Saw Your Face,https://www.allmusic.com/artist/roberta-flack-mn0000290072,,2025-03-24 15:34:02
-2013,Behind Closed Doors,https://www.allmusic.com/artist/charlie-rich-mn0000179730,,2025-03-24 15:34:02
-2014,Shake You Down,https://www.allmusic.com/artist/gregory-abbott-mn0000193025,,2025-03-24 15:34:02
-2025,All My Rowdy Friends Are Coming over Tonight,https://www.allmusic.com/artist/hank-williams-jr-mn0000117844,,2025-03-24 15:35:13
-2026,Woo Hah!! Got You All in Check,https://www.allmusic.com/artist/busta-rhymes-mn0000537548,,2025-03-24 15:35:13
-2027,Takin' Care of Business,https://www.allmusic.com/artist/bachman-turner-overdrive-mn0000062002,,2025-03-24 15:35:13
-2028,Cherry Bomb,https://www.allmusic.com/artist/the-runaways-mn0000492275,,2025-03-24 15:35:13
-2029,(You Gotta) Fight for Your Right (To Party),https://www.allmusic.com/artist/beastie-boys-mn0000038469,,2025-03-24 15:35:13
-2030,Bad Reputation,https://www.allmusic.com/artist/joan-jett-the-blackhearts-mn0000135054,,2025-03-24 15:35:13
-2031,Trash,https://www.allmusic.com/artist/new-york-dolls-mn0000866786,,2025-03-24 15:35:13
-2032,Move It on Over,https://www.allmusic.com/artist/hank-williams-mn0000549797,,2025-03-24 15:35:13
-2033,Touch Me I'm Sick,https://www.allmusic.com/artist/mudhoney-mn0000509223,,2025-03-24 15:35:13
-2034,Had Me a Real Good Time,https://www.allmusic.com/artist/faces-mn0000058372,,2025-03-24 15:35:13
-2042,Reuben James,https://www.allmusic.com/artist/the-kingston-trio-mn0000102050,,2025-03-24 15:35:48
-2046,Ov zarmanali (Hymn of the baptism of Christ),https://www.allmusic.com/artist/jan-garbarek-mn0000809334,,2025-03-24 15:36:23
-2047,For a Pistol,https://www.allmusic.com/artist/ron-carter-mn0000275832,,2025-03-24 15:36:23
-2048,You Want It Darker,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,,2025-03-24 15:36:23
-2050,Superstar,https://www.allmusic.com/artist/carpenters-mn0000051909,,2025-03-24 15:36:57
-2051,It's Over,https://www.allmusic.com/artist/roy-orbison-mn0000852007,,2025-03-24 15:36:57
-2052,Pictures of You,https://www.allmusic.com/artist/the-cure-mn0000137390,,2025-03-24 15:36:57
-2053,$1000 Wedding,https://www.allmusic.com/artist/gram-parsons-mn0000987491,,2025-03-24 15:36:57
-2054,She's Got You,https://www.allmusic.com/artist/patsy-cline-mn0000014651,,2025-03-24 15:36:57
-2055,I'm So Lonesome I Could Cry,https://www.allmusic.com/artist/hank-williams-mn0000549797,,2025-03-24 15:36:57
-2056,Wise Up,https://www.allmusic.com/artist/aimee-mann-mn0000610346,,2025-03-24 15:36:58
-2057,Love Will Tear Us Apart,https://www.allmusic.com/artist/joy-division-mn0000290812,,2025-03-24 15:36:58
-2059,Jealous Guy,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 15:37:32
-2061,Imagine,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 15:37:32
-2062,Whatever Gets You Thru the Night,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 15:37:32
-2065,Supa Shoppa,https://www.allmusic.com/artist/blur-mn0000758444,,2025-03-24 15:37:32
-2066,I Could Use a Love Song,https://www.allmusic.com/artist/maren-morris-mn0000328633,,2025-03-24 15:37:32
-2068,Chicken Dog,https://www.allmusic.com/artist/the-jon-spencer-blues-explosion-mn0000215041,,2025-03-24 15:37:32
-2077,Like a Rolling Stone,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 15:38:07
-2078,Reeling in the Years,https://www.allmusic.com/artist/steely-dan-mn0000011707,,2025-03-24 15:38:07
-2081,Mother,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 15:38:42
-2082,Love You Till Tuesday,https://www.allmusic.com/artist/david-bowie-mn0000531986,,2025-03-24 15:38:42
-2083,Instant Karma!,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 15:38:42
-2085,Spaced,https://www.allmusic.com/artist/loudon-wainwright-iii-mn0000282766,,2025-03-24 15:38:43
-2087,Flea,https://www.allmusic.com/artist/st-vincent-mn0000574035,,2025-03-24 15:38:43
-2092,Tied Up in Nottz,https://www.allmusic.com/artist/sleaford-mods-mn0003160641,,2025-03-24 15:39:49
-2093,The Fever,https://www.allmusic.com/artist/death-grips-mn0002741208,,2025-03-24 15:39:49
-2095,El Mero Cero,https://www.allmusic.com/artist/st-vincent-mn0000574035,,2025-03-24 15:39:49
-2096,Spring Fra Livet,https://www.allmusic.com/artist/kvelertak-mn0002526582,,2025-03-24 15:39:49
-2097,Web,https://www.allmusic.com/artist/thee-oh-sees-mn0000990384,,2025-03-24 15:39:49
-2110,Robot Stop,https://www.allmusic.com/artist/king-gizzard-the-lizard-wizard-mn0003085959,,2025-03-24 15:41:25
-2112,Dawn in Luxor,https://www.allmusic.com/artist/shabazz-palaces-mn0002678775,,2025-03-24 15:41:25
-2114,Masquerade,https://www.allmusic.com/artist/the-fall-mn0000051376,,2025-03-24 15:41:25
-2128,Si Supieras,https://www.allmusic.com/artist/prince-royce-mn0002385531,,2025-03-24 15:42:35
-2131,Rather Be,https://www.allmusic.com/artist/brandy-mn0000608945,,2025-03-24 15:42:36
-2132,Bonita,https://www.allmusic.com/artist/juanes-mn0000245250,,2025-03-24 15:42:36
-2133,Una Nota,https://www.allmusic.com/artist/j-balvin-mn0002385504,,2025-03-24 15:42:36
-2139,"Louisiana Woman, Mississippi Man",https://www.allmusic.com/artist/conway-twitty-mn0000780451,,2025-03-24 15:43:10
-2140,I Can't Stop Loving You,https://www.allmusic.com/artist/don-gibson-mn0000184814,,2025-03-24 15:43:10
-2141,In the Jailhouse Now,https://www.allmusic.com/artist/webb-pierce-mn0000198901,,2025-03-24 15:43:10
-2143,"Take Me Home, Country Roads",https://www.allmusic.com/artist/john-denver-mn0000811622,,2025-03-24 15:43:11
-2144,Reason to Believe,https://www.allmusic.com/artist/rod-stewart-mn0000293896,,2025-03-24 15:43:11
-2145,I Wanna Be Loved by You,https://www.allmusic.com/artist/marilyn-monroe-mn0000266916,,2025-03-24 15:43:45
-2146,Bonnie and Clyde,https://www.allmusic.com/artist/brigitte-bardot-mn0000623518,,2025-03-24 15:43:45
-2147,Brown Sugar,https://www.allmusic.com/artist/dangelo-mn0000134600,,2025-03-24 15:43:45
-2148,All Blues,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 15:43:45
-2149,Let's Get It On,https://www.allmusic.com/artist/marvin-gaye-mn0000316834,,2025-03-24 15:43:45
-2150,Need You Tonight,https://www.allmusic.com/artist/inxs-mn0000768321,,2025-03-24 15:43:45
-2151,Fever,https://www.allmusic.com/artist/peggy-lee-mn0000256349,,2025-03-24 15:43:45
-2153,Let's Get Lost,https://www.allmusic.com/artist/chet-baker-mn0000094210,,2025-03-24 15:43:45
-2156,Last Date,https://www.allmusic.com/artist/floyd-cramer-mn0000801762,,2025-03-24 15:44:20
-2157,"Theme from ""A Summer Place""",https://www.allmusic.com/artist/percy-faith-mn0000305541,,2025-03-24 15:44:20
-2158,Hello,https://www.allmusic.com/artist/lionel-richie-mn0000243474,,2025-03-24 15:44:20
-2159,Wonderful Tonight,https://www.allmusic.com/artist/eric-clapton-mn0000187478,,2025-03-24 15:44:20
-2160,Open Arms,https://www.allmusic.com/artist/journey-mn0000291043,,2025-03-24 15:44:20
-2161,Stand by Me,https://www.allmusic.com/artist/ben-e-king-mn0000164594,,2025-03-24 15:44:20
-2162,My Heart Will Go On,https://www.allmusic.com/artist/c%C3%A9line-dion-mn0000186185,,2025-03-24 15:44:20
-2163,Sunshine on My Shoulders,https://www.allmusic.com/artist/john-denver-mn0000811622,,2025-03-24 15:44:20
-2164,My Tennessee Mountain Home,https://www.allmusic.com/artist/dolly-parton-mn0000175286,,2025-03-24 15:44:20
-2166,Whiskey in the Jar,https://www.allmusic.com/artist/thin-lizzy-mn0000590479,,2025-03-24 15:44:55
-2169,"Unaccompanied Cello Suite No. 1 in G major, BWV 1007~Prélude",https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,,2025-03-24 15:44:55
-2175,String Quartet~Main Movement,https://www.allmusic.com/artist/kronos-quartet-mn0000775212,,2025-03-24 15:45:31
-2176,All the Stars,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646,,2025-03-24 15:45:31
-2177,Happy,https://www.allmusic.com/artist/mitski-mn0003327534,,2025-03-24 15:45:31
-2178,"Dune, film score~Bene Gesserit",https://www.allmusic.com/artist/hans-zimmer-mn0000961427,,2025-03-24 15:45:31
-2181,Do Me!,https://www.allmusic.com/artist/bell-biv-devoe-mn0000127063,,2025-03-24 15:46:39
-2183,Get Up (I Feel Like Being A) Sex Machine,https://www.allmusic.com/artist/james-brown-mn0000128099,,2025-03-24 15:46:39
-2184,Let's Talk About Sex,https://www.allmusic.com/artist/salt-n-pepa-mn0000294891,,2025-03-24 15:46:39
-2185,Justify My Love,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 15:46:39
-2186,"More, More, More",https://www.allmusic.com/artist/andrea-true-mn0000029638,,2025-03-24 15:46:39
-2187,Pony,https://www.allmusic.com/artist/ginuwine-mn0000662797,,2025-03-24 15:46:39
-2188,Je T'Aime...Moi Non Plus,https://www.allmusic.com/artist/jane-birkin-mn0000216846,,2025-03-24 15:46:39
-2190,I Touch Myself,https://www.allmusic.com/artist/the-divinyls-mn0000150187,,2025-03-24 15:47:13
-2192,Like a Virgin,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 15:47:13
-2193,Wicked Game,https://www.allmusic.com/artist/chris-isaak-mn0000775323,,2025-03-24 15:47:13
-2195,Work With Me Annie,https://www.allmusic.com/artist/hank-ballard-the-midnighters-mn0000950203,,2025-03-24 15:47:13
-2206,Lonely Weekend,https://www.allmusic.com/artist/kacey-musgraves-mn0002077491,,2025-03-24 15:47:48
-2207,She's Only a Baby Herself,https://www.allmusic.com/artist/smokey-robinson-mn0000821571,,2025-03-24 15:47:48
-2208,Oblivious,https://www.allmusic.com/artist/aztec-camera-mn0000759031,,2025-03-24 15:47:48
-2219,Freaky Tales,https://www.allmusic.com/artist/too-hort-mn0001052511,,2025-03-24 15:48:57
-2220,Tush,https://www.allmusic.com/artist/zz-top-mn0000690254,,2025-03-24 15:48:57
-2222,"Girls, Girls, Girls",https://www.allmusic.com/artist/m%C3%B6tley-cr%C3%BCe-mn0000500992,,2025-03-24 15:48:57
-2223,Personality Crisis,https://www.allmusic.com/artist/new-york-dolls-mn0000866786,,2025-03-24 15:48:57
-2224,Mr. Brownstone,https://www.allmusic.com/artist/guns-n-roses-mn0000540883,,2025-03-24 15:48:57
-2225,I Wanna Be Your Dog,https://www.allmusic.com/artist/the-stooges-mn0000562304,,2025-03-24 15:48:57
-2227,Whole Lotta Rosie,https://www.allmusic.com/artist/ac-dc-mn0000574772,,2025-03-24 15:48:57
-2228,Me So Horny,https://www.allmusic.com/artist/the-2-live-crew-mn0000027116,,2025-03-24 15:48:58
-2253,Hitchin' a Ride,https://www.allmusic.com/artist/green-day-mn0000154544,,2025-03-24 15:50:45
-2266,Rockin' in Rhythm,https://www.allmusic.com/artist/duke-ellington-mn0000120323,,2025-03-24 15:51:20
-2267,Echoes of Harlem,https://www.allmusic.com/artist/duke-ellington-mn0000120323,,2025-03-24 15:51:20
-2268,Autumn Leaves,https://www.allmusic.com/artist/roger-williams-mn0000304141,,2025-03-24 15:51:20
-2303,Roast Fish and Cornbread,https://www.allmusic.com/artist/lee-scratch-perry-mn0000785380,,2025-03-24 15:53:43
-2310,Stir It Up,https://www.allmusic.com/artist/bob-marley-the-wailers-mn0000069402,,2025-03-24 15:54:18
-2311,AMERIICAN REQUIEM,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179,,2025-03-24 15:54:18
-2313,Contagious,https://www.allmusic.com/artist/ani-difranco-mn0000046794,,2025-03-24 15:54:18
-2314,Therefore I Am,https://www.allmusic.com/artist/billie-eilish-mn0003475903,,2025-03-24 15:54:18
-2315,Mazatlan,https://www.allmusic.com/artist/paul-bley-mn0000745617,,2025-03-24 15:54:18
-2316,My Own Soul's Warning,https://www.allmusic.com/artist/the-killers-mn0000670226,,2025-03-24 15:54:18
-2325,Liza (All the Clouds'll Roll Away),https://www.allmusic.com/artist/chet-atkins-mn0000094205,,2025-03-24 15:54:53
-2326,Pedro Navaja,https://www.allmusic.com/artist/rub%C3%A9n-blades-mn0000296024,,2025-03-24 15:54:53
-2327,Tally Ho,https://www.allmusic.com/artist/the-clean-mn0000073421,,2025-03-24 15:55:27
-2328,"The Good, The Bad and the Ugly (Main Title)",https://www.allmusic.com/artist/i-cantori-moderni-di-alessandroni-mn0002289371,,2025-03-24 15:55:27
-2329,Baby What You Want Me to Do,https://www.allmusic.com/artist/jimmy-reed-mn0000076881,,2025-03-24 15:55:27
-2330,Minus,https://www.allmusic.com/artist/robert-hood-mn0000288841,,2025-03-24 15:55:27
-2331,Hush Hush,https://www.allmusic.com/artist/jimmy-reed-mn0000076881,,2025-03-24 15:55:27
-2344,Camino,https://www.allmusic.com/artist/gipsy-kings-mn0000555695,,2025-03-24 15:56:03
-2345,Afrodisia,https://www.allmusic.com/artist/kenny-dorham-mn0000768027,,2025-03-24 15:56:03
-2346,Blues Walk,https://www.allmusic.com/artist/lou-donaldson-mn0000808198,,2025-03-24 15:56:03
-2355,Bandulu,https://www.allmusic.com/artist/freddie-mcgregor-mn0000798477,,2025-03-24 15:56:39
-2361,Blue Feeling Today,https://www.allmusic.com/artist/charlie-musselwhite-mn0000211627,,2025-03-24 15:57:13
-2362,Baby Will You Please Help Me,https://www.allmusic.com/artist/charlie-musselwhite-mn0000211627,,2025-03-24 15:57:13
-2363,"Up Against the Wall, Redneck Mother",https://www.allmusic.com/artist/jerry-jeff-walker-mn0000845468,,2025-03-24 15:57:13
-2364,Looking for the Heart of Saturday Night,https://www.allmusic.com/artist/jerry-jeff-walker-mn0000845468,,2025-03-24 15:57:13
-2365,Pot Can't Call the Kettle Black,https://www.allmusic.com/artist/jerry-jeff-walker-mn0000845468,,2025-03-24 15:57:13
-2374,Jeep's Blues,https://www.allmusic.com/artist/duke-ellington-mn0000120323,,2025-03-24 15:57:49
-2388,This Masquerade,https://www.allmusic.com/artist/george-benson-mn0000201760,,2025-03-24 15:58:59
-2391,Orgasm Addict,https://www.allmusic.com/artist/buzzcocks-mn0000629564,,2025-03-24 15:58:59
-2393,Tin Tin Deo,https://www.allmusic.com/artist/kenny-burrell-mn0000068780,,2025-03-24 15:58:59
-2394,Foolin' Around,https://www.allmusic.com/artist/paul-franklin-mn0000030478,,2025-03-24 15:58:59
-2404,Stardust,https://www.allmusic.com/artist/nat-king-cole-mn0000317093,,2025-03-24 15:59:33
-2410,I've Got the World on a String,https://www.allmusic.com/artist/frank-sinatra-mn0000792507,,2025-03-24 16:00:09
-2425,Pretty Hurts,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179,,2025-03-24 16:01:19
-2460,Marbles,https://www.allmusic.com/artist/plastikman-mn0000355386,,2025-03-24 16:03:06
-2461,For Whom the Bell Tolls,https://www.allmusic.com/artist/metallica-mn0000446509,,2025-03-24 16:03:06
-2462,All Apologies,https://www.allmusic.com/artist/nirvana-mn0000357406,,2025-03-24 16:03:06
-2463,"(Don't Worry) If There Is a Hell Below, We're All Going to Go",https://www.allmusic.com/artist/curtis-mayfield-mn0000144458,,2025-03-24 16:03:06
-2464,Hit the Lights,https://www.allmusic.com/artist/metallica-mn0000446509,,2025-03-24 16:03:06
-2469,Just a Little Talk With Jesus,https://www.allmusic.com/artist/elvis-presley-mn0000180228,,2025-03-24 16:03:41
-2470,God Only Knows,https://www.allmusic.com/artist/the-beach-boys-mn0000041874,,2025-03-24 16:03:41
-2473,Oops!...I Did It Again,https://www.allmusic.com/artist/britney-spears-mn0000628467,,2025-03-24 16:03:41
-2474,Jean,https://www.allmusic.com/artist/rod-mckuen-mn0000243803,,2025-03-24 16:03:41
-2485,Dedos,https://www.allmusic.com/artist/jorge-dalto-mn0000262200,,2025-03-24 16:04:51
-2488,Harmony Hall,https://www.allmusic.com/artist/vampire-weekend-mn0000662416,,2025-03-24 16:04:51
-2489,WELTiTA,https://www.allmusic.com/artist/bad-bunny-mn0003595289,,2025-03-24 16:04:51
-2490,Queira Bem,https://www.allmusic.com/artist/ali-shaheed-muhammad-mn0000389128,,2025-03-24 16:04:51
-2491,Synchronize Vibration,https://www.allmusic.com/artist/roy-ayers-mn0000345168,,2025-03-24 16:04:51
-2492,Rainmaker,https://www.allmusic.com/artist/john-carroll-kirby-mn0003866309,,2025-03-24 16:04:51
-2500,I'm a Man,https://www.allmusic.com/artist/the-yardbirds-mn0000489303,,2025-03-24 16:06:01
-2501,Out in the Street,https://www.allmusic.com/artist/the-who-mn0000577627,,2025-03-24 16:06:01
-2502,Beautiful Girls,https://www.allmusic.com/artist/van-halen-mn0000260206,,2025-03-24 16:06:01
-2503,Bang a Gong (Get It On),https://www.allmusic.com/artist/t-rex-mn0000005882,,2025-03-24 16:06:01
-2504,Raw Power,https://www.allmusic.com/artist/iggy-the-stooges-mn0000769915,,2025-03-24 16:06:01
-2505,Rock 'N' Roll Star,https://www.allmusic.com/artist/oasis-mn0000393345,,2025-03-24 16:06:01
-2506,Whole Lotta Shakin' Goin' On,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141,,2025-03-24 16:06:01
-2507,Whole Lotta Love,https://www.allmusic.com/artist/led-zeppelin-mn0000139026,,2025-03-24 16:06:01
-2509,Let's Build a Home,https://www.allmusic.com/artist/the-white-stripes-mn0000921710,,2025-03-24 16:06:01
-2510,Groovin',https://www.allmusic.com/artist/the-young-rascals-mn0000923801,,2025-03-24 16:06:36
-2511,Kites Are Fun,https://www.allmusic.com/artist/the-free-design-mn0000057209,,2025-03-24 16:06:36
-2512,Stay,https://www.allmusic.com/artist/lisa-loeb-nine-stories-mn0000833844,,2025-03-24 16:06:36
-2513,All I Have to Do Is Dream,https://www.allmusic.com/artist/the-everly-brothers-mn0000046699,,2025-03-24 16:06:36
-2514,Don't Sit Under the Apple Tree (With Anyone Else But Me),https://www.allmusic.com/artist/the-andrews-sisters-mn0000043499,,2025-03-24 16:06:36
-2515,You Were Meant for Me,https://www.allmusic.com/artist/jewel-mn0000347151,,2025-03-24 16:06:36
-2516,Back for Good,https://www.allmusic.com/artist/take-that-mn0000159433,,2025-03-24 16:06:36
-2517,Daydream Believer,https://www.allmusic.com/artist/the-monkees-mn0000478603,,2025-03-24 16:06:36
-2518,Chapel of Love,https://www.allmusic.com/artist/the-dixie-cups-mn0000152251,,2025-03-24 16:06:36
-2519,The 59th Street Bridge Song (Feelin' Groovy),https://www.allmusic.com/artist/harpers-bizarre-mn0000562663,,2025-03-24 16:06:36
-2520,Skating in Central Park,https://www.allmusic.com/artist/the-modern-jazz-quartet-mn0000567325,,2025-03-24 16:07:10
-2525,On the Street Where You Live,https://www.allmusic.com/artist/mel-torm%C3%A9-mn0000344275,,2025-03-24 16:07:10
-2526,Send a Moses,https://www.allmusic.com/artist/barrington-levy-mn0000138063,,2025-03-24 16:07:11
-2527,"We'll See Yaw'll After While, Ya Heah",https://www.allmusic.com/artist/stanley-turrentine-mn0000012644,,2025-03-24 16:07:11
-2528,Big Fan,https://www.allmusic.com/artist/john-scofield-mn0000677991,,2025-03-24 16:07:11
-2530,Feelin' Alright?,https://www.allmusic.com/artist/traffic-mn0000012472,,2025-03-24 16:07:45
-2533,The Same Love That Made Me Laugh,https://www.allmusic.com/artist/robert-cray-mn0000830425,,2025-03-24 16:07:45
-2535,Pegasus,https://www.allmusic.com/artist/wayne-shorter-mn0000250435,,2025-03-24 16:07:46
-2536,Ocean to Ocean [Instrumental],https://www.allmusic.com/artist/model-500-mn0000569468,,2025-03-24 16:07:46
-2538,More Than a Feeling,https://www.allmusic.com/artist/boston-mn0000079960,,2025-03-24 16:07:46
-2539,Walkin',https://www.allmusic.com/artist/quincy-jones-mn0000378624,,2025-03-24 16:08:20
-2543,Mondsee Variations IV,https://www.allmusic.com/artist/paul-bley-mn0000745617,,2025-03-24 16:08:20
-2544,A Picture of Me (Without You),https://www.allmusic.com/artist/george-jones-mn0000944310,,2025-03-24 16:08:20
-2546,Oh Happy Day,https://www.allmusic.com/artist/quincy-jones-mn0000378624,,2025-03-24 16:08:20
-2548,The Winner,https://www.allmusic.com/artist/bobby-bare-mn0000066429,,2025-03-24 16:08:20
-2549,Psycho Killer,https://www.allmusic.com/artist/talking-heads-mn0000131650,,2025-03-24 16:08:54
-2550,Totally Wired,https://www.allmusic.com/artist/the-fall-mn0000051376,,2025-03-24 16:08:54
-2551,Fa Cé-La,https://www.allmusic.com/artist/the-feelies-mn0000762177,,2025-03-24 16:08:54
-2552,30 Seconds Over Tokyo,https://www.allmusic.com/artist/pere-ubu-mn0000838272,,2025-03-24 16:08:54
-2553,We're Desperate,https://www.allmusic.com/artist/x-mn0000960690,,2025-03-24 16:08:54
-2554,I Am the Fly,https://www.allmusic.com/artist/wire-mn0000672910,,2025-03-24 16:08:54
-2555,96 Tears,https://www.allmusic.com/artist/-the-mysterians-mn0000567190,,2025-03-24 16:08:54
-2556,'A' Bomb in Wardour Street,https://www.allmusic.com/artist/the-jam-mn0000084053,,2025-03-24 16:08:54
-2557,Can't Stand Losing You,https://www.allmusic.com/artist/the-police-mn0000413524,,2025-03-24 16:08:54
-2558,Senses Working Overtime,https://www.allmusic.com/artist/xtc-mn0000678339,,2025-03-24 16:08:54
-2559,25 or 6 to 4,https://www.allmusic.com/artist/chicago-mn0000110161,,2025-03-24 16:09:30
-2560,Here Comes the Rain Again,https://www.allmusic.com/artist/eurythmics-mn0000206241,,2025-03-24 16:09:30
-2561,Paradise by the Dashboard Light,https://www.allmusic.com/artist/meat-loaf-mn0000339624,,2025-03-24 16:09:30
-2562,Shock the Monkey,https://www.allmusic.com/artist/peter-gabriel-mn0000842802,,2025-03-24 16:09:30
-2563,"Gypsys, Tramps & Thieves",https://www.allmusic.com/artist/cher-mn0000107090,,2025-03-24 16:09:30
-2564,L.A. Woman,https://www.allmusic.com/artist/the-doors-mn0000114342,,2025-03-24 16:09:30
-2565,This Woman's Work,https://www.allmusic.com/artist/kate-bush-mn0000855423,,2025-03-24 16:09:30
-2566,Poison Arrow,https://www.allmusic.com/artist/abc-mn0000574597,,2025-03-24 16:09:30
-2567,Prince Charming,https://www.allmusic.com/artist/adam-and-the-ants-mn0000590787,,2025-03-24 16:09:30
-2568,Twilight Zone,https://www.allmusic.com/artist/golden-earring-mn0000669303,,2025-03-24 16:09:30
-2577,Creator Has a Master Plan,https://www.allmusic.com/artist/pharoah-sanders-mn0000330601,,2025-03-24 16:10:05
-2578,"(It Takes) Two to Tango: Rehearsal, False Start and Chatter, ...",https://www.allmusic.com/artist/oscar-peterson-trio-mn0000415290,,2025-03-24 16:10:05
-2593,Sherane aka Master Splinter's Daughter,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646,,2025-03-24 16:11:16
-2599,Cheap and Cheerful,https://www.allmusic.com/artist/the-kills-mn0000099508,,2025-03-24 16:11:51
-2601,Fear Inoculum,https://www.allmusic.com/artist/tool-mn0000790820,,2025-03-24 16:11:51
-2602,Asphalt Meadows,https://www.allmusic.com/artist/death-cab-for-cutie-mn0000812711,,2025-03-24 16:11:51
-2603,Crave [Re: Claud],https://www.allmusic.com/artist/claud-mn0003815818,,2025-03-24 16:11:52
-2604,I Turn My Camera On,https://www.allmusic.com/artist/spoon-mn0000131038,,2025-03-24 16:11:52
-2605,Sober,https://www.allmusic.com/artist/tool-mn0000790820,,2025-03-24 16:11:52
-2606,Over the Edge,https://www.allmusic.com/artist/wipers-mn0000485791,,2025-03-24 16:11:52
-2611,It's Tricky,https://www.allmusic.com/artist/run-dmc-mn0000358408,,2025-03-24 16:12:26
-2615,Gin and Juice,https://www.allmusic.com/artist/dat-nigga-daz-mn0000678231,,2025-03-24 16:12:26
-2619,Death with Dignity,https://www.allmusic.com/artist/sufjan-stevens-mn0000580300,,2025-03-24 16:13:02
-2624,Offering,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 16:13:36
-2628,Jesus Just Left Chicago,https://www.allmusic.com/artist/zz-top-mn0000690254,,2025-03-24 16:14:12
-2629,Miss You,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 16:14:12
-2630,Ruby Tuesday,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 16:14:12
-2631,Mona (I Need You Baby),https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 16:14:12
-2632,Paint It Black,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 16:14:12
-2633,Can't You Hear Me Knocking,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 16:14:12
-2634,I'm Eighteen,https://www.allmusic.com/artist/alice-cooper-mn0000005953,,2025-03-24 16:14:12
-2636,I Wanna Be Adored,https://www.allmusic.com/artist/the-stone-roses-mn0000564333,,2025-03-24 16:14:46
-2637,Voodoo Child (Slight Return),https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 16:14:46
-2638,Tales of Brave Ulysses,https://www.allmusic.com/artist/cream-mn0000112462,,2025-03-24 16:14:46
-2640,Lucy in the Sky with Diamonds,https://www.allmusic.com/artist/the-beatles-mn0000754032,,2025-03-24 16:14:46
-2641,Time Has Come Today,https://www.allmusic.com/artist/the-chambers-brothers-mn0000057124,,2025-03-24 16:14:46
-2642,Strawberry Letter 23,https://www.allmusic.com/artist/shuggie-otis-mn0000752773,,2025-03-24 16:14:46
-2643,"What Does Your Soul Look Like, Pt. 4",https://www.allmusic.com/artist/dj-shadow-mn0000949820,,2025-03-24 16:14:46
-2644,Baby Lemonade,https://www.allmusic.com/artist/syd-barrett-mn0000044874,,2025-03-24 16:14:46
-2650,Tank Full of Blues,https://www.allmusic.com/artist/dion-mn0000265456,,2025-03-24 16:15:22
-2679,Always on My Mind/In My House,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212,,2025-03-24 16:17:07
-2680,What Have I Done to Deserve This?,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212,,2025-03-24 16:17:07
-2688,Valsinha,https://www.allmusic.com/artist/chico-buarque-mn0000095613,,2025-03-24 16:17:43
-2698,The Dream (Slow Drag),https://www.allmusic.com/artist/james-p-johnson-his-orchestra-mn0001862750,,2025-03-24 16:18:18
-2700,Roll 'Em Pete,https://www.allmusic.com/artist/count-basie-mn0000127044,,2025-03-24 16:18:18
-2718,Wrapped Around Your Finger,https://www.allmusic.com/artist/the-police-mn0000413524,,2025-03-24 16:19:29
-2720,Turtles (All the Way Down),https://www.allmusic.com/artist/sturgill-simpson-mn0003098721,,2025-03-24 16:19:29
-2721,Oh Lord Don't Let Them Drop That Atomic Bomb on Me,https://www.allmusic.com/artist/charles-mingus-mn0000009680,,2025-03-24 16:19:29
-2742,Fast Car,https://www.allmusic.com/artist/the-dream-mn0001028077,,2025-03-24 16:21:15
-2744,Georgia Women,https://www.allmusic.com/artist/hank-williams-jr-mn0000117844,,2025-03-24 16:21:15
-2751,Wildflower,https://www.allmusic.com/artist/ghostface-killah-mn0000655746,,2025-03-24 16:21:15
-2756,I'm Coming Home,https://www.allmusic.com/artist/the-spinners-mn0000578141,,2025-03-24 16:21:51
-2757,The Rubberband Man,https://www.allmusic.com/artist/the-spinners-mn0000578141,,2025-03-24 16:21:51
-2761,bye,https://www.allmusic.com/artist/ariana-grande-mn0002264745,,2025-03-24 16:21:51
-2779,Detroit City,https://www.allmusic.com/artist/bobby-bare-mn0000066429,,2025-03-24 16:23:01
-2790,I Love Trash,https://www.allmusic.com/artist/carroll-spinney-mn0001027556,,2025-03-24 16:23:37
-2792,The Eternal,https://www.allmusic.com/artist/joy-division-mn0000290812,,2025-03-24 16:24:11
-2793,Viõrar Vel Til Loftárasa,https://www.allmusic.com/artist/sigur-r%C3%B3s-mn0000753868,,2025-03-24 16:24:11
-2794,Exit Music (For a Film),https://www.allmusic.com/artist/radiohead-mn0000326249,,2025-03-24 16:24:11
-2795,Roads,https://www.allmusic.com/artist/portishead-mn0000301619,,2025-03-24 16:24:11
-2796,Midnight in a Perfect World,https://www.allmusic.com/artist/dj-shadow-mn0000949820,,2025-03-24 16:24:11
-2797,Warszawa,https://www.allmusic.com/artist/david-bowie-mn0000531986,,2025-03-24 16:24:11
-2798,Master Song,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,,2025-03-24 16:24:11
-2799,Disintegration,https://www.allmusic.com/artist/the-cure-mn0000137390,,2025-03-24 16:24:11
-2800,Angel Eyes,https://www.allmusic.com/artist/nelson-riddle-mn0000322027,,2025-03-24 16:24:11
-2801,"An Echo, A Stain",https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 16:24:11
-2832,(If Loving You Is Wrong) I Don't Want to Be Right,https://www.allmusic.com/artist/millie-jackson-mn0000488859,,2025-03-24 16:26:49
-2833,Driveway to Driveway,https://www.allmusic.com/artist/superchunk-mn0000034172,,2025-03-24 16:26:49
-2834,Little Town Flirt,https://www.allmusic.com/artist/del-shannon-mn0000194018,,2025-03-24 16:26:49
-2835,Runaway,https://www.allmusic.com/artist/del-shannon-mn0000194018,,2025-03-24 16:26:49
-2836,Pledging My Love,https://www.allmusic.com/artist/johnny-ace-mn0000817000,,2025-03-24 16:26:49
-2837,We Could Send Letters,https://www.allmusic.com/artist/aztec-camera-mn0000759031,,2025-03-24 16:26:49
-2838,How Soon Is Now?,https://www.allmusic.com/artist/the-smiths-mn0000899530,,2025-03-24 16:26:49
-2839,I Am So Ordinary,https://www.allmusic.com/artist/paula-cole-mn0000026825,,2025-03-24 16:26:49
-2840,Say Yes,https://www.allmusic.com/artist/elliott-smith-mn0000172167,,2025-03-24 16:26:49
-2841,Lights Are Changing,https://www.allmusic.com/artist/mary-lou-lord-mn0000319089,,2025-03-24 16:26:49
+1,Lose Yourself,https://www.allmusic.com/artist/eminem-mn0000157676,,2025-03-24 17:41:25
+2,(I Can't Get No) Satisfaction,https://www.allmusic.com/artist/the-rolling-stones-mn0000894465,,2025-03-24 17:41:25
+3,Black Hole Sun,https://www.allmusic.com/artist/soundgarden-mn0000001098,,2025-03-24 17:41:25
+4,Maybellene,https://www.allmusic.com/artist/chuck-berry-mn0000120521,,2025-03-24 17:41:25
+5,Cinnamon Girl,https://www.allmusic.com/artist/crazy-horse-mn0000130932,,2025-03-24 17:41:26
+6,One Piece at a Time,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 17:41:26
+7,Positively 4th Street,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 17:41:26
+8,Sunny Afternoon,https://www.allmusic.com/artist/the-kinks-mn0000100160,,2025-03-24 17:41:26
+9,Time,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 17:41:26
+10,Dancing with the Moonlit Knight,https://www.allmusic.com/artist/genesis-mn0000199995,,2025-03-24 17:41:26
+11,Fuck tha Police,https://www.allmusic.com/artist/nwa-mn0000314793,,2025-03-24 17:42:03
+12,Breaking the Law,https://www.allmusic.com/artist/judas-priest-mn0000246611,,2025-03-24 17:42:03
+13,Mama Said Knock You Out,https://www.allmusic.com/artist/ll-cool-j-mn0000094752,,2025-03-24 17:42:03
+14,Fight the Power,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 17:42:04
+15,Wish,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 17:42:04
+16,Ace of Spades,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407,,2025-03-24 17:42:04
+17,Kick Out the Jams,https://www.allmusic.com/artist/mc5-mn0000182598,,2025-03-24 17:42:04
+18,Bawitdaba,https://www.allmusic.com/artist/kid-rock-mn0000088180,,2025-03-24 17:42:04
+19,Get at Me Dog,https://www.allmusic.com/artist/dmx-mn0000661795,,2025-03-24 17:42:04
+20,Communication Breakdown,https://www.allmusic.com/artist/led-zeppelin-mn0000139026,,2025-03-24 17:42:04
+21,Maid That's Deep in Love,https://www.allmusic.com/artist/tim-hart-mn0000503187,,2025-03-24 17:42:50
+22,Dancing in the Street,https://www.allmusic.com/artist/martha-the-vandellas-mn0001199135,,2025-03-24 17:42:50
+23,Raging Eyes,https://www.allmusic.com/artist/nick-lowe-mn0000866841,,2025-03-24 17:42:50
+24,Stand by Your Man,https://www.allmusic.com/artist/tammy-wynette-mn0000136640,,2025-03-24 17:42:50
+25,Hot for Teacher,https://www.allmusic.com/artist/van-halen-mn0000260206,,2025-03-24 17:42:50
+26,Live and Let Die,https://www.allmusic.com/artist/wings-mn0000956707,,2025-03-24 17:42:50
+27,Wrong Side of Memphis,https://www.allmusic.com/artist/trisha-yearwood-mn0000749476,,2025-03-24 17:42:50
+28,Mi Gente,https://www.allmusic.com/artist/j-balvin-mn0002385504,,2025-03-24 17:42:50
+29,I Don't Know Why,https://www.allmusic.com/artist/shawn-colvin-mn0000013387,,2025-03-24 17:42:50
+30,Hamadoun Toure,https://www.allmusic.com/artist/sidiki-diabat%C3%A9-mn0003269780,,2025-03-24 17:42:50
+31,"A Rainbow in Curved Air, for electric piano, dumbak & tambourines (partially improvised)",https://www.allmusic.com/artist/terry-riley-mn0000750519,,2025-03-24 17:43:29
+33,77 Slightly Delayed,https://www.allmusic.com/artist/ashra-mn0000520097,,2025-03-24 17:43:29
+35,Freezing,https://www.allmusic.com/artist/philip-glass-mn0000849672,,2025-03-24 17:43:30
+36,As Serious as Your Life,https://www.allmusic.com/artist/four-tet-mn0000741236,,2025-03-24 17:43:30
+37,"New Blues [Live at Nice Festival, France, July, 1986]",https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 17:43:30
+38,Lassie Lie Near Me,https://www.allmusic.com/artist/iain-ballamy-mn0000768849,,2025-03-24 17:43:30
+39,"Grá agus Bás, for singer and ensemble",https://www.allmusic.com/artist/crash-ensemble-mn0002217309,,2025-03-24 17:43:30
+40,The Trees,https://www.allmusic.com/artist/max-richter-mn0000203592,,2025-03-24 17:43:30
+41,Everything in Its Right Place,https://www.allmusic.com/artist/radiohead-mn0000326249,,2025-03-24 17:44:10
+42,El Gaucho,https://www.allmusic.com/artist/wayne-shorter-mn0000250435,,2025-03-24 17:44:10
+43,Goodbye Pork Pie Hat,https://www.allmusic.com/artist/charles-mingus-mn0000009680,,2025-03-24 17:44:11
+44,Bemsha Swing,https://www.allmusic.com/artist/thelonious-monk-mn0000490416,,2025-03-24 17:44:11
+45,St. Thomas,https://www.allmusic.com/artist/tommy-flanagan-mn0000519715,,2025-03-24 17:44:11
+46,Brilliant Disguise,https://www.allmusic.com/artist/bruce-springsteen-mn0000530745,,2025-03-24 17:44:11
+47,Crazy,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 17:44:11
+49,Wouldn't It Be Nice,https://www.allmusic.com/artist/the-beach-boys-mn0000041874,,2025-03-24 17:44:11
+50,My Baby Just Cares for Me,https://www.allmusic.com/artist/nina-simone-mn0000411761,,2025-03-24 17:44:11
+51,ABC,https://www.allmusic.com/artist/the-jackson-5-mn0000083013,,2025-03-24 17:44:51
+52,It's Only a Paper Moon,https://www.allmusic.com/artist/nat-king-cole-mn0000317093,,2025-03-24 17:44:51
+53,Five Guys Named Moe,https://www.allmusic.com/artist/louis-jordan-mn0000287604,,2025-03-24 17:44:52
+54,Give Me the Simple Life,https://www.allmusic.com/artist/june-christy-mn0000837592,,2025-03-24 17:44:52
+55,Baby I'm-A Want You,https://www.allmusic.com/artist/bread-mn0000610706,,2025-03-24 17:44:52
+56,Joy Spring,https://www.allmusic.com/artist/clifford-brown-mn0000789775,,2025-03-24 17:44:52
+57,Wake Me Up Before You Go-Go,https://www.allmusic.com/artist/wham%21-mn0000246960,,2025-03-24 17:44:52
+58,Calendar Girl,https://www.allmusic.com/artist/neil-sedaka-mn0000330575,,2025-03-24 17:44:52
+59,Girls Just Want to Have Fun,https://www.allmusic.com/artist/cyndi-lauper-mn0000122754,,2025-03-24 17:44:52
+60,Ac-Cent-Tchu-Ate the Positive,https://www.allmusic.com/artist/the-andrews-sisters-mn0000043499,,2025-03-24 17:44:52
+61,Straight Outta Compton,https://www.allmusic.com/artist/nwa-mn0000314793,,2025-03-24 17:45:32
+62,Bombtrack,https://www.allmusic.com/artist/rage-against-the-machine-mn0000863790,,2025-03-24 17:45:32
+63,London Calling,https://www.allmusic.com/artist/the-clash-mn0000075747,,2025-03-24 17:45:32
+65,Violet,https://www.allmusic.com/artist/hole-mn0000680476,,2025-03-24 17:45:32
+66,Rid of Me,https://www.allmusic.com/artist/pj-harvey-mn0000000335,,2025-03-24 17:45:32
+67,Head Like a Hole,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 17:45:33
+68,Territorial Pissings,https://www.allmusic.com/artist/nirvana-mn0000357406,,2025-03-24 17:45:33
+69,God Save the Queen,https://www.allmusic.com/artist/sex-pistols-mn0000418740,,2025-03-24 17:45:33
+70,Welcome to the Jungle,https://www.allmusic.com/artist/guns-n-roses-mn0000540883,,2025-03-24 17:45:33
+73,Won't Get Fooled Again,https://www.allmusic.com/artist/the-who-mn0000577627,,2025-03-24 17:46:13
+75,Reptile,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 17:46:13
+77,Never Let Me Down Again,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 17:46:13
+78,Enjoy the Silence,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 17:46:13
+79,What Is Life?,https://www.allmusic.com/artist/black-uhuru-mn0000081683,,2025-03-24 17:46:13
+80,Sheila Take a Bow,https://www.allmusic.com/artist/the-smiths-mn0000899530,,2025-03-24 17:46:13
+82,Lawdy Miss Clawdy,https://www.allmusic.com/artist/lloyd-price-mn0000827250,,2025-03-24 17:46:56
+84,Part-Time Lover,https://www.allmusic.com/artist/stevie-wonder-mn0000622805,,2025-03-24 17:46:56
+86,It's a Low Down Dirty Shame,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873,,2025-03-24 17:46:56
+89,Zombie,https://www.allmusic.com/artist/fela-kuti-mn0000138833,,2025-03-24 17:46:56
+91,Every Single Night,https://www.allmusic.com/artist/fiona-apple-mn0000169795,,2025-03-24 17:47:35
+92,Ionisation,https://www.allmusic.com/artist/edgard-var%C3%A8se-mn0000734199,,2025-03-24 17:47:35
+93,Landfall~Built You a Mountain,https://www.allmusic.com/artist/laurie-anderson-mn0000785773,,2025-03-24 17:47:36
+94,Hubble,https://www.allmusic.com/artist/actress-mn0001399533,,2025-03-24 17:47:36
+95,Kyanite,https://www.allmusic.com/artist/jlin-mn0002791912,,2025-03-24 17:47:36
+96,Shameika,https://www.allmusic.com/artist/fiona-apple-mn0000169795,,2025-03-24 17:47:36
+97,Devotion,https://www.allmusic.com/artist/john-mclaughlin-mn0000223701,,2025-03-24 17:47:36
+98,Señorita,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 17:47:36
+100,What Do I Get?,https://www.allmusic.com/artist/buzzcocks-mn0000629564,,2025-03-24 17:48:20
+101,Go,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 17:48:20
+102,Superman (Main Title),https://www.allmusic.com/artist/john-williams-mn0000232480,,2025-03-24 17:48:20
+103,No Charge,https://www.allmusic.com/artist/shirley-caesar-mn0000032071,,2025-03-24 17:48:21
+104,Pink Flag,https://www.allmusic.com/artist/wire-mn0000672910,,2025-03-24 17:48:21
+105,Outdoor Miner,https://www.allmusic.com/artist/wire-mn0000672910,,2025-03-24 17:48:21
+107,Llama,https://www.allmusic.com/artist/phish-mn0000333464,,2025-03-24 17:48:21
+108,Man in Black,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 17:48:21
+109,Lost!,https://www.allmusic.com/artist/coldplay-mn0000775877,,2025-03-24 17:49:00
+110,Marry the Night,https://www.allmusic.com/artist/lady-gaga-mn0000994823,,2025-03-24 17:49:00
+111,Pour Some Sugar on Me,https://www.allmusic.com/artist/def-leppard-mn0000193320,,2025-03-24 17:49:00
+112,Rock of Ages,https://www.allmusic.com/artist/def-leppard-mn0000193320,,2025-03-24 17:49:00
+113,Living After Midnight,https://www.allmusic.com/artist/judas-priest-mn0000246611,,2025-03-24 17:49:00
+114,Toxicity,https://www.allmusic.com/artist/system-of-a-down-mn0000005501,,2025-03-24 17:49:00
+115,Absolution,https://www.allmusic.com/artist/ghost-mn0002616588,,2025-03-24 17:49:00
+116,Ojos Asi,https://www.allmusic.com/artist/shakira-mn0000790797,,2025-03-24 17:49:00
+118,Lizard: Prince Rupert Awakes/Bolero: The Peacock's Tale/The Battle of G,https://www.allmusic.com/artist/king-crimson-mn0000076057,,2025-03-24 17:49:53
+120,Personal Nancy,https://www.allmusic.com/artist/marc-ribot-mn0000674728,,2025-03-24 17:49:53
+121,Make Me Bad,https://www.allmusic.com/artist/korn-mn0000112789,,2025-03-24 17:49:53
+122,Eight Cut Scars [For Robert Turman],https://www.allmusic.com/artist/aaron-dilloway-mn0000812176,,2025-03-24 17:49:53
+123,Medellín,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 17:49:53
+124,I Am the Brother of the Wind,https://www.allmusic.com/artist/sun-ra-his-intergalactic-solar-arkestra-mn0000584244,,2025-03-24 17:49:53
+125,Mastema,https://www.allmusic.com/artist/pat-metheny-mn0000179698,,2025-03-24 17:50:37
+126,Silver Apples of the Moon~Part A,https://www.allmusic.com/artist/morton-subotnick-mn0000857040,,2025-03-24 17:50:38
+127,"Life, Life",https://www.allmusic.com/artist/ryuichi-sakamoto-mn0000587608,,2025-03-24 17:50:38
+128,Raajat,https://www.allmusic.com/artist/vladislav-delay-mn0000185680,,2025-03-24 17:50:38
+129,Eurydice,https://www.allmusic.com/artist/wayne-shorter-mn0000250435,,2025-03-24 17:50:38
+130,Night Falls on Inisherin,https://www.allmusic.com/artist/carter-burwell-mn0000149173,,2025-03-24 17:50:38
+131,Girl I Love You,https://www.allmusic.com/artist/massive-attack-mn0000378288,,2025-03-24 17:50:38
+132,"Alabama Song, for voice & orchestra (from ""Aufstieg und Fall der Stadt Mahagonny"")~Alabama Song",https://www.allmusic.com/artist/marianne-faithfull-mn0000651107,,2025-03-24 17:50:38
+133,Beki Miri,https://www.allmusic.com/artist/amadou-mariam-mn0000013647,,2025-03-24 17:50:38
+134,(Back Home Again In) Indiana,https://www.allmusic.com/artist/barney-kessel-mn0000784527,,2025-03-24 17:51:17
+135,"Koyaanisqatsi, film score~Koyaanisqatsi",https://www.allmusic.com/artist/philip-glass-ensemble-mn0000342981,,2025-03-24 17:51:17
+136,Minipops 67 [Source Field Mix],https://www.allmusic.com/artist/aphex-twin-mn0000493848,,2025-03-24 17:51:17
+137,"Piano Concerto, Op. 38~1. Allegro appassionato",https://www.allmusic.com/artist/keith-jarrett-mn0000066570,,2025-03-24 17:51:17
+138,Mettavolution,https://www.allmusic.com/artist/rodrigo-y-gabriela-mn0000400110,,2025-03-24 17:51:18
+139,As the Spirit Sings,https://www.allmusic.com/artist/john-mclaughlin-mn0000223701,,2025-03-24 17:51:18
+140,Fascination Street,https://www.allmusic.com/artist/the-cure-mn0000137390,,2025-03-24 17:51:56
+141,Ladies and Gentlemen We Are Floating in Space,https://www.allmusic.com/artist/spiritualized-mn0000746731,,2025-03-24 17:51:56
+142,Providence,https://www.allmusic.com/artist/sonic-youth-mn0000755156,,2025-03-24 17:51:56
+143,Rhinoceros,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521,,2025-03-24 17:51:57
+145,Feed Me with Your Kiss,https://www.allmusic.com/artist/my-bloody-valentine-mn0000937003,,2025-03-24 17:51:57
+146,Baker Street,https://www.allmusic.com/artist/gerry-rafferty-mn0000945196,,2025-03-24 17:51:57
+147,Do You Realize??,https://www.allmusic.com/artist/the-flaming-lips-mn0000065590,,2025-03-24 17:51:57
+148,I'll Come Running,https://www.allmusic.com/artist/brian-eno-mn0000617196,,2025-03-24 17:51:57
+149,Lost Cause,https://www.allmusic.com/artist/beck-mn0000124492,,2025-03-24 17:51:57
+154,Way to Blue,https://www.allmusic.com/artist/nick-drake-mn0000336783,,2025-03-24 17:52:44
+155,Chelsea Hotel No. 2,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,,2025-03-24 17:52:45
+156,John the Revelator,https://www.allmusic.com/artist/son-house-mn0000753094,,2025-03-24 17:52:45
+157,Kometenmelodie 2,https://www.allmusic.com/artist/kraftwerk-mn0000104714,,2025-03-24 17:52:45
+158,Mister Magic,https://www.allmusic.com/artist/grover-washington-jr-mn0000944206,,2025-03-24 17:52:45
+159,Just a Gigolo,https://www.allmusic.com/artist/thelonious-monk-quartet-mn0000491786,,2025-03-24 17:52:46
+160,Bird on the Wire,https://www.allmusic.com/artist/leonard-cohen-mn0000071209,,2025-03-24 17:53:25
+161,Sundown,https://www.allmusic.com/artist/gordon-lightfoot-mn0000667794,,2025-03-24 17:53:25
+162,Autumn Sweater,https://www.allmusic.com/artist/yo-la-tengo-mn0000687487,,2025-03-24 17:53:25
+163,Time of the Season,https://www.allmusic.com/artist/the-zombies-mn0000582313,,2025-03-24 17:53:25
+164,Pink Moon,https://www.allmusic.com/artist/nick-drake-mn0000336783,,2025-03-24 17:53:25
+165,Old Man,https://www.allmusic.com/artist/neil-young-mn0000379125,,2025-03-24 17:53:25
+166,September Gurls,https://www.allmusic.com/artist/big-star-mn0000051992,,2025-03-24 17:53:26
+167,Harvest Moon,https://www.allmusic.com/artist/neil-young-mn0000379125,,2025-03-24 17:53:26
+168,Miss Misery,https://www.allmusic.com/artist/elliott-smith-mn0000172167,,2025-03-24 17:53:26
+169,Autumn Serenade,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 17:53:26
+170,Don't Fight the Feelin',https://www.allmusic.com/artist/too-hort-mn0001052511,,2025-03-24 17:54:05
+171,In the End,https://www.allmusic.com/artist/linkin-park-mn0000289599,,2025-03-24 17:54:05
+172,Liquid Swords,https://www.allmusic.com/artist/gza-mn0000170084,,2025-03-24 17:54:05
+173,Intro/Dead People,https://www.allmusic.com/artist/louis-ck-mn0001035974,,2025-03-24 17:54:05
+174,How to Rob,https://www.allmusic.com/artist/50-cent-mn0000919805,,2025-03-24 17:54:05
+175,Lyte as a Rock,https://www.allmusic.com/artist/mc-lyte-mn0000220590,,2025-03-24 17:54:05
+176,"The Pride, Pts. 1 & 2",https://www.allmusic.com/artist/the-isley-brothers-mn0000766893,,2025-03-24 17:54:05
+177,6 'n the Mornin',https://www.allmusic.com/artist/ice-t-mn0000072003,,2025-03-24 17:54:05
+178,Interzone 1,https://www.allmusic.com/artist/john-zorn-mn0000239329,,2025-03-24 17:54:05
+179,Eat Me,https://www.allmusic.com/artist/demi-lovato-mn0000996127,,2025-03-24 17:54:06
+180,May-Ree Mack,https://www.allmusic.com/artist/ella-jenkins-mn0000798086,,2025-03-24 17:54:44
+181,"Music for 18 Musicians, for 4 female voices & 16 instruments~Pulses",https://www.allmusic.com/artist/steve-reich-mn0000037658,,2025-03-24 17:54:44
+182,Cocaine Blues,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 17:54:45
+183,Miss Mary Mack,https://www.allmusic.com/artist/ella-jenkins-mn0000798086,,2025-03-24 17:54:45
+192,Downtown Train,https://www.allmusic.com/artist/tom-waits-mn0000615119,,2025-03-24 17:55:26
+194,Voices Carry,https://www.allmusic.com/artist/til-tuesday-mn0000498961,,2025-03-24 17:56:04
+195,Amelia,https://www.allmusic.com/artist/joni-mitchell-mn0000270491,,2025-03-24 17:56:04
+196,Song to the Siren,https://www.allmusic.com/artist/tim-buckley-mn0000595101,,2025-03-24 17:56:04
+197,I Fall to Pieces,https://www.allmusic.com/artist/patsy-cline-mn0000014651,,2025-03-24 17:56:04
+198,Who Knows Where the Time Goes?,https://www.allmusic.com/artist/fairport-convention-mn0000162233,,2025-03-24 17:56:05
+199,Here Comes a Regular,https://www.allmusic.com/artist/the-replacements-mn0000422405,,2025-03-24 17:56:05
+200,I Just Don't Know What to Do With Myself,https://www.allmusic.com/artist/dionne-warwick-mn0000165011,,2025-03-24 17:56:05
+201,Funny How Time Slips Away,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 17:56:05
+202,Bus Stop,https://www.allmusic.com/artist/the-hollies-mn0000087985,,2025-03-24 17:56:05
+203,I Am the Cosmos,https://www.allmusic.com/artist/chris-bell-mn0000105845,,2025-03-24 17:56:05
+205,Got the Blues for Murder Only,https://www.allmusic.com/artist/lonnie-johnson-mn0000275401,,2025-03-24 17:56:50
+206,War Pigs,https://www.allmusic.com/artist/black-sabbath-mn0000771438,,2025-03-24 17:56:51
+208,Walkin' the Floor Over You,https://www.allmusic.com/artist/ernest-tubb-mn0000200775,,2025-03-24 17:56:51
+212,"High Water Everywhere, Pt. 1",https://www.allmusic.com/artist/charley-patton-mn0000166058,,2025-03-24 17:56:51
+216,Dust My Broom,https://www.allmusic.com/artist/elmore-james-mn0000176936,,2025-03-24 17:57:31
+218,Walk This Way,https://www.allmusic.com/artist/aerosmith-mn0000604852,,2025-03-24 17:57:32
+220,Lord Do It,https://www.allmusic.com/artist/james-cleveland-mn0000668448,,2025-03-24 17:57:32
+221,The Sheik of Araby,https://www.allmusic.com/artist/spike-jones-mn0000744548,,2025-03-24 17:57:32
+222,East St. Louis Toodle-Oo,https://www.allmusic.com/artist/duke-ellington-mn0000120323,,2025-03-24 17:57:32
+223,Chan Chan,https://www.allmusic.com/artist/buena-vista-social-club-mn0000627250,,2025-03-24 17:57:32
+224,Dead Presidents II,https://www.allmusic.com/artist/jay-z-mn0000224257,,2025-03-24 17:58:19
+226,Black Skinhead,https://www.allmusic.com/artist/kanye-west-mn0000361014,,2025-03-24 17:58:19
+228,You've Lost That Lovin' Feelin',https://www.allmusic.com/artist/elvis-presley-mn0000180228,,2025-03-24 17:58:19
+229,Superman~Love Theme from Superman,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907,,2025-03-24 17:58:19
+232,Power,https://www.allmusic.com/artist/kanye-west-mn0000361014,,2025-03-24 17:58:20
+233,Sucker M.C.'s (Krush-Groove 1),https://www.allmusic.com/artist/run-dmc-mn0000358408,,2025-03-24 17:58:20
+234,The Hard Way,https://www.allmusic.com/artist/otis-spann-mn0000486775,,2025-03-24 17:59:00
+236,Run Away with Me,https://www.allmusic.com/artist/carly-rae-jepsen-mn0002089077,,2025-03-24 17:59:01
+237,Human,https://www.allmusic.com/artist/the-killers-mn0000670226,,2025-03-24 17:59:01
+238,gnx,https://www.allmusic.com/artist/hitta-j3-mn0003346207,,2025-03-24 17:59:01
+239,Learning to Breathe,https://www.allmusic.com/artist/damu-the-fudgemunk-mn0000985856,,2025-03-24 17:59:01
+240,Wait on Time,https://www.allmusic.com/artist/the-fabulous-thunderbirds-mn0000126048,,2025-03-24 17:59:01
+241,Airegin,https://www.allmusic.com/artist/stan-getz-quartet-mn0000743938,,2025-03-24 17:59:01
+242,200mph,https://www.allmusic.com/artist/bad-bunny-mn0003595289,,2025-03-24 17:59:01
+243,Chica Ni Lambo,https://www.allmusic.com/artist/eddie-palmieri-mn0000172612,,2025-03-24 17:59:02
+247,Oye Como Va,https://www.allmusic.com/artist/santana-mn0000295756,,2025-03-24 17:59:42
+252,"A-Tisket, A-Tasket",https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502,,2025-03-24 17:59:43
+254,Jolene,https://www.allmusic.com/artist/dolly-parton-mn0000175286,,2025-03-24 18:00:25
+255,Give Up the Funk (Tear the Roof off the Sucker),https://www.allmusic.com/artist/parliament-mn0000129775,,2025-03-24 18:00:25
+256,Boo Ann's Grand,https://www.allmusic.com/artist/woody-shaw-mn0000680003,,2025-03-24 18:00:25
+257,Apartment No. 9,https://www.allmusic.com/artist/tammy-wynette-mn0000136640,,2025-03-24 18:00:25
+258,Saturday in the Park,https://www.allmusic.com/artist/chicago-mn0000110161,,2025-03-24 18:00:25
+259,The Black Disciple,https://www.allmusic.com/artist/donald-byrd-mn0000149946,,2025-03-24 18:00:26
+260,Straight Life,https://www.allmusic.com/artist/freddie-hubbard-mn0000798326,,2025-03-24 18:00:26
+261,Miles Ahead,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 18:00:26
+262,Lady Fingers,https://www.allmusic.com/artist/herb-alpert-mn0000674332,,2025-03-24 18:00:26
+263,Vivir Mi Vida,https://www.allmusic.com/artist/marc-anthony-mn0000673486,,2025-03-24 18:00:26
+264,(Sittin' On) The Dock of the Bay,https://www.allmusic.com/artist/otis-redding-mn0000414251,,2025-03-24 18:01:11
+265,Can't Get It Out of My Head,https://www.allmusic.com/artist/electric-light-orchestra-mn0000163229,,2025-03-24 18:01:11
+273,"Super Bad, Pts. 1&2",https://www.allmusic.com/artist/james-brown-mn0000128099,,2025-03-24 18:01:12
+274,You're Still the One,https://www.allmusic.com/artist/shania-twain-mn0000161808,,2025-03-24 18:01:52
+276,Everybody Loves Somebody,https://www.allmusic.com/artist/dean-martin-mn0000813392,,2025-03-24 18:01:52
+278,Chelsea Bridge,https://www.allmusic.com/artist/gerry-mulligan-mn0000542549,,2025-03-24 18:01:52
+279,Maneater,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887,,2025-03-24 18:01:52
+281,Four on Six,https://www.allmusic.com/artist/wes-montgomery-mn0000248392,,2025-03-24 18:01:52
+284,Jesse James,https://www.allmusic.com/artist/woody-guthrie-mn0000577531,,2025-03-24 18:02:34
+286,Slaughter on Tenth Avenue,https://www.allmusic.com/artist/the-ventures-mn0000921965,,2025-03-24 18:02:34
+288,Steps,https://www.allmusic.com/artist/cecil-taylor-mn0000988386,,2025-03-24 18:02:34
+290,Pump It Up,https://www.allmusic.com/artist/elvis-costello-mn0000058549,,2025-03-24 18:02:35
+291,Congeniality,https://www.allmusic.com/artist/ornette-coleman-mn0000484396,,2025-03-24 18:02:35
+293,Candy Says,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,,2025-03-24 18:02:35
+298,Workin' Man Blues,https://www.allmusic.com/artist/merle-haggard-mn0000410219,,2025-03-24 18:03:16
+303,These Foolish Things,https://www.allmusic.com/artist/billie-holiday-mn0000079016,,2025-03-24 18:03:16
+306,My Foolish Heart,https://www.allmusic.com/artist/bill-evans-trio-mn0000781423,,2025-03-24 18:04:00
+307,Tudo Que Você Podia Ser,https://www.allmusic.com/artist/l%C3%B4-borges-mn0000827524,,2025-03-24 18:04:00
+308,Big Yellow Taxi,https://www.allmusic.com/artist/amy-grant-mn0000024944,,2025-03-24 18:04:00
+309,Am I Losing You?,https://www.allmusic.com/artist/jim-reeves-mn0000903609,,2025-03-24 18:04:00
+313,Orinoco Flow,https://www.allmusic.com/artist/enya-mn0000988471,,2025-03-24 18:04:00
+316,A Sailor's Life,https://www.allmusic.com/artist/fairport-convention-mn0000162233,,2025-03-24 18:04:44
+317,Here Comes the Nice,https://www.allmusic.com/artist/small-faces-mn0000423267,,2025-03-24 18:04:44
+318,Quiet Village,https://www.allmusic.com/artist/martin-denny-mn0000311074,,2025-03-24 18:04:44
+319,Five Years,https://www.allmusic.com/artist/david-bowie-mn0000531986,,2025-03-24 18:04:44
+320,Porcelain,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 18:04:45
+321,Caldonia,https://www.allmusic.com/artist/louis-jordan-mn0000287604,,2025-03-24 18:04:45
+322,Sixteen Tons,https://www.allmusic.com/artist/tennessee-ernie-ford-mn0000020403,,2025-03-24 18:04:45
+323,Poison,https://www.allmusic.com/artist/alice-cooper-mn0000005953,,2025-03-24 18:04:45
+324,Gravity Rides Everything,https://www.allmusic.com/artist/modest-mouse-mn0000480086,,2025-03-24 18:05:28
+325,"Experiment in Terror, film score~Teen-Age Hostage",https://www.allmusic.com/artist/henry-mancini-mn0000678009,,2025-03-24 18:05:28
+326,I've Gotta Be Me,https://www.allmusic.com/artist/sammy-davis-jr-mn0000294376,,2025-03-24 18:06:11
+331,Pagin' the Devil,https://www.allmusic.com/artist/lester-young-mn0000259529,,2025-03-24 18:06:11
+332,Friend of the Devil,https://www.allmusic.com/artist/grateful-dead-mn0000988440,,2025-03-24 18:06:12
+333,The Way You Look Tonight,https://www.allmusic.com/artist/ray-conniff-mn0000869487,,2025-03-24 18:06:12
+336,Would You Like to Learn to Dance?,https://www.allmusic.com/artist/steve-goodman-mn0000032366,,2025-03-24 18:06:54
+337,The Velocity of Love,https://www.allmusic.com/artist/suzanne-ciani-mn0000046345,,2025-03-24 18:06:54
+339,Watchin' Joey Glow,https://www.allmusic.com/artist/steve-goodman-mn0000032366,,2025-03-24 18:06:54
+340,Super Freaky Girl,https://www.allmusic.com/artist/nicki-minaj-mn0001013175,,2025-03-24 18:06:55
+341,Reedin,https://www.allmusic.com/artist/wagon-christ-mn0000229210,,2025-03-24 18:06:55
+342,Brand New,https://www.allmusic.com/artist/pharrell-williams-mn0000275757,,2025-03-24 18:06:55
+343,Wonderbread,https://www.allmusic.com/artist/danny-brown-mn0001477553,,2025-03-24 18:06:55
+345,By the Sea,https://www.allmusic.com/artist/annaleigh-ashford-mn0001575846,,2025-03-24 18:06:55
+349,Tell Me What's the Reason,https://www.allmusic.com/artist/t-bone-walker-mn0000003829,,2025-03-24 18:07:35
+355,Spoonful,https://www.allmusic.com/artist/howlin-wolf-mn0000276085,,2025-03-24 18:07:35
+357,Don't Do Me Like That,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137,,2025-03-24 18:08:18
+364,These Days (I Barely Get By),https://www.allmusic.com/artist/george-jones-mn0000944310,,2025-03-24 18:08:19
+367,Isfahan,https://www.allmusic.com/artist/joe-henderson-mn0000139804,,2025-03-24 18:09:01
+373,Dolphin Dance,https://www.allmusic.com/artist/herbie-hancock-mn0000957296,,2025-03-24 18:09:01
+374,You Know You Know,https://www.allmusic.com/artist/mahavishnu-orchestra-mn0000233862,,2025-03-24 18:09:01
+377,Sampa,https://www.allmusic.com/artist/caetano-veloso-mn0000639397,,2025-03-24 18:09:45
+386,Heroes,https://www.allmusic.com/artist/philip-glass-mn0000849672,,2025-03-24 18:10:27
+387,4,https://www.allmusic.com/artist/aphex-twin-mn0000493848,,2025-03-24 18:10:27
+388,Laughable Butane Bob,https://www.allmusic.com/artist/afx-mn0000483189,,2025-03-24 18:10:27
+389,Won't You Be My Neighbor?,https://www.allmusic.com/artist/mister-rogers-mn0001216264,,2025-03-24 18:10:27
+390,Song for Sally,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 18:10:27
+391,Dave,https://www.allmusic.com/artist/cheech-chong-mn0000106298,,2025-03-24 18:10:27
+392,Sister Mary Elephant,https://www.allmusic.com/artist/cheech-chong-mn0000106298,,2025-03-24 18:10:27
+394,This Here Giraffe,https://www.allmusic.com/artist/the-flaming-lips-mn0000065590,,2025-03-24 18:10:28
+398,The Breathing Stone,https://www.allmusic.com/artist/steve-roach-mn0000040501,,2025-03-24 18:11:09
+400,Blue Rondo à la Turk,https://www.allmusic.com/artist/the-dave-brubeck-quartet-mn0000142767,,2025-03-24 18:11:09
+403,Black Cat Bone,https://www.allmusic.com/artist/lightnin-hopkins-mn0000825208,,2025-03-24 18:11:09
+404,Big Legs Ida Blues,https://www.allmusic.com/artist/roosevelt-sykes-mn0000284104,,2025-03-24 18:11:09
+406,"Tubular Bells, Pt. 1",https://www.allmusic.com/artist/mike-oldfield-mn0000489520,,2025-03-24 18:11:50
+407,Who Needs the Peace Corps?,https://www.allmusic.com/artist/the-mothers-of-invention-mn0000405522,,2025-03-24 18:11:50
+409,Goodbye Girl,https://www.allmusic.com/artist/squeeze-mn0000790732,,2025-03-24 18:11:50
+410,Hit 'Em Wit da Hee,https://www.allmusic.com/artist/missy-elliott-mn0000502371,,2025-03-24 18:11:50
+413,Block Rockin' Beats,https://www.allmusic.com/artist/the-chemical-brothers-mn0000067631,,2025-03-24 18:11:51
+414,Blush Response,https://www.allmusic.com/artist/vangelis-mn0000840000,,2025-03-24 18:11:51
+415,The Things You Said,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 18:12:29
+416,[Untitled],https://www.allmusic.com/artist/sigur-r%C3%B3s-mn0000753868,,2025-03-24 18:12:29
+417,Angel,https://www.allmusic.com/artist/massive-attack-mn0000378288,,2025-03-24 18:12:29
+418,Hunter,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 18:12:29
+419,At the Heart of Winter,https://www.allmusic.com/artist/immortal-mn0000094102,,2025-03-24 18:12:29
+420,Metal,https://www.allmusic.com/artist/gary-numan-mn0000183858,,2025-03-24 18:12:29
+421,Marked,https://www.allmusic.com/artist/ema-mn0002130309,,2025-03-24 18:12:29
+422,Night Sky,https://www.allmusic.com/artist/chvrches-mn0003052164,,2025-03-24 18:12:30
+423,"Heaven and Hell, Pt. 1/So Long Ago, So Clear",https://www.allmusic.com/artist/vangelis-mn0000840000,,2025-03-24 18:12:30
+424,3 Ghosts I,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 18:12:30
+425,The Twelve Gifts of Christmas,https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 18:13:09
+427,"You Went The Wrong Way, Old King Louie",https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 18:13:09
+429,One Hippopotami,https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 18:13:10
+430,Shake Hands with Your Uncle Max,https://www.allmusic.com/artist/allan-sherman-mn0000002273,,2025-03-24 18:13:10
+443,Kickin' Child,https://www.allmusic.com/artist/dion-mn0000265456,,2025-03-24 18:14:33
+448,"(What's So Funny 'Bout) Peace, Love and Understanding",https://www.allmusic.com/artist/brinsley-schwarz-mn0002363693,,2025-03-24 18:14:33
+450,Kicking,https://www.allmusic.com/artist/torche-mn0000081480,,2025-03-24 18:14:33
+451,"Speechless, Pt. 2",https://www.allmusic.com/artist/nas-mn0000373634,,2025-03-24 18:14:33
+452,Sunny Came Home,https://www.allmusic.com/artist/shawn-colvin-mn0000013387,,2025-03-24 18:14:33
+455,Winter,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 18:15:15
+456,Beg Me,https://www.allmusic.com/artist/chuck-jackson-mn0000103033,,2025-03-24 18:15:15
+459,Freedom,https://www.allmusic.com/artist/beyonc%C3%A9-mn0000761179,,2025-03-24 18:15:15
+460,Ghosts Again,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 18:15:15
+461,Gin Smoke & Lies,https://www.allmusic.com/artist/turnpike-troubadours-mn0002038565,,2025-03-24 18:15:15
+481,High School Confidential,https://www.allmusic.com/artist/jerry-lee-lewis-mn0000332141,,2025-03-24 18:16:38
+483,Mis Planes Son Amarte,https://www.allmusic.com/artist/juanes-mn0000245250,,2025-03-24 18:17:20
+484,Biko,https://www.allmusic.com/artist/sweet-honey-in-the-rock-mn0000044703,,2025-03-24 18:17:20
+485,The Balance,https://www.allmusic.com/artist/dave-holland-quintet-mn0000684198,,2025-03-24 18:17:20
+487,After the Love Has Gone,https://www.allmusic.com/artist/earth-wind-fire-mn0000135273,,2025-03-24 18:17:20
+488,Don't Mess With Mister T.,https://www.allmusic.com/artist/stanley-turrentine-mn0000012644,,2025-03-24 18:17:20
+489,The Look of Love,https://www.allmusic.com/artist/dusty-springfield-mn0000159214,,2025-03-24 18:17:20
+490,Reasons,https://www.allmusic.com/artist/earth-wind-fire-mn0000135273,,2025-03-24 18:17:20
+491,Shifting Gears,https://www.allmusic.com/artist/lalo-schifrin-mn0000781932,,2025-03-24 18:17:20
+495,I Sat By the Ocean,https://www.allmusic.com/artist/queens-of-the-stone-age-mn0000376422,,2025-03-24 18:18:05
+496,Come as You Are,https://www.allmusic.com/artist/nirvana-mn0000357406,,2025-03-24 18:18:05
+497,Hells Bells,https://www.allmusic.com/artist/ac-dc-mn0000574772,,2025-03-24 18:18:06
+498,You Can't Judge a Book by Its Cover,https://www.allmusic.com/artist/bo-diddley-mn0000055128,,2025-03-24 18:18:06
+499,Battery,https://www.allmusic.com/artist/metallica-mn0000446509,,2025-03-24 18:18:06
+500,Foxey Lady,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 18:18:06
+501,Back in the Saddle,https://www.allmusic.com/artist/aerosmith-mn0000604852,,2025-03-24 18:18:06
+502,Late Night Talking,https://www.allmusic.com/artist/harry-styles-mn0002854537,,2025-03-24 18:18:50
+503,My Neighbour Totoro~My Neighbour Totoro,https://www.allmusic.com/artist/joe-hisaishi-mn0000783330,,2025-03-24 18:18:50
+504,Bassbins,https://www.allmusic.com/artist/%C2%B5-ziq-mn0000510042,,2025-03-24 18:18:51
+505,SHOWER SONG,https://www.allmusic.com/artist/tierra-whack-mn0003604268,,2025-03-24 18:18:51
+506,Broke My Heart,https://www.allmusic.com/artist/caribou-mn0000609590,,2025-03-24 18:18:51
+507,Building a Mountain,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 18:18:51
+508,The Strange Boutique,https://www.allmusic.com/artist/the-monochrome-set-mn0000475980,,2025-03-24 18:18:51
+509,Fireflies,https://www.allmusic.com/artist/pearl-the-oysters-mn0003783836,,2025-03-24 18:18:51
+510,Delicious,https://www.allmusic.com/artist/shampoo-mn0000160055,,2025-03-24 18:18:52
+511,Levitate the Coin,https://www.allmusic.com/artist/john-powell-mn0000230451,,2025-03-24 18:18:52
+512,I Wanna Destroy You,https://www.allmusic.com/artist/the-soft-boys-mn0000501802,,2025-03-24 18:19:38
+513,I Love L.A.,https://www.allmusic.com/artist/randy-newman-mn0000394806,,2025-03-24 18:19:38
+514,"Lawyers, Guns and Money",https://www.allmusic.com/artist/warren-zevon-mn0000816900,,2025-03-24 18:19:38
+515,I Know What Boys Like,https://www.allmusic.com/artist/the-waitresses-mn0000585210,,2025-03-24 18:19:38
+516,Big Shot,https://www.allmusic.com/artist/billy-joel-mn0000085915,,2025-03-24 18:19:38
+517,Money,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 18:19:38
+519,911 Is a Joke,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 18:19:38
+520,E.M.I.,https://www.allmusic.com/artist/sex-pistols-mn0000418740,,2025-03-24 18:19:39
+521,Peace Sells,https://www.allmusic.com/artist/megadeth-mn0000406294,,2025-03-24 18:19:39
+527,Stonemilker,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 18:20:19
+531,Mr. Misunderstood,https://www.allmusic.com/artist/eric-church-mn0000632233,,2025-03-24 18:21:05
+534,Directions,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 18:21:06
+535,DNA.,https://www.allmusic.com/artist/kendrick-lamar-mn0002709646,,2025-03-24 18:21:06
+537,Akiwowo,https://www.allmusic.com/artist/michael-olatunji-mn0000395264,,2025-03-24 18:21:06
+538,Quadrant 4,https://www.allmusic.com/artist/billy-cobham-mn0000767741,,2025-03-24 18:21:06
+539,It Was Fun While It Lasted,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205,,2025-03-24 18:21:48
+540,Black Rose,https://www.allmusic.com/artist/billy-joe-shaver-mn0000072205,,2025-03-24 18:21:48
+542,Fell on Black Days,https://www.allmusic.com/artist/soundgarden-mn0000001098,,2025-03-24 18:21:49
+543,Lights Please,https://www.allmusic.com/artist/j-cole-mn0001089515,,2025-03-24 18:21:49
+544,The Troublemaker,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 18:21:49
+545,She is Gone,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 18:21:49
+546,Blue Eyes Crying in the Rain,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 18:21:49
+552,I'll Be Around,https://www.allmusic.com/artist/the-spinners-mn0000578141,,2025-03-24 18:22:33
+553,Rags to Riches,https://www.allmusic.com/artist/tony-bennett-mn0000006334,,2025-03-24 18:22:34
+558,Moment of Hesitation,https://www.allmusic.com/artist/flying-lotus-mn0000717419,,2025-03-24 18:23:15
+561,Sighommi,https://www.allmusic.com/artist/the-smashing-pumpkins-mn0000036521,,2025-03-24 18:23:15
+562,Who by Fire,https://www.allmusic.com/artist/coil-mn0000105561,,2025-03-24 18:23:15
+563,Spastik,https://www.allmusic.com/artist/plastikman-mn0000355386,,2025-03-24 18:23:15
+564,Plasticity,https://www.allmusic.com/artist/plastikman-mn0000355386,,2025-03-24 18:23:15
+565,Fuck You,https://www.allmusic.com/artist/the-bug-mn0000629224,,2025-03-24 18:23:16
+566,Crazy Train,https://www.allmusic.com/artist/bob-daisley-mn0000067146,,2025-03-24 18:23:16
+568,"I Loves You, Porgy",https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 18:24:00
+569,Something I Can Never Have,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 18:24:01
+571,"Medley: Here Come de Honey Man, Crab Man, Oh, Dey's So Fresh and Fine (Strawberry Woman)",https://www.allmusic.com/artist/louis-armstrong-mn0000234518,,2025-03-24 18:24:01
+572,Last,https://www.allmusic.com/artist/nine-inch-nails-mn0000351733,,2025-03-24 18:24:01
+573,Yeah Yeah You Would,https://www.allmusic.com/artist/diddy-mn0000413000,,2025-03-24 18:24:01
+574,Dive for Your Memory,https://www.allmusic.com/artist/the-go-betweens-mn0000766361,,2025-03-24 18:24:01
+575,She Even Woke Me Up to Say Goodbye,https://www.allmusic.com/artist/mickey-newbury-mn0000525789,,2025-03-24 18:24:02
+576,La Iguana,https://www.allmusic.com/artist/the-chieftains-mn0000067406,,2025-03-24 18:24:02
+585,Rebel Rebel,https://www.allmusic.com/artist/david-bowie-mn0000531986,,2025-03-24 18:24:49
+589,I Will Be Here for You,https://www.allmusic.com/artist/michael-w-smith-mn0000466759,,2025-03-24 18:25:36
+592,The Sound of Music~Climb Ev'ry Mountain,https://www.allmusic.com/artist/patricia-neway-mn0000010209,,2025-03-24 18:25:36
+593,Missing Person,https://www.allmusic.com/artist/michael-w-smith-mn0000466759,,2025-03-24 18:25:37
+594,Sixteen Going on Seventeen,https://www.allmusic.com/artist/charmian-carr-mn0001011777,,2025-03-24 18:25:37
+597,Rebel Without a Pause,https://www.allmusic.com/artist/public-enemy-mn0000856785,,2025-03-24 18:26:18
+599,"Oh, Good Grief!",https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089,,2025-03-24 18:26:18
+600,Blowin' in the Wind,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 18:26:18
+601,Spillane,https://www.allmusic.com/artist/john-zorn-mn0000239329,,2025-03-24 18:26:18
+602,Long Distance Runaround,https://www.allmusic.com/artist/jon-anderson-mn0000253861,,2025-03-24 18:26:18
+603,Cowgirl in the Sand,https://www.allmusic.com/artist/neil-young-crazy-horse-mn0000860578,,2025-03-24 18:26:18
+604,Three Little Words,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 18:26:18
+605,Do I Move You?,https://www.allmusic.com/artist/nina-simone-mn0000411761,,2025-03-24 18:26:19
+606,It Ain't Nothin',https://www.allmusic.com/artist/keith-whitley-mn0000081561,,2025-03-24 18:27:02
+607,"The Good, the Bad and the Ugly (Main Title)",https://www.allmusic.com/artist/ennio-morricone-mn0000798662,,2025-03-24 18:27:02
+611,Runaway Train,https://www.allmusic.com/artist/rosanne-cash-mn0000285272,,2025-03-24 18:27:02
+612,Frankie Machine,https://www.allmusic.com/artist/elmer-bernstein-mn0000175087,,2025-03-24 18:27:02
+615,This Is Why,https://www.allmusic.com/artist/paramore-mn0000366681,,2025-03-24 18:27:43
+616,"Cello Concerto in E Minor, Op. 85~II. Lento - Allegro molto",https://www.allmusic.com/artist/gautier-capu%C3%A7on-mn0002227074,,2025-03-24 18:27:43
+617,We Belong [Squarepusher Remix],https://www.allmusic.com/artist/danny-elfman-mn0000569119,,2025-03-24 18:27:43
+618,European Echoes,https://www.allmusic.com/artist/ornette-coleman-trio-mn0001765439,,2025-03-24 18:27:44
+632,People Get Ready,https://www.allmusic.com/artist/the-impressions-mn0000082013,,2025-03-24 18:29:08
+633,Black Byrd,https://www.allmusic.com/artist/donald-byrd-mn0000149946,,2025-03-24 18:29:08
+636,By the Time I Get to Phoenix,https://www.allmusic.com/artist/glen-campbell-mn0000664378,,2025-03-24 18:29:08
+638,The Girl From Ipanema,https://www.allmusic.com/artist/astrud-gilberto-mn0000931086,,2025-03-24 18:29:09
+639,I Wanna Go Bang,https://www.allmusic.com/artist/limelife-mn0000832455,,2025-03-24 18:29:49
+643,Star Wars: Episode I - The Phantom Menace~Duel of the Fates,https://www.allmusic.com/artist/london-symphony-orchestra-mn0000602907,,2025-03-24 18:29:49
+644,Motoroller Scalatron,https://www.allmusic.com/artist/stereolab-mn0000026520,,2025-03-24 18:29:50
+647,Opposite People,https://www.allmusic.com/artist/afrika-70-mn0000930720,,2025-03-24 18:29:50
+648,White Rabbit,https://www.allmusic.com/artist/jefferson-airplane-mn0000840102,,2025-03-24 18:30:32
+649,Purple Haze,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 18:30:33
+650,Astronomy Domine,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 18:30:33
+651,Heroin,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,,2025-03-24 18:30:33
+653,L.S.D.,https://www.allmusic.com/artist/the-pretty-things-mn0000489676,,2025-03-24 18:30:33
+654,Three Days,https://www.allmusic.com/artist/janes-addiction-mn0000806829,,2025-03-24 18:30:33
+655,Sweet Leaf,https://www.allmusic.com/artist/black-sabbath-mn0000771438,,2025-03-24 18:30:33
+656,Aftermath,https://www.allmusic.com/artist/tricky-mn0000025462,,2025-03-24 18:30:33
+657,Dark Star,https://www.allmusic.com/artist/grateful-dead-mn0000988440,,2025-03-24 18:30:33
+664,T for Texas (Blue Yodel No. 1),https://www.allmusic.com/artist/jimmie-rodgers-mn0000343852,,2025-03-24 18:31:14
+683,Down the Street to 301,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 18:32:41
+684,I Still Miss Someone,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 18:32:41
+686,Busted,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 18:32:41
+687,Orange Blossom Special,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 18:32:41
+694,Venus as a Boy,https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444,,2025-03-24 18:33:24
+695,Life Begins at the Hop,https://www.allmusic.com/artist/xtc-mn0000678339,,2025-03-24 18:33:25
+699,Um Vento Passou (Para Paul Simon),https://www.allmusic.com/artist/milton-nascimento-mn0000497132,,2025-03-24 18:34:07
+705,Keep on the Sunny Side,https://www.allmusic.com/artist/the-carter-family-mn0000051910,,2025-03-24 18:34:47
+706,Shilo,https://www.allmusic.com/artist/neil-diamond-mn0000864209,,2025-03-24 18:34:47
+708,Stayin Alive,https://www.allmusic.com/artist/bee-gees-mn0000043714,,2025-03-24 18:34:47
+709,She Don't Care About Time,https://www.allmusic.com/artist/the-byrds-mn0000631774,,2025-03-24 18:34:48
+710,Dádrá,https://www.allmusic.com/artist/ravi-shankar-mn0000404463,,2025-03-24 18:34:48
+715,Bidi Bidi Bom Bom,https://www.allmusic.com/artist/selena-mn0000004852,,2025-03-24 18:35:31
+717,Linus & Lucy,https://www.allmusic.com/artist/vince-guaraldi-trio-mn0000213089,,2025-03-24 18:35:31
+718,Blowin' up a Storm,https://www.allmusic.com/artist/woody-herman-mn0000958076,,2025-03-24 18:35:31
+730,Sunday Sun,https://www.allmusic.com/artist/beck-mn0000124492,,2025-03-24 18:36:13
+731,All Africa,https://www.allmusic.com/artist/max-roach-mn0000396372,,2025-03-24 18:36:13
+732,"Sing, Sing, Sing",https://www.allmusic.com/artist/benny-goodman-mn0000163133,,2025-03-24 18:36:54
+745,I’m Waiting for the Man,https://www.allmusic.com/artist/the-velvet-underground-mn0000840402,,2025-03-24 18:37:36
+746,Love,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 18:37:36
+747,Wanderlust,https://www.allmusic.com/artist/paul-mccartney-mn0000029884,,2025-03-24 18:37:36
+748,People,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 18:37:37
+749,If You Could Read My Mind,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 18:37:37
+750,My Lord and Master,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 18:37:37
+751,I Stayed Too Long at the Fair,https://www.allmusic.com/artist/barbra-streisand-mn0000855531,,2025-03-24 18:37:37
+752,Blitzkrieg Bop,https://www.allmusic.com/artist/ramones-mn0000490004,,2025-03-24 18:38:14
+753,I Got You (I Feel Good),https://www.allmusic.com/artist/james-brown-mn0000128099,,2025-03-24 18:38:14
+754,Rocket 88,https://www.allmusic.com/artist/jackie-brenston-mn0000782307,,2025-03-24 18:38:14
+756,Ballroom Blitz,https://www.allmusic.com/artist/sweet-mn0000536275,,2025-03-24 18:38:15
+757,Sister Anne,https://www.allmusic.com/artist/mc5-mn0000182598,,2025-03-24 18:38:15
+758,Into the Groove,https://www.allmusic.com/artist/madonna-mn0000237205,,2025-03-24 18:38:15
+759,Long Tall Sally,https://www.allmusic.com/artist/little-richard-mn0000824022,,2025-03-24 18:38:15
+760,C'mon Everybody,https://www.allmusic.com/artist/eddie-cochran-mn0000793988,,2025-03-24 18:38:15
+761,I Gotcha,https://www.allmusic.com/artist/joe-tex-mn0000210323,,2025-03-24 18:38:15
+770,Wild Night,https://www.allmusic.com/artist/van-morrison-mn0000307461,,2025-03-24 18:39:00
+775,Black Dog,https://www.allmusic.com/artist/led-zeppelin-mn0000139026,,2025-03-24 18:39:43
+778,Take It Easy,https://www.allmusic.com/artist/eagles-mn0000144847,,2025-03-24 18:39:43
+780,Blue Train,https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 18:39:43
+781,"A Love Supreme, Pt. 3: Pursuance/Pt. 4: Psalm",https://www.allmusic.com/artist/john-coltrane-mn0000175553,,2025-03-24 18:39:43
+783,Love to Love You Baby,https://www.allmusic.com/artist/donna-summer-mn0000661524,,2025-03-24 18:40:23
+784,"Te Aviso, Te Anuncio (Tango)",https://www.allmusic.com/artist/shakira-mn0000790797,,2025-03-24 18:40:23
+785,The Wind Cries Mary,https://www.allmusic.com/artist/the-jimi-hendrix-experience-mn0000088906,,2025-03-24 18:40:23
+786,Walk On By,https://www.allmusic.com/artist/isaac-hayes-mn0000101946,,2025-03-24 18:40:23
+787,She Wolf,https://www.allmusic.com/artist/shakira-mn0000790797,,2025-03-24 18:40:23
+788,I Turned You On,https://www.allmusic.com/artist/the-isley-brothers-mn0000766893,,2025-03-24 18:40:23
+790,The D.O.C. & The Doctor,https://www.allmusic.com/artist/the-doc-mn0000114775,,2025-03-24 18:40:24
+795,Slavery Days,https://www.allmusic.com/artist/burning-spear-mn0000641994,,2025-03-24 18:41:05
+797,Theme From Silk Road,https://www.allmusic.com/artist/kitaro-mn0000081017,,2025-03-24 18:41:06
+808,1000 Deaths,https://www.allmusic.com/artist/dangelo-and-the-vanguard-mn0003351988,,2025-03-24 18:41:49
+818,She Moves Me,https://www.allmusic.com/artist/muddy-waters-mn0000608701,,2025-03-24 18:42:29
+822,Constancy (Ua Like No a Like),https://www.allmusic.com/artist/marty-robbins-mn0000858710,,2025-03-24 18:43:09
+823,The Pink Panther Theme,https://www.allmusic.com/artist/henry-mancini-his-orchestra-mn0000675890,,2025-03-24 18:43:09
+824,Green (Vincent's Tune),https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,,2025-03-24 18:43:09
+825,Take Me to Harlan,https://www.allmusic.com/artist/b%C3%A9la-fleck-mn0000151290,,2025-03-24 18:43:09
+826,The Lady With the Golden Stockings (aka The Golden Lady),https://www.allmusic.com/artist/sun-ra-his-solar-myth-arkestra-mn0000924706,,2025-03-24 18:43:09
+831,Blue Rondo a La Turk,https://www.allmusic.com/artist/dave-brubeck-mn0000958533,,2025-03-24 18:43:52
+833,Blues 88,https://www.allmusic.com/artist/arturo-sandoval-mn0000575122,,2025-03-24 18:44:36
+834,Tubular Bells,https://www.allmusic.com/artist/mike-oldfield-mn0000489520,,2025-03-24 18:44:36
+835,One More Time,https://www.allmusic.com/artist/daft-punk-mn0000667669,,2025-03-24 18:44:36
+843,The More We Get Together,https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 18:45:20
+844,The Rose,https://www.allmusic.com/artist/bette-midler-mn0000053739,,2025-03-24 18:45:20
+845,Les Zombis et les Loups-Garous,https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 18:45:20
+847,Your Body's Callin',https://www.allmusic.com/artist/r-kelly-mn0000319347,,2025-03-24 18:45:20
+848,Wind Beneath My Wings,https://www.allmusic.com/artist/bette-midler-mn0000053739,,2025-03-24 18:45:20
+849,De Colores,https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 18:45:20
+850,The Banana Boat Song (Day-O),https://www.allmusic.com/artist/raffi-mn0000327331,,2025-03-24 18:45:20
+862,Close Encounters of the Third Kind~Main Title and Mountains Visions,https://www.allmusic.com/artist/john-williams-mn0000232480,,2025-03-24 18:46:45
+866,Dance or Die,https://www.allmusic.com/artist/janelle-mon%C3%A1e-mn0000868086,,2025-03-24 18:46:46
+871,Caught a Lite Sneeze,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 18:47:27
+873,"I Am Not a Woman, I'm a God",https://www.allmusic.com/artist/halsey-mn0003010517,,2025-03-24 18:47:28
+876,What's Love Got to Do with It,https://www.allmusic.com/artist/tina-turner-mn0000597309,,2025-03-24 18:48:11
+877,Sweetheart Like You – Infidels alternate take,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 18:48:11
+878,Do the Mussolini (Headkick),https://www.allmusic.com/artist/cabaret-voltaire-mn0000635413,,2025-03-24 18:48:11
+879,Cake & Eat It Too,https://www.allmusic.com/artist/bilal-mn0000057280,,2025-03-24 18:48:11
+881,The Feed-Back,https://www.allmusic.com/artist/gruppo-di-improvvisazione-nuova-consonanza-mn0001409455,,2025-03-24 18:48:11
+887,Killed by Death,https://www.allmusic.com/artist/mot%C3%B6rhead-mn0000501407,,2025-03-24 18:48:53
+888,Banned in D.C.,https://www.allmusic.com/artist/bad-brains-mn0000075264,,2025-03-24 18:48:53
+889,Commando,https://www.allmusic.com/artist/ramones-mn0000490004,,2025-03-24 18:48:53
+890,Complete Control,https://www.allmusic.com/artist/the-clash-mn0000075747,,2025-03-24 18:48:53
+891,Legalize It,https://www.allmusic.com/artist/peter-tosh-mn0000328014,,2025-03-24 18:48:53
+897,Don't Stop,https://www.allmusic.com/artist/fleetwood-mac-mn0000182900,,2025-03-24 18:49:36
+903,Kiss It Better,https://www.allmusic.com/artist/rihanna-mn0000367188,,2025-03-24 18:50:16
+908,All We Got,https://www.allmusic.com/artist/chance-the-rapper-mn0003115050,,2025-03-24 18:50:17
+910,Simmer Down,https://www.allmusic.com/artist/bob-marley-mn0000071514,,2025-03-24 18:50:58
+914,Thinkin Bout You,https://www.allmusic.com/artist/frank-ocean-mn0002592086,,2025-03-24 18:50:58
+915,Eli's Comin',https://www.allmusic.com/artist/laura-nyro-mn0000137474,,2025-03-24 18:50:58
+924,Ether,https://www.allmusic.com/artist/gang-of-four-mn0000193231,,2025-03-24 18:51:39
+926,Out to Lunch,https://www.allmusic.com/artist/eric-dolphy-mn0000800100,,2025-03-24 18:51:39
+927,Summer Babe,https://www.allmusic.com/artist/pavement-mn0000752314,,2025-03-24 18:51:39
+929,Dael,https://www.allmusic.com/artist/autrechre-mn0001530964,,2025-03-24 18:51:39
+955,Everloving,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 18:53:40
+969,Good Golly Miss Molly,https://www.allmusic.com/artist/little-richard-mn0000824022,,2025-03-24 18:55:04
+970,Gimme! Gimme! Gimme! (A Man After Midnight),https://www.allmusic.com/artist/abba-mn0000922728,,2025-03-24 18:55:04
+972,She Loves You,https://www.allmusic.com/artist/the-beatles-mn0000754032,,2025-03-24 18:55:04
+973,Rip It Up,https://www.allmusic.com/artist/little-richard-mn0000824022,,2025-03-24 18:55:05
+974,Sometime in the Morning,https://www.allmusic.com/artist/the-monkees-mn0000478603,,2025-03-24 18:55:05
+975,S.O.S.,https://www.allmusic.com/artist/abba-mn0000922728,,2025-03-24 18:55:05
+977,"Green, Green",https://www.allmusic.com/artist/the-new-christy-minstrels-mn0000328352,,2025-03-24 18:55:05
+980,Watermelon Man,https://www.allmusic.com/artist/mongo-santamar%C3%ADa-mn0000591104,,2025-03-24 18:55:44
+981,Gone Fishin',https://www.allmusic.com/artist/louis-armstrong-mn0000234518,,2025-03-24 18:55:44
+984,Doctor Jazz,https://www.allmusic.com/artist/jelly-roll-morton-mn0000317290,,2025-03-24 18:55:44
+985,Little Red Corvette,https://www.allmusic.com/artist/prince-mn0000361393,,2025-03-24 18:55:44
+987,Fire,https://www.allmusic.com/artist/ohio-players-mn0000390390,,2025-03-24 18:55:44
+1001,Honey in Your Hips,https://www.allmusic.com/artist/eric-clapton-mn0000187478,,2025-03-24 18:57:09
+1003,"Suite for solo cello No. 1 in G major, BWV 1007~Prelude",https://www.allmusic.com/artist/yo-yo-ma-mn0000962133,,2025-03-24 18:57:09
+1005,Smooth Operator,https://www.allmusic.com/artist/sade-mn0000279337,,2025-03-24 18:57:09
+1016,Flying,https://www.allmusic.com/artist/faces-mn0000058372,,2025-03-24 18:57:52
+1017,Make Me a Pallet on the Floor,https://www.allmusic.com/artist/jimmy-yancey-mn0000783025,,2025-03-24 18:57:52
+1018,"The Great Escape, film score~Main Title",https://www.allmusic.com/artist/elmer-bernstein-mn0000175087,,2025-03-24 18:58:35
+1021,Rooster,https://www.allmusic.com/artist/alice-in-chains-mn0000007920,,2025-03-24 18:58:35
+1023,Lift Me Up,https://www.allmusic.com/artist/vince-staples-mn0002592118,,2025-03-24 18:58:36
+1040,Tell Mama,https://www.allmusic.com/artist/etta-james-mn0000806542,,2025-03-24 19:00:03
+1046,I'm a Believer,https://www.allmusic.com/artist/the-monkees-mn0000478603,,2025-03-24 19:00:43
+1048,Love Shack,https://www.allmusic.com/artist/the-b-52s-mn0000043489,,2025-03-24 19:00:43
+1049,Going to a Go-Go,https://www.allmusic.com/artist/smokey-robinson-the-miracles-mn0000035021,,2025-03-24 19:00:43
+1050,In the Mood,https://www.allmusic.com/artist/glenn-miller-mn0000661172,,2025-03-24 19:00:43
+1052,Walk Like an Egyptian,https://www.allmusic.com/artist/bangles-mn0000757085,,2025-03-24 19:00:43
+1053,The Way You Do the Things You Do,https://www.allmusic.com/artist/the-temptations-mn0000569685,,2025-03-24 19:00:43
+1054,Spanish Flea,https://www.allmusic.com/artist/herb-alpert-mn0000674332,,2025-03-24 19:00:43
+1055,Do You Believe in Magic?,https://www.allmusic.com/artist/the-lovin-spoonful-mn0000052900,,2025-03-24 19:00:44
+1062,Sweet Child O' Mine,https://www.allmusic.com/artist/guns-n-roses-mn0000540883,,2025-03-24 19:01:23
+1063,Remember,https://www.allmusic.com/artist/john-lennon-mn0000232564,,2025-03-24 19:01:23
+1064,Me Against the World,https://www.allmusic.com/artist/2pac-mn0000921895,,2025-03-24 19:01:23
+1065,Method Man,https://www.allmusic.com/artist/wu-tang-clan-mn0000959876,,2025-03-24 19:01:23
+1069,Outshined,https://www.allmusic.com/artist/soundgarden-mn0000001098,,2025-03-24 19:02:04
+1070,Mariners Apartment Complex,https://www.allmusic.com/artist/lana-del-rey-mn0002784799,,2025-03-24 19:02:04
+1073,Pompeji,https://www.allmusic.com/artist/deftones-mn0000813946,,2025-03-24 19:02:04
+1074,Shoots and Ladders,https://www.allmusic.com/artist/korn-mn0000112789,,2025-03-24 19:02:04
+1075,You'll Never Find Me,https://www.allmusic.com/artist/korn-mn0000112789,,2025-03-24 19:02:04
+1113,King of the Road,https://www.allmusic.com/artist/roger-miller-mn0000151431,,2025-03-24 19:04:50
+1115,Alone With You,https://www.allmusic.com/artist/faron-young-mn0000143951,,2025-03-24 19:05:31
+1116,Billie Jean,https://www.allmusic.com/artist/michael-jackson-mn0000467203,,2025-03-24 19:05:31
+1117,All Falls Down,https://www.allmusic.com/artist/kanye-west-mn0000361014,,2025-03-24 19:05:31
+1118,Let's Stay Together,https://www.allmusic.com/artist/al-green-mn0000607448,,2025-03-24 19:05:31
+1119,Money Honey,https://www.allmusic.com/artist/elvis-presley-mn0000180228,,2025-03-24 19:05:31
+1120,I Can't Wait (For the Sun to Go Down),https://www.allmusic.com/artist/faron-young-mn0000143951,,2025-03-24 19:05:32
+1121,Hand of the Dead Body,https://www.allmusic.com/artist/devin-the-dude-mn0000062761,,2025-03-24 19:05:32
+1122,Gloria: In Excelsis Deo/Gloria,https://www.allmusic.com/artist/patti-smith-mn0000747445,,2025-03-24 19:05:32
+1123,Cry to Me,https://www.allmusic.com/artist/solomon-burke-mn0000031067,,2025-03-24 19:05:32
+1128,Ain't No Grave,https://www.allmusic.com/artist/johnny-cash-mn0000816890,,2025-03-24 19:06:12
+1129,Mount Analogue,https://www.allmusic.com/artist/john-zorn-mn0000239329,,2025-03-24 19:06:12
+1130,The Golden Streets of Glory,https://www.allmusic.com/artist/dolly-parton-mn0000175286,,2025-03-24 19:06:12
+1131,Oleo,https://www.allmusic.com/artist/miles-davis-quintet-mn0000424302,,2025-03-24 19:06:12
+1132,My Only Love,https://www.allmusic.com/artist/moby-mn0000477116,,2025-03-24 19:06:13
+1134,All I Need,https://www.allmusic.com/artist/method-man-mn0000451483,,2025-03-24 19:06:53
+1135,Step Dad,https://www.allmusic.com/artist/kevin-hart-mn0000082798,,2025-03-24 19:06:53
+1136,Spiralz,https://www.allmusic.com/artist/zomby-mn0000990404,,2025-03-24 19:06:53
+1137,Return,https://www.allmusic.com/artist/brian-eno-mn0000617196,,2025-03-24 19:06:53
+1138,Lady Flash,https://www.allmusic.com/artist/the-go%21-team-mn0000397794,,2025-03-24 19:06:53
+1139,My Queen Is Ada Eastman,https://www.allmusic.com/artist/sons-of-kemet-mn0003146048,,2025-03-24 19:06:53
+1140,(She's So) Selfish,https://www.allmusic.com/artist/the-knack-mn0000087179,,2025-03-24 19:06:54
+1141,Someone,https://www.allmusic.com/artist/simple-minds-mn0000049374,,2025-03-24 19:06:54
+1142,Stonehenge,https://www.allmusic.com/artist/ruins-mn0000300959,,2025-03-24 19:06:54
+1143,Phaedra,https://www.allmusic.com/artist/tangerine-dream-mn0000002411,,2025-03-24 19:07:32
+1144,Interstellar Overdrive,https://www.allmusic.com/artist/pink-floyd-mn0000346336,,2025-03-24 19:07:32
+1145,Chasing a Bee,https://www.allmusic.com/artist/mercury-rev-mn0000408696,,2025-03-24 19:07:33
+1146,Protection,https://www.allmusic.com/artist/massive-attack-mn0000378288,,2025-03-24 19:07:33
+1147,For Silence,https://www.allmusic.com/artist/flying-saucer-attack-mn0000803003,,2025-03-24 19:07:33
+1148,Twin Peaks,https://www.allmusic.com/artist/angelo-badalamenti-mn0000041431,,2025-03-24 19:07:33
+1149,Raga Malika,https://www.allmusic.com/artist/ali-akbar-khan-mn0000742673,,2025-03-24 19:07:33
+1150,War Ina Babylon,https://www.allmusic.com/artist/max-romeo-mn0000334101,,2025-03-24 19:07:33
+1152,Original Sufferhead,https://www.allmusic.com/artist/fela-kuti-mn0000138833,,2025-03-24 19:07:33
+1159,Afro Blue,https://www.allmusic.com/artist/robert-glasper-mn0000288985,,2025-03-24 19:08:13
+1160,Saving All My Love For You,https://www.allmusic.com/artist/lester-bowies-brass-fantasy-mn0000213973,,2025-03-24 19:08:13
+1163,Indian Summer,https://www.allmusic.com/artist/ron-carter-mn0000275832,,2025-03-24 19:08:54
+1164,Red Top,https://www.allmusic.com/artist/erroll-garner-mn0000206967,,2025-03-24 19:08:54
+1165,Part I,https://www.allmusic.com/artist/keith-jarrett-mn0000066570,,2025-03-24 19:08:54
+1166,I'm in Love with My Car,https://www.allmusic.com/artist/queen-mn0000858827,,2025-03-24 19:08:54
+1167,Bohemian Rhapsody,https://www.allmusic.com/artist/queen-mn0000858827,,2025-03-24 19:08:54
+1168,Armando's Rhumba,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 19:08:54
+1169,King Tubby Meets the Rockers Uptown,https://www.allmusic.com/artist/augustus-pablo-mn0000052151,,2025-03-24 19:08:54
+1170,Owner of a Lonely Heart,https://www.allmusic.com/artist/yes-mn0000685647,,2025-03-24 19:08:54
+1187,Sweet Thing,https://www.allmusic.com/artist/van-morrison-mn0000307461,,2025-03-24 19:10:15
+1188,In the Evening When the Sun Goes Down,https://www.allmusic.com/artist/charles-brown-mn0000805298,,2025-03-24 19:10:15
+1190,Fly on the Windscreen,https://www.allmusic.com/artist/depeche-mode-mn0000239921,,2025-03-24 19:10:15
+1201,Which Will,https://www.allmusic.com/artist/nick-drake-mn0000336783,,2025-03-24 19:11:35
+1202,So What,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 19:11:35
+1203,If Ever I See You Again,https://www.allmusic.com/artist/roberta-flack-mn0000290072,,2025-03-24 19:11:35
+1204,Thirteen,https://www.allmusic.com/artist/big-star-mn0000051992,,2025-03-24 19:11:35
+1206,Here's Where the Story Ends,https://www.allmusic.com/artist/the-sundays-mn0000564726,,2025-03-24 19:11:36
+1207,Mam'selle,https://www.allmusic.com/artist/johnny-hartman-mn0000212612,,2025-03-24 19:11:36
+1208,Sugar Mountain,https://www.allmusic.com/artist/neil-young-mn0000379125,,2025-03-24 19:11:36
+1209,Morning Has Broken,https://www.allmusic.com/artist/cat-stevens-mn0000198480,,2025-03-24 19:11:36
+1210,Silent All These Years,https://www.allmusic.com/artist/tori-amos-mn0000792530,,2025-03-24 19:11:36
+1214,After All This Time,https://www.allmusic.com/artist/rodney-crowell-mn0000294085,,2025-03-24 19:12:15
+1216,Left to My Own Devices,https://www.allmusic.com/artist/pet-shop-boys-mn0000260212,,2025-03-24 19:12:15
+1219,Ballad of Forty Dollars,https://www.allmusic.com/artist/tom-t-hall-mn0000515628,,2025-03-24 19:12:15
+1228,African Woman,https://www.allmusic.com/artist/burning-spear-mn0000641994,,2025-03-24 19:12:58
+1229,Ballade de Melody Nelson,https://www.allmusic.com/artist/serge-gainsbourg-mn0000174822,,2025-03-24 19:12:58
+1237,One Nation Under a Groove,https://www.allmusic.com/artist/funkadelic-mn0000187581,,2025-03-24 19:13:42
+1241,The Brakes,https://www.allmusic.com/artist/cannonball-adderley-mn0000548338,,2025-03-24 19:14:24
+1246,Dust Devil,https://www.allmusic.com/artist/madness-mn0000195874,,2025-03-24 19:14:24
+1247,Chant of the Groove [Live],https://www.allmusic.com/artist/coleman-hawkins-his-orchestra-mn0000092350,,2025-03-24 19:14:24
+1248,Brief Eternity,https://www.allmusic.com/artist/bobby-mcferrin-mn0000768367,,2025-03-24 19:14:24
+1261,Return to Forever,https://www.allmusic.com/artist/airto-moreira-mn0000609992,,2025-03-24 19:15:49
+1268,Ghost Town,https://www.allmusic.com/artist/the-specials-mn0000482334,,2025-03-24 19:15:50
+1275,For Your Love,https://www.allmusic.com/artist/the-yardbirds-mn0000489303,,2025-03-24 19:16:28
+1277,Hokum Stomp,https://www.allmusic.com/artist/big-bill-broonzy-mn0000757873,,2025-03-24 19:16:28
+1278,Miles Runs the Voodoo Down,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 19:16:28
+1279,Gentle on My Mind,https://www.allmusic.com/artist/glen-campbell-mn0000664378,,2025-03-24 19:17:10
+1280,The Sweetest Taboo,https://www.allmusic.com/artist/sade-mn0000279337,,2025-03-24 19:17:10
+1282,Wild World,https://www.allmusic.com/artist/cat-stevens-mn0000198480,,2025-03-24 19:17:10
+1283,Desafinado,https://www.allmusic.com/artist/stan-getz-mn0000742899,,2025-03-24 19:17:10
+1284,Hey Nineteen,https://www.allmusic.com/artist/steely-dan-mn0000011707,,2025-03-24 19:17:10
+1285,Midnight Special,https://www.allmusic.com/artist/jimmy-smith-mn0000781172,,2025-03-24 19:17:10
+1286,Ventura Highway,https://www.allmusic.com/artist/america-mn0000019297,,2025-03-24 19:17:10
+1287,Sara Smile,https://www.allmusic.com/artist/daryl-hall-john-oates-mn0000674887,,2025-03-24 19:17:11
+1291,Love Galore,https://www.allmusic.com/artist/sza-mn0003180568,,2025-03-24 19:17:50
+1292,Levon,https://www.allmusic.com/artist/elton-john-mn0000796734,,2025-03-24 19:17:50
+1293,Power of Persuasion,https://www.allmusic.com/artist/oneohtrix-point-never-mn0001598199,,2025-03-24 19:17:50
+1295,Richer Than Errybody,https://www.allmusic.com/artist/gucci-mane-mn0000545523,,2025-03-24 19:17:51
+1296,Posse on Bouldercrest,https://www.allmusic.com/artist/gucci-mane-mn0000545523,,2025-03-24 19:17:51
+1297,Blue Boy,https://www.allmusic.com/artist/mac-demarco-mn0002872922,,2025-03-24 19:17:51
+1302,No Woman No Cry,https://www.allmusic.com/artist/bob-marley-mn0000071514,,2025-03-24 19:18:32
+1304,Junker's Blues,https://www.allmusic.com/artist/champion-jack-dupree-mn0000197040,,2025-03-24 19:18:32
+1305,"Bright Lights, Big City",https://www.allmusic.com/artist/jimmy-reed-mn0000076881,,2025-03-24 19:18:32
+1306,Packin' Trunk Blues,https://www.allmusic.com/artist/lead-belly-mn0000124390,,2025-03-24 19:18:32
+1341,Objects in Mirror Are Closer Than They Appear,https://www.allmusic.com/artist/meshell-ndegeocello-mn0000402351,,2025-03-24 19:21:15
+1342,See You Again,https://www.allmusic.com/artist/tyler-the-creator-mn0002591087,,2025-03-24 19:21:15
+1343,Générique,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 19:21:15
+1347,Blue Bayou,https://www.allmusic.com/artist/linda-ronstadt-mn0000686897,,2025-03-24 19:21:16
+1350,Santana,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 19:21:53
+1352,Human Nature,https://www.allmusic.com/artist/miles-davis-mn0000423829,,2025-03-24 19:21:54
+1353,Black Summer,https://www.allmusic.com/artist/red-hot-chili-peppers-mn0000883318,,2025-03-24 19:21:54
+1354,You Ain't Seen Nothing Yet,https://www.allmusic.com/artist/bachman-turner-overdrive-mn0000062002,,2025-03-24 19:21:54
+1355,That I Get Back Home,https://www.allmusic.com/artist/nrbq-mn0000377908,,2025-03-24 19:21:54
+1356,London Ting//Dark as Fuck,https://www.allmusic.com/artist/loraine-james-mn0003861000,,2025-03-24 19:21:54
+1357,Right Back to It,https://www.allmusic.com/artist/waxahatchee-mn0002845726,,2025-03-24 19:21:54
+1374,No Tengo Dinero,https://www.allmusic.com/artist/juan-gabriel-mn0000240252,,2025-03-24 19:23:14
+1378,Sleepless,https://www.allmusic.com/artist/andy-stott-mn0000975878,,2025-03-24 19:23:53
+1380,Went to See the Gypsy,https://www.allmusic.com/artist/bob-dylan-mn0000066915,,2025-03-24 19:23:53
+1383,Zenith,https://www.allmusic.com/artist/ghost-mn0002616588,,2025-03-24 19:23:54
+1398,The Wrong Nigga to Fuck Wit,https://www.allmusic.com/artist/ice-cube-mn0000086065,,2025-03-24 19:25:53
+1399,Big Poppa,https://www.allmusic.com/artist/the-notorious-big-mn0000892827,,2025-03-24 19:25:53
+1417,Mary Jane's Last Dance,https://www.allmusic.com/artist/tom-petty-the-heartbreakers-mn0000614137,,2025-03-24 19:27:15
+1424,(I Keep A) Close Watch,https://www.allmusic.com/artist/john-cale-mn0000224638,,2025-03-24 19:27:52
+1425,Spillways,https://www.allmusic.com/artist/ghost-mn0002616588,,2025-03-24 19:27:53
+1433,On the Road Again,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 19:28:32
+1434,"So Fresh, So Clean",https://www.allmusic.com/artist/outkast-mn0000420381,,2025-03-24 19:28:32
+1435,Me and Paul,https://www.allmusic.com/artist/willie-nelson-mn0000583959,,2025-03-24 19:28:33
+1438,Energy,https://www.allmusic.com/artist/a-guy-called-gerald-mn0000919598,,2025-03-24 19:29:11
+1439,Odyssey,https://www.allmusic.com/artist/borderland-mn0003504368,,2025-03-24 19:29:11
+1440,Rerelease Hysteresis,https://www.allmusic.com/artist/mouse-on-mars-mn0000929800,,2025-03-24 19:29:11
+1441,Finesse,https://www.allmusic.com/artist/bruno-mars-mn0001032082,,2025-03-24 19:29:11
+1442,Amplified Sample,https://www.allmusic.com/artist/gza-mn0000170084,,2025-03-24 19:29:11
+1443,Love Cry,https://www.allmusic.com/artist/four-tet-mn0000741236,,2025-03-24 19:29:12
+1444,Good Drank,https://www.allmusic.com/artist/2-chainz-mn0002748040,,2025-03-24 19:29:12
+1445,Epithalame,https://www.allmusic.com/artist/art-zoyd-mn0000526901,,2025-03-24 19:29:12
+1447,Definition,https://www.allmusic.com/artist/black-star-mn0000098433,,2025-03-24 19:29:52
+1450,Ambient 1: Music for Airports~1/1,https://www.allmusic.com/artist/brian-eno-mn0000617196,,2025-03-24 19:29:52
+1452,Zebra,https://www.allmusic.com/artist/beach-house-mn0000998969,,2025-03-24 19:29:52
+1453,Wake-Up Call,https://www.allmusic.com/artist/chick-corea-mn0000110541,,2025-03-24 19:29:52
+1455,Remember (Walking in the Sand),https://www.allmusic.com/artist/the-shangri-las-mn0000418955,,2025-03-24 19:30:31
+1456,The Sun Ain't Gonna Shine (Anymore),https://www.allmusic.com/artist/the-walker-brothers-mn0000582024,,2025-03-24 19:30:31
+1457,Emma's House,https://www.allmusic.com/artist/the-field-mice-mn0000066869,,2025-03-24 19:30:31
+1458,Hello Walls,https://www.allmusic.com/artist/faron-young-mn0000143951,,2025-03-24 19:30:31
+1459,Maggie May,https://www.allmusic.com/artist/rod-stewart-mn0000293896,,2025-03-24 19:30:31
+1460,"100,000 Fireflies",https://www.allmusic.com/artist/the-magnetic-fields-mn0000056358,,2025-03-24 19:30:31
+1461,Walking Wounded,https://www.allmusic.com/artist/everything-but-the-girl-mn0000127360,,2025-03-24 19:30:32
+1462,Goin' Back,https://www.allmusic.com/artist/dusty-springfield-mn0000159214,,2025-03-24 19:30:32
+1463,Hot Burrito No. 2,https://www.allmusic.com/artist/the-flying-burrito-brothers-mn0000194703,,2025-03-24 19:30:32
+1464,Only the Lonely,https://www.allmusic.com/artist/roy-orbison-mn0000852007,,2025-03-24 19:30:32
+1467,Wonderful! Wonderful!,https://www.allmusic.com/artist/johnny-mathis-mn0000246885,,2025-03-24 19:31:10
+1497,Ring the Alarm Quick,https://www.allmusic.com/artist/buju-banton-mn0000939187,,2025-03-24 19:33:11
+1499,In the Morning,https://www.allmusic.com/artist/j-cole-mn0001089515,,2025-03-24 19:33:11
+1501,As We Enter,https://www.allmusic.com/artist/damian-marley-mn0000951374,,2025-03-24 19:33:11
+1502,"Hail Caesar!~Hail, Caesar!",https://www.allmusic.com/artist/carter-burwell-mn0000149173,,2025-03-24 19:33:11
+1504,Precious Things,https://www.allmusic.com/artist/lupe-fiasco-mn0000239628,,2025-03-24 19:33:52
+1505,LUMBERJACK,https://www.allmusic.com/artist/tyler-the-creator-mn0002591087,,2025-03-24 19:33:52
+1510,Part 1. Introduction,https://www.allmusic.com/artist/mike-oldfield-mn0000489520,,2025-03-24 19:35:13
+1521,"Oh, Me",https://www.allmusic.com/artist/meat-puppets-mn0000339577,,2025-03-24 19:35:52
+1526,OV zarmanali (Hymn of the baptism of Christ),https://www.allmusic.com/artist/jan-garbarek-mn0000809334,,2025-03-24 19:36:36
+1530,My Blue Heaven,https://www.allmusic.com/artist/fats-domino-mn0000137494,,2025-03-24 19:37:16
