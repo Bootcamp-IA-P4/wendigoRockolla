@@ -89,7 +89,7 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
    GENIUS_API_KEY=tu_genius_api_key
 ---
 
-## USO
+## USO 🎶
 
 <em>App principal</em>
 
@@ -97,36 +97,115 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
 
    2. **Para iniciar la aplicación web principal:**
 
+    python app.py
 
-   python app.py
-
-3. **Abre tu navegador y ve a http://localhost:5000 para acceder a la aplicación.
+   3. **Abre tu navegador y ve a http://localhost:5000 para acceder a la aplicación.**
 
 Podrás explorar las diferentes funcionalidades de la aplicación, como buscar música, ver tus playlists, etc.
 
 <em>Scraper Allmusic</em>
 
-1. Asegúrate de estar a la altura del archivo scraper_allmusic.py
-2. Para iniciar el scraper:
-   python scraper_allmusic.py
-3. El scraper comenzará a recopilar datos de Allmusic. (Puede tardar un par de horas, recuerda que es mucha información)
+1. **Asegúrate de estar a la altura del archivo scraper_allmusic.py**
+2. **Para iniciar el scraper:**
+   
+       python scraper_allmusic.py
 
-<em>Scraper de moods indpendientes</em>
+3.**El scraper comenzará a recopilar datos de Allmusic. (Puede tardar un par de horas, recuerda que es mucha información)**
 
-Este scraper se encarga de obtener los datos de los moods existentes en la base de datos.
+### <em>Scraper de moods independientes</em>
 
-1. Asegúrate de estar a la altura del archivo scraper_moods.py
-2. Para iniciar el scraper:
+ Este scraper se encarga de obtener los datos de los moods existentes en la base de datos.
+
+1. **Asegúrate de estar a la altura del archivo scraper_moods.py**
+2. **Para iniciar el scraper:**
    python scrape_existing_moods.py
-3. El scraper comenzará a recopilar datos de los moods existentes en la base de datos.
+3. **El scraper comenzará a recopilar datos de los moods existentes en la base de datos**
 
 <em>Limpiador de data</em>
 
 El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de los scrapers, evitando que existan datos duplicados.
 
-1. Asegúrate de estar a la altura del archivo data_cleaner.py
-2. Para iniciar el limpiador de datos:
+1. **Asegúrate de estar a la altura del archivo data_cleaner.py**
+2. **Para iniciar el limpiador de datos:**
    python data_cleaner.py
-3. El limpiador de datos comenzará a limpiar los datos obtenidos de las APIs y de los scrapers.
+3. **El limpiador de datos comenzará a limpiar los datos obtenidos de las APIs y de los scrapers.**
+
 ---
+
+## Tecnologías 💻
+- **Python:** Lenguaje principal de desarrollo
+- **Selenium:** Para web scraping y automatización del navegador
+- **MySQL:** Base de datos relacional para almacenamiento de la información
+- **Pandas:** Análisis y limpieza de datos
+- **Flask:** Framework web para la interfaz de usuario
+- **ChromeDriver:** Driver para controlar Chrome desde Selenium
+
+---
+
+## Funcionalidades 🎵
+
+- ✔ **Búsqueda por Mood:** Encuentra música basada en tu estado de ánimo actual
+- ✔ **Descubrimiento de Música:** Descubre nuevos artistas y canciones relacionadas con tus preferencias
+- ✔ **Integración con Spotify:** Guarda y comparte playlists directamente en tu cuenta de Spotify
+- ✔ **Letras de Canciones:** Accede a letras e información adicional gracias a la API de Genius
+- ✔ **Recomendaciones Personalizadas:** Recibe recomendaciones basadas en tu historial de escucha
+- ✔ **Depuración de Datos:** Limpieza automatizada de datos para asegurar información de calidad
+
+---
+
+## Tests 🧪
+
+1. **Asegúrate de estar a la altura del archivo test.py, en la rama test**
+2. **Instalación de las dependencias:**
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```
+3. **Para ejecutar los tests con detalles:**
+   ```bash
+   python -m unittest test.py -v
+   ```
+
+Lista de tests:
+
+ - Tests CRUD de la base de datos
+   - test_get_all_moods
+   - test_get_mood_by_name
+   - test_add_mood
+   - test_update_mood_url
+   - test_delete_mood_by_id
+   - test_get_all_artists
+   - test_get_all_albums
+   - test_get_songs_by_mood_id
+
+- Tests de la API de Spotify **(test_spotify_api.py)**
+  - test_search_tracks
+  - test_advanced_search_track
+  - test_get_auth_url
+  - test_get_token_info
+  - test_get_user_profile
+
+**Base de datos de prueba:** Utilizan una base de datos separada para evitar modificar datos reales.
+
+**Mocks para APIs externas:** Simulan las respuestas de Spotify sin necesidad de conexiones reales.
+
+**Cobertura completa:** Prueban todos los aspectos críticos de la aplicación: base de datos, scraping y API externa.
+
+**Automatización:** Pueden ejecutarse automáticamente como parte del proceso de desarrollo para detectar problemas temprano.
+
+Estos tests constituyen una base sólida para garantizar que Wendigo Music Finder funcione correctamente en todos sus componentes clave.
+
+---
+## Licencia 📜
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+
+---
+## Contacto 📧
+Si tienes preguntas o comentarios, no dudes en contactarme:
+- **Nombre:** [Tu Nombre]
+- **GitHub:** [Tu Perfil de GitHub]
+
+
 
