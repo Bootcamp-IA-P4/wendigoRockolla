@@ -87,17 +87,46 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
    SPOTIFY_CLIENT_ID=tu_spotify_client_id
    SPOTIFY_CLIENT_SECRET=tu_spotify_client_secret
    GENIUS_API_KEY=tu_genius_api_key
-   LASTFM_API_KEY=tu_lastfm_api_key
-
 ---
 
 ## USO
 
 <em>App principal</em>
 
-1. Asegúrate de estar a la altura del archivo app.py
+   1. **Asegúrate de estar a la altura del archivo "app.py" (en la raíz del proyecto)**
 
-2. Para iniciar la aplicación web principal:
-```bash
+   2. **Para iniciar la aplicación web principal:**
+
+
    python app.py
+
+3. **Abre tu navegador y ve a http://localhost:5000 para acceder a la aplicación.
+
+Podrás explorar las diferentes funcionalidades de la aplicación, como buscar música, ver tus playlists, etc.
+
+<em>Scraper Allmusic</em>
+
+1. Asegúrate de estar a la altura del archivo scraper_allmusic.py
+2. Para iniciar el scraper:
+   python scraper_allmusic.py
+3. El scraper comenzará a recopilar datos de Allmusic. (Puede tardar un par de horas, recuerda que es mucha información)
+
+<em>Scraper de moods indpendientes</em>
+
+Este scraper se encarga de obtener los datos de los moods existentes en la base de datos.
+
+1. Asegúrate de estar a la altura del archivo scraper_moods.py
+2. Para iniciar el scraper:
+   python scrape_existing_moods.py
+3. El scraper comenzará a recopilar datos de los moods existentes en la base de datos.
+
+<em>Limpiador de data</em>
+
+El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de los scrapers, evitando que existan datos duplicados.
+
+1. Asegúrate de estar a la altura del archivo data_cleaner.py
+2. Para iniciar el limpiador de datos:
+   python data_cleaner.py
+3. El limpiador de datos comenzará a limpiar los datos obtenidos de las APIs y de los scrapers.
+---
 
