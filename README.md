@@ -23,62 +23,66 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
 - [Instalación](#instalación)  
 - [Configuración](#configuración)  
 - [Uso](#uso)  
-  - [Aplicación Principal](#aplicación-principal)  
+  - [Aplicación Principal](#app-principal)  
   - [Scraper Principal](#scraper-principal)  
   - [Scraper de Moods Existentes](#scraper-de-moods-existentes)  
   - [Data Cleaner](#data-cleaner)  
 - [Tecnologías](#tecnologías)  
 - [Funcionalidades](#funcionalidades)  
 - [APIs](#apis)  
-- [Contribuciones](#contribuciones)  
 - [Licencia](#licencia)  
 
 ---
 
-## ✅ Requisitos  
+## REQUISITOS
 - **Python 3.9 o superior**  
 - **MySQL/MariaDB**  
 - **Google Chrome** (para Selenium)  
 - **Conexión a internet**  
 
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Selenium](https://img.shields.io/badge/Selenium-4.0+-green.svg)
-![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-yellow.svg)
-![Flask](https://img.shields.io/badge/Flask-2.0+-lightgrey.svg)
-![Last.fm](https://img.shields.io/badge/API-Last.fm-red.svg)
-![Genius](https://img.shields.io/badge/API-Genius-purple.svg)
-![Spotify](https://img.shields.io/badge/API-Spotify-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-4.0+-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Genius](https://img.shields.io/badge/API-Genius-FFFF64?style=for-the-badge&logo=genius&logoColor=black)
+![Spotify](https://img.shields.io/badge/API-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
+
 
 ---
 
-## ⚙️ Instalación  
+## INSTALACIÓN
 
 1. **Clona el repositorio:**  
    ```bash
    git clone https://github.com/tu-usuario/wendigo-music-finder.git
    cd wendigo-music-finder
+   ```
 
 2. **Crea y activa un entorno virtual:**  
    ```bash
    python -m venv venv
    source venv/bin/activate  # En macOS/Linux
    venv\Scripts\activate     # En Windows
+   ```
 
 3. **Instala las dependencias:**  
    ```bash
    pip install -r requirements.txt
+   ```
 
 4. **Configura la base de datos:**  
    ```bash
    mysql -u root -p -e "CREATE DATABASE wendigo_db;"
+   ```
 
 ---
 
 ## CONFIGURACIÓN
 
-1. **Crea un archivo .env en la raíz del proyecto con las siguientes variables**  
+1. **Crea un archivo .env en la raíz del proyecto con las siguientes variables**
+
    ```bash
    MYSQL_HOST=localhost
    MYSQL_USER=tu_usuario
@@ -87,15 +91,17 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
    SPOTIFY_CLIENT_ID=tu_spotify_client_id
    SPOTIFY_CLIENT_SECRET=tu_spotify_client_secret
    GENIUS_API_KEY=tu_genius_api_key
+   ```
 ---
 
-## USO 🎶
+## USO
 
-<em>App principal</em>
+### <em>App principal</em>
 
    1. **Asegúrate de estar a la altura del archivo "app.py" (en la raíz del proyecto)**
 
    2. **Para iniciar la aplicación web principal:**
+
       ```bash
       python app.py
       ```
@@ -108,8 +114,10 @@ Podrás explorar las diferentes funcionalidades de la aplicación, como buscar m
 
 1. **Asegúrate de estar a la altura del archivo scraper_allmusic.py**
 2. **Para iniciar el scraper:**
-   
-       python scraper_allmusic.py
+
+   ```bash
+   python scraper_allmusic.py
+   ```
 
 3.**El scraper comenzará a recopilar datos de Allmusic. (Puede tardar un par de horas, recuerda que es mucha información)**
 
@@ -119,21 +127,29 @@ Podrás explorar las diferentes funcionalidades de la aplicación, como buscar m
 
 1. **Asegúrate de estar a la altura del archivo scraper_moods.py**
 2. **Para iniciar el scraper:**
-   python scrape_existing_moods.py
+
+   ```bash
+   python scrape_existing_moods.
+   ```
+
 3. **El scraper comenzará a recopilar datos de los moods existentes en la base de datos**
 
-<em>Limpiador de data</em>
+### <em>Limpiador de data</em>
 
 El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de los scrapers, evitando que existan datos duplicados.
 
 1. **Asegúrate de estar a la altura del archivo data_cleaner.py**
 2. **Para iniciar el limpiador de datos:**
+   
+   ```bash
    python data_cleaner.py
+   ```
+
 3. **El limpiador de datos comenzará a limpiar los datos obtenidos de las APIs y de los scrapers.**
 
 ---
 
-## Tecnologías 💻
+## Tecnologías
 - **Python:** Lenguaje principal de desarrollo
 - **Selenium:** Para web scraping y automatización del navegador
 - **MySQL:** Base de datos relacional para almacenamiento de la información
@@ -143,7 +159,7 @@ El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de
 
 ---
 
-## Funcionalidades 🎵
+## Funcionalidades
 
 - ✔ **Búsqueda por Mood:** Encuentra música basada en tu estado de ánimo actual
 - ✔ **Descubrimiento de Música:** Descubre nuevos artistas y canciones relacionadas con tus preferencias
@@ -164,7 +180,6 @@ El limpiador de datos se encarga de limpiar los datos obtenidos de las APIs y de
 
    ```bash
    pip install -r requirements.txt
-
    ```
 3. **Para ejecutar los tests con detalles:**
    ```bash
@@ -216,8 +231,8 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obten
 ---
 ## Contacto 📧
 Si tienes preguntas o comentarios, no dudes en contactarme:
-- **Nombre:** [Tu Nombre]
-- **GitHub:** [Tu Perfil de GitHub]
+
+
 
 
 
