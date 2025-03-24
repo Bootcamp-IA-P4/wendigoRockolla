@@ -96,8 +96,9 @@ El proyecto cuenta con integración de APIs de **Last.fm, Genius y Spotify** par
    1. **Asegúrate de estar a la altura del archivo "app.py" (en la raíz del proyecto)**
 
    2. **Para iniciar la aplicación web principal:**
-
-    python app.py
+      ```bash
+      python app.py
+      ```
 
    3. **Abre tu navegador y ve a http://localhost:5000 para acceder a la aplicación.**
 
