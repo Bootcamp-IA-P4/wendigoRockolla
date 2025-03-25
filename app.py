@@ -169,28 +169,25 @@ def delete_mood(mood_id):
 # Gestión de letras de canciones
 @app.route('/lyrics')
 def lyrics():
-    song_name = request.args.get('song', '')
-    artist_name = request.args.get('artist', '')
-    
-    if not song_name:
-        return render_template('lyrics.html', error="Por favor, proporciona el nombre de una canción")
+    song_name = request.args.get('song')
+    artist_name = request.args.get('artist')
     
     # Buscar la canción en Genius
     results = get_song_details(song_name, artist_name)
     
     if not results:
-        return render_template('lyrics.html', error=f"No se encontraron letras para '{song_name}'",
-song_name=song_name,artist_name=artist_name)
+        return jsonify({"error": "Canción no encontrada"}), 404
     
-    # Tomar el primer resultado
-    song = results[0]["result"]
-    song_url = song["url"]
+    song_id = results[0]["result"]["id"]  # Obtiene el ID de la primera coincidencia
+    song_details = get_song_details(song_id)  # Obtiene los detalles de la canción
     
-    # Obtener letra
-    lyrics = get_song_lyrics(song_url)
+    if not song_details:
+        return jsonify({"error": "No se encontraron detalles de la canción"}), 404
+
+    song_url = song_details.get("url")  # URL de la canción en Genius
+    lyrics = get_song_lyrics(song_url)  # Scrapea la letra desde la URL
     
-    return render_template('lyrics.html', song=song,
-lyrics=lyrics, song_name=song_name, artist_name=artist_name)
+    return jsonify({"song": song_name, "artist": artist_name, "lyrics": lyrics})
 
 
 
