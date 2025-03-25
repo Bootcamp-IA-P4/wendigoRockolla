@@ -26,8 +26,4 @@ mood_images = {
 }
 
 def get_mood_image(mood_name):
-    """
-    Devuelve la URL de la imagen para un mood dado.
-    Si el mood no está en el diccionario, devuelve la imagen predeterminada.
-    """
     return mood_images.get(mood_name, mood_images['default'])

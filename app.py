@@ -4,9 +4,9 @@ import secrets
 import sys
 import json
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from scraper.db.crud import get_data, get_all_moods, get_all_artists, get_all_albums, get_songs_by_mood_id, get_mood_by_name, get_popular_songs 
+from scraper.db.crud import get_data, get_all_moods, get_all_artists, get_albums, get_songs_by_mood_id, get_mood_by_name, get_popular_songs 
 from static.mood_images import get_mood_image
-from services.genius_service import get_song_lyrics, get_song_details
+from services.genius_service import get_song_lyrics, get_song_details, search_song
 from services.spotifyApi import (
     get_auth_url, get_token_info, get_user_profile, 
     search_tracks, create_playlist, add_tracks_to_playlist,
@@ -19,6 +19,7 @@ app = Flask(__name__)
 
 # Configuración para session
 app.secret_key = os.getenv("SECRET_KEY") or secrets.token_hex(16)
+app.jinja_env.globals.update(get_mood_image=get_mood_image)
 
 # Configurar sesión para que dure más tiempo (1 semana)
 from datetime import timedelta
@@ -62,23 +63,21 @@ def get_mood_icon(mood_name):
 
 @app.route('/')
 def index():
+    # Obtén los moods como diccionarios, no como listas
+    moods = get_all_moods()
     
-    moods_data = get_all_moods()
-    moods = moods_data[:12] if moods_data else []
-    artists = get_all_artists()  # Función que debes implementar
-    albums = get_all_albums()
-    popular_songs = get_popular_songs()
+    # Verifica la estructura de moods
+    print(f"Tipo de moods: {type(moods)}")
+    if moods and len(moods) > 0:
+        print(f"Ejemplo de primer elemento: {moods[0]}")
     
-    # Obtener información del usuario de Spotify si está autenticado
-    spotify_user = None
-    if 'token_info' in session:
-        try:
-            spotify_user = get_user_profile()
-        except:
-            pass
-    
-    return render_template('index.html', moods=moods, artists=artists, albums=albums, popular_songs=popular_songs, spotify_user=spotify_user, get_mood_image=get_mood_image, get_mood_icon=get_mood_icon)
-    
+    return render_template('index.html',
+                          moods=moods,
+                          artists=get_all_artists(),
+                          albums=get_albums(), 
+                          popular_songs=get_popular_songs(),
+                          show_lyrics_form=False,
+                          lyrics=None)
 
 @app.route('/search')
 def search():
@@ -166,28 +165,46 @@ def delete_mood(mood_id):
 
 
 
-# Gestión de letras de canciones
+# Gestión de letras de canciones de Genius
 @app.route('/lyrics')
 def lyrics():
-    song_name = request.args.get('song')
-    artist_name = request.args.get('artist')
+    song_name = request.args.get('song', '')
+    artist_name = request.args.get('artist', '')
     
-    # Buscar la canción en Genius
-    results = get_song_details(song_name, artist_name)
+    if not song_name:
+        return render_template('index.html', 
+                               show_lyrics_form=True,
+                               moods=get_all_moods(),
+                               artists=get_all_artists(),
+                               albums=get_albums(),
+                               popular_songs=get_popular_songs())
     
-    if not results:
-        return jsonify({"error": "Canción no encontrada"}), 404
+    # Buscar y obtener letras
+    hits = search_song(song_name, artist_name)
+    lyrics_data = None
     
-    song_id = results[0]["result"]["id"]  # Obtiene el ID de la primera coincidencia
-    song_details = get_song_details(song_id)  # Obtiene los detalles de la canción
+    if hits:
+        first_hit = hits[0].get('result', {})
+        song_url = first_hit.get('url', '')
+        song_title = first_hit.get('title', song_name)
+        song_artist = first_hit.get('primary_artist', {}).get('name', artist_name)
+        
+        if song_url:
+            lyrics_text = get_song_lyrics(song_url)
+            lyrics_data = {
+                'song': song_title,
+                'artist': song_artist,
+                'lyrics': lyrics_text,
+                'show_immediately': True  # Para indicar que las letras deben mostrarse
+            }
     
-    if not song_details:
-        return jsonify({"error": "No se encontraron detalles de la canción"}), 404
-
-    song_url = song_details.get("url")  # URL de la canción en Genius
-    lyrics = get_song_lyrics(song_url)  # Scrapea la letra desde la URL
-    
-    return jsonify({"song": song_name, "artist": artist_name, "lyrics": lyrics})
+    return render_template('index.html',
+                           lyrics=lyrics_data,
+                           show_lyrics_form=True,
+                           moods=get_all_moods(),
+                           artists=get_all_artists(),
+                           albums=get_albums(),
+                           popular_songs=get_popular_songs())
 
 
 
@@ -334,13 +351,17 @@ def get_albums():
         conn = connect_db()
         cursor = conn.cursor(dictionary=True)
         
-        # Adapta esta consulta a tu estructura de base de datos
         cursor.execute("""
-            SELECT DISTINCT name, artist FROM albums 
-            ORDER BY name LIMIT 8
+            SELECT DISTINCT name, artist, cover_url FROM albums 
+            ORDER BY name LIMIT 10
         """)
         
         albums = cursor.fetchall()
+        
+        print(f"Albums obtenidos: {len(albums)}")
+        if albums and len(albums) > 0:
+            print(f"Primer álbum: {albums[0]}")
+        
         cursor.close()
         conn.close()
         return albums

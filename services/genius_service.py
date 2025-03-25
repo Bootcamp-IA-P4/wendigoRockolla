@@ -28,33 +28,38 @@ def search_song(song_name, artist_name=None):
     
     return []
 
-def get_song_lyrics(song_url):
-    """
-    Extrae la letra de una canción desde su URL en Genius
-    """
+def get_song_lyrics(url):
+    """Extrae la letra de una canción de Genius"""
     try:
-        response = requests.get(song_url)
-        if response.status_code != 200:
-            return "No se pudo obtener la letra"
-            
-        # Usar BeautifulSoup para extraer la letra
+        response = requests.get(url)
+        response.raise_for_status()
+        
         soup = BeautifulSoup(response.text, 'html.parser')
-        lyrics_div = soup.find("div", class_=re.compile("Lyrics__Container"))
         
-        if not lyrics_div:
-            return "Letra no disponible"
+        # Intenta encontrar el contenedor de letras
+        lyrics_containers = [
+            soup.select_one('div[data-lyrics-container="true"]'),
+            soup.select_one('.lyrics'),
+            soup.select_one('div.SongPageGrid-sc-1vi6xda-0')
+        ]
+        
+        lyrics_container = next((container for container in lyrics_containers if container), None)
+        
+        if lyrics_container:
+            # Reemplazar <br> por salto de línea y luego eliminar todas las etiquetas HTML
+            lyrics = lyrics_container.get_text(separator='\n')
             
-        # Extraer la letra y preservar formato
-        lyrics = ""
-        for element in lyrics_div:
-            if element.name == "br":
-                lyrics += "\n"
-            elif element.string:
-                lyrics += element.string
-        
-        return lyrics.strip()
+            # Eliminar [?] y espacios en blanco/saltos de línea excesivos
+            lyrics = re.sub(r'\[.*?\]', '', lyrics)
+            lyrics = re.sub(r'\n{3,}', '\n\n', lyrics)
+            lyrics = lyrics.strip()
+            
+            return lyrics
+            
+        return "No se pudieron extraer las letras."
     except Exception as e:
-        return f"Error al obtener la letra: {str(e)}"
+        print(f"Error al obtener letras: {e}")
+        return f"Error al obtener letras: {str(e)}"
 
 def get_song_details(song_id):
     """
@@ -67,3 +72,19 @@ def get_song_details(song_id):
         return response.json().get("response", {}).get("song", {})
     
     return {}
+
+def search_and_get_details(song_name, artist_name=None):
+    """
+    Busca una canción por nombre y artista, y devuelve sus detalles
+    """
+    hits = search_song(song_name, artist_name)
+    if not hits:
+        return None
+    
+    # Tomar el primer resultado (más relevante)
+    song_id = hits[0].get('result', {}).get('id')
+    if not song_id:
+        return None
+    
+    # Obtener los detalles completos
+    return get_song_details(song_id)

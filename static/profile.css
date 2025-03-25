@@ -16,24 +16,6 @@
     --transition: all 0.2s ease;
 }
 
-.libre-baskerville-regular {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .libre-baskerville-bold {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .libre-baskerville-regular-italic {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-
 /* ===== RESET & BASE STYLES ===== */
 * {
     margin: 0;
@@ -92,116 +74,6 @@ header {
     background-color: var(--accent);
 }
 
-/* ===== PROFILE STYLES ===== */
-/* Perfil más compacto */
-.profile-container {
-    background-color: var(--bg-secondary);
-    border-radius: var(--border-radius);
-    padding: 1rem;  /* Reducido de 2rem a 1rem */
-    margin-top: 1rem; /* Reducido de 2rem */
-    box-shadow: var(--box-shadow);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 700px; /* Más estrecho */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.profile-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; /* Reducido de 20px */
-    width: 100%;
-}
-
-.profile-image {
-    width: 80px; /* Reducido de 100px */
-    height: 80px; /* Reducido de 100px */
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 15px; /* Reducido de 20px */
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile-info {
-    flex: 1;
-}
-
-.profile-info h3 {
-    font-size: 1.5rem; /* Reducido de 1.8rem */
-    margin-bottom: 5px; /* Reducido */
-    color: var(--text-primary);
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.profile-info p {
-    font-size: 0.95rem; /* Reducido de 1.1rem */
-    margin: 2px 0; /* Reducido de 5px */
-    color: var(--text-secondary);
-    margin-bottom: 0.5rem;
-}
-
-/* Estadísticas más compactas */
-.stats-section {
-    display: flex;
-    gap: 10px; /* Reducido de 15px */
-    margin: 10px 0; /* Reducido */
-    width: 100%;
-    justify-content: center;
-}
-
-.stat-card {
-    background-color: rgba(0,0,0,0.3);
-    padding: 0.8rem 1rem; /* Reducido de 1.5rem */
-    border-radius: var(--border-radius);
-    text-align: center;
-    flex: 1;
-    max-width: 150px;
-    transition: var(--transition);
-}
-
-.stat-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--box-shadow);
-}
-
-.stat-number {
-    font-size: 1.6rem; /* Reducido de 2rem */
-    font-weight: 700;
-    color: var(--accent);
-    margin-bottom: 0.2rem; /* Reducido */
-}
-
-.stat-label {
-    font-size: 0.8rem; /* Reducido de 0.9rem */
-    color: var(--text-secondary);
-}
-
-/* ===== SPOTIFY ELEMENTS ===== */
-.spotify-button {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.6rem 1.2rem; /* Reducido de 0.8rem 1.5rem */
-    background-color: var(--spotify-green);
-    color: white;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 600;
-    transition: var(--transition);
-    border: none;
-    font-size: 0.9rem; /* Reducido de 1rem */
-    cursor: pointer;
-}
-
-.spotify-button:hover {
-    background-color: var(--spotify-green-hover);
-    transform: translateY(-2px);
-}
 
 /* ===== FORM ELEMENTS ===== */
 .form-container {
@@ -435,12 +307,6 @@ textarea.form-control {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
-    .playlists-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width: 480px) {
     .playlists-grid {
         grid-template-columns: 1fr;
@@ -495,20 +361,6 @@ textarea.form-control {
     margin-bottom: 0.5rem;
 }
 
-/* ===== LYRICS SECTION ===== */
-.lyrics-container {
-    background-color: var(--bg-secondary);
-    border-radius: var(--border-radius);
-    padding: 2rem;
-    margin-top: 2rem;
-    box-shadow: var(--box-shadow);
-}
-
-.lyrics-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-}
 
 .song-cover {
     width: 150px;
@@ -530,26 +382,6 @@ textarea.form-control {
     margin-bottom: 0.5rem;
 }
 
-.lyrics-text {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    white-space: pre-line;
-    color: var(--text-primary);
-    padding-top: 1rem;
-    border-top: 1px solid #333;
-}
-
-.genius-credit {
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    text-align: right;
-}
-
-.genius-credit a {
-    color: var(--accent);
-    text-decoration: none;
-}
 
 /* ===== BUTTONS ===== */
 .back-button {
@@ -567,23 +399,6 @@ textarea.form-control {
 
 .back-button:hover {
     background-color: #6a5acd;
-    transform: translateY(-2px);
-}
-
-.genius-button {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: var(--genius-purple);
-    color: white;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 600;
-    transition: var(--transition);
-    margin-top: 1rem;
-}
-
-.genius-button:hover {
-    background-color: #8a8aee;
     transform: translateY(-2px);
 }
 
@@ -685,11 +500,6 @@ footer a:hover {
         text-align: center;
     }
     
-    .profile-image {
-        margin-right: 0;
-        margin-bottom: 1.5rem;
-    }
-    
     .lyrics-header {
         flex-direction: column;
         text-align: center;
@@ -746,10 +556,232 @@ footer a:hover {
     }
 }
 
-.profile-actions {
-    display: flex;
-    margin-top: 10px; /* Reducido de 15px */
+
+/* ===== NAVBAR STYLES ===== */
+.navbar {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    margin-right: 2em;
+}
+
+.navbar-logo {
+    margin-left: 20em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo i {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+    max-width: 30px;
+    max-height: 30px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 10px;
+}
+
+.navbar-logo img {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.navbar-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.navbar-avatar-icon {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.navbar-item {
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.navbar-item i {
+    margin-right: 0.5rem;
+}
+
+.navbar-item:hover, .navbar-item.active {
+    color: var(--text-primary);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-end {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.spotify-login-btn {
+    background-color: var(--spotify-green);
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+}
+
+.spotify-login-btn:hover {
+    background-color: var(--spotify-green-hover);
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+}
+
+.logout-btn {
+    color: var(--error-red);
+}
+
+.logout-btn:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+/* Rediseño de la tarjeta de perfil para formato horizontal */
+.profile-container {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 1rem auto;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.premium-badge {
+    color: #1db954;
+    margin-left: 10px;
+}
+
+.stats-section {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.stat-card {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    min-width: 80px;
+}
+
+.stat-number {
+    font-size: 1.4rem;
+    margin-bottom: 0.1rem;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.spotify-button {
+    background-color: var(--spotify-green);
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.spotify-button:hover {
+    background-color: var(--spotify-green-hover);
+    transform: translateY(-2px);
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .profile-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .profile-header, .stats-section, .profile-actions {
+        width: 100%;
+    }
+    
+    .profile-actions {
+        justify-content: center;
+    }
+    
+    .stats-section {
+        justify-content: space-around;
+    }
 }

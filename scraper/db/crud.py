@@ -9,26 +9,17 @@ except ImportError:
     from scraper.db.connection import connect_db
 
 def get_all_moods():
+    """Obtiene todos los moods de la base de datos"""
     try:
-        db = connect_db()
-        cursor = db.cursor(dictionary=True)
-        
-        # Primero verificamos si la columna url existe
-        cursor.execute("SHOW COLUMNS FROM moods LIKE 'url'")
-        column_exists = cursor.fetchone()
-        
-        if column_exists:
-            query = "SELECT id, name, url FROM moods"
-        else:
-            query = "SELECT id, name FROM moods"
-            
-        cursor.execute(query)
-        results = cursor.fetchall()
+        conn = connect_db()
+        cursor = conn.cursor(dictionary=True)  # Importante: usar dictionary=True
+        cursor.execute("SELECT * FROM moods LIMIT 10")
+        moods = cursor.fetchall()
         cursor.close()
-        db.close()
-        return results
+        conn.close()
+        return moods
     except Exception as e:
-        print(f"Error retrieving moods: {e}")
+        print(f"Error al obtener moods: {e}")
         return []
 
 def insert_artist(name, url):
@@ -204,7 +195,7 @@ def get_album_id(name):
         db.close()
 
 
-def get_all_albums():
+def get_albums():
     """Obtiene todos los álbumes de la base de datos"""
     try:
         db = connect_db()

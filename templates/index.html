@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,26 @@
     <link rel="shortcut icon" href="/static/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/static/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     {% include 'partials/navbar.html' %}
     <div class="container">
-        
-        
-        
+
+
+
         <header>
             <div class="logo">Wendigo Music Finder</div>
             <p class="tagline">Deja que la música te encuentre a ti</p>
         </header>
-        
+
         <section class="search-container">
             <form class="search-form" action="/search" method="get">
-                <input type="text" name="query" class="search-input" placeholder="Busca por mood, artista o canción..." required>
+                <input type="text" name="query" class="search-input" placeholder="Busca por mood, artista o canción..."
+                    required>
                 <select name="type" class="search-select">
                     <option value="mood">Mood</option>
                     <option value="artist">Artista</option>
@@ -42,7 +46,7 @@
                     <i class="fas fa-music"></i> Buscar Letras
                 </a>
             </div>
-            
+
             <div class="lyrics-search-form" id="lyricsSearchForm" style="display: none;">
                 <form action="{{ url_for('lyrics') }}" method="get">
                     <input type="text" name="song" placeholder="Nombre de la canción" required class="search-input">
@@ -50,88 +54,110 @@
                     <button type="submit" class="genius-button">Buscar Letras</button>
                 </form>
             </div>
+
+            <div class="lyrics-search-results">
+                {% if lyrics %}
+                <div class="lyrics-container">
+                    <div class="lyrics-header">
+                        <div class="song-info">
+                            <h3>{{ lyrics.song }}</h3>
+                            <p>{{ lyrics.artist }}</p>
+                        </div>
+                        <!-- Botón para cerrar las letras -->
+                        <button class="close-lyrics-btn" id="closeLyrics">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="lyrics-text">
+                        {{ lyrics.lyrics|safe }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
         </section>
-        
-        <section>
+
+        <section class="section-container">
             <h2 class="section-title">Explora por Mood</h2>
             <div class="mood-grid">
                 {% for mood in moods %}
-                <a href="/search?query={{ mood.name }}&type=mood" style="text-decoration: none;">
-                    <div class="mood-card">
-                        <img src="{{ get_mood_image(mood.name) }}" alt="{{ mood.name }}" class="mood-image">
-                        <div class="mood-name">{{ mood.name }}</div>
-                    </div>
-                </a>
+                <div class="mood-card">
+                    <!-- Utiliza la función get_mood_image y proporciona una imagen de respaldo -->
+                    <img src="{{ get_mood_image(mood.name) }}" class="mood-image" alt="{{ mood.name }}">
+                    <div class="mood-name">{{ mood.name }}</div>
+                </div>
                 {% endfor %}
-                
+            </div>
+
                 <!-- Moods estáticos (como respaldo) -->
-                {% if not moods or moods|length < 8 %}
-                <!-- Tus moods existentes -->
-                {% endif %}
+                {% if not moods or moods|length < 8 %} <!-- Tus moods existentes -->
+                    {% endif %}
             </div>
             <div class="view-more-container">
                 <a href="/search?type=mood" class="view-more-button">Ver todos los moods</a>
         </section>
-        
+
         <!-- Sección actualizada de artistas -->
-        <section>
+        <section class="section-container">
             <h2 class="section-title">Explora por Artista</h2>
             <div class="artist-grid">
                 {% for artist in artists %}
                 <a href="/search?query={{ artist.name }}&type=artist" style="text-decoration: none;">
                     <div class="artist-card">
-                        <img src="{{ artist.url|default('static/img/default-artist.jpg') }}" alt="{{ artist.name }}" class="artist-image">
+                        <img src="{{ artist.url|default('static/img/default-artist.jpg') }}" alt="{{ artist.name }}"
+                            class="artist-image">
                         <div class="artist-name">{{ artist.name }}</div>
                     </div>
                 </a>
                 {% endfor %}
-                
-                {% if not artists or artists|length < 8 %}
-                <!-- Artistas estáticos (como respaldo) -->
-                {% endif %}
+
+                {% if not artists or artists|length < 8 %} <!-- Artistas estáticos (como respaldo) -->
+                    {% endif %}
             </div>
             <div class="view-more-container">
                 <a href="/search?type=artist" class="view-more-button">Ver todos los artistas</a>
             </div>
         </section>
-        
-        <!-- NUEVA sección de álbumes -->
-        <section>
+
+        <!--  Sección de álbumes -->
+        <section class="section-container">
             <h2 class="section-title">Explora por Álbum</h2>
             <div class="album-grid">
                 {% for album in albums %}
-                <a href="/search?query={{ album.name }}&type=album" class="album-link">
-                    <div class="album-card">
-                        <img src="{{ album.cover_url|default('static/img/default-album.jpg') }}" alt="{{ album.name }}" class="album-image">
-                        <div class="album-info">
-                            <div class="album-name">{{ album.name }}</div>
-                            <div class="album-artist">{{ album.artist }}</div>
-                        </div>
+                <div class="album-card">
+                    {% if album.cover_url %}
+                        <img src="{{ album.cover_url }}" alt="{{ album.name }}" class="album-image">
+                    {% else %}
+                        <!-- Imagen alternativa si no hay portada -->
+                        <img src="{{ url_for('static', filename='img/default-album.jpg') }}" alt="{{ album.name }}" class="album-image">
+                    {% endif %}
+                    <div class="album-info">
+                        <div class="album-name">{{ album.name }}</div>
                     </div>
-                </a>
+                </div>
                 {% endfor %}
-                
-                {% if not albums or albums|length < 8 %}
-                <!-- Álbumes estáticos (como respaldo) -->
-                <a href="/search?query=Abbey Road&type=album" class="album-link">
-                    <div class="album-card">
-                        <img src="https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25" alt="Abbey Road" class="album-image">
-                        <div class="album-info">
-                            <div class="album-name">Abbey Road</div>
-                            <div class="album-artist">The Beatles</div>
+            </div>
+
+                {% if not albums or albums|length < 8 %} <!-- Álbumes estáticos (como respaldo) -->
+                    <a href="/search?query=Abbey Road&type=album" class="album-link">
+                        <div class="album-card">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25" alt="Abbey Road"
+                                class="album-image">
+                            <div class="album-info">
+                                <div class="album-name">Abbey Road</div>
+                                <div class="album-artist">The Beatles</div>
+                            </div>
                         </div>
-                    </div>
-                </a>
-                <!-- Añade más álbumes estáticos como respaldo -->
-                {% endif %}
+                    </a>
+                    
+                    {% endif %}
             </div>
             <div class="view-more-container">
                 <a href="/search?type=album" class="view-more-button">Ver todos los álbumes</a>
             </div>
         </section>
-        
+
         <!-- NUEVA sección de canciones con minireproductor -->
-        <section>
+        <section class="section-container">
             <h2 class="section-title">Canciones Populares</h2>
             <div class="songs-container">
                 {% for song in popular_songs %}
@@ -140,10 +166,11 @@
                         <div class="song-name">{{ song.name }}</div>
                         <div class="song-artist">{{ song.artist }}</div>
                     </div>
-                    
+
                     <div class="song-actions">
                         {% if song.spotify_id %}
-                        <a href="https://open.spotify.com/track/{{ song.spotify_id }}" target="_blank" class="spotify-play-button">
+                        <a href="https://open.spotify.com/track/{{ song.spotify_id }}" target="_blank"
+                            class="spotify-play-button">
                             <i class="fab fa-spotify"></i> Reproducir
                         </a>
                         {% else %}
@@ -154,39 +181,66 @@
                     </div>
                 </div>
                 {% endfor %}
-                
-                {% if not popular_songs or popular_songs|length < 5 %}
-                <!-- Canciones estáticas como respaldo -->
-                <div class="song-item">
-                    <div class="song-info">
-                        <div class="song-name">Bohemian Rhapsody</div>
-                        <div class="song-artist">Queen</div>
+
+                {% if not popular_songs or popular_songs|length < 5 %} <!-- Canciones estáticas como respaldo -->
+                    <div class="song-item">
+                        <div class="song-info">
+                            <div class="song-name">Bohemian Rhapsody</div>
+                            <div class="song-artist">Queen</div>
+                        </div>
+                        <div class="song-actions">
+                            <a href="https://open.spotify.com/track/4u7EnebtmKWzUH433cf5Qv" target="_blank"
+                                class="spotify-play-button">
+                                <i class="fab fa-spotify"></i> Reproducir
+                            </a>
+                        </div>
                     </div>
-                    <div class="song-actions">
-                        <a href="https://open.spotify.com/track/4u7EnebtmKWzUH433cf5Qv" target="_blank" class="spotify-play-button">
-                            <i class="fab fa-spotify"></i> Reproducir
-                        </a>
-                    </div>
-                </div>
-                <!-- Añade más canciones estáticas como respaldo -->
-                {% endif %}
+                    <!-- Añade más canciones estáticas como respaldo -->
+                    {% endif %}
             </div>
             <div class="view-more-container">
                 <a href="/search?type=song" class="view-more-button">Ver todas las canciones</a>
             </div>
         </section>
-        
+
         <footer>
             <p>© 2025 Wendigo Music Finder - Desarrollado con ❤️ por el equipo Wendigo Rockolla</p>
         </footer>
     </div>
-    
+
     <script>
-        document.getElementById('showLyricsSearch').addEventListener('click', function(e) {
-            e.preventDefault();
-            const form = document.getElementById('lyricsSearchForm');
-            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        document.addEventListener('DOMContentLoaded', function() {
+            // Manejo del botón de búsqueda de letras
+            document.getElementById('showLyricsSearch').addEventListener('click', function (e) {
+                e.preventDefault();
+                const form = document.getElementById('lyricsSearchForm');
+                form.style.display = form.style.display === 'none' ? 'block' : 'none';
+            });
+    
+            // Manejo del botón para cerrar las letras
+            const closeLyricsBtn = document.getElementById('closeLyrics');
+            if (closeLyricsBtn) {
+                closeLyricsBtn.addEventListener('click', function() {
+                    const lyricsContainer = document.querySelector('.lyrics-container');
+                    if (lyricsContainer) {
+                        // Ocultar el contenedor de letras
+                        lyricsContainer.style.display = 'none';
+                        
+                        // Opcionalmente, guardar estado en sessionStorage
+                        sessionStorage.setItem('lyricsHidden', 'true');
+                    }
+                });
+            }
+    
+            // Verificar al cargar si las letras deben estar ocultas
+            if (sessionStorage.getItem('lyricsHidden') === 'true') {
+                const lyricsContainer = document.querySelector('.lyrics-container');
+                if (lyricsContainer) {
+                    lyricsContainer.style.display = 'none';
+                }
+            }
         });
     </script>
 </body>
+
 </html>
