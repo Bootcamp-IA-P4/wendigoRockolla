@@ -8,12 +8,25 @@ except ImportError:
     # Si falla, intenta importar como si estuviera desde app.py
     from scraper.db.connection import connect_db
 
-def get_all_moods():
-    """Obtiene todos los moods de la base de datos"""
+def get_all_moods(limit=None):
+    """
+    Obtiene moods de la base de datos
+    
+    Args:
+        limit (int, optional): Número máximo de moods a devolver
+        
+    Returns:
+        list: Lista de moods
+    """
     try:
         conn = connect_db()
-        cursor = conn.cursor(dictionary=True)  # Importante: usar dictionary=True
-        cursor.execute("SELECT * FROM moods LIMIT 10")
+        cursor = conn.cursor(dictionary=True)
+        
+        query = "SELECT * FROM moods"
+        if limit:
+            query += f" LIMIT {limit}"
+            
+        cursor.execute(query)
         moods = cursor.fetchall()
         cursor.close()
         conn.close()

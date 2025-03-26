@@ -150,23 +150,64 @@ textarea.form-control {
 }
 
 .track-info {
-    flex: 1;
+    padding: 0.8rem;
 }
 
 .track-name {
-    font-size: 1.1rem;
-    color: var(--text-primary);
+    font-size: 0.9rem;
     margin-bottom: 0.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .track-artist {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .track-actions {
     display: flex;
     gap: 0.5rem;
+}
+
+.recommendations-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.see-all-button {
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+}
+
+.see-all-button:hover {
+    color: var(--text-primary);
+}
+
+.no-recommendations {
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--text-secondary);
+}
+
+.no-recommendations i {
+    font-size: 3rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    display: block;
 }
 
 .track-link {
@@ -187,15 +228,101 @@ textarea.form-control {
     padding: 0 0 20px;
 }
 
-.section-subtitle {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-    color: #333;
-    border-bottom: 2px solid #1DB954;
-    padding-bottom: 5px;
-    display: inline-block;
+.recommendations-section {
+    margin-top: 2rem;
 }
 
+.section-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-left: 1rem;
+    font-weight: normal;
+}
+
+.mood-selector {
+    margin: 1.5rem 0;
+}
+
+.mood-selector select {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.7rem;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--bg-secondary);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.tracks-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.track-card {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.track-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
+}
+
+.track-image-container {
+    position: relative;
+    padding-top: 100%; /* Proporción cuadrada */
+}
+
+.track-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.track-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.track-image-container:hover .track-overlay {
+    opacity: 1;
+}
+
+.spotify-play-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--spotify-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.spotify-play-btn:hover {
+    transform: scale(1.1);
+    background-color: var(--spotify-green-hover);
+}
 .playlists-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

@@ -17,7 +17,7 @@
 <body>
     {% include 'partials/navbar.html' %}
     <div class="container">
-        
+
         <section>
             <h2 class="section-title">Tu Perfil de Spotify</h2>
 
@@ -60,6 +60,72 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <!-- Sección de Recomendaciones por Mood -->
+            <div class="recommendations-section">
+                <h2 class="section-title">
+                    Recomendaciones por Mood
+                    <span class="section-subtitle">Descubre música basada en tu estado de ánimo</span>
+                </h2>
+
+                <div class="mood-selector">
+                    <form id="moodForm" action="{{ url_for('spotify_profile') }}" method="get">
+                        <select name="mood" id="moodSelect" class="form-control" onchange="this.form.submit()">
+                            <option value="">Selecciona un mood</option>
+                            <option value="Happy" {% if selected_mood=='Happy' %}selected{% endif %}>Happy</option>
+                            <option value="Sad" {% if selected_mood=='Sad' %}selected{% endif %}>Sad</option>
+                            <option value="Energetic" {% if selected_mood=='Energetic' %}selected{% endif %}>Energetic
+                            </option>
+                            <option value="Relaxing" {% if selected_mood=='Relaxing' %}selected{% endif %}>Relaxing
+                            </option>
+                            <option value="Romantic" {% if selected_mood=='Romantic' %}selected{% endif %}>Romantic
+                            </option>
+                            <option value="Aggressive" {% if selected_mood=='Aggressive' %}selected{% endif %}>
+                                Aggressive</option>
+                            <option value="Foggy" {% if selected_mood=='Foggy' %}selected{% endif %}>Foggy</option>
+                        </select>
+                    </form>
+                </div>
+
+                {% if recommendations and recommendations.tracks %}
+                <div class="tracks-container">
+                    {% for track in recommendations.tracks[:8] %}
+                    <div class="track-card">
+                        <div class="track-image-container">
+                            <img src="{{ track.album.images[0].url if track.album.images else url_for('static', filename='img/default-album.jpg') }}"
+                                alt="{{ track.name }}" class="track-image">
+                            <div class="track-overlay">
+                                <a href="{{ track.external_urls.spotify }}" target="_blank" class="spotify-play-btn">
+                                    <i class="fab fa-spotify"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="track-info">
+                            <h4 class="track-name">{{ track.name }}</h4>
+                            <p class="track-artist">
+                                {% for artist in track.artists %}
+                                {{ artist.name }}{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="recommendations-actions">
+                    <a href="{{ url_for('spotify_create_playlist_page', mood=selected_mood) }}" class="spotify-button">
+                        <i class="fas fa-plus"></i> Crear Playlist
+                    </a>
+                    <a href="{{ url_for('spotify_recommendations', mood=selected_mood) }}" class="see-all-button">
+                        Ver todas las recomendaciones <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                {% elif selected_mood %}
+                <div class="no-recommendations">
+                    <i class="fas fa-music"></i>
+                    <p>No se encontraron recomendaciones para este mood</p>
+                </div>
+                {% endif %}
             </div>
             <!-- Sección de playlists -->
             <div class="playlists-section">

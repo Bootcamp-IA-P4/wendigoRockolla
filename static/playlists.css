@@ -1,0 +1,226 @@
+/* Estilos específicos para la página de creación de playlist */
+.form-container {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Arreglar el problema de scroll en el select */
+.form-control {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--bg-secondary);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-radius: var(--border-radius);
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Específicamente para el dropdown de moods */
+select.form-control {
+    height: auto;
+    max-height: 42px;
+    overflow-y: auto; /* Permite scroll dentro del dropdown cuando está abierto */
+    appearance: auto; /* Restaura la apariencia predeterminada que puede estar siendo sobrescrita */
+}
+
+/* Cuando el dropdown está abierto */
+select.form-control:focus {
+    max-height: 200px; /* Permitir que se expanda al hacer focus */
+    outline: none;
+    border-color: var(--accent);
+}
+
+.error-message {
+    color: var(--error-red);
+    background-color: rgba(255, 107, 107, 0.1);
+    border-left: 4px solid var(--error-red);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: var(--border-radius);
+}
+
+/* Estilo para la previsualización de canciones */
+.song-preview {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: var(--bg-primary);
+}
+
+.song-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.song-item:last-child {
+    border-bottom: none;
+}
+
+.song-check {
+    margin-right: 1rem;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--text-secondary);
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.song-check:checked {
+    background-color: var(--spotify-green);
+    border-color: var(--spotify-green);
+}
+
+.song-check:checked::after {
+    content: '\2714';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.selection-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.selection-btn {
+    background-color: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+}
+
+.selection-btn:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+.loading-spinner {
+    display: none;
+    margin: 2rem auto;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top: 4px solid var(--accent);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Botones */
+.spotify-button {
+    background-color: var(--spotify-green);
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+}
+
+.spotify-button:hover {
+    background-color: var(--spotify-green-hover);
+    transform: translateY(-2px);
+}
+
+.back-button {
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    transition: var(--transition);
+}
+
+.back-button:hover {
+    color: var(--text-primary);
+}
+
+
+select.form-control {
+    
+    -webkit-appearance: listbox !important; /* Fuerza el estilo de lista en Safari/Chrome */
+    -moz-appearance: listbox !important; /* Firefox */
+    appearance: listbox !important; /* Estándar */
+    max-height: none !important; /* Quita cualquier restricción de altura */
+}
+
+/* El dropdown (lista desplegada) necesita altura para mostrar varias opciones */
+select.form-control option {
+    padding: 8px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Asegurar que el dropdown tenga un tamaño adecuado cuando se abre */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Chrome/Safari específico */
+    select.form-control {
+        padding-right: 25px; /* Espacio para la flecha */
+    }
+    
+    /* Elimina posibles estilos que restrinjan el dropdown */
+    select.form-control:not([size]):not([multiple]) {
+        height: auto;
+    }
+}
+
+
+select.form-control:focus {
+    max-height: 200px; 
+    outline: none;
+    border-color: var(--accent);
+}

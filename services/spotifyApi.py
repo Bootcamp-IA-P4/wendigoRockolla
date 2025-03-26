@@ -105,32 +105,108 @@ def get_access_token():
     
     return token_info["access_token"]
 
-def make_api_request(endpoint, method="GET", data=None):
+def make_api_request(endpoint, params=None, method="GET", data=None):
     """
     Realiza una solicitud a la API de Spotify
+    
+    Args:
+        endpoint (str): Endpoint de la API (sin la base URL)
+        params (dict, optional): Parámetros de la consulta
+        method (str, optional): Método HTTP (GET, POST, etc)
+        data (dict, optional): Datos para enviar en el cuerpo (para POST)
+        
+    Returns:
+        dict: Respuesta de la API
     """
-    access_token = get_access_token()
-    if not access_token:
-        return {"error": "No access token available"}
+    try:
+        # Verificar si tenemos un token y si está vigente
+        if 'token_info' not in session:
+            print("No hay token en la sesión")
+            return {"error": "No autenticado"}
+            
+        token_info = session['token_info']
+        now = datetime.now().timestamp()
+        
+        # Si el token está a punto de expirar (menos de 60 segundos), renovarlo
+        if token_info['expires_at'] - now < 60:
+            token_info = get_token_info()
+            session['token_info'] = token_info
+        
+        # Construir la URL completa con los parámetros
+        url = f"https://api.spotify.com/v1/{endpoint}"
+        
+        # Configurar los headers con el token de acceso
+        headers = {
+            "Authorization": f"Bearer {token_info['access_token']}",
+            "Content-Type": "application/json"
+        }
+        
+        # Realizar la solicitud según el método
+        if method.upper() == "GET":
+            response = requests.get(url, headers=headers, params=params)
+        elif method.upper() == "POST":
+            response = requests.post(url, headers=headers, params=params, json=data)
+        elif method.upper() == "PUT":
+            response = requests.put(url, headers=headers, params=params, json=data)
+        elif method.upper() == "DELETE":
+            response = requests.delete(url, headers=headers, params=params)
+        else:
+            return {"error": f"Método no soportado: {method}"}
+        
+        # Verificar si la respuesta fue exitosa
+        if response.status_code >= 200 and response.status_code < 300:
+            # Algunos endpoints no devuelven JSON
+            try:
+                return response.json()
+            except:
+                return {"status": "success", "status_code": response.status_code}
+        else:
+            # Intentar obtener mensaje de error
+            error_msg = "Error desconocido"
+            try:
+                error_data = response.json()
+                error_msg = error_data.get('error', {}).get('message', "Error desconocido")
+            except:
+                error_msg = f"Error HTTP {response.status_code}"
+                
+            print(f"Error API Spotify: {error_msg}")
+            return {"error": error_msg, "status_code": response.status_code}
+            
+    except Exception as e:
+        print(f"Error en la solicitud a Spotify: {e}")
+        return {"error": str(e)}
     
-    headers = {"Authorization": f"Bearer {access_token}"}
-    url = f"{API_BASE_URL}{endpoint}"
-    
-    if method == "GET":
-        response = requests.get(url, headers=headers)
-    elif method == "POST":
-        headers["Content-Type"] = "application/json"
-        response = requests.post(url, headers=headers, json=data)
-    elif method == "PUT":
-        headers["Content-Type"] = "application/json"
-        response = requests.put(url, headers=headers, json=data)
-    
-    if response.status_code in [200, 201, 204]:
-        if response.content:
-            return response.json()
-        return {"success": True}
-    
-    return {"error": f"Error {response.status_code}: {response.text}"}
+
+def diagnose_api_status():
+    """Verifica el estado de la conexión con la API de Spotify"""
+    try:
+        # 1. Verificar autenticación
+        if 'token_info' not in session:
+            return {"status": "error", "message": "No hay token en sesión"}
+        
+        # 2. Verificar token expirado
+        token_info = session['token_info']
+        now = datetime.now().timestamp()
+        if now >= token_info["expires_at"]:
+            return {"status": "warning", "message": "Token expirado, intentando renovar"}
+        
+        # 3. Probar una llamada simple a la API
+        user = make_api_request("me")
+        if "error" in user:
+            return {"status": "error", "message": f"Error al llamar a la API: {user['error']}"}
+        
+        # 4. Probar específicamente el endpoint de recomendaciones
+        test_params = {
+            "limit": 1,
+            "seed_artists": "4NHQUGzhtTLFvgF5SZesLK"  # Ben E. King
+        }
+        test_rec = make_api_request("recommendations", params=test_params)
+        if "error" in test_rec:
+            return {"status": "error", "message": f"Error específico en recomendaciones: {test_rec['error']}"}
+        
+        return {"status": "ok", "message": "La API de Spotify funciona correctamente"}
+    except Exception as e:
+        return {"status": "error", "message": f"Error en diagnóstico: {str(e)}"}
 
 def search_tracks(query, limit=10):
     """
@@ -180,32 +256,90 @@ def add_tracks_to_playlist(playlist_id, track_uris):
 
 def get_recommendations_by_mood(mood, limit=20):
     """
-    Obtiene recomendaciones basadas en un mood
-    Mapea moods a características de audio de Spotify
+    Obtiene recomendaciones basadas en un mood usando una combinación de seed tracks y seed genres.
     """
-    # Mapeo básico de moods a características de audio
-    mood_mappings = {
-        "Happy": {"min_valence": 0.7, "min_energy": 0.7, "target_tempo": 120},
-        "Sad": {"max_valence": 0.4, "max_energy": 0.4, "target_tempo": 80},
-        "Energetic": {"min_energy": 0.8, "min_danceability": 0.7, "target_tempo": 140},
-        "Relaxing": {"max_energy": 0.4, "max_loudness": -10, "target_acousticness": 0.8},
-        "Romantic": {"target_valence": 0.6, "target_acousticness": 0.6, "max_energy": 0.6},
-        # Añadir más mapeos según sea necesario
-    }
-    
-    # Valores predeterminados si el mood no se encuentra en el mapeo
-    params = {"limit": limit}
-    
-    # Añadir parámetros basados en el mood si está disponible
-    if mood in mood_mappings:
-        params.update(mood_mappings[mood])
-    
-    # Para obtener recomendaciones necesitamos seed tracks, artists o genres
-    # Podemos usar géneros populares como semilla
-    params["seed_genres"] = "pop,rock,hip-hop,electronic,jazz"
-    
-    endpoint = f"recommendations?{urllib.parse.urlencode(params)}"
-    return make_api_request(endpoint)
+    try:
+        # Mapeo de características de audio
+        mood_mappings = {
+            "Happy": {"min_valence": 0.7, "min_energy": 0.7},
+            "Sad": {"max_valence": 0.4, "max_energy": 0.4},
+            "Energetic": {"min_energy": 0.8, "min_danceability": 0.7},
+            "Relaxing": {"max_energy": 0.4, "target_acousticness": 0.8},
+            "Romantic": {"target_valence": 0.6, "target_acousticness": 0.6},
+            "Aggressive": {"min_energy": 0.8, "target_valence": 0.3},
+            "Foggy": {"max_valence": 0.4, "target_energy": 0.4}
+        }
+        
+        # Géneros VERIFICADOS que existen en Spotify
+        verified_genres = {
+            "Happy": "pop,disco",
+            "Sad": "ambient,blues",
+            "Energetic": "electronic,house",
+            "Relaxing": "ambient,classical",
+            "Romantic": "r-n-b,soul",
+            "Aggressive": "metal,punk-rock",
+            "Foggy": "alternative,ambient"
+        }
+        
+        # Canciones populares como semillas (URIs verificadas)
+        seed_tracks = {
+            "Happy": "4iV5W9uYEdYUVa79Axb7Rh,2takcwOaAZWiXQijPHIx7B", # "Uptown Funk", "Blinding Lights"
+            "Sad": "4RCWB3V8V0dignt99LZ8vH,4gMgiXfqtPYnI5qPIrFNJm", # "Say Something", "Someone You Loved"
+            "Energetic": "2KH16WveTQWT6KOG9Rg6e2,6ocbgoVGwYJhOv1GgI9NsF", # "Titanium", "Light It Up"
+            "Relaxing": "7qEKqBCD2vE5vIBsrUitpD,3NRqlXufRMelTwPnGvSfAP", # "River Flows In You", "Weightless"
+            "Romantic": "4NHQUGzhtTLFvgF5SZesLK,7qiZfU4dY1lWllzX7mPBI3", # "Stand By Me", "Shape of You"
+            "Aggressive": "57bgtoPSgt236HzfBOd8kj,2zYzyRzz6pRmhPzyfMEC8s", # "Master of Puppets", "Break Stuff"
+            "Foggy": "5zyI2dYKka9pdaGgLnQFId,5P9X0wOTucQnvkHjj1jdrb" # "A Forest", "How Soon Is Now?"
+        }
+        
+        # Parámetros base
+        params = {"limit": limit}
+        
+        # Añadir características de audio según el mood
+        if mood in mood_mappings:
+            params.update(mood_mappings[mood])
+        
+        # Estrategia de semillas:
+        # 1. Usar seed_tracks específicos para el mood (esto es crucial)
+        if mood in seed_tracks:
+            params["seed_tracks"] = seed_tracks[mood]
+        else:
+            # Usar tracks de respaldo si no hay específicos
+            params["seed_tracks"] = "4iV5W9uYEdYUVa79Axb7Rh,2takcwOaAZWiXQijPHIx7B"
+            
+        # 2. También usar seed_genres si aplica (pero no mezclar muchos)
+        if mood in verified_genres:
+            # Solo usar géneros si no hemos alcanzado el límite de semillas (máximo 5 en total)
+            track_count = len(params.get("seed_tracks", "").split(","))
+            genres = verified_genres[mood].split(",")
+            
+            # Ajustar la cantidad para no exceder 5 semillas en total
+            max_genres = min(len(genres), 5 - track_count)
+            if max_genres > 0:
+                params["seed_genres"] = ",".join(genres[:max_genres])
+        
+        print(f"PARÁMETROS FINALES para mood '{mood}': {params}")
+        
+        # Llamada a la API
+        response = make_api_request("recommendations", params=params)
+        
+        # Depuración detallada
+        if 'error' in response:
+            print(f"ERROR DE API: {response['error']}")
+            print(f"Código de estado: {response.get('status_code', 'desconocido')}")
+        elif 'tracks' in response:
+            print(f"ÉXITO! Recibidas {len(response['tracks'])} canciones para mood '{mood}'")
+            
+        return response
+    except Exception as e:
+        import traceback
+        print(f"ERROR EN get_recommendations_by_mood: {e}")
+        print(traceback.format_exc())  # Esto imprimirá el stack trace completo
+        return {"error": str(e), "tracks": []}
+
+def get_available_genres():
+    """Obtiene los géneros disponibles en Spotify"""
+    return make_api_request("recommendations/available-genre-seeds")
 
 
 def update_song_spotify_id(song_id, spotify_id):

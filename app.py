@@ -12,6 +12,9 @@ from services.spotifyApi import (
     search_tracks, create_playlist, add_tracks_to_playlist,
     get_recommendations_by_mood, update_song_spotify_id, get_songs_by_mood_id, advanced_search_track, get_user_playlists
 )
+# Añade esta línea después de las importaciones
+import services.spotifyApi as spotifyApi
+
 from scraper.db.connection import connect_db
 
 app = Flask(__name__)
@@ -64,7 +67,7 @@ def get_mood_icon(mood_name):
 @app.route('/')
 def index():
     # Obtén los moods como diccionarios, no como listas
-    moods = get_all_moods()
+    moods = get_all_moods(limit=12)
     
     # Verifica la estructura de moods
     print(f"Tipo de moods: {type(moods)}")
@@ -243,13 +246,42 @@ def spotify_profile():
     if "token_info" not in session:
         return redirect(url_for('spotify_login'))
     
-    profile = get_user_profile() 
-    playlists = get_user_playlists(limit=10)
-    
+    # Obtener el perfil del usuario
+    profile = spotifyApi.get_user_profile()
     if "error" in profile:
-        return render_template('error.html', message=f"Error: {profile['error']}")
+        return redirect(url_for('spotify_login'))
     
-    return render_template('spotify_profile.html', profile=profile, playlists=playlists)
+    # Obtener las playlists del usuario
+    playlists = spotifyApi.get_user_playlists(limit=6)
+
+    genres = spotifyApi.get_available_genres()
+    if "genres" in genres:
+        print("GÉNEROS DISPONIBLES EN SPOTIFY:")
+        for genre in genres["genres"]:
+            print(f"- {genre}")
+    
+    # Obtener recomendaciones si se seleccionó un mood
+    selected_mood = request.args.get('mood', '')
+    recommendations = None
+    
+    if selected_mood:
+        print(f"Solicitando recomendaciones para mood: {selected_mood}")
+        recommendations = spotifyApi.get_recommendations_by_mood(selected_mood, limit=8)
+        print(f"¿Se obtuvieron recomendaciones?: {'tracks' in recommendations}")
+        # Imprimir detalles para depuración
+        if 'tracks' in recommendations and recommendations['tracks']:
+            print(f"Número de tracks: {len(recommendations['tracks'])}")
+        elif 'error' in recommendations:
+            print(f"Error en recomendaciones: {recommendations['error']}")
+        else:
+            print("No hay tracks en las recomendaciones")
+    
+    return render_template('spotify_profile.html', 
+                          profile=profile, 
+                          playlists=playlists,
+                          selected_mood=selected_mood,
+                          recommendations=recommendations)
+
 
 @app.route('/spotify/create_playlist')
 def spotify_create_playlist_page():
@@ -344,6 +376,126 @@ def api_preview_spotify_search():
             })
     
     return jsonify(results)
+
+@app.route('/spotify/genres')
+def spotify_genres():
+    if "token_info" not in session:
+        return redirect(url_for('spotify_login'))
+    
+    genres = spotifyApi.get_available_genres()
+    
+    # Para depuración, muestra los resultados en formato legible
+    if "error" in genres:
+        return f"<h1>Error</h1><p>{genres['error']}</p>"
+    
+    # Formatea la salida en HTML para mejor visualización
+    genres_html = """
+    <html>
+    <head>
+        <title>Géneros de Spotify</title>
+        <style>
+            body { font-family: Arial; margin: 20px; background: #121212; color: white; }
+            h1 { color: #1DB954; }
+            ul { columns: 4; list-style-type: none; }
+            li { padding: 5px 0; }
+        </style>
+    </head>
+    <body>
+        <h1>Géneros disponibles en Spotify</h1>
+        <ul>
+    """
+    
+    for genre in genres.get('genres', []):
+        genres_html += f"<li>{genre}</li>"
+    
+    genres_html += """
+        </ul>
+    </body>
+    </html>
+    """
+    
+    return genres_html
+
+
+@app.route('/spotify/diagnose')
+def spotify_diagnose():
+    if "token_info" not in session:
+        return redirect(url_for('spotify_login'))
+    
+    # Ejecutar diagnóstico
+    result = spotifyApi.diagnose_api_status()
+    
+    # Intentar obtener géneros disponibles
+    genres_result = spotifyApi.get_available_genres()
+    
+    # Formatear respuesta en HTML
+    html = f"""
+    <html>
+    <head>
+        <title>Diagnóstico Spotify API</title>
+        <style>
+            body {{ font-family: Arial; margin: 20px; background: #121212; color: white; }}
+            h1, h2 {{ color: #1DB954; }}
+            .error {{ color: #ff4d4d; }}
+            .warning {{ color: #ffaa00; }}
+            .success {{ color: #1DB954; }}
+            pre {{ background: #2a2a2a; padding: 15px; border-radius: 5px; overflow-x: auto; }}
+            .result {{ margin: 15px 0; padding: 15px; background: #2a2a2a; border-radius: 5px; }}
+            .log {{ font-family: monospace; white-space: pre-wrap; }}
+        </style>
+    </head>
+    <body>
+        <h1>Diagnóstico de la API de Spotify</h1>
+        
+        <div class="result {result['status']}">
+            <h2>Estado de la conexión: {result['status'].upper()}</h2>
+            <p>{result['message']}</p>
+        </div>
+        
+        <h2>Prueba de géneros disponibles:</h2>
+        <div class="log">
+    """
+    
+    if "error" in genres_result:
+        html += f"<p class='error'>Error obteniendo géneros: {genres_result['error']}</p>"
+    else:
+        html += "<p class='success'>Géneros disponibles (primeros 20):</p>"
+        for i, genre in enumerate(genres_result.get('genres', [])[:20]):
+            html += f"{i+1}. {genre}<br>"
+    
+    # Probar recomendaciones
+    html += """
+        </div>
+        
+        <h2>Prueba de recomendaciones:</h2>
+        <div class="log">
+    """
+    
+    # Probar recomendaciones con un caso simple
+    test_rec = spotifyApi.make_api_request("recommendations", params={
+        "seed_tracks": "4iV5W9uYEdYUVa79Axb7Rh",
+        "limit": 3
+    })
+    
+    if "error" in test_rec:
+        html += f"<p class='error'>Error en recomendaciones: {test_rec['error']}</p>"
+    else:
+        html += f"<p class='success'>Recomendaciones obtenidas correctamente: {len(test_rec.get('tracks', []))} canciones</p>"
+        for i, track in enumerate(test_rec.get('tracks', [])):
+            artists = ", ".join([a['name'] for a in track['artists']])
+            html += f"{i+1}. {track['name']} - {artists}<br>"
+    
+    html += """
+        </div>
+        
+        <p>
+            <a href="/spotify/profile" style="color: #1DB954;">Volver al perfil</a>
+        </p>
+    </body>
+    </html>
+    """
+    
+    return html
 
 # Función para obtener álbumes de la base de datos
 def get_albums():

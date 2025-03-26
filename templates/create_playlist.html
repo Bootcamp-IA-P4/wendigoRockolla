@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Playlist | Wendigo Music Finder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+    <!-- Incluir primero el CSS base para mantener consistencia -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <!-- Luego incluir estilos específicos para esta página -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='playlists.css') }}">
+    <link rel="shortcut icon" href="/static/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    {% include 'partials/navbar.html' %}
     <div class="container">
-        <header>
-            <div class="logo">Wendigo Music Finder</div>
-            <p class="tagline">Crear Playlist</p>
-        </header>
-        
-        <section>
+        <section class="section-container">
             <h2 class="section-title">Crear Playlist de Spotify con tus Moods</h2>
             
             {% if error %}
@@ -230,6 +233,134 @@
             if (selectedSongs.length === 0 && document.getElementById('songPreviewContainer').style.display !== 'none') {
                 e.preventDefault();
                 alert('Por favor, selecciona al menos una canción para tu playlist.');
+            }
+        });
+        
+        // Inicializar custom dropdown
+        document.addEventListener('DOMContentLoaded', function() {
+            // Referencias a elementos
+            const originalSelect = document.getElementById('mood');
+            const customDropdown = document.querySelector('.custom-dropdown');
+            const selectedOption = document.getElementById('selectedMoodDisplay');
+            const optionsContainer = document.getElementById('moodOptionsContainer');
+            const optionsList = document.getElementById('moodOptionsList');
+            const searchBox = document.getElementById('moodSearchBox');
+            
+            // Función para poblar el dropdown personalizado
+            function populateCustomDropdown() {
+                // Limpiar opciones existentes
+                optionsList.innerHTML = '';
+                
+                // Obtener opciones del select original
+                const options = originalSelect.querySelectorAll('option');
+                
+                // Agregar cada opción al dropdown personalizado
+                options.forEach(option => {
+                    if (option.value === '') return; // Saltarse la opción vacía
+                    
+                    const optionElement = document.createElement('div');
+                    optionElement.classList.add('option');
+                    optionElement.textContent = option.textContent;
+                    optionElement.dataset.value = option.value;
+                    
+                    if (option.selected) {
+                        optionElement.classList.add('selected');
+                        selectedOption.textContent = option.textContent;
+                    }
+                    
+                    // Evento al hacer clic en una opción
+                    optionElement.addEventListener('click', () => {
+                        // Actualizar visual
+                        document.querySelectorAll('.option.selected').forEach(el => {
+                            el.classList.remove('selected');
+                        });
+                        optionElement.classList.add('selected');
+                        
+                        // Actualizar texto mostrado
+                        selectedOption.textContent = optionElement.textContent;
+                        
+                        // Actualizar select original
+                        originalSelect.value = optionElement.dataset.value;
+                        
+                        // Simular cambio en el select para cargar canciones
+                        const event = new Event('change');
+                        originalSelect.dispatchEvent(event);
+                        
+                        // Cerrar dropdown
+                        optionsContainer.classList.remove('active');
+                        selectedOption.classList.remove('active');
+                    });
+                    
+                    optionsList.appendChild(optionElement);
+                });
+            }
+            
+            // Evento para abrir/cerrar dropdown
+            selectedOption.addEventListener('click', () => {
+                const isActive = optionsContainer.classList.contains('active');
+                
+                // Cerrar otros dropdowns
+                document.querySelectorAll('.options-container.active').forEach(container => {
+                    if (container !== optionsContainer) {
+                        container.classList.remove('active');
+                    }
+                });
+                
+                optionsContainer.classList.toggle('active');
+                selectedOption.classList.toggle('active');
+                
+                if (!isActive) {
+                    searchBox.focus();
+                    searchBox.value = '';
+                    filterOptions('');
+                }
+            });
+            
+            // Evento para filtrar opciones
+            searchBox.addEventListener('input', function() {
+                filterOptions(this.value.toLowerCase());
+            });
+            
+            // Función para filtrar opciones
+            function filterOptions(searchTerm) {
+                const options = optionsList.querySelectorAll('.option');
+                let visible = 0;
+                
+                options.forEach(option => {
+                    const text = option.textContent.toLowerCase();
+                    const isVisible = text.indexOf(searchTerm) !== -1;
+                    
+                    option.style.display = isVisible ? 'block' : 'none';
+                    if (isVisible) visible++;
+                });
+                
+                // Mostrar mensaje si no hay resultados
+                if (visible === 0) {
+                    const noResults = document.createElement('div');
+                    noResults.classList.add('no-results');
+                    noResults.textContent = 'No se encontraron moods';
+                    optionsList.appendChild(noResults);
+                } else {
+                    const noResults = optionsList.querySelector('.no-results');
+                    if (noResults) noResults.remove();
+                }
+            }
+            
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!customDropdown.contains(e.target)) {
+                    optionsContainer.classList.remove('active');
+                    selectedOption.classList.remove('active');
+                }
+            });
+            
+            // Inicializar dropdown personalizado
+            populateCustomDropdown();
+            
+            // Si hay valor inicial, establecerlo
+            if (originalSelect.value) {
+                const selected = originalSelect.options[originalSelect.selectedIndex].text;
+                selectedOption.textContent = selected;
             }
         });
     </script>
