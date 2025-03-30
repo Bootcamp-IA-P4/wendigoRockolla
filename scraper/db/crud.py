@@ -61,18 +61,62 @@ def insert_albums(name, cover_url, buy_url):
         cursor.close()
         db.close()
 
-def insert_song(name, youtube_url):
+def insert_song(name, artist_name=None, youtube_url=None, force_update_artist=True):
+    """Inserta una canción o actualiza el artista si ya existe."""
+    db = None
+    cursor = None
     try:
         db = connect_db()
         cursor = db.cursor()
-        query = "INSERT INTO songs (name, youtube_url) VALUES (%s, %s) ON DUPLICATE KEY UPDATE name=name"
-        cursor.execute(query, (name, youtube_url))
-        db.commit()
+        
+        # Verifica si la canción ya existe
+        query = "SELECT id, artist FROM songs WHERE name = %s"
+        cursor.execute(query, (name,))
+        existing_song = cursor.fetchone()
+        
+        if existing_song:
+            # La canción existe
+            song_id = existing_song[0]
+            existing_artist = existing_song[1] if existing_song[1] else ""
+            
+            # Normalizar para comparación
+            existing_lower = existing_artist.lower().strip()
+            
+            # Mostrar valores actuales para depuración
+            print(f"DEBUG: Artista existente: '{existing_artist}', Nuevo artista: '{artist_name}'")
+            
+            # Actualizar artista si es necesario
+            if (artist_name and 
+                (force_update_artist or 
+                 existing_lower == "" or 
+                 "desconocido" in existing_lower or 
+                 len(existing_artist.strip()) < 2)):
+                
+                update_query = "UPDATE songs SET artist = %s WHERE id = %s"
+                cursor.execute(update_query, (artist_name, song_id))
+                db.commit()
+                print(f"🔄 Canción '{name}' ACTUALIZADA con artista '{artist_name}' (antes: '{existing_artist}')")
+            else:
+                print(f"Canción '{name}' ya existe con ID {song_id} y artista '{existing_artist}'")
+        else:
+            # Inserta la nueva canción
+            query = "INSERT INTO songs (name, artist, youtube_url) VALUES (%s, %s, %s)"
+            cursor.execute(query, (name, artist_name or "Artista desconocido", youtube_url))
+            db.commit()
+            song_id = cursor.lastrowid
+            print(f"✅ Canción '{name}' INSERTADA con ID {song_id}")
+            
+        return song_id
     except Exception as e:
-        print(f"Error inserting song: {e}")
+        print(f"❌ Error al insertar/actualizar canción: {e}")
+        import traceback
+        traceback.print_exc()  # Imprimir stack trace completo
+        return None
     finally:
-        cursor.close()
-        db.close()
+        if cursor:
+            cursor.close()
+        if db:
+            db.close()
 
 def insert_mood(name):
     try:
@@ -151,17 +195,41 @@ def update_mood_url(mood_name, url):
         return False
 
 def insert_mood_song(mood_id, song_id):
+    """Vincula una canción con un mood."""
+    if not song_id:
+        print("No se puede insertar relación mood-song: song_id es None")
+        return False
+        
+    db = None
+    cursor = None
     try:
         db = connect_db()
         cursor = db.cursor()
-        query = "INSERT INTO mood_songs (mood_id, song_id) VALUES (%s, %s) ON DUPLICATE KEY UPDATE mood_id=mood_id"
-        cursor.execute(query, (mood_id, song_id))
-        db.commit()
+        
+        # Verificar si la relación ya existe
+        check_query = "SELECT COUNT(*) FROM mood_songs WHERE mood_id = %s AND song_id = %s"
+        cursor.execute(check_query, (mood_id, song_id))
+        count = cursor.fetchone()[0]  # Aseguramos que leemos todos los resultados
+        
+        if count > 0:
+            print(f"Relación mood {mood_id} - song {song_id} ya existe")
+        else:
+            # Insertar la relación
+            query = "INSERT INTO mood_songs (mood_id, song_id) VALUES (%s, %s)"
+            cursor.execute(query, (mood_id, song_id))
+            db.commit()
+            print(f"Relación mood {mood_id} - song {song_id} insertada correctamente")
+        
+        return True
     except Exception as e:
-        print(f"Error inserting mood_song: {e}")
+        print(f"Error al insertar relación mood-song: {e}")
+        return False
     finally:
-        cursor.close()
-        db.close()
+        # Asegurarse de cerrar cursor y conexión aunque ocurra un error
+        if cursor:
+            cursor.close()
+        if db:
+            db.close()
 
 def insert_mood_album(mood_id, album_id):
     try:
@@ -286,3 +354,18 @@ def get_popular_songs():
     except Exception as e:
         print(f"Error retrieving popular songs: {e}")
         return []
+
+def get_mood_details_by_id(mood_id):
+    """Obtiene detalles del mood incluyendo URL basado en el ID del mood."""
+    try:
+        db = connect_db()
+        cursor = db.cursor(dictionary=True)
+        query = "SELECT id, name, url FROM moods WHERE id = %s"
+        cursor.execute(query, (mood_id,))
+        mood = cursor.fetchone()
+        cursor.close()
+        db.close()
+        return mood
+    except Exception as e:
+        print(f"Error al obtener detalles del mood: {e}")
+        return None
