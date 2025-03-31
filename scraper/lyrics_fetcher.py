@@ -15,13 +15,13 @@ def get_songs_without_lyrics(limit=None):
         db = connect_db()
         cursor = db.cursor(dictionary=True)
         
+        # Modificada para buscar en la tabla songs donde lyrics es NULL o vacío
         query = """
-            SELECT s.id, s.name, s.artist FROM songs s
-            LEFT JOIN lyrics l ON s.id = l.song_id
-            WHERE l.song_id IS NULL
-            AND s.artist IS NOT NULL
-            AND s.artist != 'Artista Desconocido'
-            AND s.artist != ''
+            SELECT id, name, artist FROM songs
+            WHERE (lyrics IS NULL OR lyrics = '')
+            AND artist IS NOT NULL
+            AND artist != 'Artista Desconocido'
+            AND artist != ''
         """
         
         if limit:
@@ -35,30 +35,21 @@ def get_songs_without_lyrics(limit=None):
         return songs
     except Exception as e:
         print(f"Error obteniendo canciones sin letras: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 def save_lyrics(song_id, lyrics_text):
-    """Guarda las letras de una canción en la base de datos"""
+    """Guarda las letras directamente en la tabla songs"""
     try:
         db = connect_db()
         cursor = db.cursor()
         
-        # Verificar si ya existe registro para esta canción
-        cursor.execute("SELECT song_id FROM lyrics WHERE song_id = %s", (song_id,))
-        existing = cursor.fetchone()
-        
-        if existing:
-            # Actualizar letras existentes
-            cursor.execute(
-                "UPDATE lyrics SET lyrics = %s, updated_at = NOW() WHERE song_id = %s",
-                (lyrics_text, song_id)
-            )
-        else:
-            # Insertar nuevas letras
-            cursor.execute(
-                "INSERT INTO lyrics (song_id, lyrics, created_at, updated_at) VALUES (%s, %s, NOW(), NOW())",
-                (song_id, lyrics_text)
-            )
+        # Actualizar directamente en la tabla songs - SIN updated_at
+        cursor.execute(
+            "UPDATE songs SET lyrics = %s WHERE id = %s",
+            (lyrics_text, song_id)
+        )
             
         db.commit()
         cursor.close()
